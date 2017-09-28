@@ -1,0 +1,21 @@
+//Relation
+rtid=0|name="r_associated"|nom_etendu="idée associée"|info="Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?"
+
+//Noeud
+eid=150|n="chat"|t=1|w=4956
+eid=17559|n="animal"|t=1|w=13053
+eid=113325|n="minou"|t=1|w=340
+eid=11191|n="chatte"|t=1|w=648
+eid=116032|n="félin"|t=1|w=2226
+eid=70465|n="minet"|t=1|w=118
+eid=82231|n="félidé"|t=1|w=818
+eid=117789|n="moustache"|t=1|w=850
+
+//Triplets
+rid=819|n1=150|n2=17559|t=0|w=760
+rid=820|n1=150|n2=113325|t=0|w=452
+rid=870|n1=150|n2=11191|t=0|w=581
+rid=1218|n1=150|n2=116032|t=0|w=937
+rid=1305|n1=150|n2=70465|t=0|w=131
+rid=1306|n1=150|n2=82231|t=0|w=124
+rid=1307|n1=150|n2=117789|t=0|w=423
