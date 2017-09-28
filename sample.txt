@@ -1,21 +1,111 @@
 //Relation
 rtid=0|name="r_associated"|nom_etendu="idée associée"|info="Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?"
+rtid=1|name="r_raff_sem"|nom_etendu="raffinement sémantique"|info="Raffinement sémantique vers un usage particulier du terme source"
 
-//Noeud
+//Noeud (et définitions)
 eid=150|n="chat"|t=1|w=4956
+
+eid=213466|n="chat>63235"|t=1|w=522|nf="chat>mammifère"
+eid=213467|n="chat>27266"|t=1|w=50|nf="chat>discussion"
+eid=213468|n="chat>53314"|t=1|w=2|nf="chat>jeu"
+eid=258956|n="chat>258955"|t=1|w=50|nf="chat>machine de siège"
+eid=316437|n="chat>93068"|t=1|w=50|nf="chat>enrouement"
+eid=330570|n="chat>215126"|t=1|w=4|nf="chat>sexe de la femme"
+eid=330571|n="chat>68467"|t=1|w=52|nf="chat>poisson"
+eid=2667666|n="chat>143712"|t=1|w=0|nf="chat>marine"
+eid=2667668|n="chat>149496"|t=1|w=0|nf="chat>palatine"
+eid=2667669|n="chat>109899"|t=1|w=0|nf="chat>artillerie"
+eid=2668669|n="chat>143712>30810"|t=1|w=0|nf="chat>marine>yacht"
+eid=2668670|n="chat>143712>2668631"|t=1|w=0|nf="chat>marine>bâtiment de manutention"
+//eid=3378470|n="chat>63235>116032"|t=1|w=14|nf="chat>mammifère>félin"
+//eid=3378471|n="chat>63235>60448"|t=1|w=0|nf="chat>mammifère>mâle"
+
 eid=17559|n="animal"|t=1|w=13053
-eid=113325|n="minou"|t=1|w=340
+
+eid=233133|n="animal>117095"|t=1|w=594|nf="animal>zoologie"
+eid=233134|n="animal>66517"|t=1|w=8|nf="animal>monstre"
+eid=233135|n="animal>233132"|t=1|w=50|nf="animal>personne stupide"
+eid=233136|n="animal>101438"|t=1|w=52|nf="animal>inhumain"
+eid=233137|n="animal>44977"|t=1|w=52|nf="animal>charnel"
+//eid=325657|n="animal>117095>325656"|t=1|w=6|nf="animal>zoologie>être animé non humain"
+eid=3291235|n="animal>101689"|t=1|w=0|nf="animal>être animé"
+eid=3291236|n="animal>24956"|t=1|w=0|nf="animal>être humain"
+
+
 eid=11191|n="chatte"|t=1|w=648
+
+eid=213567|n="chatte>19356"|t=1|w=58|nf="chatte>sexe"
+eid=213568|n="chatte>150"|t=1|w=78|nf="chatte>chat"
+
 eid=116032|n="félin"|t=1|w=2226
+
+eid=247023|n="félin>80897"|t=1|w=50|nf="félin>apparence"
+eid=247024|n="félin>17559"|t=1|w=48|nf="félin>animal"
+
 eid=70465|n="minet"|t=1|w=118
-eid=82231|n="félidé"|t=1|w=818
+
+eid=218007|n="minet>150"|t=1|w=16|nf="minet>chat"
+eid=218008|n="minet>213452"|t=1|w=50|nf="minet>terme d\'affection"
+eid=218009|n="minet>49420"|t=1|w=50|nf="minet>jeune homme"
+
+
 eid=117789|n="moustache"|t=1|w=850
 
+eid=245893|n="moustache>117095"|t=1|w=10|nf="moustache>zoologie"
+eid=245894|n="moustache>118539"|t=1|w=10|nf="moustache>poils"
+eid=245895|n="moustache>15229"|t=1|w=50|nf="moustache>aéronautique"
+
 //Triplets
+
+//animal
 rid=819|n1=150|n2=17559|t=0|w=760
-rid=820|n1=150|n2=113325|t=0|w=452
+
+//chatte
 rid=870|n1=150|n2=11191|t=0|w=581
+//felin
 rid=1218|n1=150|n2=116032|t=0|w=937
+//minet
 rid=1305|n1=150|n2=70465|t=0|w=131
-rid=1306|n1=150|n2=82231|t=0|w=124
+//moustache
 rid=1307|n1=150|n2=117789|t=0|w=423
+
+//chat
+rid=1533726|n1=150|n2=213466|t=1|w=284
+rid=1533793|n1=150|n2=213467|t=1|w=91
+rid=1533810|n1=150|n2=213468|t=1|w=70
+rid=2448167|n1=150|n2=258956|t=1|w=45
+rid=8894674|n1=150|n2=316437|t=1|w=38
+rid=12001212|n1=150|n2=330570|t=1|w=60
+rid=12001214|n1=150|n2=330571|t=1|w=41
+rid=61159466|n1=150|n2=2667666|t=1|w=40
+rid=61159552|n1=150|n2=2667668|t=1|w=45
+rid=61159560|n1=150|n2=2667669|t=1|w=40
+
+//animal
+rid=1842686|n1=17559|n2=233133|t=1|w=293
+rid=1842690|n1=17559|n2=233134|t=1|w=63
+rid=1842694|n1=17559|n2=233135|t=1|w=72
+rid=1842698|n1=17559|n2=233136|t=1|w=75
+rid=1842701|n1=17559|n2=233137|t=1|w=65
+rid=81021069|n1=17559|n2=3291235|t=1|w=45
+rid=81021078|n1=17559|n2=3291236|t=1|w=35
+
+//chatte
+rid=1535600|n1=11191|n2=213567|t=1|w=162
+rid=1535606|n1=11191|n2=213568|t=1|w=362
+//rid=1595875|n1=11191|n2=218085|t=1|w=60
+//rid=62097535|n1=11191|n2=2708796|t=1|w=75
+
+//felin
+rid=2152154|n1=116032|n2=247023|t=1|w=46
+rid=2152158|n1=116032|n2=247024|t=1|w=69
+
+//minet
+rid=1594943|n1=70465|n2=218007|t=1|w=42
+rid=1594947|n1=70465|n2=218008|t=1|w=43
+rid=1594951|n1=70465|n2=218009|t=1|w=44
+
+//moustache
+rid=2121072|n1=117789|n2=245893|t=1|w=41
+rid=2121077|n1=117789|n2=245894|t=1|w=46
+rid=2121081|n1=117789|n2=245895|t=1|w=40

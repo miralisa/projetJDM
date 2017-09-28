@@ -84,7 +84,11 @@ for l in file:
 		name = chunks[1].split("=")[1].strip("\"")
 		kind = chunks[2].split("=")[1]
 		weight=chunks[3].split("=")[1]
-		es.index(index='jeux2mots', doc_type='noeud', id=eid, body={'nom':name, 'type':kind, 'poids':weight}, request_timeout=50)
+		if len(chunks) > 4:
+			vf = chunks[4].split("=")[1]
+			es.index(index='jeux2mots', doc_type='noeud', id=eid, body={'nom':name, 'type':kind, 'poids':weight, 'vf':vf}, request_timeout=50)
+		else :
+			es.index(index='jeux2mots', doc_type='noeud', id=eid, body={'nom':name, 'type':kind, 'poids':weight}, request_timeout=50)
 		"""
 		fileWrite.write(
 			"Noeud (id:{}, nom:{}, type:{}, poids:{})".format(
@@ -114,7 +118,7 @@ for l in file:
 		"""
 		nbR += 1	
 	
-print "nbRel : {}, nbNode : {}, nbTriplet : {}".format(nbR,nbN,nbR)
+print "nbRel : {}, nbNode : {}, nbTriplet : {}".format(nbRt,nbN,nbR)
 
 file.close()
 #fileWrite.close()
