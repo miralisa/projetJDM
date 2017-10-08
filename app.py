@@ -31,6 +31,10 @@ es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 def index():
     return render_template('index.html')
 
+@app.route('/relations')
+def show_relations():
+    return render_template('relations.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

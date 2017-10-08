@@ -11,21 +11,49 @@ driver = GraphDatabase.driver("bolt://192.168.1.72:7687",
 	auth=basic_auth("neo4j", "l&!j3ssn&prt3c3"))
 
 session = driver.session()
+"""
+allRelation = session.run("MATCH (r:Relation) RETURN r.rtid, r.name")
+
+for r in allRelation:
+	print str(r["r.rtid"])+" "+str(r["r.name"])
+"""
+
+def relationsForNode(nodeN):
+	nodeName = "\"" + nodeN + "\""
+	idRelations = []
+	result = session.run("MATCH (b:Noeud)-[c:LINKED]->(a:Noeud) WHERE b.n = {name} RETURN distinct c.t ", {"name": nodeName})
+	for record in result:
+		idRel =  record["c.t"]
+		#if idRel not in idRelations:
+		idRelations.append(idRel)
+
+	for idsR in idRelations:
+		relation = session.run("MATCH (r:Relation) WHERE r.rtid = {id} RETURN r.name", {"id":idsR})
+		for r in relation:
+			print r["r.name"]
+	
 
 
-result1 = session.run("MATCH (r:Relation) WHERE r.name = {name} RETURN r.rtid", {"name":"\"r_can_eat\""})
 
-for r in result1:
-	rtid = r["r.rtid"]
+def nodesByRelations(nodeN, relationN):
+	print nodeN + " " + relationN
 
-print rtid
+	relationName = "\"" +relationN +"\""
+	relation = session.run("MATCH (r:Relation) WHERE r.name = {name} RETURN r.rtid", {"name":relationName})
 
-result = session.run("MATCH (b:Noeud)-[c:LINKED]->(a:Noeud) WHERE b.n = {name} AND c.t = '"+rtid+
-	"' RETURN a.eid, a.n, a.t, a.w", {"name": "\"chat\""})
+	for r in relation:
+		rtid = r["r.rtid"]
 
+	nodeName = "\"" + nodeN + "\""
+	result = session.run("MATCH (b:Noeud)-[c:LINKED]->(a:Noeud) WHERE b.n = {name} AND c.t = '"+rtid+
+		"' RETURN a.eid, a.n, a.t, a.w ORDER BY toInt(a.w) DESC", {"name": nodeName})
 
-for record in result:
-	print record["a.eid"]+"|"+record["a.n"]+"|"+record["a.t"]+"|"+record["a.w"]
+	for record in result:
+		print record["a.eid"]+"|"+record["a.n"]+"|"+record["a.t"]+"|"+record["a.w"]
+
+	
+#nodesByRelations("chat", "r_lieu")
+relationsForNode("chat")
 
 """
 result = session.run("MATCH (b:Noeud)-[c:LINKED]->(a:Noeud) WHERE b.n = {name} AND c.t = '102' RETURN a.eid, a.n, a.t, a.w", {"name": "\"poulet\""})
