@@ -7,6 +7,6 @@ import requests
 import os
 
 
-r = requests.get("http://192.168.1.72:5000/definition/vraiment")
+r = requests.get("http://192.168.1.72:5000/definition/lol")
 
 print r.text

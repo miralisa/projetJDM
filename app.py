@@ -2,39 +2,39 @@
 # coding: utf-8
 
 from flask import Flask, render_template, jsonify, json, request
-from flaskext.mysql import MySQL
-import random, json
-from elasticsearch import Elasticsearch
+from neo4j.v1 import GraphDatabase, basic_auth
+import codecs
+import time
 
 app = Flask(__name__)
-mysql = MySQL()
 
-file_ids = open("database_identifiers.json","r")
-ids = json.load(file_ids)
-file_ids.close()
+driver = GraphDatabase.driver("bolt://192.168.1.72:7687",
+	auth=basic_auth("neo4j", "l&!j3ssn&prt3c3"))
 
-app.config['SECRET_KEY'] = 'secret!'
-app.config['MYSQL_DATABASE_USER'] = str(ids['login'])
-app.config['MYSQL_DATABASE_PASSWORD'] = str(ids['password'])
-app.config['MYSQL_DATABASE_DB'] = str(ids['database_name'])
-app.config['MYSQL_DATABASE_HOST'] = 'localhost'
-app.config['MYSQL_CHARSET'] = 'utf-8'
-mysql.init_app(app)
+session = driver.session()
 
-conn = mysql.connect()
-
-es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+def allRelations():
+    dicoRel = {}
+    relations = session.run("MATCH (r:Relation) RETURN r.name, r.info")
+    for r in relations:
+        #info = r["r.info"].split(" ")
+        #if len(info) > 10:    
+        dicoRel.update({r["r.name"] : r["r.info"]})
+    return dicoRel
 
 
 """ Render template index.html"""
 @app.route('/')
 def index():
-    return render_template('index.html')
+    relations = allRelations()
+    #print relations
+    return render_template('index.html', relations = relations)
 
+"""
 @app.route('/relations')
 def show_relations():
     return render_template('relations.html')
-
+"""
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
