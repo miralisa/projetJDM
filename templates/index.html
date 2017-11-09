@@ -44,7 +44,8 @@
       <div class="mdl-layout__header-row">
         <!-- Title -->
         <span class="mdl-layout-title">jeux2mots</span>
-        <div class="mdl-layout-spacer"></div>
+         <!--<div class="mdl-layout-spacer"></div>
+       
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                     mdl-textfield--floating-label mdl-textfield--align-right">
           <label class="mdl-button mdl-js-button mdl-button--icon"
@@ -56,6 +57,7 @@
                    id="waterfall-exp">
           </div>
         </div>
+      -->
       </div>
 
     </header>
@@ -76,41 +78,96 @@
 
     <div class="mdl-card mdl-shadow--4dp card-content">
       <div class="mdl-card__media mdl-color--accent">
-        <h5 class="mdl-card__title-text">  Rechercher un terme </h5>
-      </div>
-        <div class="mdl-card__supporting-text content-terme">
+ <div class="mdl-layout-spacer"></div>
+     
+       <!--<h5 class="mdl-card__title-text">  Rechercher un terme </h5>-->
         <form action="#">
+        
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type="text" id="search">
             <label class="mdl-textfield__label" for="search">Rechercher un terme...</label>
           </div>
-          <label class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+          <label class="mdl-button mdl-js-button mdl-button--icon" id="searchTerm">
             <i class="material-icons">search</i>
             <span class="visuallyhidden">Search</span>
           </label>
 
         </form>
+       <!--
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                    mdl-textfield--floating-label mdl-textfield--align-right">
+          <label class="mdl-button mdl-js-button mdl-button--icon"
+                 for="waterfall-exp">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" name="sample"
+                   id="waterfall-exp">
+          </div>
+        </div>
+      -->
+      </div>
+        <div class="mdl-card__supporting-text content-terme">
+          <!--
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="search">
+            <label class="mdl-textfield__label" for="search">Rechercher un terme...</label>
+          </div>
+          <label class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" id="searchTerm">
+            <i class="material-icons">search</i>
+            <span class="visuallyhidden">Search</span>
+          </label>
 
+        </form>
+        -->
+        <div class="mdl-spinner mdl-js-spinner" id="spinner"></div>
+        <span class="mdl-chip" id="chip-alert" style="display: none;">
+            <button type="button" class="mdl-chip__action ic-chip"><i class="material-icons">announcement</i> </button>
+            <span class="mdl-chip__text">Désolé, aucun terme correspondant à votre recherche n'a été trouvé. </span>
+        </span> 
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--1-col">
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored arrows" id="arrowLeft" style="display: none;">
+              <i class="material-icons">keyboard_arrow_left</i>
+            </button>
+
+          </div>
+          <div class="mdl-cell mdl-cell--10-col">
+            <div id="searchRes"></div>
+            
+          </div>
+          <div class="mdl-cell mdl-cell--1-col">
+            <div class="mdl-layout-spacer"></div>
+       
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored arrows" id="arrowRight" style="display: none;">
+              <i class="material-icons">keyboard_arrow_right</i>
+            </button>
+            
+          </div>
+        </div>
+
+           
+          
+     
       <!--</div>
-      <div class="mdl-card__supporting-text"> -->
+      <div class="mdl-card__supporting-text"> 
         <ul class="mdl-list">
           <li>terme 1</li>
           <li>terme 2</li>
           <li>terme 3</li>
         </ul>
+        -->
 
         <br>
-        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" style="display: none;">
         <div class="mdl-tabs__tab-bar">
             <a href="#definition-tab" class="mdl-tabs__tab is-active">Définition(s)</a>
             <a href="#rafSem-tab" class="mdl-tabs__tab">Raffinement sémantique</a>
         </div>
 
-        <div class="mdl-tabs__panel is-active" id="definition-tab">
+        <div class="mdl-tabs__panel is-active" id="definition-tab" >
           <ul class="mdl-list">
-            <li>Définition 1</li>
-            <li>Définition 2</li>
-            <li>Définition 3</li>
           </ul>
         </div>
         <div class="mdl-tabs__panel" id="rafSem-tab">
@@ -124,23 +181,24 @@
   <div class="mdl-cell mdl-cell--4-col ">
     <div class="mdl-card mdl-shadow--4dp card-relations mdl-card--expand">
       <div class="mdl-card__media mdl-color--accent">
-        <h5 class="mdl-card__title-text"> Rechercher une relations </h5>
-
-      </div>
-      <div class="mdl-card__supporting-text content-relation">
+        <!-- <h5 class="mdl-card__title-text"> Rechercher une relations </h5> -->
         <form action="#">
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type="text" id="searchrRel">
             <label class="mdl-textfield__label" for="searchRel">Rechercher une relation...</label>
           </div>
-          <label class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+          <label class="mdl-button mdl-js-button mdl-button--icon ">
             <i class="material-icons">search</i>
             <span class="visuallyhidden">Search</span>
           </label>
 
         </form>
 
-        <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+      </div>
+      <div class="mdl-card__supporting-text content-relation">
+  
+        <div id="tabRelations">
+        <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" >
           <thead>
             <tr>
               <th class="mdl-data-table__cell--non-numeric">Relation</th>
@@ -149,15 +207,15 @@
           <tbody>
             {% for key, value in relations.iteritems() %}
             <tr>
-              <td class="mdl-data-table__cell--non-numeric" id="{{key[1:-1]}}">{{key[1:-1]}}
+              <td class="mdl-data-table__cell--non-numeric" id="{{key[1:-1]}}">{{key}}
                 <div class="mdl-tooltip" data-mdl-for="{{key[1:-1]}}">
-              {{value[1:70]}}<br>{{value[70:140]}}<br>{{value[140:-1]}} </div>
+              {{value[:70]}}<br>{{value[70:140]}}<br>{{value[140:]}} </div>
               </td>
             </tr>
             {% endfor %}
           </tbody>
           </table>
-
+        </div>
         </div>
       <div class="mdl-card__supporting-text">
 
@@ -183,6 +241,13 @@
   </main>
   </div>
 
+  <script type=text/javascript>
+    var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+  </script>
+
+  <script src="../static/lib/js/jquery-1.12.4.js"></script>
   <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="../static/js/script.js"></script>
+ 
   </body>
 </html>
