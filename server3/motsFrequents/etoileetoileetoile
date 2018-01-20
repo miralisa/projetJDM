@@ -1,0 +1,1510 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+    <title>Le Rézo sous forme XML</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+  </head>
+<body STYLE="overflow:auto;
+overflow-x:auto;
+overflow-y:visible;overflow-x:hidden;
+padding: 0px; margin: 0px; border: 0px;">
+
+<div class="jdm-level1-block">
+
+	<div class="jdm-prompt-block">
+    <div class="jdm-prompt">
+    Le Rézo XML    </div>
+	</div>
+
+</div>
+
+<div class="jdm-level2-block">
+<TABLE border="0" width="100%" cellspacing="0" cellpadding="0%"
+	summary="jeuxdemots" bgcolor="white" style="opacity:0.90;">
+<TR><TH valign="top" width="200pts">
+	<TH  align="left">
+
+    <div id="rezoform" style="position:relative;top:-43px;">
+    
+
+    Lien de cette page: <URL>?gotermsubmit=Chercher&gotermrel=%2A%2A%2A&output=onlyxml</URL>
+    <br>
+    <br>
+
+    <br>FROM CACHE : size=85613 - date=January 06 2018 21:43:14. - 1179534 secondes ago - 13.652013888889 days ago <br>Size=85613 char<br>
+<br>
+
+Code XML (cf source)<br>
+
+
+<CODE>
+<jdm>
+<mot poids="6582" id="151591">***</mot>
+<mot-formate>***</mot-formate>
+<def></def>
+
+<sortant>
+<rel type="r_lemma" poids="1000000" tid="239128">_COM</rel>
+<rel type="r_infopot" poids="127" tid="241794">_POL-NEUTRE</rel>
+<rel type="r_infopot" poids="86" tid="254877">_POL-NEUTRE_PC</rel>
+<rel type="r_lieu" poids="60" tid="151591">***</rel>
+<rel type="r_carac" poids="59" tid="151591">***</rel>
+<rel type="r_infopot" poids="47" tid="273221">_INFO-WIKI-NO</rel>
+<rel type="r_associated" poids="40" tid="239128">_COM</rel>
+<rel type="r_infopot" poids="29" tid="248198">_SEX_NO</rel>
+<rel type="r_pos" poids="26" tid="169459">Ukn:</rel>
+<rel type="r_infopot" poids="21" tid="223173">_POL-POS</rel>
+<rel type="r_flpot" poids="19" tid="151553">_FL:0</rel>
+<rel type="r_infopot" poids="14" tid="254876">_POL-POS_PC</rel>
+<rel type="r_flpot" poids="5" tid="151564">_FL:5</rel>
+<rel type="r_flpot" poids="5" tid="151576">_FL:6</rel>
+<rel type="r_associated" poids="4" tid="1323654" te=":r163755">:r163755 [bêtise --r_has_part#9:151591--> ***]</rel>
+<rel type="r_flpot" poids="4" tid="151566">_FL:7</rel>
+<rel type="r_flpot" poids="3" tid="151522">_FL:9</rel>
+<rel type="r_associated" poids="2" tid="1784152" te=":r155000">:r155000 [organisation --r_isa#6:151591--> ***]</rel>
+<rel type="r_associated" poids="2" tid="2953474" te=":r79653">:r79653 [pêne dormant --r_has_part#9:151591--> ***]</rel>
+<rel type="r_associated" poids="1" tid="609910" te=":r109411">:r109411 [caca --r_has_part#9:151591--> ***]</rel>
+<rel type="r_associated" poids="1" tid="1793767" te=":r109971">:r109971 [forme --r_isa#6:151591--> ***]</rel>
+<rel type="r_associated" poids="1" tid="1872811" te=":r129969">:r129969 [modèle --r_isa#6:151591--> ***]</rel>
+<rel type="r_associated" poids="1" tid="1770504" te=":r148920">:r148920 [substance --r_isa#6:151591--> ***]</rel>
+<rel type="r_infopot" poids="-7" tid="317326">_POLIT_5UMP</rel>
+<rel type="r_infopot" poids="-8" tid="317322">_POLIT_1ECO</rel>
+<rel type="r_infopot" poids="-9" tid="317323">_POLIT_2PG</rel>
+<rel type="r_infopot" poids="-9" tid="317325">_POLIT_4MD</rel>
+<rel type="r_infopot" poids="-47" tid="317329">_POLIT_7NOPOL</rel>
+</sortant>
+
+<entrant>
+<rel type="r_isa" poids="200" tid="86566">sabelle</rel>
+<rel type="r_family" poids="170" tid="57253">casserole</rel>
+<rel type="r_has_part" poids="160" tid="32251">blanche</rel>
+<rel type="r_has_part" poids="150" tid="20765">suffisant</rel>
+<rel type="r_domain" poids="140" tid="4426">malarmat</rel>
+<rel type="r_family" poids="130" tid="151698">Sarkozy</rel>
+<rel type="r_family" poids="120" tid="152243">coupe du monde</rel>
+<rel type="r_lieu" poids="120" tid="84432">long</rel>
+<rel type="r_domain" poids="110" tid="65969">formalisable</rel>
+<rel type="r_domain" poids="110" tid="116571">micromélie</rel>
+<rel type="r_isa" poids="109" tid="11358">substance</rel>
+<rel type="r_domain" poids="107" tid="111188">Quantin</rel>
+<rel type="r_instr" poids="106" tid="90837">linger</rel>
+<rel type="r_domain" poids="106" tid="122709">margrave</rel>
+<rel type="r_patient" poids="106" tid="55001">ronronner</rel>
+<rel type="r_domain" poids="103" tid="73960">Fareham</rel>
+<rel type="r_agentif_role" poids="103" tid="148087">explosive</rel>
+<rel type="r_family" poids="102" tid="151699">Poutine</rel>
+<rel type="r_family" poids="90" tid="41603">Archimède</rel>
+<rel type="r_hypo" poids="90" tid="146798">Brad Pitt</rel>
+<rel type="r_isa" poids="90" tid="46633">flint-glass</rel>
+<rel type="r_family" poids="90" tid="22562">gouache</rel>
+<rel type="r_domain" poids="90" tid="68752">gugusse</rel>
+<rel type="r_anto" poids="90" tid="58021">lancéolé</rel>
+<rel type="r_family" poids="90" tid="152778">moyen de transport</rel>
+<rel type="r_patient" poids="90" tid="99740">naviguer</rel>
+<rel type="r_instr" poids="90" tid="4267">passager</rel>
+<rel type="r_anto" poids="90" tid="83425">stratosphérique</rel>
+<rel type="r_family" poids="81" tid="127899">SNCF</rel>
+<rel type="r_family" poids="80" tid="117866">Louvre</rel>
+<rel type="r_domain" poids="80" tid="75865">Pérard</rel>
+<rel type="r_family" poids="80" tid="152078">Ron</rel>
+<rel type="r_domain" poids="80" tid="18603">arc-formeret</rel>
+<rel type="r_carac" poids="80" tid="108166">beau</rel>
+<rel type="r_hypo" poids="80" tid="7734">bâillement</rel>
+<rel type="r_patient" poids="80" tid="66903">bêler</rel>
+<rel type="r_domain" poids="80" tid="143329">casté</rel>
+<rel type="r_anto" poids="80" tid="13286">centrafricain</rel>
+<rel type="r_domain" poids="80" tid="48638">irréversiblement</rel>
+<rel type="r_domain" poids="80" tid="51942">juveigneur</rel>
+<rel type="r_has_part" poids="80" tid="34976">lunule</rel>
+<rel type="r_hypo" poids="80" tid="93025">lérot</rel>
+<rel type="r_instr" poids="80" tid="152543">mains</rel>
+<rel type="r_domain" poids="80" tid="75337">merdoiement</rel>
+<rel type="r_has_part" poids="80" tid="140318">parler</rel>
+<rel type="r_magn" poids="80" tid="8990">patte</rel>
+<rel type="r_locution" poids="80" tid="159084">prix Nobel de physique</rel>
+<rel type="r_domain" poids="80" tid="92451">prétentieux</rel>
+<rel type="r_anto" poids="80" tid="149937">psychométrique</rel>
+<rel type="r_hypo" poids="80" tid="69092">raton laveur</rel>
+<rel type="r_family" poids="80" tid="79462">ring</rel>
+<rel type="r_hypo" poids="80" tid="151637">tigre d'Amérique</rel>
+<rel type="r_locution" poids="80" tid="38245">voilier</rel>
+<rel type="r_domain" poids="70" tid="94063">Jean Androuet Du Cerceau</rel>
+<rel type="r_locution" poids="70" tid="9263">Métathériens</rel>
+<rel type="r_meaning" poids="70" tid="138438">N'Djamena</rel>
+<rel type="r_family" poids="70" tid="146833">Tony Blair</rel>
+<rel type="r_has_part" poids="70" tid="152315">arrête</rel>
+<rel type="r_hypo" poids="70" tid="16644">astronomie</rel>
+<rel type="r_lieu" poids="70" tid="4023">avant</rel>
+<rel type="r_family" poids="70" tid="32071">blé</rel>
+<rel type="r_has_part" poids="70" tid="61945">bravo</rel>
+<rel type="r_family" poids="70" tid="70206">cahier</rel>
+<rel type="r_locution" poids="70" tid="71468">calvinisme</rel>
+<rel type="r_locution" poids="70" tid="61681">chalutier</rel>
+<rel type="r_has_part" poids="70" tid="19150">chaud</rel>
+<rel type="r_has_part" poids="70" tid="151900">chlorophyle</rel>
+<rel type="r_locution" poids="70" tid="64232">châtelaine</rel>
+<rel type="r_patient" poids="70" tid="75807">circuler</rel>
+<rel type="r_isa" poids="70" tid="4215">clair</rel>
+<rel type="r_hypo" poids="70" tid="63102">conformisme</rel>
+<rel type="r_locution" poids="70" tid="67196">cyclisme</rel>
+<rel type="r_hypo" poids="70" tid="151594">dame de coeur</rel>
+<rel type="r_locution" poids="70" tid="94271">dictateur</rel>
+<rel type="r_anto" poids="70" tid="110420">discal</rel>
+<rel type="r_instr" poids="70" tid="88835">envier</rel>
+<rel type="r_agent-1" poids="70" tid="243618">faire mal au crâne</rel>
+<rel type="r_magn" poids="70" tid="58573">foot</rel>
+<rel type="r_locution" poids="70" tid="82231">félidé</rel>
+<rel type="r_anto" poids="70" tid="119439">galiléen</rel>
+<rel type="r_antimagn" poids="70" tid="105041">narine</rel>
+<rel type="r_magn" poids="70" tid="64181">neutron</rel>
+<rel type="r_agent" poids="70" tid="68037">nover</rel>
+<rel type="r_has_part" poids="70" tid="126134">plagioclase</rel>
+<rel type="r_has_part" poids="70" tid="151668">pêne dormant</rel>
+<rel type="r_locution" poids="70" tid="10681">rhyolite</rel>
+<rel type="r_patient" poids="70" tid="112905">rire</rel>
+<rel type="r_family" poids="70" tid="4920">savane</rel>
+<rel type="r_magn" poids="70" tid="80973">science</rel>
+<rel type="r_carac" poids="70" tid="16541">sociale</rel>
+<rel type="r_has_part" poids="70" tid="130041">sortilège</rel>
+<rel type="r_patient" poids="70" tid="83091">sourire</rel>
+<rel type="r_locution" poids="70" tid="20529">trusquin</rel>
+<rel type="r_family" poids="70" tid="2195">urne</rel>
+<rel type="r_has_part" poids="70" tid="121080">violent</rel>
+<rel type="r_family" poids="70" tid="83653">vodka</rel>
+<rel type="r_locution" poids="70" tid="94650">évier</rel>
+<rel type="r_domain" poids="62" tid="151705">Mathieu Lafourcade</rel>
+<rel type="r_has_part" poids="61" tid="119571">moelle</rel>
+<rel type="r_action_lieu" poids="61" tid="74736">repas</rel>
+<rel type="r_lieu" poids="60" tid="151591">***</rel>
+<rel type="r_domain" poids="60" tid="94521">-cène</rel>
+<rel type="r_lieu" poids="60" tid="165595" te="::>13:146238>29:10604>15">Où un âge pourrait édenter ?</rel>
+<rel type="r_domain" poids="60" tid="37729">Augustin Bon Joseph</rel>
+<rel type="r_locution" poids="60" tid="105024">Bastia</rel>
+<rel type="r_domain" poids="60" tid="75247">Bendix</rel>
+<rel type="r_has_part" poids="60" tid="142716">C</rel>
+<rel type="r_hypo" poids="60" tid="154130">Charles De Gaulle</rel>
+<rel type="r_locution" poids="60" tid="81913">Chomsky</rel>
+<rel type="r_family" poids="60" tid="65117">Eberhardt</rel>
+<rel type="r_meaning" poids="60" tid="55706">François Carcopino-Tusoli</rel>
+<rel type="r_hypo" poids="60" tid="25591">Garonne</rel>
+<rel type="r_telic_role" poids="60" tid="153279">Garry</rel>
+<rel type="r_locution" poids="60" tid="56398">Henri-Irénée Marrou</rel>
+<rel type="r_family" poids="60" tid="66428">Hermione</rel>
+<rel type="r_domain" poids="60" tid="20335">Ielets</rel>
+<rel type="r_domain" poids="60" tid="141430">Jack</rel>
+<rel type="r_domain" poids="60" tid="57275">Le Barachois</rel>
+<rel type="r_domain" poids="60" tid="59156">Lucien Descaves</rel>
+<rel type="r_domain" poids="60" tid="118229">Mariana</rel>
+<rel type="r_meaning" poids="60" tid="120694">Moustiers-Sainte-Marie</rel>
+<rel type="r_domain" poids="60" tid="136734">NRF</rel>
+<rel type="r_locution" poids="60" tid="140784">Olivier</rel>
+<rel type="r_domain" poids="60" tid="80178">Petr Ivanovitch Patrick</rel>
+<rel type="r_locution" poids="60" tid="75785">Pologne</rel>
+<rel type="r_locution" poids="60" tid="22978">Sussex</rel>
+<rel type="r_meaning" poids="60" tid="35305">Tinée</rel>
+<rel type="r_family" poids="60" tid="93131">USA</rel>
+<rel type="r_magn" poids="60" tid="18678">Uderzo</rel>
+<rel type="r_meaning" poids="60" tid="29619">Vychinski</rel>
+<rel type="r_patient" poids="60" tid="19817">aboutir</rel>
+<rel type="r_patient" poids="60" tid="307">acquiescer</rel>
+<rel type="r_lieu" poids="60" tid="8711">affreux</rel>
+<rel type="r_hypo" poids="60" tid="17666">agréable</rel>
+<rel type="r_holo" poids="60" tid="105503">allemand</rel>
+<rel type="r_anto" poids="60" tid="143368">aminé</rel>
+<rel type="r_lieu" poids="60" tid="112609">anatomie</rel>
+<rel type="r_magn" poids="60" tid="42719">arabe</rel>
+<rel type="r_patient" poids="60" tid="10322">arriver</rel>
+<rel type="r_locution" poids="60" tid="4130">arrogant</rel>
+<rel type="r_hypo" poids="60" tid="152857">avenue Foch</rel>
+<rel type="r_isa" poids="60" tid="87925">aviation</rel>
+<rel type="r_domain" poids="60" tid="40906">avoir à la bonne</rel>
+<rel type="r_domain" poids="60" tid="118842">baillarge</rel>
+<rel type="r_locution" poids="60" tid="135">barrot</rel>
+<rel type="r_anto" poids="60" tid="91585">baudelairien</rel>
+<rel type="r_anto" poids="60" tid="147512">bernois</rel>
+<rel type="r_locution" poids="60" tid="53595">best-seller</rel>
+<rel type="r_family" poids="60" tid="39226">biceps</rel>
+<rel type="r_hypo" poids="60" tid="131200">bile</rel>
+<rel type="r_magn" poids="60" tid="145285">boulanger</rel>
+<rel type="r_locution" poids="60" tid="49913">bouvillon</rel>
+<rel type="r_anto" poids="60" tid="147599">briochin</rel>
+<rel type="r_has_part" poids="60" tid="18392">brisé</rel>
+<rel type="r_lieu" poids="60" tid="18392">brisé</rel>
+<rel type="r_anto" poids="60" tid="147601">brivadois</rel>
+<rel type="r_family" poids="60" tid="43922">buffet</rel>
+<rel type="r_hypo" poids="60" tid="152776">béton armé</rel>
+<rel type="r_instr" poids="60" tid="41009">bêche</rel>
+<rel type="r_has_part" poids="60" tid="79816">bêtise</rel>
+<rel type="r_magn" poids="60" tid="68363">cacao</rel>
+<rel type="r_anto" poids="60" tid="51895">californien</rel>
+<rel type="r_locution" poids="60" tid="23045">calomniateur</rel>
+<rel type="r_magn" poids="60" tid="117359">canari</rel>
+<rel type="r_locution" poids="60" tid="110821">cannibale</rel>
+<rel type="r_hypo" poids="60" tid="47541">carrosse</rel>
+<rel type="r_magn" poids="60" tid="22120">carré</rel>
+<rel type="r_locution" poids="60" tid="166584">cellule photovoltaïque</rel>
+<rel type="r_carac" poids="60" tid="152668">charnue</rel>
+<rel type="r_patient" poids="60" tid="6808">cheminer</rel>
+<rel type="r_locution" poids="60" tid="50881">cheminot</rel>
+<rel type="r_anto" poids="60" tid="81547">choroïdien</rel>
+<rel type="r_has_part" poids="60" tid="109527">chose</rel>
+<rel type="r_has_part" poids="60" tid="48612">complexe</rel>
+<rel type="r_carac" poids="60" tid="95280">contraire</rel>
+<rel type="r_domain" poids="60" tid="122793">cool</rel>
+<rel type="r_anto" poids="60" tid="123999">cordouan</rel>
+<rel type="r_hypo" poids="60" tid="151545">couteau à beurre</rel>
+<rel type="r_anto" poids="60" tid="57122">cénesthésique</rel>
+<rel type="r_domain" poids="60" tid="133311">cératite</rel>
+<rel type="r_isa" poids="60" tid="55198">dactyloscopie</rel>
+<rel type="r_instr" poids="60" tid="147184">dents</rel>
+<rel type="r_hypo" poids="60" tid="82777">dimanche</rel>
+<rel type="r_lieu" poids="60" tid="30106">diminution</rel>
+<rel type="r_carac" poids="60" tid="72019">discret</rel>
+<rel type="r_carac" poids="60" tid="83895">dure</rel>
+<rel type="r_agentif_role" poids="60" tid="38388">décoré</rel>
+<rel type="r_hypo" poids="60" tid="93467">désinfecter</rel>
+<rel type="r_has_part" poids="60" tid="9864">désir</rel>
+<rel type="r_locution" poids="60" tid="24775">embarcadère</rel>
+<rel type="r_locution" poids="60" tid="159169">empire du milieu</rel>
+<rel type="r_hypo" poids="60" tid="151672">empire romain</rel>
+<rel type="r_anto" poids="60" tid="17693">encalminé</rel>
+<rel type="r_anto" poids="60" tid="113555">endocrinien</rel>
+<rel type="r_locution" poids="60" tid="23661">ethnographie</rel>
+<rel type="r_hypo" poids="60" tid="14211">eu</rel>
+<rel type="r_locution" poids="60" tid="60742">fiabilité</rel>
+<rel type="r_locution" poids="60" tid="41878">flageolet</rel>
+<rel type="r_family" poids="60" tid="115155">foie</rel>
+<rel type="r_anto" poids="60" tid="13302">foliacé</rel>
+<rel type="r_magn" poids="60" tid="35035">gare</rel>
+<rel type="r_anto" poids="60" tid="148273">gazométrique</rel>
+<rel type="r_domain" poids="60" tid="61725">goral</rel>
+<rel type="r_domain" poids="60" tid="148380">greneur</rel>
+<rel type="r_has_part" poids="60" tid="148387">griffes</rel>
+<rel type="r_anto" poids="60" tid="148434">gymnocarpe</rel>
+<rel type="r_family" poids="60" tid="2149">gâteau</rel>
+<rel type="r_hypo" poids="60" tid="56418">généalogie</rel>
+<rel type="r_anto" poids="60" tid="33196">hanséatique</rel>
+<rel type="r_anto" poids="60" tid="49474">holocène</rel>
+<rel type="r_anto" poids="60" tid="112640">holographique</rel>
+<rel type="r_anto" poids="60" tid="5060">holométrique</rel>
+<rel type="r_has_part" poids="60" tid="120565">humidité</rel>
+<rel type="r_hypo" poids="60" tid="76504">hêtre</rel>
+<rel type="r_anto" poids="60" tid="131387">ichtyologique</rel>
+<rel type="r_anto" poids="60" tid="117677">illyrien</rel>
+<rel type="r_carac" poids="60" tid="83257">illégitime</rel>
+<rel type="r_has_part" poids="60" tid="89066">impossible</rel>
+<rel type="r_lieu" poids="60" tid="89066">impossible</rel>
+<rel type="r_carac" poids="60" tid="89066">impossible</rel>
+<rel type="r_hypo" poids="60" tid="19186">indépendance</rel>
+<rel type="r_domain" poids="60" tid="1583">inti</rel>
+<rel type="r_anto" poids="60" tid="20833">kératolytique</rel>
+<rel type="r_anto" poids="60" tid="88596">labiodental</rel>
+<rel type="r_hypo" poids="60" tid="153198">lait de brebis</rel>
+<rel type="r_anto" poids="60" tid="25576">lamifié</rel>
+<rel type="r_locution" poids="60" tid="118228">laudateur</rel>
+<rel type="r_has_part" poids="60" tid="114011">libéralité</rel>
+<rel type="r_instr" poids="60" tid="141406">lime</rel>
+<rel type="r_anto" poids="60" tid="113688">limnologique</rel>
+<rel type="r_locution" poids="60" tid="20192">linguiste</rel>
+<rel type="r_carac" poids="60" tid="146483">longue</rel>
+<rel type="r_locution" poids="60" tid="15945">luminance</rel>
+<rel type="r_lieu" poids="60" tid="75544">luminescence</rel>
+<rel type="r_has_part" poids="60" tid="76887">lundi</rel>
+<rel type="r_anto" poids="60" tid="2032">lymphocytaire</rel>
+<rel type="r_hypo" poids="60" tid="130427">lépidoptère</rel>
+<rel type="r_has_part" poids="60" tid="97647">magie</rel>
+<rel type="r_anto" poids="60" tid="87469">magnétostatique</rel>
+<rel type="r_hypo" poids="60" tid="26477">mariage</rel>
+<rel type="r_instr" poids="60" tid="68471">marteau-piqueur</rel>
+<rel type="r_family" poids="60" tid="35220">match</rel>
+<rel type="r_hypo" poids="60" tid="113386">mercure</rel>
+<rel type="r_anto" poids="60" tid="145049">mitré</rel>
+<rel type="r_anto" poids="60" tid="149193">molinosiste</rel>
+<rel type="r_anto" poids="60" tid="59539">morainique</rel>
+<rel type="r_locution" poids="60" tid="12298">motocyclette</rel>
+<rel type="r_patient" poids="60" tid="124600">mourir</rel>
+<rel type="r_hypo" poids="60" tid="152147">moyen-duc</rel>
+<rel type="r_hypo" poids="60" tid="125918">mule</rel>
+<rel type="r_magn" poids="60" tid="134927">métal</rel>
+<rel type="r_locution" poids="60" tid="146808">nage libre</rel>
+<rel type="r_has_part" poids="60" tid="38784">naufrage</rel>
+<rel type="r_locution" poids="60" tid="63316">neurotransmission</rel>
+<rel type="r_anto" poids="60" tid="68842">nicaraguayen</rel>
+<rel type="r_hypo" poids="60" tid="51207">nicotine</rel>
+<rel type="r_locution" poids="60" tid="51207">nicotine</rel>
+<rel type="r_hypo" poids="60" tid="153053">niqué</rel>
+<rel type="r_domain" poids="60" tid="88031">nitrosyle</rel>
+<rel type="r_magn" poids="60" tid="126405">noyau</rel>
+<rel type="r_has_part" poids="60" tid="73427">odeur</rel>
+<rel type="r_domain" poids="60" tid="83383">oulice</rel>
+<rel type="r_hypo" poids="60" tid="149471">oxymel</rel>
+<rel type="r_meaning" poids="60" tid="8480">parabunodonte</rel>
+<rel type="r_holo" poids="60" tid="72260">parapluie</rel>
+<rel type="r_locution" poids="60" tid="38618">paronyme</rel>
+<rel type="r_locution" poids="60" tid="157827">partie du corps</rel>
+<rel type="r_anto" poids="60" tid="139076">pelletier</rel>
+<rel type="r_locution" poids="60" tid="73876">perruquier</rel>
+<rel type="r_antimagn" poids="60" tid="122824">phalange</rel>
+<rel type="r_anto" poids="60" tid="86763">photonique</rel>
+<rel type="r_anto" poids="60" tid="113791">phylloxéré</rel>
+<rel type="r_has_part" poids="60" tid="143584">piquet</rel>
+<rel type="r_anto" poids="60" tid="149700">pisan</rel>
+<rel type="r_has_part" poids="60" tid="154857">pistile</rel>
+<rel type="r_locution" poids="60" tid="27179">plantule</rel>
+<rel type="r_hypo" poids="60" tid="63314">plombique</rel>
+<rel type="r_locution" poids="60" tid="58501">plébéien</rel>
+<rel type="r_hypo" poids="60" tid="155842">poing américain</rel>
+<rel type="r_has_part" poids="60" tid="97613">poli</rel>
+<rel type="r_anto" poids="60" tid="114228">polypeptidique</rel>
+<rel type="r_hypo" poids="60" tid="133172">poulailler</rel>
+<rel type="r_patient" poids="60" tid="7804">pouvoir</rel>
+<rel type="r_locution" poids="60" tid="61032">presse-fruits</rel>
+<rel type="r_domain" poids="60" tid="83678">prestère</rel>
+<rel type="r_domain" poids="60" tid="149845">primarisme</rel>
+<rel type="r_locution" poids="60" tid="3409">protestant</rel>
+<rel type="r_locution" poids="60" tid="62664">proton</rel>
+<rel type="r_magn" poids="60" tid="62664">proton</rel>
+<rel type="r_isa" poids="60" tid="36987">proéminence</rel>
+<rel type="r_magn" poids="60" tid="13090">préservatif</rel>
+<rel type="r_anto" poids="60" tid="33322">pubien</rel>
+<rel type="r_locution" poids="60" tid="29472">pyromane</rel>
+<rel type="r_magn" poids="60" tid="29472">pyromane</rel>
+<rel type="r_anto" poids="60" tid="36937">quadrique</rel>
+<rel type="r_has_part" poids="60" tid="3343">racine</rel>
+<rel type="r_patient" poids="60" tid="59940">ramer</rel>
+<rel type="r_has_part" poids="60" tid="116395">rapport</rel>
+<rel type="r_hypo" poids="60" tid="153634">rat des villes</rel>
+<rel type="r_hypo" poids="60" tid="155459">reine des fourmis</rel>
+<rel type="r_patient" poids="60" tid="86948">rester</rel>
+<rel type="r_patient" poids="60" tid="105123">retentir</rel>
+<rel type="r_locution" poids="60" tid="130797">ribose</rel>
+<rel type="r_family" poids="60" tid="18746">rien</rel>
+<rel type="r_patient" poids="60" tid="20939">rigoler</rel>
+<rel type="r_patient" poids="60" tid="105334">rivaliser</rel>
+<rel type="r_instr" poids="60" tid="67170">rocher</rel>
+<rel type="r_patient" poids="60" tid="5435">ronfler</rel>
+<rel type="r_locution" poids="60" tid="138801">rongeurs</rel>
+<rel type="r_patient" poids="60" tid="125708">roupiller</rel>
+<rel type="r_anto" poids="60" tid="816">roussillonnais</rel>
+<rel type="r_has_part" poids="60" tid="60356">rousture</rel>
+<rel type="r_magn" poids="60" tid="17320">régate</rel>
+<rel type="r_domain" poids="60" tid="60255">rémittent</rel>
+<rel type="r_patient" poids="60" tid="143903">s'amuser</rel>
+<rel type="r_has_part" poids="60" tid="84746">safran</rel>
+<rel type="r_holo" poids="60" tid="49785">salin</rel>
+<rel type="r_hypo" poids="60" tid="152670">sans plomb 95</rel>
+<rel type="r_patient" poids="60" tid="68094">se débrouiller</rel>
+<rel type="r_domain" poids="60" tid="61228">semiotic</rel>
+<rel type="r_antimagn" poids="60" tid="30369">sens</rel>
+<rel type="r_domain" poids="60" tid="133022">spitant</rel>
+<rel type="r_domain" poids="60" tid="150670">sternopage</rel>
+<rel type="r_locution" poids="60" tid="86431">stérilet</rel>
+<rel type="r_patient" poids="60" tid="83853">super</rel>
+<rel type="r_anto" poids="60" tid="70918">sutural</rel>
+<rel type="r_anto" poids="60" tid="27956">séricigène</rel>
+<rel type="r_locution" poids="60" tid="58482">tableau de bord</rel>
+<rel type="r_hypo" poids="60" tid="151758">tarte aux poires</rel>
+<rel type="r_anto" poids="60" tid="7499">terre-neuvien</rel>
+<rel type="r_anto" poids="60" tid="27174">thanatologique</rel>
+<rel type="r_domain" poids="60" tid="143191">tiré</rel>
+<rel type="r_anto" poids="60" tid="99764">titiste</rel>
+<rel type="r_domain" poids="60" tid="59063">toupilleur</rel>
+<rel type="r_patient" poids="60" tid="79896">tousser</rel>
+<rel type="r_isa" poids="60" tid="27634">tramp</rel>
+<rel type="r_hypo" poids="60" tid="81128">tramway</rel>
+<rel type="r_hypo" poids="60" tid="151983">trotinette</rel>
+<rel type="r_hypo" poids="60" tid="133013">trottoir</rel>
+<rel type="r_patient" poids="60" tid="66179">trépigner</rel>
+<rel type="r_patient" poids="60" tid="37052">trôner</rel>
+<rel type="r_meaning" poids="60" tid="151153">tupaja</rel>
+<rel type="r_anto" poids="60" tid="31595">turco-mongol</rel>
+<rel type="r_anto" poids="60" tid="150942">térébique</rel>
+<rel type="r_hypo" poids="60" tid="42271">un</rel>
+<rel type="r_holo" poids="60" tid="29456">union</rel>
+<rel type="r_anto" poids="60" tid="125868">urique</rel>
+<rel type="r_anto" poids="60" tid="39776">uropygien</rel>
+<rel type="r_anto" poids="60" tid="151201">uzétien</rel>
+<rel type="r_hypo" poids="60" tid="103008">vagin</rel>
+<rel type="r_carac" poids="60" tid="103008">vagin</rel>
+<rel type="r_anto" poids="60" tid="124317">vaginal</rel>
+<rel type="r_magn" poids="60" tid="28130">vaniteux</rel>
+<rel type="r_anto" poids="60" tid="151233">varsovien</rel>
+<rel type="r_hypo" poids="60" tid="48486">vaudou</rel>
+<rel type="r_has_part" poids="60" tid="99786">venin</rel>
+<rel type="r_locution" poids="60" tid="159554">ville du Tchad</rel>
+<rel type="r_anto" poids="60" tid="36776">xérophytique</rel>
+<rel type="r_hypo" poids="60" tid="121441">zinc</rel>
+<rel type="r_anto" poids="60" tid="3531">zootechnique</rel>
+<rel type="r_meaning" poids="60" tid="121730">zuhr</rel>
+<rel type="r_family" poids="60" tid="87061">zéro</rel>
+<rel type="r_patient" poids="60" tid="20033">échanger</rel>
+<rel type="r_has_part" poids="60" tid="114386">émail</rel>
+<rel type="r_domain" poids="60" tid="4361">éparque</rel>
+<rel type="r_magn" poids="60" tid="91489">éponge</rel>
+<rel type="r_instr" poids="60" tid="78352">épépiner</rel>
+<rel type="r_anto" poids="60" tid="23817">érythémateux</rel>
+<rel type="r_carac" poids="59" tid="151591">***</rel>
+<rel type="r_domain" poids="59" tid="86274">Collodi</rel>
+<rel type="r_hypo" poids="59" tid="23917">aquatique</rel>
+<rel type="r_locution" poids="59" tid="94262">aéroport</rel>
+<rel type="r_anto" poids="59" tid="146917">cadurcien</rel>
+<rel type="r_anto" poids="59" tid="146924">calaisien</rel>
+<rel type="r_lieu_action" poids="59" tid="78461">calendrier</rel>
+<rel type="r_isa" poids="59" tid="49928">couverture</rel>
+<rel type="r_hypo" poids="59" tid="91274">dauphin</rel>
+<rel type="r_domain" poids="59" tid="123654">earl grey</rel>
+<rel type="r_locution" poids="59" tid="154594">grandes vacances</rel>
+<rel type="r_anto" poids="59" tid="97666">guinéen</rel>
+<rel type="r_patient" poids="59" tid="91115">immigrer</rel>
+<rel type="r_hypo" poids="59" tid="89066">impossible</rel>
+<rel type="r_locution" poids="59" tid="49365">leucémie</rel>
+<rel type="r_isa" poids="59" tid="23157">linguistique</rel>
+<rel type="r_anto" poids="59" tid="28568">lithographique</rel>
+<rel type="r_isa" poids="59" tid="2938">location</rel>
+<rel type="r_lieu" poids="59" tid="146483">longue</rel>
+<rel type="r_magn" poids="59" tid="141367">lune</rel>
+<rel type="r_instr" poids="59" tid="146748">lunette</rel>
+<rel type="r_locution" poids="59" tid="140787">macule</rel>
+<rel type="r_locution" poids="59" tid="146807">maillot jaune</rel>
+<rel type="r_locution" poids="59" tid="32303">mythologie</rel>
+<rel type="r_patient" poids="59" tid="4196">neiger</rel>
+<rel type="r_locution" poids="59" tid="77407">non-sens</rel>
+<rel type="r_domain" poids="59" tid="90638">odorimètre</rel>
+<rel type="r_hypo" poids="59" tid="1590">pioche</rel>
+<rel type="r_holo" poids="59" tid="85406">plastique</rel>
+<rel type="r_hypo" poids="59" tid="91370">pommier</rel>
+<rel type="r_has_part" poids="59" tid="4865">portée</rel>
+<rel type="r_hypo" poids="59" tid="153153">première guerre mondiale</rel>
+<rel type="r_anto" poids="59" tid="128080">péronier</rel>
+<rel type="r_has_part" poids="59" tid="14319">pêne</rel>
+<rel type="r_anto" poids="59" tid="10279">quinzième</rel>
+<rel type="r_locution" poids="59" tid="3881">rareté</rel>
+<rel type="r_manner" poids="59" tid="150354">saietter</rel>
+<rel type="r_agent" poids="59" tid="19966">sainte nitouche</rel>
+<rel type="r_magn" poids="59" tid="92679">salon</rel>
+<rel type="r_patient" poids="59" tid="32367">se défendre</rel>
+<rel type="r_patient" poids="59" tid="13966">skier</rel>
+<rel type="r_patient-1" poids="59" tid="17265">sodomiser</rel>
+<rel type="r_anto" poids="59" tid="150593">spinalien</rel>
+<rel type="r_agent" poids="59" tid="2303">taponner</rel>
+<rel type="r_domain" poids="59" tid="133689">touraco</rel>
+<rel type="r_antimagn" poids="59" tid="18571">truc</rel>
+<rel type="r_hypo" poids="59" tid="154261">vote blanc</rel>
+<rel type="r_patient" poids="59" tid="92236">équivaloir</rel>
+<rel type="r_hypo" poids="58" tid="163134">Allemagne de l'Est</rel>
+<rel type="r_domain" poids="58" tid="81913">Chomsky</rel>
+<rel type="r_hypo" poids="58" tid="10182">Houdini</rel>
+<rel type="r_locution" poids="58" tid="146770">Luc Besson</rel>
+<rel type="r_family" poids="58" tid="152578">Vétérinaire</rel>
+<rel type="r_hypo" poids="58" tid="52183">acrylique</rel>
+<rel type="r_holo" poids="58" tid="54795">bricolage</rel>
+<rel type="r_hypo" poids="58" tid="75156">brûler</rel>
+<rel type="r_anto" poids="58" tid="32093">chirographaire</rel>
+<rel type="r_carac" poids="58" tid="82552">cinq</rel>
+<rel type="r_locution" poids="58" tid="55031">communisme</rel>
+<rel type="r_telic_role" poids="58" tid="38984">cyme</rel>
+<rel type="r_carac" poids="58" tid="73443">derme</rel>
+<rel type="r_has_part" poids="58" tid="27604">début</rel>
+<rel type="r_holo" poids="58" tid="23178">grand</rel>
+<rel type="r_agent" poids="58" tid="27584">gâtifier</rel>
+<rel type="r_magn" poids="58" tid="52335">imprimerie</rel>
+<rel type="r_hypo" poids="58" tid="12958">lactose</rel>
+<rel type="r_locution" poids="58" tid="119689">lait de poule</rel>
+<rel type="r_carac" poids="58" tid="20579">naturel</rel>
+<rel type="r_locution" poids="58" tid="64181">neutron</rel>
+<rel type="r_lieu" poids="58" tid="28510">orgueilleux</rel>
+<rel type="r_patient" poids="58" tid="108324">palpiter</rel>
+<rel type="r_locution" poids="58" tid="122824">phalange</rel>
+<rel type="r_locution" poids="58" tid="49116">pharaon</rel>
+<rel type="r_hypo" poids="58" tid="149802">posée</rel>
+<rel type="r_anto" poids="58" tid="12029">prescient</rel>
+<rel type="r_has_part" poids="58" tid="100402">pute</rel>
+<rel type="r_domain" poids="58" tid="127113">pyxide</rel>
+<rel type="r_antimagn" poids="58" tid="59550">raquette</rel>
+<rel type="r_patient" poids="58" tid="100888">reculer</rel>
+<rel type="r_anto" poids="58" tid="8584">siliqueux</rel>
+<rel type="r_hypo" poids="58" tid="39575">tennis</rel>
+<rel type="r_hypo" poids="58" tid="152812">thé noir</rel>
+<rel type="r_hypo" poids="58" tid="28130">vaniteux</rel>
+<rel type="r_lieu_action" poids="58" tid="47936">ver luisant</rel>
+<rel type="r_has_part" poids="58" tid="64003">égal</rel>
+<rel type="r_domain" poids="57" tid="136564">Boylesve</rel>
+<rel type="r_hypo" poids="57" tid="63585">Foujita</rel>
+<rel type="r_hypo" poids="57" tid="144003">Jupiter</rel>
+<rel type="r_hypo" poids="57" tid="153567">Khéops</rel>
+<rel type="r_domain" poids="57" tid="10738">Matsuyama</rel>
+<rel type="r_family" poids="57" tid="146358">acier</rel>
+<rel type="r_carac" poids="57" tid="97008">amusant</rel>
+<rel type="r_locution" poids="57" tid="42338">bismuth</rel>
+<rel type="r_magn" poids="57" tid="119014">boulangerie</rel>
+<rel type="r_instr" poids="57" tid="18314">bénéficier</rel>
+<rel type="r_magn" poids="57" tid="35676">canapé</rel>
+<rel type="r_locution" poids="57" tid="118733">combe</rel>
+<rel type="r_agent" poids="57" tid="151644">courrir</rel>
+<rel type="r_has_part" poids="57" tid="85265">crawl</rel>
+<rel type="r_domain" poids="57" tid="117828">difficile</rel>
+<rel type="r_hypo" poids="57" tid="30106">diminution</rel>
+<rel type="r_anto" poids="57" tid="24946">encolleur</rel>
+<rel type="r_domain" poids="57" tid="147992">entre-frapper</rel>
+<rel type="r_has_part" poids="57" tid="124092">fer</rel>
+<rel type="r_has_part" poids="57" tid="19041">gluten</rel>
+<rel type="r_locution" poids="57" tid="167754">grand bâtiment</rel>
+<rel type="r_hypo" poids="57" tid="153134">grand voile</rel>
+<rel type="r_lieu" poids="57" tid="17927">haine</rel>
+<rel type="r_patient" poids="57" tid="48623">jurer</rel>
+<rel type="r_hypo" poids="57" tid="61005">juvénile</rel>
+<rel type="r_causatif" poids="57" tid="75754">lanier</rel>
+<rel type="r_carac" poids="57" tid="84432">long</rel>
+<rel type="r_agent" poids="57" tid="119625">mauvais</rel>
+<rel type="r_lieu_action" poids="57" tid="117662">molécule</rel>
+<rel type="r_magn" poids="57" tid="124600">mourir</rel>
+<rel type="r_hypo" poids="57" tid="20579">naturel</rel>
+<rel type="r_has_part" poids="57" tid="126405">noyau</rel>
+<rel type="r_holo" poids="57" tid="73154">ouvert</rel>
+<rel type="r_locution" poids="57" tid="2490">paille-en-queue</rel>
+<rel type="r_lieu" poids="57" tid="122824">phalange</rel>
+<rel type="r_locution" poids="57" tid="13090">préservatif</rel>
+<rel type="r_anto" poids="57" tid="57442">péritonéal</rel>
+<rel type="r_carac" poids="57" tid="110732">rapide</rel>
+<rel type="r_magn" poids="57" tid="59550">raquette</rel>
+<rel type="r_instr" poids="57" tid="106663">reposer</rel>
+<rel type="r_agent" poids="57" tid="61223">souvenir</rel>
+<rel type="r_anto" poids="57" tid="113084">thaï</rel>
+<rel type="r_hypo" poids="57" tid="13030">thonier</rel>
+<rel type="r_anto" poids="57" tid="37600">trimère</rel>
+<rel type="r_has_part" poids="57" tid="7104">vérin</rel>
+<rel type="r_instr" poids="57" tid="13369">être</rel>
+<rel type="r_locution" poids="56" tid="121587">Dakota du Sud</rel>
+<rel type="r_domain" poids="56" tid="25180">Falk</rel>
+<rel type="r_domain" poids="56" tid="80456">Mourguet</rel>
+<rel type="r_holo" poids="56" tid="18503">actions</rel>
+<rel type="r_meaning" poids="56" tid="110805">anaplasie</rel>
+<rel type="r_has_part" poids="56" tid="141678">assise</rel>
+<rel type="r_instr-1" poids="56" tid="3491">attitude</rel>
+<rel type="r_hypo" poids="56" tid="67022">beurk</rel>
+<rel type="r_patient" poids="56" tid="118332">bruire</rel>
+<rel type="r_hypo" poids="56" tid="61681">chalutier</rel>
+<rel type="r_lieu_action" poids="56" tid="145246">cheval</rel>
+<rel type="r_anto" poids="56" tid="103163">clunisien</rel>
+<rel type="r_domain" poids="56" tid="55834">commun</rel>
+<rel type="r_lieu" poids="56" tid="28686">connu</rel>
+<rel type="r_domain" poids="56" tid="61786">cradingue</rel>
+<rel type="r_magn" poids="56" tid="29735">départ</rel>
+<rel type="r_hypo" poids="56" tid="144236">est</rel>
+<rel type="r_hypo" poids="56" tid="90534">fauchage</rel>
+<rel type="r_instr" poids="56" tid="34629">fier</rel>
+<rel type="r_locution" poids="56" tid="51600">filariose</rel>
+<rel type="r_magn" poids="56" tid="43286">génétique</rel>
+<rel type="r_anto" poids="56" tid="36073">infeutrable</rel>
+<rel type="r_has_part" poids="56" tid="27013">ivoire</rel>
+<rel type="r_has_part" poids="56" tid="37768">juif</rel>
+<rel type="r_family" poids="56" tid="113093">jungle</rel>
+<rel type="r_hypo" poids="56" tid="144719">losange</rel>
+<rel type="r_has_part" poids="56" tid="127270">merde</rel>
+<rel type="r_lieu" poids="56" tid="143408">milieu</rel>
+<rel type="r_hypo" poids="56" tid="151905">mirroir</rel>
+<rel type="r_locution" poids="56" tid="127184">moteur-fusée</rel>
+<rel type="r_instr" poids="56" tid="114445">mâchurer</rel>
+<rel type="r_isa" poids="56" tid="20579">naturel</rel>
+<rel type="r_carac" poids="56" tid="151856">noir et blanc</rel>
+<rel type="r_anto" poids="56" tid="5087">pelté</rel>
+<rel type="r_hypo" poids="56" tid="117130">précaution</rel>
+<rel type="r_carac" poids="56" tid="66808">présent</rel>
+<rel type="r_anto" poids="56" tid="131225">psoriasique</rel>
+<rel type="r_hypo" poids="56" tid="36004">rame</rel>
+<rel type="r_hypo" poids="56" tid="71211">tendre</rel>
+<rel type="r_domain" poids="56" tid="115865">trou</rel>
+<rel type="r_lieu" poids="56" tid="61944">univers</rel>
+<rel type="r_agent-1" poids="56" tid="252070">user de son charme</rel>
+<rel type="r_has_part" poids="56" tid="26976">vert</rel>
+<rel type="r_locution" poids="56" tid="112432">veulerie</rel>
+<rel type="r_anto" poids="56" tid="77864">établissement</rel>
+<rel type="r_has_part" poids="56" tid="144437">étincelle</rel>
+<rel type="r_domain" poids="55" tid="127849">Maryvonne</rel>
+<rel type="r_domain" poids="55" tid="2897">SHAPE</rel>
+<rel type="r_hypo" poids="55" tid="106905">Vénus de Milo</rel>
+<rel type="r_carac" poids="55" tid="17666">agréable</rel>
+<rel type="r_domain" poids="55" tid="147427">assoner</rel>
+<rel type="r_hypo" poids="55" tid="87222">avenue</rel>
+<rel type="r_hypo" poids="55" tid="152656">ballon de rugby</rel>
+<rel type="r_manner" poids="55" tid="196900">baver le lait</rel>
+<rel type="r_domain" poids="55" tid="113937">bye-bye</rel>
+<rel type="r_instr" poids="55" tid="11103">clocher</rel>
+<rel type="r_has_part" poids="55" tid="60866">cours</rel>
+<rel type="r_family" poids="55" tid="132425">crabe</rel>
+<rel type="r_telic_role" poids="55" tid="103759">crapouillot</rel>
+<rel type="r_locution" poids="55" tid="89353">desserte</rel>
+<rel type="r_isa" poids="55" tid="106738">difficulté</rel>
+<rel type="r_carac" poids="55" tid="111342">dire</rel>
+<rel type="r_lieu" poids="55" tid="124092">fer</rel>
+<rel type="r_locution" poids="55" tid="102455">fiston</rel>
+<rel type="r_locution" poids="55" tid="1995">fond de teint</rel>
+<rel type="r_locution" poids="55" tid="142226">gentil</rel>
+<rel type="r_instr" poids="55" tid="91467">grisoller</rel>
+<rel type="r_family" poids="55" tid="44155">grotte</rel>
+<rel type="r_anto" poids="55" tid="89510">guelfe</rel>
+<rel type="r_lieu_action" poids="55" tid="2149">gâteau</rel>
+<rel type="r_anto" poids="55" tid="117595">hétérocyclique</rel>
+<rel type="r_family" poids="55" tid="28636">janvier</rel>
+<rel type="r_patient" poids="55" tid="2655">justicier</rel>
+<rel type="r_magn" poids="55" tid="75266">langage</rel>
+<rel type="r_hypo" poids="55" tid="151558">lapin nain</rel>
+<rel type="r_locution" poids="55" tid="35579">latex</rel>
+<rel type="r_carac" poids="55" tid="131240">lire</rel>
+<rel type="r_family" poids="55" tid="146807">maillot jaune</rel>
+<rel type="r_anto" poids="55" tid="52802">micacé</rel>
+<rel type="r_anto" poids="55" tid="131828">millénariste</rel>
+<rel type="r_hypo" poids="55" tid="53011">nuageux</rel>
+<rel type="r_hypo" poids="55" tid="56280">oreille</rel>
+<rel type="r_meaning" poids="55" tid="154843">philoloque</rel>
+<rel type="r_instr" poids="55" tid="124858">poignard</rel>
+<rel type="r_hypo" poids="55" tid="135591">poil</rel>
+<rel type="r_hypo" poids="55" tid="69001">pouliche</rel>
+<rel type="r_hypo" poids="55" tid="151571">pression absolue</rel>
+<rel type="r_antimagn" poids="55" tid="96033">quai</rel>
+<rel type="r_manner" poids="55" tid="67170">rocher</rel>
+<rel type="r_magn" poids="55" tid="59993">réalisateur</rel>
+<rel type="r_hypo" poids="55" tid="118513">rétrogradation</rel>
+<rel type="r_instr" poids="55" tid="138670">s'énerver</rel>
+<rel type="r_locution" poids="55" tid="86862">sculpteur</rel>
+<rel type="r_anto" poids="55" tid="135511">scythe</rel>
+<rel type="r_anto" poids="55" tid="50586">solénoïdal</rel>
+<rel type="r_carac" poids="55" tid="224387" te="trouble>131908">trouble  (imprécis)</rel>
+<rel type="r_hypo" poids="55" tid="32321">témérité</rel>
+<rel type="r_locution" poids="55" tid="52089">vaccin</rel>
+<rel type="r_carac" poids="55" tid="28130">vaniteux</rel>
+<rel type="r_anto" poids="55" tid="18526">vénusien</rel>
+<rel type="r_has_part" poids="55" tid="20033">échanger</rel>
+<rel type="r_hypo" poids="55" tid="30227">électricien</rel>
+<rel type="r_anto" poids="55" tid="122872">élisabéthain</rel>
+<rel type="r_conseq" poids="54" tid="138915">L</rel>
+<rel type="r_meaning" poids="54" tid="49297">Maurice Duruflé</rel>
+<rel type="r_domain" poids="54" tid="155758">Paul Siblot</rel>
+<rel type="r_domain" poids="54" tid="16247">Peletier</rel>
+<rel type="r_hypo" poids="54" tid="22605">accompagnement</rel>
+<rel type="r_patient" poids="54" tid="56716">approcher</rel>
+<rel type="r_hypo" poids="54" tid="9558">ardoise</rel>
+<rel type="r_isa" poids="54" tid="63537">barographe</rel>
+<rel type="r_domain" poids="54" tid="25919">baston</rel>
+<rel type="r_anto" poids="54" tid="45600">biacide</rel>
+<rel type="r_domain" poids="54" tid="18392">brisé</rel>
+<rel type="r_has_part" poids="54" tid="56572">caca</rel>
+<rel type="r_lieu_action" poids="54" tid="152835">carambar</rel>
+<rel type="r_anto" poids="54" tid="6266">castriste</rel>
+<rel type="r_locution" poids="54" tid="135113">cherté</rel>
+<rel type="r_isa" poids="54" tid="109527">chose</rel>
+<rel type="r_locution" poids="54" tid="115495">connexion</rel>
+<rel type="r_instr" poids="54" tid="1451">couvert</rel>
+<rel type="r_has_part" poids="54" tid="9437">devant</rel>
+<rel type="r_anto" poids="54" tid="109122">dimensionnel</rel>
+<rel type="r_domain" poids="54" tid="2810">dipoplie</rel>
+<rel type="r_domain" poids="54" tid="66798">en face</rel>
+<rel type="r_agentif_role" poids="54" tid="5695">exceptionnel</rel>
+<rel type="r_domain" poids="54" tid="123324">fiérot</rel>
+<rel type="r_isa" poids="54" tid="142000">forme</rel>
+<rel type="r_has_part" poids="54" tid="152941">gachette</rel>
+<rel type="r_domain" poids="54" tid="96547">inexprimable</rel>
+<rel type="r_anto" poids="54" tid="148962">lockiste</rel>
+<rel type="r_family" poids="54" tid="94497">mercredi</rel>
+<rel type="r_has_part" poids="54" tid="143249">paille</rel>
+<rel type="r_isa" poids="54" tid="118316">propre</rel>
+<rel type="r_patient-1" poids="54" tid="93667">raffiner</rel>
+<rel type="r_isa" poids="54" tid="39301">raison</rel>
+<rel type="r_instr" poids="54" tid="80040">ristourner</rel>
+<rel type="r_anto" poids="54" tid="110921">réductionniste</rel>
+<rel type="r_hypo" poids="54" tid="152671">sans plomb 98</rel>
+<rel type="r_anto" poids="54" tid="65831">serbe</rel>
+<rel type="r_hypo" poids="54" tid="139459">six</rel>
+<rel type="r_locution" poids="54" tid="82502">solutréen</rel>
+<rel type="r_meaning" poids="54" tid="23137">tape-con</rel>
+<rel type="r_hypo" poids="54" tid="106011">thermomètre</rel>
+<rel type="r_locution" poids="54" tid="83653">vodka</rel>
+<rel type="r_patient" poids="54" tid="25405">voyager</rel>
+<rel type="r_anto" poids="54" tid="90857">émissif</rel>
+<rel type="r_anto" poids="54" tid="56919">érosif</rel>
+<rel type="r_domain" poids="54" tid="135932">être mal fermé</rel>
+<rel type="r_hypo" poids="53" tid="52448">Gard</rel>
+<rel type="r_domain" poids="53" tid="67686">Liberec</rel>
+<rel type="r_meaning" poids="53" tid="144418">Vue d'un jardin</rel>
+<rel type="r_locution" poids="53" tid="35143">biologie</rel>
+<rel type="r_patient" poids="53" tid="145285">boulanger</rel>
+<rel type="r_anto" poids="53" tid="173028">castelsarrasinois</rel>
+<rel type="r_hypo" poids="53" tid="82552">cinq</rel>
+<rel type="r_isa" poids="53" tid="95280">contraire</rel>
+<rel type="r_hypo" poids="53" tid="46629">dextrocardie</rel>
+<rel type="r_hypo" poids="53" tid="85794">diamant</rel>
+<rel type="r_anto" poids="53" tid="34980">détartreur</rel>
+<rel type="r_has_part" poids="53" tid="71026">flanc</rel>
+<rel type="r_has_part" poids="53" tid="144991">français</rel>
+<rel type="r_hypo" poids="53" tid="33611">gerbille</rel>
+<rel type="r_anto" poids="53" tid="65760">hernieux</rel>
+<rel type="r_locution" poids="53" tid="132995">immeuble</rel>
+<rel type="r_hypo" poids="53" tid="35032">matraque</rel>
+<rel type="r_has_part" poids="53" tid="131593">méchant</rel>
+<rel type="r_isa" poids="53" tid="86627">organisation</rel>
+<rel type="r_lieu_action" poids="53" tid="35841">peinture</rel>
+<rel type="r_instr" poids="53" tid="23654">perdre</rel>
+<rel type="r_hypo" poids="53" tid="34898">pied</rel>
+<rel type="r_locution" poids="53" tid="130255">potier</rel>
+<rel type="r_instr" poids="53" tid="6231">présenter</rel>
+<rel type="r_has_part" poids="53" tid="42588">pédale</rel>
+<rel type="r_lieu" poids="53" tid="110732">rapide</rel>
+<rel type="r_hypo" poids="53" tid="97137">rubéole</rel>
+<rel type="r_holo" poids="53" tid="40470">récolte</rel>
+<rel type="r_lieu" poids="53" tid="4131">samedi</rel>
+<rel type="r_isa" poids="53" tid="55600">solution</rel>
+<rel type="r_instr" poids="53" tid="62142">souffrir</rel>
+<rel type="r_domain" poids="53" tid="150607">spirorbe</rel>
+<rel type="r_domain" poids="53" tid="42496">supposer</rel>
+<rel type="r_locution" poids="53" tid="155302">tueur en série</rel>
+<rel type="r_hypo" poids="53" tid="90864">tutu</rel>
+<rel type="r_magn" poids="53" tid="2195">urne</rel>
+<rel type="r_has_part" poids="53" tid="141480">écaille</rel>
+<rel type="r_agentif_role" poids="53" tid="38685">étant</rel>
+<rel type="r_locution" poids="52" tid="217749">David Robert Jones</rel>
+<rel type="r_domain" poids="52" tid="33011">Jennifer</rel>
+<rel type="r_family" poids="52" tid="113533">Nil</rel>
+<rel type="r_locution" poids="52" tid="29099">abstention</rel>
+<rel type="r_hypo" poids="52" tid="11375">alcoolique</rel>
+<rel type="r_locution" poids="52" tid="99534">bagarre</rel>
+<rel type="r_has_part" poids="52" tid="13910">bas</rel>
+<rel type="r_domain" poids="52" tid="35662">biens propres</rel>
+<rel type="r_anto" poids="52" tid="45342">branchial</rel>
+<rel type="r_anto" poids="52" tid="146919">caennais</rel>
+<rel type="r_magn" poids="52" tid="46728">chimie</rel>
+<rel type="r_has_part" poids="52" tid="140039">corne</rel>
+<rel type="r_patient" poids="52" tid="20698">divorcer</rel>
+<rel type="r_has_part" poids="52" tid="59471">erreur</rel>
+<rel type="r_locution" poids="52" tid="122455">escroc</rel>
+<rel type="r_has_part" poids="52" tid="154898">fibres</rel>
+<rel type="r_has_part" poids="52" tid="11343">gouvernail</rel>
+<rel type="r_domain" poids="52" tid="136028">grossier</rel>
+<rel type="r_has_part" poids="52" tid="55692">guidage</rel>
+<rel type="r_domain" poids="52" tid="100267">héhé</rel>
+<rel type="r_hypo" poids="52" tid="31864">kiwi</rel>
+<rel type="r_anto" poids="52" tid="39395">limnique</rel>
+<rel type="r_magn" poids="52" tid="40924">mesurer</rel>
+<rel type="r_isa" poids="52" tid="39816">modèle</rel>
+<rel type="r_locution" poids="52" tid="37997">musculature</rel>
+<rel type="r_hypo" poids="52" tid="17628">myrtille</rel>
+<rel type="r_hypo" poids="52" tid="25965">organiste</rel>
+<rel type="r_carac" poids="52" tid="118680">ovale</rel>
+<rel type="r_carac" poids="52" tid="55222">petit</rel>
+<rel type="r_magn" poids="52" tid="43548">pneu</rel>
+<rel type="r_instr" poids="52" tid="127525">prédisposer</rel>
+<rel type="r_hypo" poids="52" tid="151661">pêche jaune</rel>
+<rel type="r_domain" poids="52" tid="134162">rhyzophage</rel>
+<rel type="r_hypo" poids="52" tid="151619">sculpture sur bois</rel>
+<rel type="r_has_part" poids="52" tid="2867">socle</rel>
+<rel type="r_isa" poids="52" tid="61223">souvenir</rel>
+<rel type="r_anto" poids="52" tid="37979">subéquatorial</rel>
+<rel type="r_anto" poids="52" tid="21133">testiculaire</rel>
+<rel type="r_hypo" poids="52" tid="153777">tondeuse à cheveux</rel>
+<rel type="r_hypo" poids="52" tid="135594">trompette</rel>
+<rel type="r_magn" poids="52" tid="141161">tuile</rel>
+<rel type="r_domain" poids="52" tid="86279">valetage</rel>
+<rel type="r_has_part" poids="52" tid="10483">victoire</rel>
+<rel type="r_instr" poids="52" tid="4147">vouloir</rel>
+<rel type="r_instr" poids="52" tid="141503">étranger</rel>
+<rel type="r_family" poids="52" tid="24956">être humain</rel>
+<rel type="r_isa" poids="51" tid="91162">Erich von Falkenhayn</rel>
+<rel type="r_patient" poids="51" tid="84445">Marianne</rel>
+<rel type="r_holo" poids="51" tid="145997">ROM</rel>
+<rel type="r_agentif_role" poids="51" tid="130334">Sancy</rel>
+<rel type="r_has_part" poids="51" tid="122299">accessoire</rel>
+<rel type="r_instr" poids="51" tid="130452">allouer</rel>
+<rel type="r_isa" poids="51" tid="1110">amusement</rel>
+<rel type="r_instr" poids="51" tid="35006">assoler</rel>
+<rel type="r_domain" poids="51" tid="135434">axérophtol</rel>
+<rel type="r_instr" poids="51" tid="43180">ballotter</rel>
+<rel type="r_has_part" poids="51" tid="124919">bec</rel>
+<rel type="r_anto" poids="51" tid="127644">bilinéaire</rel>
+<rel type="r_instr" poids="51" tid="112728">blasphémer</rel>
+<rel type="r_lieu-1" poids="51" tid="117423">bouteille</rel>
+<rel type="r_locution" poids="51" tid="108669">boutique</rel>
+<rel type="r_hypo" poids="51" tid="133159">brouillon</rel>
+<rel type="r_telic_role" poids="51" tid="88771">calvitie</rel>
+<rel type="r_carac" poids="51" tid="23433">cher</rel>
+<rel type="r_anto" poids="51" tid="122657">comparatiste</rel>
+<rel type="r_antimagn" poids="51" tid="27884">condom</rel>
+<rel type="r_has_part" poids="51" tid="3347">coulée</rel>
+<rel type="r_domain" poids="51" tid="143784">d'autant plus que</rel>
+<rel type="r_isa" poids="51" tid="60902">dent</rel>
+<rel type="r_locution" poids="51" tid="85068">dictionnaire</rel>
+<rel type="r_instr" poids="51" tid="46820">dénasaliser</rel>
+<rel type="r_hypo" poids="51" tid="122621">désignation</rel>
+<rel type="r_instr" poids="51" tid="128352">enherber</rel>
+<rel type="r_isa" poids="51" tid="59471">erreur</rel>
+<rel type="r_instr" poids="51" tid="14997">espacer</rel>
+<rel type="r_isa" poids="51" tid="314111">essayer de faire boire un âne qui n'a pas soif</rel>
+<rel type="r_locution" poids="51" tid="87359">fluidifiant</rel>
+<rel type="r_lieu_action" poids="51" tid="225604" te="foie>112609">foie  (anatomie)</rel>
+<rel type="r_patient" poids="51" tid="25479">frémir</rel>
+<rel type="r_anto" poids="51" tid="35913">gynécologique</rel>
+<rel type="r_anto" poids="51" tid="111852">hadal</rel>
+<rel type="r_hypo" poids="51" tid="182867">jeu de tir subjectif</rel>
+<rel type="r_hypo" poids="51" tid="20271">langouste</rel>
+<rel type="r_hypo" poids="51" tid="24652">loir</rel>
+<rel type="r_hypo" poids="51" tid="76887">lundi</rel>
+<rel type="r_antimagn" poids="51" tid="141367">lune</rel>
+<rel type="r_hypo" poids="51" tid="151746">lynx du Canada</rel>
+<rel type="r_has_part" poids="51" tid="10595">malade</rel>
+<rel type="r_lieu_action" poids="51" tid="61315">marigot</rel>
+<rel type="r_locution" poids="51" tid="122050">marrant</rel>
+<rel type="r_anto" poids="51" tid="15823">monadelphe</rel>
+<rel type="r_locution" poids="51" tid="68620">moto</rel>
+<rel type="r_isa" poids="51" tid="122439">nouveau</rel>
+<rel type="r_isa" poids="51" tid="16302">nématique</rel>
+<rel type="r_locution" poids="51" tid="32193">orang-outan</rel>
+<rel type="r_magn" poids="51" tid="139470">poudre</rel>
+<rel type="r_hypo" poids="51" tid="2689">rate</rel>
+<rel type="r_instr" poids="51" tid="82536">se promettre</rel>
+<rel type="r_instr" poids="51" tid="108237">se sustenter</rel>
+<rel type="r_carac-1" poids="51" tid="142832">souris</rel>
+<rel type="r_locution" poids="51" tid="66132">supraconductivité</rel>
+<rel type="r_hypo" poids="51" tid="11567">taxonomie</rel>
+<rel type="r_locution" poids="51" tid="22528">théorisation</rel>
+<rel type="r_domain" poids="51" tid="151173">typhomycine</rel>
+<rel type="r_anto" poids="51" tid="20018">urétéral</rel>
+<rel type="r_antimagn" poids="51" tid="102042">viser</rel>
+<rel type="r_anto" poids="51" tid="105264">volcanologique</rel>
+<rel type="r_hypo" poids="51" tid="87061">zéro</rel>
+<rel type="r_locution" poids="51" tid="72117">Émile Zola</rel>
+<rel type="r_carac" poids="51" tid="133702">âpreté</rel>
+<rel type="r_isa" poids="51" tid="108673">énergie</rel>
+<rel type="r_has_part" poids="49" tid="140770">laine</rel>
+<rel type="r_has_part" poids="49" tid="126411">maillon</rel>
+<rel type="r_has_part" poids="49" tid="142700">mat</rel>
+<rel type="r_has_part" poids="49" tid="51870">plasma</rel>
+<rel type="r_has_part" poids="45" tid="33394">asiatique</rel>
+<rel type="r_hypo" poids="45" tid="115155">foie</rel>
+<rel type="r_family" poids="45" tid="35579">latex</rel>
+<rel type="r_agentif_role" poids="45" tid="44117">nullipare</rel>
+<rel type="r_holo" poids="45" tid="151873">tiges</rel>
+<rel type="r_hypo" poids="36" tid="151623">nuit noire</rel>
+<rel type="r_make" poids="26" tid="245289">Michel Ocelot</rel>
+<rel type="r_isa" poids="22" tid="128620">ardent</rel>
+<rel type="r_lieu" poids="11" tid="22605">accompagnement</rel>
+<rel type="r_lieu" poids="11" tid="131200">bile</rel>
+<rel type="r_carac" poids="6" tid="131200">bile</rel>
+<rel type="r_hypo" poids="4" tid="135190">lieu</rel>
+<rel type="r_lieu" poids="2" tid="328574" te="::>13:146238>29:10604">édenter  [sujet]
+					 âge</rel>
+<rel type="r_family" poids="2" tid="136774">Nicolas Sarkozy</rel>
+<rel type="r_instr" poids="2" tid="161981">balloter</rel>
+<rel type="r_hypo" poids="1" tid="153043">14-18</rel>
+<rel type="r_hypo" poids="1" tid="230118">FPS</rel>
+<rel type="r_hypo" poids="1" tid="167543">Grande Guerre</rel>
+<rel type="r_family" poids="1" tid="155830">Sarko</rel>
+<rel type="r_family" poids="1" tid="208258">Société nationale des chemins de fer français</rel>
+<rel type="r_locution" poids="1" tid="94509">dico</rel>
+<rel type="r_has_part" poids="1" tid="154623">moëlle</rel>
+<rel type="r_locution" poids="1" tid="90869">orang-outang</rel>
+<rel type="r_agent" poids="1" tid="89783">sainte-nitouche</rel>
+<rel type="r_syn" poids="-1" tid="121769">angostura</rel>
+<rel type="r_anto" poids="-1" tid="97194">jaïn</rel>
+<rel type="r_anto" poids="-1" tid="149995">quichua</rel>
+<rel type="r_syn" poids="-1" tid="1946">urdu</rel>
+<rel type="r_hypo" poids="-4" tid="49154">rivière</rel>
+<rel type="r_associated" poids="-5" tid="247416">Guy Degrenne</rel>
+<rel type="r_hypo" poids="-5" tid="65779">caricaturiste</rel>
+<rel type="r_isa" poids="-5" tid="57565">crayon</rel>
+<rel type="r_has_part" poids="-5" tid="57565">crayon</rel>
+<rel type="r_anto" poids="-5" tid="18631">inamissible</rel>
+<rel type="r_anto" poids="-5" tid="68531">mesquinerie</rel>
+<rel type="r_isa" poids="-5" tid="219886" te="neuf>49461">neuf  (récent)</rel>
+<rel type="r_syn" poids="-5" tid="141765">tôle</rel>
+<rel type="r_has_part" poids="-9" tid="225364">rougaille</rel>
+<rel type="r_conseq" poids="-20" tid="7548">col</rel>
+<rel type="r_hypo" poids="-25" tid="239944">organe non vital</rel>
+<rel type="r_syn" poids="-50" tid="84256">albumose</rel>
+<rel type="r_anto" poids="-50" tid="38190">anglophone</rel>
+<rel type="r_syn" poids="-50" tid="132090">autistique</rel>
+<rel type="r_syn" poids="-50" tid="146932">cameline</rel>
+<rel type="r_anto" poids="-50" tid="93017">couturier</rel>
+<rel type="r_syn" poids="-50" tid="32785">dandinette</rel>
+<rel type="r_syn" poids="-50" tid="117542">ectasie</rel>
+<rel type="r_anto" poids="-50" tid="141687">fromage</rel>
+<rel type="r_syn" poids="-50" tid="135749">garde-pêche</rel>
+<rel type="r_syn" poids="-50" tid="148319">glucocorticoïde</rel>
+<rel type="r_syn" poids="-50" tid="42759">hépatectomie</rel>
+<rel type="r_anto" poids="-50" tid="148822">kufique</rel>
+<rel type="r_hypo" poids="-50" tid="58646">lynx</rel>
+<rel type="r_syn" poids="-50" tid="149006">macrographie</rel>
+<rel type="r_syn" poids="-50" tid="149072">martini</rel>
+<rel type="r_syn" poids="-50" tid="55967">microcalorimètre</rel>
+<rel type="r_syn" poids="-50" tid="55507">mycologie</rel>
+<rel type="r_syn" poids="-50" tid="43668">nota bene</rel>
+<rel type="r_syn" poids="-50" tid="129706">oreille-de-mer</rel>
+<rel type="r_syn" poids="-50" tid="22855">parenchyme</rel>
+<rel type="r_syn" poids="-50" tid="132530">régalage</rel>
+<rel type="r_syn" poids="-50" tid="101257">saducéen</rel>
+<rel type="r_anto" poids="-50" tid="48003">schizothyme</rel>
+<rel type="r_syn" poids="-50" tid="122308">sous-exposition</rel>
+<rel type="r_syn" poids="-50" tid="150639">starie</rel>
+<rel type="r_syn" poids="-50" tid="80690">tréfoncier</rel>
+<rel type="r_anto" poids="-50" tid="12631">tétragonal</rel>
+<rel type="r_syn" poids="-50" tid="74287">vermée</rel>
+<rel type="r_syn" poids="-50" tid="55952">votif</rel>
+<rel type="r_syn" poids="-50" tid="151433">zwinglien</rel>
+<rel type="r_syn" poids="-51" tid="212313">Enola Gay</rel>
+<rel type="r_syn" poids="-51" tid="30608">Méta-harmonie I</rel>
+<rel type="r_syn" poids="-51" tid="94404">angustura</rel>
+<rel type="r_anto" poids="-51" tid="52974">anémophile</rel>
+<rel type="r_syn" poids="-51" tid="147406">aristotélique</rel>
+<rel type="r_syn" poids="-51" tid="74162">aubin</rel>
+<rel type="r_syn" poids="-51" tid="147443">audois</rel>
+<rel type="r_anto" poids="-51" tid="81365">basaltique</rel>
+<rel type="r_syn" poids="-51" tid="60982">bougna</rel>
+<rel type="r_syn" poids="-51" tid="36967">buccinateur</rel>
+<rel type="r_anto" poids="-51" tid="158159" te="café>146891">café  (Adj)</rel>
+<rel type="r_syn" poids="-51" tid="65048">chorège</rel>
+<rel type="r_anto" poids="-51" tid="67203">chou</rel>
+<rel type="r_syn" poids="-51" tid="63378">comte de Stair</rel>
+<rel type="r_anto" poids="-51" tid="147777">dicarbonylé</rel>
+<rel type="r_syn" poids="-51" tid="34961">déferrage</rel>
+<rel type="r_syn" poids="-51" tid="10036">gastrectomie</rel>
+<rel type="r_syn" poids="-51" tid="72447">humoral</rel>
+<rel type="r_syn" poids="-51" tid="63459">hybrideur</rel>
+<rel type="r_anto" poids="-51" tid="127088">insidieux</rel>
+<rel type="r_anto" poids="-51" tid="53346">malonique</rel>
+<rel type="r_anto" poids="-51" tid="38034">mosaïque</rel>
+<rel type="r_syn" poids="-51" tid="45909">mozarabe</rel>
+<rel type="r_syn" poids="-51" tid="103052">nabuchodonosor</rel>
+<rel type="r_syn" poids="-51" tid="23122">ourdou</rel>
+<rel type="r_syn" poids="-51" tid="149501">paléoclimatique</rel>
+<rel type="r_syn" poids="-51" tid="149583">paumure</rel>
+<rel type="r_syn" poids="-51" tid="3670">proconsulaire</rel>
+<rel type="r_syn" poids="-51" tid="115056">râpage</rel>
+<rel type="r_syn" poids="-51" tid="14177">scolastiquement</rel>
+<rel type="r_syn" poids="-51" tid="94611">silves</rel>
+<rel type="r_syn" poids="-51" tid="62020">smillage</rel>
+<rel type="r_syn" poids="-51" tid="129106">spontanisme</rel>
+<rel type="r_anto" poids="-52" tid="19928">aléseur</rel>
+<rel type="r_syn" poids="-52" tid="76488">apside</rel>
+<rel type="r_syn" poids="-52" tid="147515">besacier</rel>
+<rel type="r_syn" poids="-52" tid="147553">bolcho</rel>
+<rel type="r_anto" poids="-52" tid="146714">carbonifère</rel>
+<rel type="r_syn" poids="-52" tid="50098">circumduction</rel>
+<rel type="r_anto" poids="-52" tid="7614">divinateur</rel>
+<rel type="r_syn" poids="-52" tid="147754">désoxygénant</rel>
+<rel type="r_syn" poids="-52" tid="47362">finitisme</rel>
+<rel type="r_syn" poids="-52" tid="32015">gynécomastie</rel>
+<rel type="r_syn" poids="-52" tid="128475">happelourde</rel>
+<rel type="r_syn" poids="-52" tid="89499">hucher</rel>
+<rel type="r_anto" poids="-52" tid="38400">incestueusement</rel>
+<rel type="r_syn" poids="-52" tid="112750">inule</rel>
+<rel type="r_syn" poids="-52" tid="113807">isotopique</rel>
+<rel type="r_anto" poids="-52" tid="25441">marital</rel>
+<rel type="r_syn" poids="-52" tid="149060">maréomètre</rel>
+<rel type="r_syn" poids="-52" tid="149106">melliflue</rel>
+<rel type="r_syn" poids="-52" tid="59411">misérabiliste</rel>
+<rel type="r_syn" poids="-52" tid="115825">nativisme</rel>
+<rel type="r_anto" poids="-52" tid="46854">obstétrique</rel>
+<rel type="r_syn" poids="-52" tid="85867">orthoscopique</rel>
+<rel type="r_anto" poids="-52" tid="149433">ostéogénique</rel>
+<rel type="r_syn" poids="-52" tid="19987">porridge</rel>
+<rel type="r_anto" poids="-52" tid="53781">précordial</rel>
+<rel type="r_anto" poids="-52" tid="47827">préventive</rel>
+<rel type="r_syn" poids="-52" tid="66550">résolutoire</rel>
+<rel type="r_anto" poids="-52" tid="33594">sessile</rel>
+<rel type="r_syn" poids="-52" tid="11123">soutier</rel>
+<rel type="r_anto" poids="-52" tid="31136">thermonucléaire</rel>
+<rel type="r_syn" poids="-52" tid="108427">trille</rel>
+<rel type="r_anto" poids="-52" tid="100911">télescopique</rel>
+<rel type="r_syn" poids="-52" tid="151279">vernaliser</rel>
+<rel type="r_syn" poids="-52" tid="151317">vincamine</rel>
+<rel type="r_syn" poids="-52" tid="63604">à couvert de</rel>
+<rel type="r_syn" poids="-53" tid="158009">Epicure</rel>
+<rel type="r_anto" poids="-53" tid="89629">affablement</rel>
+<rel type="r_syn" poids="-53" tid="12354">asystolie</rel>
+<rel type="r_syn" poids="-53" tid="22274">discophile</rel>
+<rel type="r_syn" poids="-53" tid="19461">dulie</rel>
+<rel type="r_anto" poids="-53" tid="77871">détergent</rel>
+<rel type="r_syn" poids="-53" tid="35460">enterrage</rel>
+<rel type="r_anto" poids="-53" tid="112161">galonné</rel>
+<rel type="r_anto" poids="-53" tid="40471">incestueux</rel>
+<rel type="r_syn" poids="-53" tid="63816">latinisme</rel>
+<rel type="r_syn" poids="-53" tid="149118">messin</rel>
+<rel type="r_syn" poids="-53" tid="149154">mimologie</rel>
+<rel type="r_syn" poids="-53" tid="84912">nitrocellulose</rel>
+<rel type="r_syn" poids="-53" tid="149346">nué</rel>
+<rel type="r_anto" poids="-53" tid="126419">obstétrical</rel>
+<rel type="r_syn" poids="-53" tid="64918">pendiller</rel>
+<rel type="r_syn" poids="-53" tid="17287">pilulaire</rel>
+<rel type="r_syn" poids="-53" tid="1013">sacramentaire</rel>
+<rel type="r_anto" poids="-53" tid="40161">saliens</rel>
+<rel type="r_anto" poids="-53" tid="32847">salutaire</rel>
+<rel type="r_anto" poids="-53" tid="151335">virostatique</rel>
+<rel type="r_syn" poids="-54" tid="25788">antipollution</rel>
+<rel type="r_anto" poids="-54" tid="127718">aortique</rel>
+<rel type="r_syn" poids="-54" tid="53682">bondrée</rel>
+<rel type="r_syn" poids="-54" tid="37480">bradypepsie</rel>
+<rel type="r_anto" poids="-54" tid="146937">cantalou</rel>
+<rel type="r_syn" poids="-54" tid="66276">centrage</rel>
+<rel type="r_syn" poids="-54" tid="71800">cyclorameur</rel>
+<rel type="r_syn" poids="-54" tid="29494">démêlures</rel>
+<rel type="r_anto" poids="-54" tid="12193">explosible</rel>
+<rel type="r_syn" poids="-54" tid="148177">follette</rel>
+<rel type="r_anto" poids="-54" tid="130430">glaceur</rel>
+<rel type="r_syn" poids="-54" tid="86475">hansart</rel>
+<rel type="r_syn" poids="-54" tid="53798">lare</rel>
+<rel type="r_syn" poids="-54" tid="96593">micrographique</rel>
+<rel type="r_anto" poids="-54" tid="39816">modèle</rel>
+<rel type="r_anto" poids="-54" tid="60334">nodulaire</rel>
+<rel type="r_anto" poids="-54" tid="71495">orbicole</rel>
+<rel type="r_syn" poids="-54" tid="149436">ostéose</rel>
+<rel type="r_anto" poids="-54" tid="131687">par-devers</rel>
+<rel type="r_syn" poids="-54" tid="86680">polarité</rel>
+<rel type="r_syn" poids="-54" tid="93810">protomé</rel>
+<rel type="r_syn" poids="-54" tid="12914">recalcification</rel>
+<rel type="r_syn" poids="-54" tid="5957">rubéfiant</rel>
+<rel type="r_anto" poids="-54" tid="83758">sis</rel>
+<rel type="r_anto" poids="-54" tid="115794">structuraliste</rel>
+<rel type="r_anto" poids="-54" tid="36671">théorétique</rel>
+<rel type="r_anto" poids="-54" tid="65093">tondant</rel>
+<rel type="r_syn" poids="-55" tid="58623">Maurice Novarina</rel>
+<rel type="r_syn" poids="-55" tid="147214">achromaticité</rel>
+<rel type="r_syn" poids="-55" tid="41695">ammoniacal</rel>
+<rel type="r_anto" poids="-55" tid="124332">ascèse</rel>
+<rel type="r_anto" poids="-55" tid="39098">biliaire</rel>
+<rel type="r_syn" poids="-55" tid="271">flanchet</rel>
+<rel type="r_anto" poids="-55" tid="42727">indéfectiblement</rel>
+<rel type="r_anto" poids="-55" tid="55191">irénique</rel>
+<rel type="r_syn" poids="-55" tid="148995">lyddite</rel>
+<rel type="r_anto" poids="-55" tid="84137">maghrébin</rel>
+<rel type="r_syn" poids="-55" tid="114649">mangerie</rel>
+<rel type="r_anto" poids="-55" tid="76078">martyr</rel>
+<rel type="r_anto" poids="-55" tid="56412">moresque</rel>
+<rel type="r_anto" poids="-55" tid="18154">médiumnique</rel>
+<rel type="r_anto" poids="-55" tid="133349">sensoriel</rel>
+<rel type="r_syn" poids="-55" tid="20857">siccité</rel>
+<rel type="r_anto" poids="-55" tid="41448">taupé</rel>
+<rel type="r_anto" poids="-55" tid="60411">ultimo</rel>
+<rel type="r_anto" poids="-55" tid="147918">élingué</rel>
+<rel type="r_syn" poids="-56" tid="209">baronnage</rel>
+<rel type="r_syn" poids="-56" tid="50251">bordage</rel>
+<rel type="r_anto" poids="-56" tid="135849">brindezingue</rel>
+<rel type="r_syn" poids="-56" tid="119892">brise-jet</rel>
+<rel type="r_anto" poids="-56" tid="131851">bronchique</rel>
+<rel type="r_anto" poids="-56" tid="108119">coranique</rel>
+<rel type="r_anto" poids="-56" tid="99044">eurasiatique</rel>
+<rel type="r_syn" poids="-56" tid="13540">flacherie</rel>
+<rel type="r_anto" poids="-56" tid="82421">graisseur</rel>
+<rel type="r_anto" poids="-56" tid="122751">hypothécaire</rel>
+<rel type="r_syn" poids="-56" tid="148846">lamineuse</rel>
+<rel type="r_anto" poids="-56" tid="26009">liégeois</rel>
+<rel type="r_anto" poids="-56" tid="80333">marqueteur</rel>
+<rel type="r_syn" poids="-56" tid="113386">mercure</rel>
+<rel type="r_anto" poids="-56" tid="96593">micrographique</rel>
+<rel type="r_syn" poids="-56" tid="43684">morasse</rel>
+<rel type="r_syn" poids="-56" tid="107601">muscardin</rel>
+<rel type="r_syn" poids="-56" tid="42991">nôtre</rel>
+<rel type="r_syn" poids="-56" tid="92362">pilocarpe</rel>
+<rel type="r_anto" poids="-56" tid="85406">plastique</rel>
+<rel type="r_syn" poids="-56" tid="128572">priorat</rel>
+<rel type="r_syn" poids="-56" tid="63127">proclive</rel>
+<rel type="r_syn" poids="-56" tid="134649">pyrite</rel>
+<rel type="r_anto" poids="-56" tid="23226">pépiniériste</rel>
+<rel type="r_anto" poids="-56" tid="119727">quarto</rel>
+<rel type="r_syn" poids="-56" tid="150750">sulfuration</rel>
+<rel type="r_syn" poids="-56" tid="138920">ségala</rel>
+<rel type="r_syn" poids="-56" tid="43440">étoilement</rel>
+<rel type="r_syn" poids="-57" tid="49749">adiabatique</rel>
+<rel type="r_syn" poids="-57" tid="101550">alpax</rel>
+<rel type="r_anto" poids="-57" tid="48564">annamite</rel>
+<rel type="r_anto" poids="-57" tid="15869">antiradar</rel>
+<rel type="r_anto" poids="-57" tid="100036">brochant</rel>
+<rel type="r_anto" poids="-57" tid="42785">cuivreux</rel>
+<rel type="r_syn" poids="-57" tid="30888">demi-lune</rel>
+<rel type="r_syn" poids="-57" tid="127507">doucin</rel>
+<rel type="r_anto" poids="-57" tid="40393">excrémenteux</rel>
+<rel type="r_syn" poids="-57" tid="124780">ferretier</rel>
+<rel type="r_anto" poids="-57" tid="97568">futurible</rel>
+<rel type="r_syn" poids="-57" tid="61644">gaulis</rel>
+<rel type="r_anto" poids="-57" tid="53790">isobare</rel>
+<rel type="r_syn" poids="-57" tid="97021">lacis</rel>
+<rel type="r_anto" poids="-57" tid="53835">libidinal</rel>
+<rel type="r_syn" poids="-57" tid="94357">mangonneau</rel>
+<rel type="r_anto" poids="-57" tid="50005">morné</rel>
+<rel type="r_anto" poids="-57" tid="52655">orangiste</rel>
+<rel type="r_anto" poids="-57" tid="40090">papelard</rel>
+<rel type="r_syn" poids="-57" tid="66150">passéisme</rel>
+<rel type="r_anto" poids="-57" tid="96851">pièce</rel>
+<rel type="r_anto" poids="-57" tid="91082">pélasgien</rel>
+<rel type="r_anto" poids="-57" tid="39097">qualifiant</rel>
+<rel type="r_syn" poids="-57" tid="150136">regazonner</rel>
+<rel type="r_syn" poids="-57" tid="150268">riffle</rel>
+<rel type="r_anto" poids="-57" tid="106247">ritardando</rel>
+<rel type="r_anto" poids="-57" tid="3709">samoyède</rel>
+<rel type="r_syn" poids="-57" tid="63088">stérer</rel>
+<rel type="r_syn" poids="-57" tid="33128">syzygie</rel>
+<rel type="r_syn" poids="-57" tid="4968">sélaginelle</rel>
+<rel type="r_anto" poids="-57" tid="111477">vénitien</rel>
+<rel type="r_syn" poids="-58" tid="24125">Louisette</rel>
+<rel type="r_anto" poids="-58" tid="118377">amphibologique</rel>
+<rel type="r_syn" poids="-58" tid="38864">antagonique</rel>
+<rel type="r_anto" poids="-58" tid="63515">archanthropien</rel>
+<rel type="r_syn" poids="-58" tid="120994">arrière-main</rel>
+<rel type="r_anto" poids="-58" tid="55715">arsin</rel>
+<rel type="r_syn" poids="-58" tid="97559">bancable</rel>
+<rel type="r_anto" poids="-58" tid="94633">caraïbe</rel>
+<rel type="r_anto" poids="-58" tid="41412">cartonnier</rel>
+<rel type="r_anto" poids="-58" tid="146098">chaîne</rel>
+<rel type="r_syn" poids="-58" tid="1502">desmosome</rel>
+<rel type="r_syn" poids="-58" tid="120381">démutiser</rel>
+<rel type="r_syn" poids="-58" tid="28245">désoxydant</rel>
+<rel type="r_anto" poids="-58" tid="140910">dévonien</rel>
+<rel type="r_syn" poids="-58" tid="117221">fougerole</rel>
+<rel type="r_syn" poids="-58" tid="148467">havrais</rel>
+<rel type="r_anto" poids="-58" tid="98604">largo</rel>
+<rel type="r_syn" poids="-58" tid="16956">mardi</rel>
+<rel type="r_syn" poids="-58" tid="22182">méchage</rel>
+<rel type="r_anto" poids="-58" tid="124363">oblatif</rel>
+<rel type="r_syn" poids="-58" tid="98201">palatinat</rel>
+<rel type="r_anto" poids="-58" tid="50684">parsi</rel>
+<rel type="r_anto" poids="-58" tid="125173">pétéchial</rel>
+<rel type="r_anto" poids="-58" tid="138501">vache</rel>
+<rel type="r_syn" poids="-58" tid="63479">xérographique</rel>
+<rel type="r_syn" poids="-59" tid="4009">anthropique</rel>
+<rel type="r_anto" poids="-59" tid="61902">bipale</rel>
+<rel type="r_anto" poids="-59" tid="144842">bourbonnais</rel>
+<rel type="r_syn" poids="-59" tid="91420">bourrelier</rel>
+<rel type="r_syn" poids="-59" tid="23417">effondrilles</rel>
+<rel type="r_syn" poids="-59" tid="93541">eustatique</rel>
+<rel type="r_syn" poids="-59" tid="82006">francophilie</rel>
+<rel type="r_syn" poids="-59" tid="151574">ginkgo biloba</rel>
+<rel type="r_syn" poids="-59" tid="148325">glycomètre</rel>
+<rel type="r_syn" poids="-59" tid="51143">halbrené</rel>
+<rel type="r_syn" poids="-59" tid="134754">histrion</rel>
+<rel type="r_syn" poids="-59" tid="61070">leucome</rel>
+<rel type="r_anto" poids="-59" tid="11511">manufacturier</rel>
+<rel type="r_anto" poids="-59" tid="26503">mercier</rel>
+<rel type="r_syn" poids="-59" tid="97018">néo-kantisme</rel>
+<rel type="r_anto" poids="-59" tid="33645">obstacle</rel>
+<rel type="r_syn" poids="-59" tid="56975">océanographie</rel>
+<rel type="r_anto" poids="-59" tid="72181">philosophiquement</rel>
+<rel type="r_syn" poids="-59" tid="127641">pseudopode</rel>
+<rel type="r_anto" poids="-59" tid="175915">quadriponctué</rel>
+<rel type="r_anto" poids="-59" tid="150042">raphaélique</rel>
+<rel type="r_syn" poids="-59" tid="67259">revival</rel>
+<rel type="r_syn" poids="-59" tid="150664">stéréoduc</rel>
+<rel type="r_syn" poids="-59" tid="56348">tubaire</rel>
+<rel type="r_syn" poids="-59" tid="100868">uniate</rel>
+<rel type="r_syn" poids="-59" tid="58581">vésiculographie</rel>
+<rel type="r_syn" poids="-59" tid="18914">yohimbine</rel>
+<rel type="r_syn" poids="-60" tid="53421">Asad</rel>
+<rel type="r_syn" poids="-60" tid="188998">Catherine Lara</rel>
+<rel type="r_syn" poids="-60" tid="62117">François-Xavier</rel>
+<rel type="r_syn" poids="-60" tid="225568" te="Sancerre>62067">Sancerre  (commune)</rel>
+<rel type="r_anto" poids="-60" tid="89284">accentuel</rel>
+<rel type="r_anto" poids="-60" tid="147237">adamien</rel>
+<rel type="r_anto" poids="-60" tid="147244">adiré</rel>
+<rel type="r_syn" poids="-60" tid="117937">adnominal</rel>
+<rel type="r_anto" poids="-60" tid="94096">adné</rel>
+<rel type="r_anto" poids="-60" tid="130098">adverbialement</rel>
+<rel type="r_syn" poids="-60" tid="147240">adèle</rel>
+<rel type="r_anto" poids="-60" tid="127205">alcalescent</rel>
+<rel type="r_anto" poids="-60" tid="102862">aliphatique</rel>
+<rel type="r_anto" poids="-60" tid="158796">allemands</rel>
+<rel type="r_anto" poids="-60" tid="57955">altaïque</rel>
+<rel type="r_syn" poids="-60" tid="41854">amarinage</rel>
+<rel type="r_anto" poids="-60" tid="53966">anaglyptique</rel>
+<rel type="r_syn" poids="-60" tid="147327">analycité</rel>
+<rel type="r_anto" poids="-60" tid="86848">anoure</rel>
+<rel type="r_anto" poids="-60" tid="124679">antenais</rel>
+<rel type="r_anto" poids="-60" tid="147388">archipresbytéral</rel>
+<rel type="r_syn" poids="-60" tid="27819">aréique</rel>
+<rel type="r_anto" poids="-60" tid="64140">astigmate</rel>
+<rel type="r_syn" poids="-60" tid="31726">aérolite</rel>
+<rel type="r_anto" poids="-60" tid="107150">bateau</rel>
+<rel type="r_anto" poids="-60" tid="147507">bene</rel>
+<rel type="r_syn" poids="-60" tid="75761">biflèche</rel>
+<rel type="r_syn" poids="-60" tid="121078">bihoreau</rel>
+<rel type="r_anto" poids="-60" tid="147528">billeté</rel>
+<rel type="r_syn" poids="-60" tid="85924">bimbeloterie</rel>
+<rel type="r_syn" poids="-60" tid="44765">biobibliographie</rel>
+<rel type="r_syn" poids="-60" tid="28226">biomorphisme</rel>
+<rel type="r_syn" poids="-60" tid="21772">blanchet</rel>
+<rel type="r_syn" poids="-60" tid="121786">boghead</rel>
+<rel type="r_anto" poids="-60" tid="48352">boulangeable</rel>
+<rel type="r_anto" poids="-60" tid="77976">brahmanique</rel>
+<rel type="r_anto" poids="-60" tid="63061">bromique</rel>
+<rel type="r_syn" poids="-60" tid="83080">broquillon</rel>
+<rel type="r_syn" poids="-60" tid="146913">cacaotière</rel>
+<rel type="r_anto" poids="-60" tid="94653">cacaoyer</rel>
+<rel type="r_anto" poids="-60" tid="63337">cachectique</rel>
+<rel type="r_anto" poids="-60" tid="36775">campanien</rel>
+<rel type="r_anto" poids="-60" tid="10541">caquetant</rel>
+<rel type="r_anto" poids="-60" tid="106747">caravagiste</rel>
+<rel type="r_syn" poids="-60" tid="146949">cardeuse</rel>
+<rel type="r_syn" poids="-60" tid="53131">cardialgie</rel>
+<rel type="r_syn" poids="-60" tid="146950">cardiorespiratoire</rel>
+<rel type="r_syn" poids="-60" tid="226893">cartilage thyroïdien</rel>
+<rel type="r_anto" poids="-60" tid="83040">chafouin</rel>
+<rel type="r_syn" poids="-60" tid="133920">chérifien</rel>
+<rel type="r_syn" poids="-60" tid="97628">cimetière</rel>
+<rel type="r_syn" poids="-60" tid="26704">cinnamome</rel>
+<rel type="r_anto" poids="-60" tid="102866">cireux</rel>
+<rel type="r_anto" poids="-60" tid="15386">citron</rel>
+<rel type="r_syn" poids="-60" tid="63827">clavetage</rel>
+<rel type="r_anto" poids="-60" tid="71668">climatérique</rel>
+<rel type="r_syn" poids="-60" tid="63981">clitocybe</rel>
+<rel type="r_anto" poids="-60" tid="147052">cloché</rel>
+<rel type="r_syn" poids="-60" tid="36066">coccolithophore</rel>
+<rel type="r_syn" poids="-60" tid="63279">communisant</rel>
+<rel type="r_anto" poids="-60" tid="109178">consomptif</rel>
+<rel type="r_syn" poids="-60" tid="90266">craton</rel>
+<rel type="r_anto" poids="-60" tid="129818">curarisant</rel>
+<rel type="r_anto" poids="-60" tid="128991">cénobitique</rel>
+<rel type="r_syn" poids="-60" tid="116485">cérite</rel>
+<rel type="r_anto" poids="-60" tid="138419">côté</rel>
+<rel type="r_syn" poids="-60" tid="120531">danien</rel>
+<rel type="r_syn" poids="-60" tid="65950">deux-quatre</rel>
+<rel type="r_anto" poids="-60" tid="135936">dispositif</rel>
+<rel type="r_syn" poids="-60" tid="147814">dix-neuvièmement</rel>
+<rel type="r_anto" poids="-60" tid="147816">djaïn</rel>
+<rel type="r_syn" poids="-60" tid="75719">doublet</rel>
+<rel type="r_syn" poids="-60" tid="16841">décigrade</rel>
+<rel type="r_syn" poids="-60" tid="35402">défectif</rel>
+<rel type="r_anto" poids="-60" tid="90804">déprédateur</rel>
+<rel type="r_syn" poids="-60" tid="123582">désincarcération</rel>
+<rel type="r_syn" poids="-60" tid="36392">emblaver</rel>
+<rel type="r_anto" poids="-60" tid="76194">encolleuse</rel>
+<rel type="r_anto" poids="-60" tid="100304">ensiforme</rel>
+<rel type="r_syn" poids="-60" tid="42709">estagnon</rel>
+<rel type="r_anto" poids="-60" tid="114653">ethmoïde</rel>
+<rel type="r_anto" poids="-60" tid="25350">euclidien</rel>
+<rel type="r_anto" poids="-60" tid="148075">euskarien</rel>
+<rel type="r_syn" poids="-60" tid="51005">extensomètre</rel>
+<rel type="r_syn" poids="-60" tid="148117">falunière</rel>
+<rel type="r_anto" poids="-60" tid="101804">ferrant</rel>
+<rel type="r_syn" poids="-60" tid="122983">feuillant</rel>
+<rel type="r_anto" poids="-60" tid="97467">filmique</rel>
+<rel type="r_anto" poids="-60" tid="80046">flandrin</rel>
+<rel type="r_anto" poids="-60" tid="17076">fluor</rel>
+<rel type="r_anto" poids="-60" tid="27403">fromager</rel>
+<rel type="r_anto" poids="-60" tid="52522">froment</rel>
+<rel type="r_anto" poids="-60" tid="98528">fréquence</rel>
+<rel type="r_syn" poids="-60" tid="32601">fétial</rel>
+<rel type="r_anto" poids="-60" tid="104416">gallois</rel>
+<rel type="r_syn" poids="-60" tid="148245">gamet</rel>
+<rel type="r_syn" poids="-60" tid="49443">glissando</rel>
+<rel type="r_syn" poids="-60" tid="50120">gnosticisme</rel>
+<rel type="r_anto" poids="-60" tid="42600">graminée</rel>
+<rel type="r_syn" poids="-60" tid="148407">guai</rel>
+<rel type="r_anto" poids="-60" tid="61919">géodésique</rel>
+<rel type="r_anto" poids="-60" tid="80049">géologiquement</rel>
+<rel type="r_anto" poids="-60" tid="148285">géophage</rel>
+<rel type="r_anto" poids="-60" tid="148483">hersé</rel>
+<rel type="r_anto" poids="-60" tid="148494">hippiatrique</rel>
+<rel type="r_anto" poids="-60" tid="1499">hippique</rel>
+<rel type="r_syn" poids="-60" tid="116815">houssiner</rel>
+<rel type="r_syn" poids="-60" tid="111295">hyménium</rel>
+<rel type="r_anto" poids="-60" tid="90055">hémolytique</rel>
+<rel type="r_syn" poids="-60" tid="116144">immanentisme</rel>
+<rel type="r_anto" poids="-60" tid="99480">in-dix-huit</rel>
+<rel type="r_anto" poids="-60" tid="30419">inca</rel>
+<rel type="r_anto" poids="-60" tid="85402">incantatoire</rel>
+<rel type="r_anto" poids="-60" tid="126152">induré</rel>
+<rel type="r_anto" poids="-60" tid="119125">insectifuge</rel>
+<rel type="r_syn" poids="-60" tid="90478">invertine</rel>
+<rel type="r_syn" poids="-60" tid="148711">irisable</rel>
+<rel type="r_anto" poids="-60" tid="62227">isohypse</rel>
+<rel type="r_anto" poids="-60" tid="1044">isotherme</rel>
+<rel type="r_anto" poids="-60" tid="93257">isotope</rel>
+<rel type="r_anto" poids="-60" tid="2000">israélite</rel>
+<rel type="r_anto" poids="-60" tid="86711">jaune</rel>
+<rel type="r_anto" poids="-60" tid="60598">jectisse</rel>
+<rel type="r_syn" poids="-60" tid="88924">jeudi</rel>
+<rel type="r_anto" poids="-60" tid="80919">kinesthésique</rel>
+<rel type="r_syn" poids="-60" tid="95355">kirghiz</rel>
+<rel type="r_anto" poids="-60" tid="130706">labial</rel>
+<rel type="r_syn" poids="-60" tid="58634">lanthane</rel>
+<rel type="r_anto" poids="-60" tid="92569">lerche</rel>
+<rel type="r_syn" poids="-60" tid="53060">leucorrhée</rel>
+<rel type="r_syn" poids="-60" tid="148932">limousinant</rel>
+<rel type="r_syn" poids="-60" tid="122963">lithophanie</rel>
+<rel type="r_anto" poids="-60" tid="80626">louvet</rel>
+<rel type="r_anto" poids="-60" tid="70358">lénifiant</rel>
+<rel type="r_anto" poids="-60" tid="128770">madicole</rel>
+<rel type="r_anto" poids="-60" tid="28154">malléolaire</rel>
+<rel type="r_syn" poids="-60" tid="71453">mandchou</rel>
+<rel type="r_syn" poids="-60" tid="60932">mandriner</rel>
+<rel type="r_anto" poids="-60" tid="16789">mauritanien</rel>
+<rel type="r_anto" poids="-60" tid="41005">maxillaire</rel>
+<rel type="r_anto" poids="-60" tid="42346">membraneux</rel>
+<rel type="r_syn" poids="-60" tid="8635">modulor</rel>
+<rel type="r_syn" poids="-60" tid="67151">moviola</rel>
+<rel type="r_anto" poids="-60" tid="21433">muletier</rel>
+<rel type="r_anto" poids="-60" tid="33359">mégissier</rel>
+<rel type="r_anto" poids="-60" tid="89544">méniscal</rel>
+<rel type="r_anto" poids="-60" tid="69925">nickélifère</rel>
+<rel type="r_anto" poids="-60" tid="78460">nomenclateur</rel>
+<rel type="r_anto" poids="-60" tid="28606">néo-calédonien</rel>
+<rel type="r_anto" poids="-60" tid="149312">nîmois</rel>
+<rel type="r_syn" poids="-60" tid="26853">ophiographie</rel>
+<rel type="r_anto" poids="-60" tid="133053">orbitaire</rel>
+<rel type="r_syn" poids="-60" tid="149420">orobe</rel>
+<rel type="r_anto" poids="-60" tid="52970">palatal</rel>
+<rel type="r_anto" poids="-60" tid="38618">paronyme</rel>
+<rel type="r_anto" poids="-60" tid="58920">participial</rel>
+<rel type="r_syn" poids="-60" tid="149566">passe-boule</rel>
+<rel type="r_syn" poids="-60" tid="2709">phonétisme</rel>
+<rel type="r_anto" poids="-60" tid="111643">phtalique</rel>
+<rel type="r_syn" poids="-60" tid="149700">pisan</rel>
+<rel type="r_anto" poids="-60" tid="126762">placard</rel>
+<rel type="r_syn" poids="-60" tid="58062">plieur</rel>
+<rel type="r_anto" poids="-60" tid="149726">pluricausal</rel>
+<rel type="r_anto" poids="-60" tid="88302">pneumonique</rel>
+<rel type="r_anto" poids="-60" tid="59579">polarisé</rel>
+<rel type="r_anto" poids="-60" tid="90984">préventivement</rel>
+<rel type="r_anto" poids="-60" tid="64978">ptérodactyle</rel>
+<rel type="r_anto" poids="-60" tid="17109">pékinois</rel>
+<rel type="r_anto" poids="-60" tid="135272">péristyle</rel>
+<rel type="r_syn" poids="-60" tid="6827">quadriphonie</rel>
+<rel type="r_anto" poids="-60" tid="1762">quatorzièmement</rel>
+<rel type="r_syn" poids="-60" tid="3718">quilleur</rel>
+<rel type="r_syn" poids="-60" tid="64608">quintefeuille</rel>
+<rel type="r_anto" poids="-60" tid="150003">quirinal</rel>
+<rel type="r_syn" poids="-60" tid="46177">ravelin</rel>
+<rel type="r_syn" poids="-60" tid="80789">rodomont</rel>
+<rel type="r_syn" poids="-60" tid="123389">rohart</rel>
+<rel type="r_anto" poids="-60" tid="82775">rubato</rel>
+<rel type="r_anto" poids="-60" tid="101945">russophile</rel>
+<rel type="r_syn" poids="-60" tid="86566">sabelle</rel>
+<rel type="r_syn" poids="-60" tid="150351">sacquebute</rel>
+<rel type="r_syn" poids="-60" tid="86964">sagou</rel>
+<rel type="r_anto" poids="-60" tid="92731">scissile</rel>
+<rel type="r_syn" poids="-60" tid="31525">serre-file</rel>
+<rel type="r_anto" poids="-60" tid="8794">sismique</rel>
+<rel type="r_anto" poids="-60" tid="101838">slovaque</rel>
+<rel type="r_anto" poids="-60" tid="129677">sommital</rel>
+<rel type="r_syn" poids="-60" tid="94610">souchette</rel>
+<rel type="r_anto" poids="-60" tid="49627">sphénoïde</rel>
+<rel type="r_syn" poids="-60" tid="74247">stalagmométrie</rel>
+<rel type="r_syn" poids="-60" tid="99111">stimugène</rel>
+<rel type="r_anto" poids="-60" tid="78100">stéroïde</rel>
+<rel type="r_anto" poids="-60" tid="150712">subkilotonnique</rel>
+<rel type="r_syn" poids="-60" tid="75414">surnatalité</rel>
+<rel type="r_syn" poids="-60" tid="18701">synaptase</rel>
+<rel type="r_anto" poids="-60" tid="66496">tanné</rel>
+<rel type="r_syn" poids="-60" tid="11713">taquage</rel>
+<rel type="r_anto" poids="-60" tid="150887">techno-bureaucratique</rel>
+<rel type="r_syn" poids="-60" tid="15907">thermodurcissable</rel>
+<rel type="r_syn" poids="-60" tid="101376">thrombus</rel>
+<rel type="r_anto" poids="-60" tid="7530">thyroïde</rel>
+<rel type="r_anto" poids="-60" tid="22228">thébaïque</rel>
+<rel type="r_syn" poids="-60" tid="125853">théophylline</rel>
+<rel type="r_anto" poids="-60" tid="56010">tokharien</rel>
+<rel type="r_syn" poids="-60" tid="13741">tontisse</rel>
+<rel type="r_syn" poids="-60" tid="29078">toronneuse</rel>
+<rel type="r_syn" poids="-60" tid="151136">tryptophane</rel>
+<rel type="r_syn" poids="-60" tid="34280">trématage</rel>
+<rel type="r_syn" poids="-60" tid="40127">tubulidenté</rel>
+<rel type="r_syn" poids="-60" tid="72240">tétramère</rel>
+<rel type="r_syn" poids="-60" tid="151203">vaccaire</rel>
+<rel type="r_syn" poids="-60" tid="151239">vaso-moteur</rel>
+<rel type="r_anto" poids="-60" tid="91748">vermiforme</rel>
+<rel type="r_anto" poids="-60" tid="112160">vernaculaire</rel>
+<rel type="r_syn" poids="-60" tid="75299">versification</rel>
+<rel type="r_anto" poids="-60" tid="142269">viking</rel>
+<rel type="r_anto" poids="-60" tid="15324">vocalique</rel>
+<rel type="r_syn" poids="-60" tid="114048">vélique</rel>
+<rel type="r_anto" poids="-60" tid="151383">wormien</rel>
+<rel type="r_anto" poids="-60" tid="151384">wurmien</rel>
+<rel type="r_anto" poids="-60" tid="41183">yttrifère</rel>
+<rel type="r_anto" poids="-60" tid="113040">yéménite</rel>
+<rel type="r_anto" poids="-60" tid="30453">zoosémiotique</rel>
+<rel type="r_anto" poids="-60" tid="147888">édimbourgeois</rel>
+<rel type="r_anto" poids="-60" tid="147913">électrobiologique</rel>
+<rel type="r_syn" poids="-60" tid="147912">éléatique</rel>
+<rel type="r_anto" poids="-60" tid="148006">épeirogénique</rel>
+<rel type="r_syn" poids="-60" tid="25443">épistémologiste</rel>
+<rel type="r_syn" poids="-60" tid="77764">épontiller</rel>
+<rel type="r_syn" poids="-60" tid="17667">épurge</rel>
+<rel type="r_anto" poids="-60" tid="46618">érubescent</rel>
+<rel type="r_anto" poids="-61" tid="78597">quechua</rel>
+<rel type="r_anto" poids="-67" tid="144052">didyme</rel>
+<rel type="r_anto" poids="-70" tid="114555">adrénergique</rel>
+<rel type="r_syn" poids="-70" tid="136718">archière</rel>
+<rel type="r_syn" poids="-70" tid="67318">butor</rel>
+<rel type="r_anto" poids="-70" tid="75786">charentais</rel>
+<rel type="r_syn" poids="-70" tid="147137">corfiote</rel>
+<rel type="r_anto" poids="-70" tid="47642">didactiquement</rel>
+<rel type="r_anto" poids="-70" tid="132652">dimension</rel>
+<rel type="r_anto" poids="-70" tid="51676">finlandais</rel>
+<rel type="r_syn" poids="-70" tid="5506">galate</rel>
+<rel type="r_syn" poids="-70" tid="44018">gorgerin</rel>
+<rel type="r_syn" poids="-70" tid="113421">hourdis</rel>
+<rel type="r_anto" poids="-70" tid="148809">kilotonnique</rel>
+<rel type="r_syn" poids="-70" tid="112639">larghetto</rel>
+<rel type="r_syn" poids="-70" tid="148930">limniculture</rel>
+<rel type="r_anto" poids="-70" tid="5901">maraîcher</rel>
+<rel type="r_anto" poids="-70" tid="4840">marxien</rel>
+<rel type="r_syn" poids="-70" tid="137951">melchior</rel>
+<rel type="r_anto" poids="-70" tid="133933">nitrosé</rel>
+<rel type="r_anto" poids="-70" tid="149383">oghamique</rel>
+<rel type="r_anto" poids="-70" tid="36259">palatin</rel>
+<rel type="r_anto" poids="-70" tid="142894">pie</rel>
+<rel type="r_anto" poids="-70" tid="104463">proverbialement</rel>
+<rel type="r_anto" poids="-70" tid="42078">prétexte</rel>
+<rel type="r_anto" poids="-70" tid="12182">psychopompe</rel>
+<rel type="r_syn" poids="-70" tid="127996">pupe</rel>
+<rel type="r_syn" poids="-70" tid="63302">saint Bernardin de Sienne</rel>
+<rel type="r_syn" poids="-70" tid="150708">subcarpatique</rel>
+<rel type="r_syn" poids="-70" tid="81419">viguerie</rel>
+<rel type="r_syn" poids="-70" tid="41183">yttrifère</rel>
+<rel type="r_anto" poids="-70" tid="21228">éburnéen</rel>
+<rel type="r_anto" poids="-80" tid="113671">extenseur</rel>
+<rel type="r_anto" poids="-80" tid="123874">glottique</rel>
+<rel type="r_anto" poids="-80" tid="64399">herméneutique</rel>
+<rel type="r_syn" poids="-80" tid="117511">heur</rel>
+<rel type="r_anto" poids="-80" tid="86806">hibernant</rel>
+<rel type="r_syn" poids="-80" tid="10688">hyalite</rel>
+<rel type="r_anto" poids="-80" tid="59744">idoine</rel>
+<rel type="r_anto" poids="-80" tid="148700">iodotannique</rel>
+<rel type="r_syn" poids="-80" tid="149658">physostigma</rel>
+<rel type="r_anto" poids="-80" tid="113472">primipare</rel>
+<rel type="r_anto" poids="-80" tid="149977">quadrifide</rel>
+<rel type="r_anto" poids="-80" tid="5809">rogatoire</rel>
+<rel type="r_syn" poids="-80" tid="150670">sternopage</rel>
+<rel type="r_anto" poids="-80" tid="111980">surrénal</rel>
+<rel type="r_anto" poids="-80" tid="90308">syllogistique</rel>
+<rel type="r_syn" poids="-90" tid="147524">bibliste</rel>
+<rel type="r_syn" poids="-90" tid="6318">flint</rel>
+<rel type="r_anto" poids="-90" tid="3476">fluorhydrique</rel>
+<rel type="r_anto" poids="-90" tid="60528">gymnique</rel>
+<rel type="r_syn" poids="-90" tid="148763">jigger</rel>
+<rel type="r_syn" poids="-90" tid="148859">lariforme</rel>
+<rel type="r_syn" poids="-100" tid="24202">bauhinia</rel>
+<rel type="r_syn" poids="-100" tid="6411">spondylose</rel>
+<rel type="r_anto" poids="-100" tid="121351">séraphique</rel>
+
+</entrant>
+
+</jdm></CODE>
+
+
+    </div>
+    <TH>
+
+
+
+
+</TABLE>
+</div>
+  </body>
+</html>

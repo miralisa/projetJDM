@@ -1,0 +1,2527 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+ <head>
+    <title>Le Rézo sous forme XML</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+  </head>
+<body STYLE="overflow:auto;
+overflow-x:auto;
+overflow-y:visible;overflow-x:hidden;
+padding: 0px; margin: 0px; border: 0px;">
+
+<div class="jdm-level1-block">
+
+	<div class="jdm-prompt-block">
+    <div class="jdm-prompt">
+    Le Rézo XML    </div>
+	</div>
+
+</div>
+
+<div class="jdm-level2-block">
+<TABLE border="0" width="100%" cellspacing="0" cellpadding="0%"
+	summary="jeuxdemots" bgcolor="white" style="opacity:0.90;">
+<TR><TH valign="top" width="200pts">
+	<TH  align="left">
+
+    <div id="rezoform" style="position:relative;top:-43px;">
+    
+
+    Lien de cette page: <URL>?gotermsubmit=Chercher&gotermrel=_INFO-NO-MORE-QUESTION&output=onlyxml</URL>
+    <br>
+    <br>
+
+    <br>FROM CACHE : size=155552 - date=January 06 2018 21:54:06. - 1180341 secondes ago - 13.661354166667 days ago <br>Size=155552 char<br>
+<br>
+
+Code XML (cf source)<br>
+
+
+<CODE>
+<jdm>
+<mot poids="6094" id="163012">_INFO-NO-MORE-QUESTION</mot>
+<mot-formate>_INFO-NO-MORE-QUESTION</mot-formate>
+<def></def>
+
+<sortant>
+<rel type="r_associated" poids="103" tid="313085">_INFO</rel>
+<rel type="r_infopot" poids="100" tid="254877">_POL-NEUTRE_PC</rel>
+<rel type="r_associated" poids="57" tid="434484">QUESTION</rel>
+<rel type="r_associated" poids="56" tid="434483">MORE</rel>
+<rel type="r_pos" poids="31" tid="313083">Info:</rel>
+<rel type="r_infopot" poids="30" tid="241794">_POL-NEUTRE</rel>
+</sortant>
+
+<entrant>
+<rel type="r_infopot" poids="240" tid="150">chat</rel>
+<rel type="r_infopot" poids="181" tid="83536">ONU</rel>
+<rel type="r_locution" poids="122" tid="313085">_INFO</rel>
+<rel type="r_infopot" poids="110" tid="164503">Edvige</rel>
+<rel type="r_infopot" poids="110" tid="140100">viande</rel>
+<rel type="r_infopot" poids="109" tid="80980">Poulidor</rel>
+<rel type="r_infopot" poids="108" tid="121584">mercaptan</rel>
+<rel type="r_infopot" poids="106" tid="145373">pompe</rel>
+<rel type="r_infopot" poids="90" tid="113281">Alfred Jarry</rel>
+<rel type="r_infopot" poids="90" tid="163235">Barack Obama</rel>
+<rel type="r_infopot" poids="90" tid="24804">bouillabaisse</rel>
+<rel type="r_infopot" poids="90" tid="120225">châtaigne</rel>
+<rel type="r_infopot" poids="90" tid="113093">jungle</rel>
+<rel type="r_infopot" poids="90" tid="97647">magie</rel>
+<rel type="r_infopot" poids="90" tid="42494">poulette</rel>
+<rel type="r_infopot" poids="90" tid="165990">prendre le taureau par les cornes</rel>
+<rel type="r_infopot" poids="90" tid="92299">quarantaine</rel>
+<rel type="r_infopot" poids="90" tid="76337">saillant</rel>
+<rel type="r_infopot" poids="90" tid="144421">tiare</rel>
+<rel type="r_infopot" poids="90" tid="35778">troll</rel>
+<rel type="r_infopot" poids="90" tid="136786">ville</rel>
+<rel type="r_infopot" poids="90" tid="6890">voiture</rel>
+<rel type="r_infopot" poids="90" tid="120949">vêtement</rel>
+<rel type="r_infopot" poids="80" tid="162843">LSA</rel>
+<rel type="r_infopot" poids="80" tid="152674">Noir Désir</rel>
+<rel type="r_infopot" poids="80" tid="64325">aimer</rel>
+<rel type="r_infopot" poids="80" tid="20537">attacher</rel>
+<rel type="r_infopot" poids="80" tid="60">bleu</rel>
+<rel type="r_infopot" poids="80" tid="166160">café instantané</rel>
+<rel type="r_infopot" poids="80" tid="101085">centrale nucléaire</rel>
+<rel type="r_infopot" poids="80" tid="146098">chaîne</rel>
+<rel type="r_infopot" poids="80" tid="12105">communication</rel>
+<rel type="r_infopot" poids="80" tid="16033">cuisine</rel>
+<rel type="r_infopot" poids="80" tid="142599">grippe</rel>
+<rel type="r_infopot" poids="80" tid="142914">image</rel>
+<rel type="r_infopot" poids="80" tid="53314">jeu</rel>
+<rel type="r_infopot" poids="80" tid="81934">main</rel>
+<rel type="r_infopot" poids="80" tid="130164">manger</rel>
+<rel type="r_infopot" poids="80" tid="153162">masseuse</rel>
+<rel type="r_infopot" poids="80" tid="101285">musée</rel>
+<rel type="r_infopot" poids="80" tid="28399">neuf</rel>
+<rel type="r_infopot" poids="80" tid="81713">ogre</rel>
+<rel type="r_infopot" poids="80" tid="16930">prise</rel>
+<rel type="r_infopot" poids="80" tid="101913">président</rel>
+<rel type="r_infopot" poids="80" tid="12843">raie</rel>
+<rel type="r_infopot" poids="80" tid="145670">sphinx</rel>
+<rel type="r_infopot" poids="80" tid="166225">sport de combat</rel>
+<rel type="r_infopot" poids="80" tid="119858">tremper</rel>
+<rel type="r_infopot" poids="80" tid="47209">vie privée</rel>
+<rel type="r_infopot" poids="70" tid="166568">1999</rel>
+<rel type="r_infopot" poids="70" tid="40382">Out of Africa</rel>
+<rel type="r_infopot" poids="70" tid="5692">baiser</rel>
+<rel type="r_infopot" poids="70" tid="67895">bisou</rel>
+<rel type="r_infopot" poids="70" tid="47918">boire</rel>
+<rel type="r_infopot" poids="70" tid="117423">bouteille</rel>
+<rel type="r_infopot" poids="70" tid="63509">casser</rel>
+<rel type="r_infopot" poids="70" tid="15867">casser sa pipe</rel>
+<rel type="r_infopot" poids="70" tid="63625">changement</rel>
+<rel type="r_infopot" poids="70" tid="24670">chapeau</rel>
+<rel type="r_infopot" poids="70" tid="24742">cinéma</rel>
+<rel type="r_infopot" poids="70" tid="68574">correspondance</rel>
+<rel type="r_infopot" poids="70" tid="129503">démonstration</rel>
+<rel type="r_infopot" poids="70" tid="65064">ensemble</rel>
+<rel type="r_infopot" poids="70" tid="28891">entièrement</rel>
+<rel type="r_infopot" poids="70" tid="23178">grand</rel>
+<rel type="r_infopot" poids="70" tid="165089">heure d'hiver</rel>
+<rel type="r_infopot" poids="70" tid="104993">informatique</rel>
+<rel type="r_infopot" poids="70" tid="42930">inimitié</rel>
+<rel type="r_infopot" poids="70" tid="139377">lame</rel>
+<rel type="r_infopot" poids="70" tid="71578">lit</rel>
+<rel type="r_infopot" poids="70" tid="45179">maison</rel>
+<rel type="r_infopot" poids="70" tid="24443">manifestation</rel>
+<rel type="r_infopot" poids="70" tid="107120">mois</rel>
+<rel type="r_infopot" poids="70" tid="123539">moka</rel>
+<rel type="r_infopot" poids="70" tid="132838">mort-vivant</rel>
+<rel type="r_infopot" poids="70" tid="79145">méchamment</rel>
+<rel type="r_infopot" poids="70" tid="143607">nature</rel>
+<rel type="r_infopot" poids="70" tid="30171">navire</rel>
+<rel type="r_infopot" poids="70" tid="56280">oreille</rel>
+<rel type="r_infopot" poids="70" tid="143249">paille</rel>
+<rel type="r_infopot" poids="70" tid="154463">panthère rose</rel>
+<rel type="r_infopot" poids="70" tid="140318">parler</rel>
+<rel type="r_infopot" poids="70" tid="124771">parole</rel>
+<rel type="r_infopot" poids="70" tid="39448">passion</rel>
+<rel type="r_infopot" poids="70" tid="116477">personne</rel>
+<rel type="r_infopot" poids="70" tid="128571">poids plume</rel>
+<rel type="r_infopot" poids="70" tid="91356">pont</rel>
+<rel type="r_infopot" poids="70" tid="118414">poubelle</rel>
+<rel type="r_infopot" poids="70" tid="86306">prendre</rel>
+<rel type="r_infopot" poids="70" tid="46706">pression</rel>
+<rel type="r_infopot" poids="70" tid="21729">prince charmant</rel>
+<rel type="r_infopot" poids="70" tid="32204">raclette</rel>
+<rel type="r_infopot" poids="70" tid="39301">raison</rel>
+<rel type="r_infopot" poids="70" tid="101484">renifler</rel>
+<rel type="r_infopot" poids="70" tid="19961">saké</rel>
+<rel type="r_infopot" poids="70" tid="4131">samedi</rel>
+<rel type="r_infopot" poids="70" tid="109601">senteur</rel>
+<rel type="r_infopot" poids="70" tid="91109">sirop</rel>
+<rel type="r_infopot" poids="70" tid="51528">son</rel>
+<rel type="r_infopot" poids="70" tid="13861">temps</rel>
+<rel type="r_infopot" poids="70" tid="124550">tirer</rel>
+<rel type="r_infopot" poids="70" tid="167792">travail à la chaîne</rel>
+<rel type="r_infopot" poids="70" tid="48486">vaudou</rel>
+<rel type="r_infopot" poids="70" tid="61327">voie lactée</rel>
+<rel type="r_infopot" poids="70" tid="91801">écrire</rel>
+<rel type="r_infopot" poids="64" tid="216972">cuisine méditerranéenne</rel>
+<rel type="r_infopot" poids="61" tid="127899">SNCF</rel>
+<rel type="r_infopot" poids="61" tid="52660">clé</rel>
+<rel type="r_infopot" poids="61" tid="84897">laboratoire</rel>
+<rel type="r_infopot" poids="60" tid="20065">1</rel>
+<rel type="r_infopot" poids="60" tid="14354">2</rel>
+<rel type="r_infopot" poids="60" tid="167499">7 décembre 1941</rel>
+<rel type="r_infopot" poids="60" tid="159515" te="::>13:116477>29:2760>14">Qu'est-ce qu'une personne pourrait détester ?</rel>
+<rel type="r_infopot" poids="60" tid="163760" te="::>13:74860>29:127428>15">Où un homme pourrait foutre ?</rel>
+<rel type="r_infopot" poids="60" tid="161260" te="::>13:74860>29:4914>14">Qu'est-ce qu'un homme pourrait plaquer ?</rel>
+<rel type="r_infopot" poids="60" tid="166557" te="::>13:75334>29:89749>14">Qu'est-ce qu'un musicien pourrait offrir ?</rel>
+<rel type="r_infopot" poids="60" tid="160343" te="::>14:116477>29:78823>15">Où pourrait-on flatter une personne ?</rel>
+<rel type="r_infopot" poids="60" tid="164601" te="::>14:157275>29:109883>15">Où pourrait-on arracher une mauvaise herbe ?</rel>
+<rel type="r_infopot" poids="60" tid="157464" te="::>14:45179>29:39058>16">Avec quoi pourrait-on hanter une maison ?</rel>
+<rel type="r_infopot" poids="60" tid="163403" te="::>16:19356>29:21845>15">Où pourrait-on pénétrer avec un sexe ?</rel>
+<rel type="r_infopot" poids="60" tid="156855" te="::>16:76784>29:15562>13">Qui pourrait blesser avec un pistolet ?</rel>
+<rel type="r_infopot" poids="60" tid="161043" te="::>16:94650>29:117283>14">Que pourrait-on rincer avec un évier ?</rel>
+<rel type="r_infopot" poids="60" tid="83532">A Song for My Father</rel>
+<rel type="r_infopot" poids="60" tid="42313">Asie</rel>
+<rel type="r_infopot" poids="60" tid="123452">Beat generation</rel>
+<rel type="r_infopot" poids="60" tid="71391">Bill Gates</rel>
+<rel type="r_infopot" poids="60" tid="152295">Bogota</rel>
+<rel type="r_infopot" poids="60" tid="113816">CAC 40</rel>
+<rel type="r_infopot" poids="60" tid="90373">CFA</rel>
+<rel type="r_infopot" poids="60" tid="7423">CRS</rel>
+<rel type="r_infopot" poids="60" tid="71834">Cenon</rel>
+<rel type="r_infopot" poids="60" tid="137069">Chute d'Icare</rel>
+<rel type="r_infopot" poids="60" tid="66460">Dracula</rel>
+<rel type="r_infopot" poids="60" tid="5983">Elgin</rel>
+<rel type="r_infopot" poids="60" tid="5712">Ferdinand Berthoud</rel>
+<rel type="r_infopot" poids="60" tid="3185">Gulmenita</rel>
+<rel type="r_infopot" poids="60" tid="120989">Isabelle II</rel>
+<rel type="r_infopot" poids="60" tid="217601">La Reine des neiges</rel>
+<rel type="r_infopot" poids="60" tid="217588">Les Habits neufs de l'empereur</rel>
+<rel type="r_infopot" poids="60" tid="217592">Les Musiciens de Brême</rel>
+<rel type="r_infopot" poids="60" tid="153088">Marylin Monroe</rel>
+<rel type="r_infopot" poids="60" tid="165194">Michael Crichton</rel>
+<rel type="r_infopot" poids="60" tid="84159">Mouvement républicain populaire</rel>
+<rel type="r_infopot" poids="60" tid="36815">N</rel>
+<rel type="r_infopot" poids="60" tid="166692">Nip/Tuck</rel>
+<rel type="r_infopot" poids="60" tid="31009">Peacock</rel>
+<rel type="r_infopot" poids="60" tid="81107">Percier</rel>
+<rel type="r_infopot" poids="60" tid="139593">Protistes</rel>
+<rel type="r_infopot" poids="60" tid="75408">Romane</rel>
+<rel type="r_infopot" poids="60" tid="48672">Second Empire</rel>
+<rel type="r_infopot" poids="60" tid="194983">Sim</rel>
+<rel type="r_infopot" poids="60" tid="217603">Sinbad le marin</rel>
+<rel type="r_infopot" poids="60" tid="166696">Six pieds sous terre</rel>
+<rel type="r_infopot" poids="60" tid="167149">Winnie</rel>
+<rel type="r_infopot" poids="60" tid="56040">abat-faim</rel>
+<rel type="r_infopot" poids="60" tid="89154">acquêt</rel>
+<rel type="r_infopot" poids="60" tid="135301">agave</rel>
+<rel type="r_infopot" poids="60" tid="46307">agni</rel>
+<rel type="r_infopot" poids="60" tid="21208">agoniste</rel>
+<rel type="r_infopot" poids="60" tid="17666">agréable</rel>
+<rel type="r_infopot" poids="60" tid="107685">algie</rel>
+<rel type="r_infopot" poids="60" tid="140175">allegro</rel>
+<rel type="r_infopot" poids="60" tid="152360">amis</rel>
+<rel type="r_infopot" poids="60" tid="94075">anecdote</rel>
+<rel type="r_infopot" poids="60" tid="17559">animal</rel>
+<rel type="r_infopot" poids="60" tid="152629">animal marin</rel>
+<rel type="r_infopot" poids="60" tid="38864">antagonique</rel>
+<rel type="r_infopot" poids="60" tid="71960">antique</rel>
+<rel type="r_infopot" poids="60" tid="98040">architecture</rel>
+<rel type="r_infopot" poids="60" tid="120155">argousin</rel>
+<rel type="r_infopot" poids="60" tid="98802">armement ancien</rel>
+<rel type="r_infopot" poids="60" tid="100810">arranger</rel>
+<rel type="r_infopot" poids="60" tid="45209">arrangé</rel>
+<rel type="r_infopot" poids="60" tid="8879">assassiné</rel>
+<rel type="r_infopot" poids="60" tid="106290">assurance</rel>
+<rel type="r_infopot" poids="60" tid="41971">avaler</rel>
+<rel type="r_infopot" poids="60" tid="19036">avoir en aversion</rel>
+<rel type="r_infopot" poids="60" tid="25063">bagatelle</rel>
+<rel type="r_infopot" poids="60" tid="59618">bain</rel>
+<rel type="r_infopot" poids="60" tid="42957">bec de gaz</rel>
+<rel type="r_infopot" poids="60" tid="33296">besoin</rel>
+<rel type="r_infopot" poids="60" tid="92205">borraginacée</rel>
+<rel type="r_infopot" poids="60" tid="127794">bougie</rel>
+<rel type="r_infopot" poids="60" tid="119014">boulangerie</rel>
+<rel type="r_infopot" poids="60" tid="54795">bricolage</rel>
+<rel type="r_infopot" poids="60" tid="92491">bug</rel>
+<rel type="r_infopot" poids="60" tid="18777">bulle</rel>
+<rel type="r_infopot" poids="60" tid="67318">butor</rel>
+<rel type="r_infopot" poids="60" tid="30316">cacher</rel>
+<rel type="r_infopot" poids="60" tid="152722">cadeaux</rel>
+<rel type="r_infopot" poids="60" tid="152710">caisse noire</rel>
+<rel type="r_infopot" poids="60" tid="47331">calcul</rel>
+<rel type="r_infopot" poids="60" tid="79444">campagne</rel>
+<rel type="r_infopot" poids="60" tid="73118">cancoillotte</rel>
+<rel type="r_infopot" poids="60" tid="51266">caniculaire</rel>
+<rel type="r_infopot" poids="60" tid="7848">cannelé</rel>
+<rel type="r_infopot" poids="60" tid="33217">cantine</rel>
+<rel type="r_infopot" poids="60" tid="105381">caresse</rel>
+<rel type="r_infopot" poids="60" tid="50739">caresser</rel>
+<rel type="r_infopot" poids="60" tid="107896">carreau</rel>
+<rel type="r_infopot" poids="60" tid="117453">cartonnerie</rel>
+<rel type="r_infopot" poids="60" tid="45671">catholique</rel>
+<rel type="r_infopot" poids="60" tid="145594">chagrine</rel>
+<rel type="r_infopot" poids="60" tid="61835">chair</rel>
+<rel type="r_infopot" poids="60" tid="132857">chaise</rel>
+<rel type="r_infopot" poids="60" tid="90075">chambre</rel>
+<rel type="r_infopot" poids="60" tid="95605">champ</rel>
+<rel type="r_infopot" poids="60" tid="25484">champignon</rel>
+<rel type="r_infopot" poids="60" tid="103365">chant</rel>
+<rel type="r_infopot" poids="60" tid="58135">chanter</rel>
+<rel type="r_infopot" poids="60" tid="110719">chapon</rel>
+<rel type="r_infopot" poids="60" tid="31138">charité</rel>
+<rel type="r_infopot" poids="60" tid="140429">chasse</rel>
+<rel type="r_infopot" poids="60" tid="78768">chasser</rel>
+<rel type="r_infopot" poids="60" tid="4455">chien</rel>
+<rel type="r_infopot" poids="60" tid="119520">chier</rel>
+<rel type="r_infopot" poids="60" tid="141977">chiffre</rel>
+<rel type="r_infopot" poids="60" tid="87409">choix</rel>
+<rel type="r_infopot" poids="60" tid="27053">choquer</rel>
+<rel type="r_infopot" poids="60" tid="53551">choux</rel>
+<rel type="r_infopot" poids="60" tid="160599">chute de neige</rel>
+<rel type="r_infopot" poids="60" tid="216425">château hanté</rel>
+<rel type="r_infopot" poids="60" tid="77306">ciel</rel>
+<rel type="r_infopot" poids="60" tid="83208">cirque</rel>
+<rel type="r_infopot" poids="60" tid="30318">civilisation</rel>
+<rel type="r_infopot" poids="60" tid="18828">coach</rel>
+<rel type="r_infopot" poids="60" tid="84221">cogner</rel>
+<rel type="r_infopot" poids="60" tid="131539">comploter</rel>
+<rel type="r_infopot" poids="60" tid="173875">conjonction de subordination</rel>
+<rel type="r_infopot" poids="60" tid="62519">connecter</rel>
+<rel type="r_infopot" poids="60" tid="13855">conseil</rel>
+<rel type="r_infopot" poids="60" tid="84248">constituant</rel>
+<rel type="r_infopot" poids="60" tid="55137">construction</rel>
+<rel type="r_infopot" poids="60" tid="139156">conte</rel>
+<rel type="r_infopot" poids="60" tid="90328">copier</rel>
+<rel type="r_infopot" poids="60" tid="25460">corbuche</rel>
+<rel type="r_infopot" poids="60" tid="100549">cordon</rel>
+<rel type="r_infopot" poids="60" tid="130749">coton-poudre</rel>
+<rel type="r_infopot" poids="60" tid="2666">coucher</rel>
+<rel type="r_infopot" poids="60" tid="54226">couette</rel>
+<rel type="r_infopot" poids="60" tid="216567" te="couler>34042">couler  (fabriquer)</rel>
+<rel type="r_infopot" poids="60" tid="41417">coup</rel>
+<rel type="r_infopot" poids="60" tid="128828">couper</rel>
+<rel type="r_infopot" poids="60" tid="153681">courte</rel>
+<rel type="r_infopot" poids="60" tid="129264">creuser</rel>
+<rel type="r_infopot" poids="60" tid="143522">cri</rel>
+<rel type="r_infopot" poids="60" tid="164520">crise de la quarantaine</rel>
+<rel type="r_infopot" poids="60" tid="80199">cuisiner</rel>
+<rel type="r_infopot" poids="60" tid="22885">culture</rel>
+<rel type="r_infopot" poids="60" tid="20307">câlin</rel>
+<rel type="r_infopot" poids="60" tid="141470">dan</rel>
+<rel type="r_infopot" poids="60" tid="20219">descendance</rel>
+<rel type="r_infopot" poids="60" tid="162289">dessous de table</rel>
+<rel type="r_infopot" poids="60" tid="6744">destroyer</rel>
+<rel type="r_infopot" poids="60" tid="5292">deux</rel>
+<rel type="r_infopot" poids="60" tid="27292">diplôme</rel>
+<rel type="r_infopot" poids="60" tid="35352">discours</rel>
+<rel type="r_infopot" poids="60" tid="62706">doigt</rel>
+<rel type="r_infopot" poids="60" tid="40620">dolce vita</rel>
+<rel type="r_infopot" poids="60" tid="43253">dormir</rel>
+<rel type="r_infopot" poids="60" tid="126285">dos</rel>
+<rel type="r_infopot" poids="60" tid="26173">douceur</rel>
+<rel type="r_infopot" poids="60" tid="110965">douteux</rel>
+<rel type="r_infopot" poids="60" tid="143138">douze</rel>
+<rel type="r_infopot" poids="60" tid="142558">dragon</rel>
+<rel type="r_infopot" poids="60" tid="65808">droite</rel>
+<rel type="r_infopot" poids="60" tid="82390">dysphorie</rel>
+<rel type="r_infopot" poids="60" tid="8788">décharger</rel>
+<rel type="r_infopot" poids="60" tid="34961">déferrage</rel>
+<rel type="r_infopot" poids="60" tid="94936">définitivement</rel>
+<rel type="r_infopot" poids="60" tid="145464">délicieux</rel>
+<rel type="r_infopot" poids="60" tid="152611">délit d'initié</rel>
+<rel type="r_infopot" poids="60" tid="45324">démêler</rel>
+<rel type="r_infopot" poids="60" tid="63865">dépôt</rel>
+<rel type="r_infopot" poids="60" tid="65012">eau</rel>
+<rel type="r_infopot" poids="60" tid="55544">emballer</rel>
+<rel type="r_infopot" poids="60" tid="44863">embrouillamini</rel>
+<rel type="r_infopot" poids="60" tid="86903">engeance</rel>
+<rel type="r_infopot" poids="60" tid="133275">ennéa-</rel>
+<rel type="r_infopot" poids="60" tid="141641">enthousiasme</rel>
+<rel type="r_infopot" poids="60" tid="162830">esperanto</rel>
+<rel type="r_infopot" poids="60" tid="15472">espionnage</rel>
+<rel type="r_infopot" poids="60" tid="84223">essai</rel>
+<rel type="r_infopot" poids="60" tid="102246">essieu</rel>
+<rel type="r_infopot" poids="60" tid="93325">expirer</rel>
+<rel type="r_infopot" poids="60" tid="111795">exprimer</rel>
+<rel type="r_infopot" poids="60" tid="141906">fenêtre</rel>
+<rel type="r_infopot" poids="60" tid="29592">film</rel>
+<rel type="r_infopot" poids="60" tid="59034">fièvre</rel>
+<rel type="r_infopot" poids="60" tid="28985">fleur</rel>
+<rel type="r_infopot" poids="60" tid="16480">fondre</rel>
+<rel type="r_infopot" poids="60" tid="95807">forcené</rel>
+<rel type="r_infopot" poids="60" tid="146632">forêt</rel>
+<rel type="r_infopot" poids="60" tid="134670">fourchette</rel>
+<rel type="r_infopot" poids="60" tid="127428">foutre</rel>
+<rel type="r_infopot" poids="60" tid="28720">fredonner</rel>
+<rel type="r_infopot" poids="60" tid="49803">froid</rel>
+<rel type="r_infopot" poids="60" tid="17013">froissure</rel>
+<rel type="r_infopot" poids="60" tid="78688">fructifier</rel>
+<rel type="r_infopot" poids="60" tid="84319">frégate</rel>
+<rel type="r_infopot" poids="60" tid="81373">fée</rel>
+<rel type="r_infopot" poids="60" tid="123040">gagner</rel>
+<rel type="r_infopot" poids="60" tid="100668">gain</rel>
+<rel type="r_infopot" poids="60" tid="81563">galaxie</rel>
+<rel type="r_infopot" poids="60" tid="103080">gardien</rel>
+<rel type="r_infopot" poids="60" tid="141964">glace</rel>
+<rel type="r_infopot" poids="60" tid="217769" te="gland>34624">gland  (chêne)</rel>
+<rel type="r_infopot" poids="60" tid="30202">gonze</rel>
+<rel type="r_infopot" poids="60" tid="34300">gorgée</rel>
+<rel type="r_infopot" poids="60" tid="111414">gospel</rel>
+<rel type="r_infopot" poids="60" tid="115817">goupiller</rel>
+<rel type="r_infopot" poids="60" tid="161396">grand méchant loup</rel>
+<rel type="r_infopot" poids="60" tid="19288">gratter</rel>
+<rel type="r_infopot" poids="60" tid="50889">gris</rel>
+<rel type="r_infopot" poids="60" tid="61952">gronder</rel>
+<rel type="r_infopot" poids="60" tid="5070">grossir</rel>
+<rel type="r_infopot" poids="60" tid="53541">groupe</rel>
+<rel type="r_infopot" poids="60" tid="112327">grève</rel>
+<rel type="r_infopot" poids="60" tid="2149">gâteau</rel>
+<rel type="r_infopot" poids="60" tid="81298">habitacle</rel>
+<rel type="r_infopot" poids="60" tid="7899">habitation</rel>
+<rel type="r_infopot" poids="60" tid="17927">haine</rel>
+<rel type="r_infopot" poids="60" tid="21742">hamburger</rel>
+<rel type="r_infopot" poids="60" tid="95154">haute couture</rel>
+<rel type="r_infopot" poids="60" tid="216544">hexakosioihexekontahexaphobie</rel>
+<rel type="r_infopot" poids="60" tid="36018">hexaèdre</rel>
+<rel type="r_infopot" poids="60" tid="88311">hodh</rel>
+<rel type="r_infopot" poids="60" tid="74860">homme</rel>
+<rel type="r_infopot" poids="60" tid="113421">hourdis</rel>
+<rel type="r_infopot" poids="60" tid="180219">hépatite virale</rel>
+<rel type="r_infopot" poids="60" tid="69783">illusoirement</rel>
+<rel type="r_infopot" poids="60" tid="89802">incoercible</rel>
+<rel type="r_infopot" poids="60" tid="116346">insecte et arachnide</rel>
+<rel type="r_infopot" poids="60" tid="91594">instrument de musique</rel>
+<rel type="r_infopot" poids="60" tid="104968">irrassasiable</rel>
+<rel type="r_infopot" poids="60" tid="15712">irrécupérable</rel>
+<rel type="r_infopot" poids="60" tid="31987">isotonique</rel>
+<rel type="r_infopot" poids="60" tid="86711">jaune</rel>
+<rel type="r_infopot" poids="60" tid="128209">jouer</rel>
+<rel type="r_infopot" poids="60" tid="40252">jouissif</rel>
+<rel type="r_infopot" poids="60" tid="2026">journal</rel>
+<rel type="r_infopot" poids="60" tid="148773">jumelles</rel>
+<rel type="r_infopot" poids="60" tid="26418">jus de fruit</rel>
+<rel type="r_infopot" poids="60" tid="155592">la coupe est pleine</rel>
+<rel type="r_infopot" poids="60" tid="140770">laine</rel>
+<rel type="r_infopot" poids="60" tid="52119">langue</rel>
+<rel type="r_infopot" poids="60" tid="90053">lavabo</rel>
+<rel type="r_infopot" poids="60" tid="148874">lavée</rel>
+<rel type="r_infopot" poids="60" tid="20493">lazaro</rel>
+<rel type="r_infopot" poids="60" tid="82627">le Roi des aulnes</rel>
+<rel type="r_infopot" poids="60" tid="166199">le conflit et le compromis</rel>
+<rel type="r_infopot" poids="60" tid="163689">les religions</rel>
+<rel type="r_infopot" poids="60" tid="143983">lesté</rel>
+<rel type="r_infopot" poids="60" tid="74260">liaison</rel>
+<rel type="r_infopot" poids="60" tid="145484">libération</rel>
+<rel type="r_infopot" poids="60" tid="131240">lire</rel>
+<rel type="r_infopot" poids="60" tid="38710">littérature</rel>
+<rel type="r_infopot" poids="60" tid="142787">livre</rel>
+<rel type="r_infopot" poids="60" tid="89568">logique</rel>
+<rel type="r_infopot" poids="60" tid="91088">louer</rel>
+<rel type="r_infopot" poids="60" tid="64713">lourd</rel>
+<rel type="r_infopot" poids="60" tid="76887">lundi</rel>
+<rel type="r_infopot" poids="60" tid="141367">lune</rel>
+<rel type="r_infopot" poids="60" tid="97173">magasin</rel>
+<rel type="r_infopot" poids="60" tid="84137">maghrébin</rel>
+<rel type="r_infopot" poids="60" tid="35595">magie noire</rel>
+<rel type="r_infopot" poids="60" tid="51947">maintenir</rel>
+<rel type="r_infopot" poids="60" tid="98338">maladroitement</rel>
+<rel type="r_infopot" poids="60" tid="26477">mariage</rel>
+<rel type="r_infopot" poids="60" tid="143180">marque</rel>
+<rel type="r_infopot" poids="60" tid="34663">masser</rel>
+<rel type="r_infopot" poids="60" tid="155845">match de rugby</rel>
+<rel type="r_infopot" poids="60" tid="152598">match de tennis</rel>
+<rel type="r_infopot" poids="60" tid="45620">mater</rel>
+<rel type="r_infopot" poids="60" tid="70477">maître</rel>
+<rel type="r_infopot" poids="60" tid="81145">maîtresse</rel>
+<rel type="r_infopot" poids="60" tid="16632">maïeuticien</rel>
+<rel type="r_infopot" poids="60" tid="139790">maïs</rel>
+<rel type="r_infopot" poids="60" tid="3376">membres</rel>
+<rel type="r_infopot" poids="60" tid="94497">mercredi</rel>
+<rel type="r_infopot" poids="60" tid="127270">merde</rel>
+<rel type="r_infopot" poids="60" tid="66517">monstre</rel>
+<rel type="r_infopot" poids="60" tid="12831">montagne</rel>
+<rel type="r_infopot" poids="60" tid="122864">mort</rel>
+<rel type="r_infopot" poids="60" tid="32132">mot</rel>
+<rel type="r_infopot" poids="60" tid="152868">msn</rel>
+<rel type="r_infopot" poids="60" tid="124402">multitude</rel>
+<rel type="r_infopot" poids="60" tid="108320">mutarotation</rel>
+<rel type="r_infopot" poids="60" tid="122956">mère</rel>
+<rel type="r_infopot" poids="60" tid="67368">mécanique</rel>
+<rel type="r_infopot" poids="60" tid="24997">médicament</rel>
+<rel type="r_infopot" poids="60" tid="92626">métatarse</rel>
+<rel type="r_infopot" poids="60" tid="20911">nager</rel>
+<rel type="r_infopot" poids="60" tid="30397">natation</rel>
+<rel type="r_infopot" poids="60" tid="99740">naviguer</rel>
+<rel type="r_infopot" poids="60" tid="46297">nectarifère</rel>
+<rel type="r_infopot" poids="60" tid="3699">neige</rel>
+<rel type="r_infopot" poids="60" tid="107477">nez</rel>
+<rel type="r_infopot" poids="60" tid="20965">nourriture</rel>
+<rel type="r_infopot" poids="60" tid="126405">noyau</rel>
+<rel type="r_infopot" poids="60" tid="36222">nu</rel>
+<rel type="r_infopot" poids="60" tid="17968">nuage</rel>
+<rel type="r_infopot" poids="60" tid="17916">nuages</rel>
+<rel type="r_infopot" poids="60" tid="149348">nulle</rel>
+<rel type="r_infopot" poids="60" tid="1802">nécromancie</rel>
+<rel type="r_infopot" poids="60" tid="139386">observer</rel>
+<rel type="r_infopot" poids="60" tid="135425">obséder</rel>
+<rel type="r_infopot" poids="60" tid="80253">ode</rel>
+<rel type="r_infopot" poids="60" tid="16724">ogham</rel>
+<rel type="r_infopot" poids="60" tid="162634">omega</rel>
+<rel type="r_infopot" poids="60" tid="98703">opinel</rel>
+<rel type="r_infopot" poids="60" tid="104323">orbite</rel>
+<rel type="r_infopot" poids="60" tid="44335">organe</rel>
+<rel type="r_infopot" poids="60" tid="15893">orthomagmatique</rel>
+<rel type="r_infopot" poids="60" tid="153441">ours blanc</rel>
+<rel type="r_infopot" poids="60" tid="54271">ouvrir</rel>
+<rel type="r_infopot" poids="60" tid="61283">pain</rel>
+<rel type="r_infopot" poids="60" tid="73333">par chance</rel>
+<rel type="r_infopot" poids="60" tid="3233">partie</rel>
+<rel type="r_infopot" poids="60" tid="157827">partie du corps</rel>
+<rel type="r_infopot" poids="60" tid="183571">passage à tabac</rel>
+<rel type="r_infopot" poids="60" tid="8990">patte</rel>
+<rel type="r_infopot" poids="60" tid="151867">pattes</rel>
+<rel type="r_infopot" poids="60" tid="35841">peinture</rel>
+<rel type="r_infopot" poids="60" tid="42196">penser</rel>
+<rel type="r_infopot" poids="60" tid="2553">personnel</rel>
+<rel type="r_infopot" poids="60" tid="9443">petit-boeuf</rel>
+<rel type="r_infopot" poids="60" tid="49116">pharaon</rel>
+<rel type="r_infopot" poids="60" tid="139513">phrase</rel>
+<rel type="r_infopot" poids="60" tid="142894">pie</rel>
+<rel type="r_infopot" poids="60" tid="34898">pied</rel>
+<rel type="r_infopot" poids="60" tid="79400">pinceau</rel>
+<rel type="r_infopot" poids="60" tid="8994">piste</rel>
+<rel type="r_infopot" poids="60" tid="109533">pizza</rel>
+<rel type="r_infopot" poids="60" tid="119229">placidité</rel>
+<rel type="r_infopot" poids="60" tid="122393">plage</rel>
+<rel type="r_infopot" poids="60" tid="32873">plaisirs</rel>
+<rel type="r_infopot" poids="60" tid="115835">plantage</rel>
+<rel type="r_infopot" poids="60" tid="145941">plante</rel>
+<rel type="r_infopot" poids="60" tid="91046">pluie</rel>
+<rel type="r_infopot" poids="60" tid="81044">plus tard</rel>
+<rel type="r_infopot" poids="60" tid="139906">poche</rel>
+<rel type="r_infopot" poids="60" tid="11473">poché</rel>
+<rel type="r_infopot" poids="60" tid="117787">poignée</rel>
+<rel type="r_infopot" poids="60" tid="68467">poisson</rel>
+<rel type="r_infopot" poids="60" tid="10576">politique</rel>
+<rel type="r_infopot" poids="60" tid="75680">polygone</rel>
+<rel type="r_infopot" poids="60" tid="37201">pomme</rel>
+<rel type="r_infopot" poids="60" tid="215004" te="pomme>87286">pomme  (fruit)</rel>
+<rel type="r_infopot" poids="60" tid="67056">pot-au-feu</rel>
+<rel type="r_infopot" poids="60" tid="72995">poussé</rel>
+<rel type="r_infopot" poids="60" tid="7804">pouvoir</rel>
+<rel type="r_infopot" poids="60" tid="206151">prendre la fuite</rel>
+<rel type="r_infopot" poids="60" tid="4451">prier</rel>
+<rel type="r_infopot" poids="60" tid="58386">programmer</rel>
+<rel type="r_infopot" poids="60" tid="104252">préambule</rel>
+<rel type="r_infopot" poids="60" tid="75219">préencollé</rel>
+<rel type="r_infopot" poids="60" tid="118538">prénom</rel>
+<rel type="r_infopot" poids="60" tid="132332">prêtre</rel>
+<rel type="r_infopot" poids="60" tid="213351" te="pub>19654">pub  (bar)</rel>
+<rel type="r_infopot" poids="60" tid="38697">public</rel>
+<rel type="r_infopot" poids="60" tid="89502">publier</rel>
+<rel type="r_infopot" poids="60" tid="108794">période</rel>
+<rel type="r_infopot" poids="60" tid="115401">quart</rel>
+<rel type="r_infopot" poids="60" tid="23499">radicalement</rel>
+<rel type="r_infopot" poids="60" tid="93528">raisin</rel>
+<rel type="r_infopot" poids="60" tid="36004">rame</rel>
+<rel type="r_infopot" poids="60" tid="69379">rater</rel>
+<rel type="r_infopot" poids="60" tid="87889">raviole</rel>
+<rel type="r_infopot" poids="60" tid="130196">rechercher</rel>
+<rel type="r_infopot" poids="60" tid="89718">recul</rel>
+<rel type="r_infopot" poids="60" tid="79853">regard</rel>
+<rel type="r_infopot" poids="60" tid="105814">regarder</rel>
+<rel type="r_infopot" poids="60" tid="38325">rencogner</rel>
+<rel type="r_infopot" poids="60" tid="74736">repas</rel>
+<rel type="r_infopot" poids="60" tid="112587">revue</rel>
+<rel type="r_infopot" poids="60" tid="117283">rincer</rel>
+<rel type="r_infopot" poids="60" tid="67170">rocher</rel>
+<rel type="r_infopot" poids="60" tid="207253">rock industriel</rel>
+<rel type="r_infopot" poids="60" tid="82147">rond</rel>
+<rel type="r_infopot" poids="60" tid="71115">rongeur</rel>
+<rel type="r_infopot" poids="60" tid="33756">rotengle</rel>
+<rel type="r_infopot" poids="60" tid="103001">royaume</rel>
+<rel type="r_infopot" poids="60" tid="20564">rue</rel>
+<rel type="r_infopot" poids="60" tid="120230">réduire</rel>
+<rel type="r_infopot" poids="60" tid="150127">réflexivement</rel>
+<rel type="r_infopot" poids="60" tid="91389">rénine</rel>
+<rel type="r_infopot" poids="60" tid="7049">répétition</rel>
+<rel type="r_infopot" poids="60" tid="48654">rêve</rel>
+<rel type="r_infopot" poids="60" tid="152386">sabots</rel>
+<rel type="r_infopot" poids="60" tid="30886">saison</rel>
+<rel type="r_infopot" poids="60" tid="127329">saluer</rel>
+<rel type="r_infopot" poids="60" tid="215092">sardine à l'huile</rel>
+<rel type="r_infopot" poids="60" tid="47669">sauté</rel>
+<rel type="r_infopot" poids="60" tid="12292">scruter</rel>
+<rel type="r_infopot" poids="60" tid="91453">secousse</rel>
+<rel type="r_infopot" poids="60" tid="36060">secrétaire</rel>
+<rel type="r_infopot" poids="60" tid="30369">sens</rel>
+<rel type="r_infopot" poids="60" tid="26193">sentir</rel>
+<rel type="r_infopot" poids="60" tid="91829">serrer</rel>
+<rel type="r_infopot" poids="60" tid="106249">set</rel>
+<rel type="r_infopot" poids="60" tid="19356">sexe</rel>
+<rel type="r_infopot" poids="60" tid="53002">sexualité</rel>
+<rel type="r_infopot" poids="60" tid="27696">silicifié</rel>
+<rel type="r_infopot" poids="60" tid="99659">siphon</rel>
+<rel type="r_infopot" poids="60" tid="115805">soin</rel>
+<rel type="r_infopot" poids="60" tid="115483">soirée</rel>
+<rel type="r_infopot" poids="60" tid="104520">sort</rel>
+<rel type="r_infopot" poids="60" tid="130210">souhait</rel>
+<rel type="r_infopot" poids="60" tid="66070">sous</rel>
+<rel type="r_infopot" poids="60" tid="158707">spam</rel>
+<rel type="r_infopot" poids="60" tid="56865">sport</rel>
+<rel type="r_infopot" poids="60" tid="116980">squelette</rel>
+<rel type="r_infopot" poids="60" tid="16742">sublimé</rel>
+<rel type="r_infopot" poids="60" tid="27186">substitut</rel>
+<rel type="r_infopot" poids="60" tid="85447">sucer</rel>
+<rel type="r_infopot" poids="60" tid="5834">sucré</rel>
+<rel type="r_infopot" poids="60" tid="46879">sud</rel>
+<rel type="r_infopot" poids="60" tid="103793">techno</rel>
+<rel type="r_infopot" poids="60" tid="53157">terminologie</rel>
+<rel type="r_infopot" poids="60" tid="35925">terrain</rel>
+<rel type="r_infopot" poids="60" tid="14974">timbre fiscal</rel>
+<rel type="r_infopot" poids="60" tid="7970">titre</rel>
+<rel type="r_infopot" poids="60" tid="92836">toilettes</rel>
+<rel type="r_infopot" poids="60" tid="71993">total</rel>
+<rel type="r_infopot" poids="60" tid="82900">toucher</rel>
+<rel type="r_infopot" poids="60" tid="10879">tour</rel>
+<rel type="r_infopot" poids="60" tid="38673">tourner</rel>
+<rel type="r_infopot" poids="60" tid="32322">trancher</rel>
+<rel type="r_infopot" poids="60" tid="151055">transcanadien</rel>
+<rel type="r_infopot" poids="60" tid="127860">troubles de la vision</rel>
+<rel type="r_infopot" poids="60" tid="144102">téléphone</rel>
+<rel type="r_infopot" poids="60" tid="152226">téléscope</rel>
+<rel type="r_infopot" poids="60" tid="144846">tête</rel>
+<rel type="r_infopot" poids="60" tid="40452">unanimisme</rel>
+<rel type="r_infopot" poids="60" tid="29456">union</rel>
+<rel type="r_infopot" poids="60" tid="99571">uratique</rel>
+<rel type="r_infopot" poids="60" tid="54438">vendre</rel>
+<rel type="r_infopot" poids="60" tid="145846">verge</rel>
+<rel type="r_infopot" poids="60" tid="144497">verre</rel>
+<rel type="r_infopot" poids="60" tid="104506">verser</rel>
+<rel type="r_infopot" poids="60" tid="26976">vert</rel>
+<rel type="r_infopot" poids="60" tid="35798">vin</rel>
+<rel type="r_infopot" poids="60" tid="111806">violence</rel>
+<rel type="r_infopot" poids="60" tid="1384">vivant</rel>
+<rel type="r_infopot" poids="60" tid="2442">vivre</rel>
+<rel type="r_infopot" poids="60" tid="25670">voeux</rel>
+<rel type="r_infopot" poids="60" tid="84676">voir</rel>
+<rel type="r_infopot" poids="60" tid="112382">volcan</rel>
+<rel type="r_infopot" poids="60" tid="184823">voyage à forfait</rel>
+<rel type="r_infopot" poids="60" tid="25405">voyager</rel>
+<rel type="r_infopot" poids="60" tid="102816">vue</rel>
+<rel type="r_infopot" poids="60" tid="101628">zodiacal</rel>
+<rel type="r_infopot" poids="60" tid="28184">échange</rel>
+<rel type="r_infopot" poids="60" tid="30387">église</rel>
+<rel type="r_infopot" poids="60" tid="127803">égorger</rel>
+<rel type="r_infopot" poids="60" tid="18128">élan</rel>
+<rel type="r_infopot" poids="60" tid="133949">électrique</rel>
+<rel type="r_infopot" poids="60" tid="5910">épée</rel>
+<rel type="r_infopot" poids="60" tid="123769">étudiant</rel>
+<rel type="r_infopot" poids="60" tid="51458">évident</rel>
+<rel type="r_infopot" poids="60" tid="128629">être bouleversé</rel>
+<rel type="r_infopot" poids="60" tid="13870">être susceptible</rel>
+<rel type="r_infopot" poids="59" tid="163135" te="::>13:122956>29:145209>14">Qu'est-ce qu'une mère pourrait ranger ?</rel>
+<rel type="r_infopot" poids="59" tid="215390" te="::>13:147309>29:44945>49">Quand des amants pourraient se rejoindre ?</rel>
+<rel type="r_infopot" poids="59" tid="157297" te="::>13:35358>29:145209>14">Qu'est-ce qu'une femme de ménage pourrait ranger ?</rel>
+<rel type="r_infopot" poids="59" tid="161487" te="::>13:95245>29:104506>16">Avec quoi une fille pourrait verser ?</rel>
+<rel type="r_infopot" poids="59" tid="166611" te="::>14:115370>29:37232>15">Où pourrait-on idolâtrer un dieu ?</rel>
+<rel type="r_infopot" poids="59" tid="158078" te="::>14:17559>29:78823>13">Qui pourrait flatter un animal ?</rel>
+<rel type="r_infopot" poids="59" tid="161235" te="::>14:26477>29:25111>15">Où pourrait-on officialiser un mariage ?</rel>
+<rel type="r_infopot" poids="59" tid="164233" te="::>14:32132>29:91801>16">Avec quoi pourrait-on écrire un mot ?</rel>
+<rel type="r_infopot" poids="59" tid="157867" te="::>14:68439>29:61069>13">Qui pourrait ausculter un individu ?</rel>
+<rel type="r_infopot" poids="59" tid="159991" te="::>14:92471>29:56038>13">Qui pourrait sécher un linge ?</rel>
+<rel type="r_infopot" poids="59" tid="162707" te="::>16:104729>29:105814>13">Qui pourrait regarder avec des lunettes ?</rel>
+<rel type="r_infopot" poids="59" tid="163609" te="::>16:52660>29:24346>15">Où pourrait-on fermer avec une clé ?</rel>
+<rel type="r_infopot" poids="59" tid="143768">A</rel>
+<rel type="r_infopot" poids="59" tid="52509">BMW</rel>
+<rel type="r_infopot" poids="59" tid="217584">Blanche-Neige</rel>
+<rel type="r_infopot" poids="59" tid="114882">Chanel</rel>
+<rel type="r_infopot" poids="59" tid="103806">Charlotte Brontë</rel>
+<rel type="r_infopot" poids="59" tid="152253">Commerce</rel>
+<rel type="r_infopot" poids="59" tid="191174">DTC</rel>
+<rel type="r_infopot" poids="59" tid="158987">DUT</rel>
+<rel type="r_infopot" poids="59" tid="81816">Des gens sans importance</rel>
+<rel type="r_infopot" poids="59" tid="80223">Ferrer</rel>
+<rel type="r_infopot" poids="59" tid="15778">Floridéophycées</rel>
+<rel type="r_infopot" poids="59" tid="155902">HDR</rel>
+<rel type="r_infopot" poids="59" tid="155380">Henri Salvador</rel>
+<rel type="r_infopot" poids="59" tid="140321">Huron</rel>
+<rel type="r_infopot" poids="59" tid="53294">IIIe siècle</rel>
+<rel type="r_infopot" poids="59" tid="173193">Japonais</rel>
+<rel type="r_infopot" poids="59" tid="166266">Jeux & Stratégie</rel>
+<rel type="r_infopot" poids="59" tid="121947">Josip Broz</rel>
+<rel type="r_infopot" poids="59" tid="73779">Khalkhas</rel>
+<rel type="r_infopot" poids="59" tid="121259">La Terre vaine</rel>
+<rel type="r_infopot" poids="59" tid="215478">Le Petit Chaperon rouge</rel>
+<rel type="r_infopot" poids="59" tid="78755">Le Roux</rel>
+<rel type="r_infopot" poids="59" tid="119050">Lusignan</rel>
+<rel type="r_infopot" poids="59" tid="116561">Mayapán</rel>
+<rel type="r_infopot" poids="59" tid="40546">OACI</rel>
+<rel type="r_infopot" poids="59" tid="91662">Pichegru</rel>
+<rel type="r_infopot" poids="59" tid="165066">Rachida Dati</rel>
+<rel type="r_infopot" poids="59" tid="2886">Ryoan-ji</rel>
+<rel type="r_infopot" poids="59" tid="152131">Star Trek</rel>
+<rel type="r_infopot" poids="59" tid="136788">TGV</rel>
+<rel type="r_infopot" poids="59" tid="217606">Tom Pouce</rel>
+<rel type="r_infopot" poids="59" tid="167502">Tora! Tora! Tora!</rel>
+<rel type="r_infopot" poids="59" tid="57947">Tour-du-Pin</rel>
+<rel type="r_infopot" poids="59" tid="81126">Vesterålen</rel>
+<rel type="r_infopot" poids="59" tid="90199">aboyer</rel>
+<rel type="r_infopot" poids="59" tid="121147">abreuver</rel>
+<rel type="r_infopot" poids="59" tid="109439">accord</rel>
+<rel type="r_infopot" poids="59" tid="101592">agnosie</rel>
+<rel type="r_infopot" poids="59" tid="11375">alcoolique</rel>
+<rel type="r_infopot" poids="59" tid="142553">alliance</rel>
+<rel type="r_infopot" poids="59" tid="81195">antithéâtre</rel>
+<rel type="r_infopot" poids="59" tid="86831">arabinose</rel>
+<rel type="r_infopot" poids="59" tid="153470">argos</rel>
+<rel type="r_infopot" poids="59" tid="166523">arme contondante</rel>
+<rel type="r_infopot" poids="59" tid="140904">asile</rel>
+<rel type="r_infopot" poids="59" tid="46912">association</rel>
+<rel type="r_infopot" poids="59" tid="147431">asturien</rel>
+<rel type="r_infopot" poids="59" tid="89333">auto-érotisme</rel>
+<rel type="r_infopot" poids="59" tid="36642">aventure</rel>
+<rel type="r_infopot" poids="59" tid="68159">averse</rel>
+<rel type="r_infopot" poids="59" tid="85263">babouin</rel>
+<rel type="r_infopot" poids="59" tid="147466">baguettes</rel>
+<rel type="r_infopot" poids="59" tid="60152">bassin</rel>
+<rel type="r_infopot" poids="59" tid="114783">bibelot</rel>
+<rel type="r_infopot" poids="59" tid="131963">bidouiller</rel>
+<rel type="r_infopot" poids="59" tid="144229">bon</rel>
+<rel type="r_infopot" poids="59" tid="145817">bourse</rel>
+<rel type="r_infopot" poids="59" tid="129374">briffe</rel>
+<rel type="r_infopot" poids="59" tid="23637">butiner</rel>
+<rel type="r_infopot" poids="59" tid="64972">buveur</rel>
+<rel type="r_infopot" poids="59" tid="66992">cannelure</rel>
+<rel type="r_infopot" poids="59" tid="142412">canon</rel>
+<rel type="r_infopot" poids="59" tid="37504">centaine</rel>
+<rel type="r_infopot" poids="59" tid="102277">chasteté</rel>
+<rel type="r_infopot" poids="59" tid="72467">chaudières</rel>
+<rel type="r_infopot" poids="59" tid="89926">chef</rel>
+<rel type="r_infopot" poids="59" tid="70606">chemise</rel>
+<rel type="r_infopot" poids="59" tid="85095">chevaucher</rel>
+<rel type="r_infopot" poids="59" tid="7773">chimérique</rel>
+<rel type="r_infopot" poids="59" tid="117807">cierge</rel>
+<rel type="r_infopot" poids="59" tid="117739">clavier</rel>
+<rel type="r_infopot" poids="59" tid="67998">contraception</rel>
+<rel type="r_infopot" poids="59" tid="143246">coquille</rel>
+<rel type="r_infopot" poids="59" tid="72694">cordonnier</rel>
+<rel type="r_infopot" poids="59" tid="167947">coulicou</rel>
+<rel type="r_infopot" poids="59" tid="38234">croissant</rel>
+<rel type="r_infopot" poids="59" tid="9763">croix</rel>
+<rel type="r_infopot" poids="59" tid="94183">créer</rel>
+<rel type="r_infopot" poids="59" tid="61114">demi-mot</rel>
+<rel type="r_infopot" poids="59" tid="9437">devant</rel>
+<rel type="r_infopot" poids="59" tid="106220">devis</rel>
+<rel type="r_infopot" poids="59" tid="54525">diacritique</rel>
+<rel type="r_infopot" poids="59" tid="2382">diadème</rel>
+<rel type="r_infopot" poids="59" tid="22037">dix</rel>
+<rel type="r_infopot" poids="59" tid="147825">donjuaniser</rel>
+<rel type="r_infopot" poids="59" tid="136597">duel</rel>
+<rel type="r_infopot" poids="59" tid="81589">débauché</rel>
+<rel type="r_infopot" poids="59" tid="114118">décathlon</rel>
+<rel type="r_infopot" poids="59" tid="94138">déclencheurs</rel>
+<rel type="r_infopot" poids="59" tid="111394">département</rel>
+<rel type="r_infopot" poids="59" tid="32186">député</rel>
+<rel type="r_infopot" poids="59" tid="74569">désarçonner</rel>
+<rel type="r_infopot" poids="59" tid="9864">désir</rel>
+<rel type="r_infopot" poids="59" tid="79249">ectoplasme</rel>
+<rel type="r_infopot" poids="59" tid="93718">enture</rel>
+<rel type="r_infopot" poids="59" tid="144236">est</rel>
+<rel type="r_infopot" poids="59" tid="61490">femme</rel>
+<rel type="r_infopot" poids="59" tid="52063">fente</rel>
+<rel type="r_infopot" poids="59" tid="105372">filiation</rel>
+<rel type="r_infopot" poids="59" tid="117296">frisson</rel>
+<rel type="r_infopot" poids="59" tid="141687">fromage</rel>
+<rel type="r_infopot" poids="59" tid="142693">fâché</rel>
+<rel type="r_infopot" poids="59" tid="1611">félicitations</rel>
+<rel type="r_infopot" poids="59" tid="37230">galerie</rel>
+<rel type="r_infopot" poids="59" tid="127751">gares</rel>
+<rel type="r_infopot" poids="59" tid="41415">gel</rel>
+<rel type="r_infopot" poids="59" tid="164882">glace italienne</rel>
+<rel type="r_infopot" poids="59" tid="16979">griffonner</rel>
+<rel type="r_infopot" poids="59" tid="54461">grâce à</rel>
+<rel type="r_infopot" poids="59" tid="214667">guerre de course</rel>
+<rel type="r_infopot" poids="59" tid="23091">hostilité</rel>
+<rel type="r_infopot" poids="59" tid="66712">imprudence</rel>
+<rel type="r_infopot" poids="59" tid="102694">indice</rel>
+<rel type="r_infopot" poids="59" tid="102939">insalubrité</rel>
+<rel type="r_infopot" poids="59" tid="117215">ironiser</rel>
+<rel type="r_infopot" poids="59" tid="137358">jeter l'ancre</rel>
+<rel type="r_infopot" poids="59" tid="19177">jeunes</rel>
+<rel type="r_infopot" poids="59" tid="11834">joug</rel>
+<rel type="r_infopot" poids="59" tid="163458">la santé, l'hygiène et les maladies</rel>
+<rel type="r_infopot" poids="59" tid="2031">labyrinthite</rel>
+<rel type="r_infopot" poids="59" tid="86296">lait</rel>
+<rel type="r_infopot" poids="59" tid="143256">léger</rel>
+<rel type="r_infopot" poids="59" tid="133314">mairie</rel>
+<rel type="r_infopot" poids="59" tid="126543">manucure</rel>
+<rel type="r_infopot" poids="59" tid="141576">marbre</rel>
+<rel type="r_infopot" poids="59" tid="154573">mardi gras</rel>
+<rel type="r_infopot" poids="59" tid="131849">milliampèremètre</rel>
+<rel type="r_infopot" poids="59" tid="53745">modestie</rel>
+<rel type="r_infopot" poids="59" tid="154103">monnaie de nécessité</rel>
+<rel type="r_infopot" poids="59" tid="26607">mou</rel>
+<rel type="r_infopot" poids="59" tid="52079">musique électronique</rel>
+<rel type="r_infopot" poids="59" tid="153309">médicale</rel>
+<rel type="r_infopot" poids="59" tid="165513">niveau de blanc</rel>
+<rel type="r_infopot" poids="59" tid="47466">nourrir</rel>
+<rel type="r_infopot" poids="59" tid="73427">odeur</rel>
+<rel type="r_infopot" poids="59" tid="2449">opéra</rel>
+<rel type="r_infopot" poids="59" tid="90850">ouf</rel>
+<rel type="r_infopot" poids="59" tid="118542">paladin</rel>
+<rel type="r_infopot" poids="59" tid="51048">panda</rel>
+<rel type="r_infopot" poids="59" tid="83570">partition</rel>
+<rel type="r_infopot" poids="59" tid="61185">pelle</rel>
+<rel type="r_infopot" poids="59" tid="23654">perdre</rel>
+<rel type="r_infopot" poids="59" tid="84412">perroquet</rel>
+<rel type="r_infopot" poids="59" tid="7914">petits</rel>
+<rel type="r_infopot" poids="59" tid="106016">photographier</rel>
+<rel type="r_infopot" poids="59" tid="91008">pied de nez</rel>
+<rel type="r_infopot" poids="59" tid="54168">pleurnicherie</rel>
+<rel type="r_infopot" poids="59" tid="135591">poil</rel>
+<rel type="r_infopot" poids="59" tid="159709">poires</rel>
+<rel type="r_infopot" poids="59" tid="97613">poli</rel>
+<rel type="r_infopot" poids="59" tid="101998">polyalcool</rel>
+<rel type="r_infopot" poids="59" tid="82852">presbyte</rel>
+<rel type="r_infopot" poids="59" tid="65383">prêter</rel>
+<rel type="r_infopot" poids="59" tid="145624">pêche</rel>
+<rel type="r_infopot" poids="59" tid="47731">question fermée</rel>
+<rel type="r_infopot" poids="59" tid="45131">ramification</rel>
+<rel type="r_infopot" poids="59" tid="55069">relayer les chiens</rel>
+<rel type="r_infopot" poids="59" tid="155154">rendre malade</rel>
+<rel type="r_infopot" poids="59" tid="61892">renversé</rel>
+<rel type="r_infopot" poids="59" tid="89243">reporter</rel>
+<rel type="r_infopot" poids="59" tid="15690">rigolo</rel>
+<rel type="r_infopot" poids="59" tid="112905">rire</rel>
+<rel type="r_infopot" poids="59" tid="160425">roi de France</rel>
+<rel type="r_infopot" poids="59" tid="146447">rot</rel>
+<rel type="r_infopot" poids="59" tid="121942">réargenter</rel>
+<rel type="r_infopot" poids="59" tid="215924">région rurale</rel>
+<rel type="r_infopot" poids="59" tid="142071">s'agenouiller</rel>
+<rel type="r_infopot" poids="59" tid="137117">s'enfuir</rel>
+<rel type="r_infopot" poids="59" tid="137913">s'entremettre</rel>
+<rel type="r_infopot" poids="59" tid="152733">salle de bain</rel>
+<rel type="r_infopot" poids="59" tid="135115">santonine</rel>
+<rel type="r_infopot" poids="59" tid="179944">scolyte de l'orme</rel>
+<rel type="r_infopot" poids="59" tid="25011">se découvrir</rel>
+<rel type="r_infopot" poids="59" tid="41407">septembre</rel>
+<rel type="r_infopot" poids="59" tid="134065">stade</rel>
+<rel type="r_infopot" poids="59" tid="107233">supermarché</rel>
+<rel type="r_infopot" poids="59" tid="74716">tableau noir</rel>
+<rel type="r_infopot" poids="59" tid="44942">tachycardie</rel>
+<rel type="r_infopot" poids="59" tid="60283">taurobole</rel>
+<rel type="r_infopot" poids="59" tid="144149">terme</rel>
+<rel type="r_infopot" poids="59" tid="14582">teston</rel>
+<rel type="r_infopot" poids="59" tid="86754">thon</rel>
+<rel type="r_infopot" poids="59" tid="143378">thé</rel>
+<rel type="r_infopot" poids="59" tid="213703">tournedos Rossini</rel>
+<rel type="r_infopot" poids="59" tid="125627">transpirer</rel>
+<rel type="r_infopot" poids="59" tid="92818">transport par air</rel>
+<rel type="r_infopot" poids="59" tid="125998">triomphe</rel>
+<rel type="r_infopot" poids="59" tid="7943">tuer</rel>
+<rel type="r_infopot" poids="59" tid="133093">urbanisme</rel>
+<rel type="r_infopot" poids="59" tid="99664">visée reflex</rel>
+<rel type="r_infopot" poids="59" tid="91062">voisement</rel>
+<rel type="r_infopot" poids="59" tid="116746">vomir</rel>
+<rel type="r_infopot" poids="59" tid="71741">votation</rel>
+<rel type="r_infopot" poids="59" tid="67683">xénophobe</rel>
+<rel type="r_infopot" poids="59" tid="134536">économie</rel>
+<rel type="r_infopot" poids="59" tid="104720">épuiser</rel>
+<rel type="r_infopot" poids="59" tid="7236">études</rel>
+<rel type="r_infopot" poids="58" tid="160720" te="::>13:74860>29:98319>16">Avec quoi un homme pourrait réparer ?</rel>
+<rel type="r_infopot" poids="58" tid="156755" te="::>14:104957>29:55218>13">Qui pourrait nier un fait ?</rel>
+<rel type="r_infopot" poids="58" tid="158468" te="::>14:42001>29:6918>13">Qui pourrait calmer un bébé ?</rel>
+<rel type="r_infopot" poids="58" tid="157848" te="::>14:74860>29:74222>13">Qui pourrait assassiner un homme ?</rel>
+<rel type="r_infopot" poids="58" tid="166302" te="::>14:81320>29:40241>15">Où pourrait-on descendre un escalier ?</rel>
+<rel type="r_infopot" poids="58" tid="164024" te="::>16:123745>29:39895>13">Qui pourrait poursuivre avec un véhicule ?</rel>
+<rel type="r_infopot" poids="58" tid="166714">Agence tous risques</rel>
+<rel type="r_infopot" poids="58" tid="68314">Androgée</rel>
+<rel type="r_infopot" poids="58" tid="85680">Asch</rel>
+<rel type="r_infopot" poids="58" tid="99237">Balbo</rel>
+<rel type="r_infopot" poids="58" tid="166730">Cold Case</rel>
+<rel type="r_infopot" poids="58" tid="119579">Cuernavaca</rel>
+<rel type="r_infopot" poids="58" tid="145686">Dieu</rel>
+<rel type="r_infopot" poids="58" tid="19890">FLN</rel>
+<rel type="r_infopot" poids="58" tid="153278">Garry Kasparov</rel>
+<rel type="r_infopot" poids="58" tid="23227">Gisèle Freund</rel>
+<rel type="r_infopot" poids="58" tid="49146">Jessica</rel>
+<rel type="r_infopot" poids="58" tid="222809">Jérôme Kerviel</rel>
+<rel type="r_infopot" poids="58" tid="217596">La Petite Gardeuse d'oies</rel>
+<rel type="r_infopot" poids="58" tid="143668">Lagomorphes</rel>
+<rel type="r_infopot" poids="58" tid="47018">Lvov</rel>
+<rel type="r_locution" poids="58" tid="434483">MORE</rel>
+<rel type="r_infopot" poids="58" tid="151666">Maison Blanche</rel>
+<rel type="r_infopot" poids="58" tid="157354">Moustérien</rel>
+<rel type="r_infopot" poids="58" tid="46140">Neuffossé</rel>
+<rel type="r_infopot" poids="58" tid="127618">Robert le Fort</rel>
+<rel type="r_infopot" poids="58" tid="152404">SPA</rel>
+<rel type="r_infopot" poids="58" tid="112344">Scaër</rel>
+<rel type="r_infopot" poids="58" tid="78856">Toblerone</rel>
+<rel type="r_infopot" poids="58" tid="21250">agencé</rel>
+<rel type="r_infopot" poids="58" tid="91334">agression</rel>
+<rel type="r_infopot" poids="58" tid="135587">aimable</rel>
+<rel type="r_infopot" poids="58" tid="122471">ajuster</rel>
+<rel type="r_infopot" poids="58" tid="68148">angevin</rel>
+<rel type="r_infopot" poids="58" tid="91746">apparemment</rel>
+<rel type="r_infopot" poids="58" tid="134655">appétition</rel>
+<rel type="r_infopot" poids="58" tid="52255">arbre</rel>
+<rel type="r_infopot" poids="58" tid="100642">asynchrone</rel>
+<rel type="r_infopot" poids="58" tid="54055">avant-poste</rel>
+<rel type="r_infopot" poids="58" tid="102705">bac</rel>
+<rel type="r_infopot" poids="58" tid="143401">barbe</rel>
+<rel type="r_infopot" poids="58" tid="174421">bascule de Schmitt</rel>
+<rel type="r_infopot" poids="58" tid="119162">battre</rel>
+<rel type="r_infopot" poids="58" tid="135451">bi</rel>
+<rel type="r_infopot" poids="58" tid="83338">bibe</rel>
+<rel type="r_infopot" poids="58" tid="177127">biostatisticien</rel>
+<rel type="r_infopot" poids="58" tid="106797">bière</rel>
+<rel type="r_infopot" poids="58" tid="1339">bloc-fenêtre</rel>
+<rel type="r_infopot" poids="58" tid="70221">bâlois</rel>
+<rel type="r_infopot" poids="58" tid="85783">cardio-respiratoire</rel>
+<rel type="r_infopot" poids="58" tid="117608">carte scolaire</rel>
+<rel type="r_infopot" poids="58" tid="37422">chamade</rel>
+<rel type="r_infopot" poids="58" tid="25141">chasse à courre</rel>
+<rel type="r_infopot" poids="58" tid="143548">cheminée</rel>
+<rel type="r_infopot" poids="58" tid="172398">chichon</rel>
+<rel type="r_infopot" poids="58" tid="58088">chiffon</rel>
+<rel type="r_infopot" poids="58" tid="93872">chèvre</rel>
+<rel type="r_infopot" poids="58" tid="131914">classique</rel>
+<rel type="r_infopot" poids="58" tid="11651">clou</rel>
+<rel type="r_infopot" poids="58" tid="85439">coder</rel>
+<rel type="r_infopot" poids="58" tid="114469">coeur et vaisseau</rel>
+<rel type="r_infopot" poids="58" tid="147103">conjonctival</rel>
+<rel type="r_infopot" poids="58" tid="151627">coton tige</rel>
+<rel type="r_infopot" poids="58" tid="144104">couronne</rel>
+<rel type="r_infopot" poids="58" tid="72235">cristallin</rel>
+<rel type="r_infopot" poids="58" tid="5115">cuire</rel>
+<rel type="r_infopot" poids="58" tid="181953">date limite</rel>
+<rel type="r_infopot" poids="58" tid="98596">dessin</rel>
+<rel type="r_infopot" poids="58" tid="2369">diachronie</rel>
+<rel type="r_infopot" poids="58" tid="135267">diagénétique</rel>
+<rel type="r_infopot" poids="58" tid="5156">diffusivité</rel>
+<rel type="r_infopot" poids="58" tid="198955">duel verbal</rel>
+<rel type="r_infopot" poids="58" tid="83895">dure</rel>
+<rel type="r_infopot" poids="58" tid="2979">décoincer</rel>
+<rel type="r_infopot" poids="58" tid="122378">démarrer</rel>
+<rel type="r_infopot" poids="58" tid="52386">déshérité</rel>
+<rel type="r_infopot" poids="58" tid="86686">e</rel>
+<rel type="r_infopot" poids="58" tid="11726">embastillement</rel>
+<rel type="r_infopot" poids="58" tid="98577">enchaîner</rel>
+<rel type="r_infopot" poids="58" tid="68352">endimancher</rel>
+<rel type="r_infopot" poids="58" tid="34527">enfants</rel>
+<rel type="r_infopot" poids="58" tid="121177">enfer</rel>
+<rel type="r_infopot" poids="58" tid="141387">espace</rel>
+<rel type="r_infopot" poids="58" tid="124473">exorcisme</rel>
+<rel type="r_infopot" poids="58" tid="83241">facho</rel>
+<rel type="r_infopot" poids="58" tid="38277">facilement</rel>
+<rel type="r_infopot" poids="58" tid="100222">faux</rel>
+<rel type="r_infopot" poids="58" tid="144718">fin</rel>
+<rel type="r_infopot" poids="58" tid="152839">fièvre intense</rel>
+<rel type="r_infopot" poids="58" tid="94231">foncier</rel>
+<rel type="r_infopot" poids="58" tid="140378">formule</rel>
+<rel type="r_infopot" poids="58" tid="144991">français</rel>
+<rel type="r_infopot" poids="58" tid="173">fébrile</rel>
+<rel type="r_infopot" poids="58" tid="94988">fémur</rel>
+<rel type="r_infopot" poids="58" tid="26812">féodal</rel>
+<rel type="r_infopot" poids="58" tid="75023">galeriste</rel>
+<rel type="r_infopot" poids="58" tid="146306">gallo</rel>
+<rel type="r_infopot" poids="58" tid="109285">gaufreur</rel>
+<rel type="r_infopot" poids="58" tid="151711">grande</rel>
+<rel type="r_infopot" poids="58" tid="56362">gras</rel>
+<rel type="r_infopot" poids="58" tid="12942">gratin</rel>
+<rel type="r_infopot" poids="58" tid="90435">gravitino</rel>
+<rel type="r_infopot" poids="58" tid="73755">grisbi</rel>
+<rel type="r_infopot" poids="58" tid="66355">gueuloir</rel>
+<rel type="r_infopot" poids="58" tid="146367">histoire</rel>
+<rel type="r_infopot" poids="58" tid="61162">hou</rel>
+<rel type="r_infopot" poids="58" tid="38531">hurler</rel>
+<rel type="r_infopot" poids="58" tid="58807">informatisé</rel>
+<rel type="r_infopot" poids="58" tid="98122">inimaginablement</rel>
+<rel type="r_infopot" poids="58" tid="101888">insomnie</rel>
+<rel type="r_infopot" poids="58" tid="14886">iridescent</rel>
+<rel type="r_infopot" poids="58" tid="133354">ivre</rel>
+<rel type="r_infopot" poids="58" tid="28466">jeune</rel>
+<rel type="r_infopot" poids="58" tid="72454">lapiner</rel>
+<rel type="r_infopot" poids="58" tid="162692">les arts du spectacle</rel>
+<rel type="r_infopot" poids="58" tid="145994">lettre</rel>
+<rel type="r_infopot" poids="58" tid="156127">liquidation totale</rel>
+<rel type="r_infopot" poids="58" tid="61092">literie</rel>
+<rel type="r_infopot" poids="58" tid="60361">loisirs</rel>
+<rel type="r_infopot" poids="58" tid="146483">longue</rel>
+<rel type="r_infopot" poids="58" tid="148986">lumières</rel>
+<rel type="r_infopot" poids="58" tid="81191">lécher</rel>
+<rel type="r_infopot" poids="58" tid="109259">lémure</rel>
+<rel type="r_infopot" poids="58" tid="45931">manteau</rel>
+<rel type="r_infopot" poids="58" tid="124186">marabout</rel>
+<rel type="r_infopot" poids="58" tid="157625" te="marin>146888">marin  (Adj)</rel>
+<rel type="r_infopot" poids="58" tid="123488">materniser</rel>
+<rel type="r_infopot" poids="58" tid="121625">mauvaise passe</rel>
+<rel type="r_infopot" poids="58" tid="51253">message</rel>
+<rel type="r_infopot" poids="58" tid="139340">mesure</rel>
+<rel type="r_infopot" poids="58" tid="54657">mimétisme</rel>
+<rel type="r_infopot" poids="58" tid="140613">mine</rel>
+<rel type="r_infopot" poids="58" tid="94403">minimum</rel>
+<rel type="r_infopot" poids="58" tid="133857">mode</rel>
+<rel type="r_infopot" poids="58" tid="59529">moi-même</rel>
+<rel type="r_infopot" poids="58" tid="113767">monter</rel>
+<rel type="r_infopot" poids="58" tid="62751">moralisation</rel>
+<rel type="r_infopot" poids="58" tid="103776">morphinomanie</rel>
+<rel type="r_infopot" poids="58" tid="215300">musique noire américaine</rel>
+<rel type="r_infopot" poids="58" tid="128636">mélismatique</rel>
+<rel type="r_infopot" poids="58" tid="132625">narrateur</rel>
+<rel type="r_infopot" poids="58" tid="34034">occiput</rel>
+<rel type="r_infopot" poids="58" tid="161241">parebrise</rel>
+<rel type="r_infopot" poids="58" tid="78625">payer</rel>
+<rel type="r_infopot" poids="58" tid="129806">peille</rel>
+<rel type="r_infopot" poids="58" tid="128677">penthrite</rel>
+<rel type="r_infopot" poids="58" tid="2335">percutant</rel>
+<rel type="r_infopot" poids="58" tid="136095">piétinement</rel>
+<rel type="r_infopot" poids="58" tid="216909" te="plage>146105">plage  (mer)</rel>
+<rel type="r_infopot" poids="58" tid="54165">plongeur</rel>
+<rel type="r_infopot" poids="58" tid="46889">poitrine</rel>
+<rel type="r_infopot" poids="58" tid="71135">porc</rel>
+<rel type="r_infopot" poids="58" tid="49141">possessif</rel>
+<rel type="r_infopot" poids="58" tid="73916">pourceau</rel>
+<rel type="r_infopot" poids="58" tid="30613">poursuivi</rel>
+<rel type="r_infopot" poids="58" tid="214562" te="poutine>43125">poutine  (gastronomie)</rel>
+<rel type="r_infopot" poids="58" tid="56929">programmation</rel>
+<rel type="r_infopot" poids="58" tid="29702">programmes scolaires</rel>
+<rel type="r_infopot" poids="58" tid="143285">proserpine</rel>
+<rel type="r_infopot" poids="58" tid="39940">prédication</rel>
+<rel type="r_infopot" poids="58" tid="74868">péripatétisme</rel>
+<rel type="r_infopot" poids="58" tid="22867">pétiller</rel>
+<rel type="r_infopot" poids="58" tid="84116">quatorze</rel>
+<rel type="r_infopot" poids="58" tid="95935">rage</rel>
+<rel type="r_infopot" poids="58" tid="160511">renifleuse</rel>
+<rel type="r_infopot" poids="58" tid="151483">rodin</rel>
+<rel type="r_infopot" poids="58" tid="151771">rome</rel>
+<rel type="r_infopot" poids="58" tid="145319">ronde</rel>
+<rel type="r_infopot" poids="58" tid="86364">rétractation</rel>
+<rel type="r_infopot" poids="58" tid="86964">sagou</rel>
+<rel type="r_infopot" poids="58" tid="73356">se débarrasser</rel>
+<rel type="r_infopot" poids="58" tid="59303">se déplacer</rel>
+<rel type="r_infopot" poids="58" tid="146397">seize</rel>
+<rel type="r_infopot" poids="58" tid="4201">setar</rel>
+<rel type="r_infopot" poids="58" tid="135985">sieste</rel>
+<rel type="r_infopot" poids="58" tid="108388">silencieux</rel>
+<rel type="r_infopot" poids="58" tid="62589">sinus</rel>
+<rel type="r_infopot" poids="58" tid="92559">sniffer</rel>
+<rel type="r_infopot" poids="58" tid="60829">sommeil</rel>
+<rel type="r_infopot" poids="58" tid="137389">sot-l'y-laisse</rel>
+<rel type="r_infopot" poids="58" tid="110311">soustraction</rel>
+<rel type="r_infopot" poids="58" tid="146867">spatiale</rel>
+<rel type="r_infopot" poids="58" tid="111030">sycophante</rel>
+<rel type="r_infopot" poids="58" tid="26382">symboliser</rel>
+<rel type="r_infopot" poids="58" tid="178766">tabes</rel>
+<rel type="r_infopot" poids="58" tid="575">tarte</rel>
+<rel type="r_infopot" poids="58" tid="73990">taude</rel>
+<rel type="r_infopot" poids="58" tid="66372">texte</rel>
+<rel type="r_infopot" poids="58" tid="120115">transport par route</rel>
+<rel type="r_infopot" poids="58" tid="52704">trois</rel>
+<rel type="r_infopot" poids="58" tid="99105">truelle</rel>
+<rel type="r_infopot" poids="58" tid="12846">unilingue</rel>
+<rel type="r_infopot" poids="58" tid="146794">vacances scolaires</rel>
+<rel type="r_infopot" poids="58" tid="89478">vannerie</rel>
+<rel type="r_infopot" poids="58" tid="3461">vent</rel>
+<rel type="r_infopot" poids="58" tid="83653">vodka</rel>
+<rel type="r_infopot" poids="58" tid="126491">voleter</rel>
+<rel type="r_infopot" poids="58" tid="25057">vorace</rel>
+<rel type="r_infopot" poids="58" tid="76247">vétérinaire</rel>
+<rel type="r_infopot" poids="58" tid="155497">zorglhomme</rel>
+<rel type="r_infopot" poids="58" tid="19133">élever</rel>
+<rel type="r_infopot" poids="58" tid="97606">éleveur</rel>
+<rel type="r_infopot" poids="58" tid="19684">érotisme</rel>
+<rel type="r_infopot" poids="58" tid="50260">évohé</rel>
+<rel type="r_infopot" poids="57" tid="158686" te="::>13:102641>29:46211>14">Qu'est-ce qu'un voleur pourrait dérober ?</rel>
+<rel type="r_infopot" poids="57" tid="161261" te="::>14:105230>29:49598>15">Où pourrait-on tailler une pipe ?</rel>
+<rel type="r_infopot" poids="57" tid="166028" te="::>14:45179>29:91088>13">Qui pourrait louer une maison ?</rel>
+<rel type="r_infopot" poids="57" tid="217579">Aladin, ou la Lampe merveilleuse</rel>
+<rel type="r_infopot" poids="57" tid="97685">BP</rel>
+<rel type="r_infopot" poids="57" tid="84811">C.A</rel>
+<rel type="r_infopot" poids="57" tid="215890">Chez Régine</rel>
+<rel type="r_infopot" poids="57" tid="32283">Delsarte</rel>
+<rel type="r_infopot" poids="57" tid="137272">Diadème</rel>
+<rel type="r_infopot" poids="57" tid="40124">Dialogues</rel>
+<rel type="r_infopot" poids="57" tid="68503">Gordes</rel>
+<rel type="r_infopot" poids="57" tid="35703">Jodelet ou le Maître valet</rel>
+<rel type="r_infopot" poids="57" tid="138102">L'Atelier du peintre</rel>
+<rel type="r_infopot" poids="57" tid="86400">Larousse</rel>
+<rel type="r_infopot" poids="57" tid="217594">Le Petit Bonhomme de pain d'épice</rel>
+<rel type="r_infopot" poids="57" tid="215483">Le Petit Poucet</rel>
+<rel type="r_infopot" poids="57" tid="74504">Little Buddha</rel>
+<rel type="r_infopot" poids="57" tid="51357">Lémovices</rel>
+<rel type="r_infopot" poids="57" tid="121340">Malenkov</rel>
+<rel type="r_infopot" poids="57" tid="55407">Melitopol</rel>
+<rel type="r_infopot" poids="57" tid="107013">Nantes</rel>
+<rel type="r_infopot" poids="57" tid="144010">Natal</rel>
+<rel type="r_infopot" poids="57" tid="101106">OAS</rel>
+<rel type="r_infopot" poids="57" tid="215482">Riquet à la houppe</rel>
+<rel type="r_infopot" poids="57" tid="189363">Saint Patrick</rel>
+<rel type="r_infopot" poids="57" tid="151698">Sarkozy</rel>
+<rel type="r_infopot" poids="57" tid="144333">Soleil</rel>
+<rel type="r_infopot" poids="57" tid="144606">Songe d'une nuit d'été</rel>
+<rel type="r_infopot" poids="57" tid="214723">Too shy shy, Hush hush, Eye to eye</rel>
+<rel type="r_infopot" poids="57" tid="18790">Vakhtangov</rel>
+<rel type="r_infopot" poids="57" tid="130328">Voeu de Louis XIII</rel>
+<rel type="r_infopot" poids="57" tid="8711">affreux</rel>
+<rel type="r_infopot" poids="57" tid="132542">arme blanche</rel>
+<rel type="r_infopot" poids="57" tid="105884">arme à feu</rel>
+<rel type="r_infopot" poids="57" tid="74659">armure</rel>
+<rel type="r_infopot" poids="57" tid="26997">au pied de la lettre</rel>
+<rel type="r_infopot" poids="57" tid="70341">aviculture</rel>
+<rel type="r_infopot" poids="57" tid="97756">avion</rel>
+<rel type="r_infopot" poids="57" tid="128482">baguette</rel>
+<rel type="r_infopot" poids="57" tid="158531">bec de lièvre</rel>
+<rel type="r_infopot" poids="57" tid="114738">belle</rel>
+<rel type="r_infopot" poids="57" tid="227">bingo</rel>
+<rel type="r_infopot" poids="57" tid="63012">blague</rel>
+<rel type="r_infopot" poids="57" tid="96256">bois</rel>
+<rel type="r_infopot" poids="57" tid="141883">boule</rel>
+<rel type="r_infopot" poids="57" tid="27533">braise</rel>
+<rel type="r_infopot" poids="57" tid="61945">bravo</rel>
+<rel type="r_infopot" poids="57" tid="14189">brun</rel>
+<rel type="r_infopot" poids="57" tid="16367">brutal</rel>
+<rel type="r_infopot" poids="57" tid="124754">cacahuète</rel>
+<rel type="r_infopot" poids="57" tid="57839">cadeau</rel>
+<rel type="r_infopot" poids="57" tid="13005">calque</rel>
+<rel type="r_infopot" poids="57" tid="139827">carne</rel>
+<rel type="r_infopot" poids="57" tid="145332">casse</rel>
+<rel type="r_infopot" poids="57" tid="56227">casse-pierre</rel>
+<rel type="r_infopot" poids="57" tid="31970">centre</rel>
+<rel type="r_infopot" poids="57" tid="152298">chasse aux sorcières</rel>
+<rel type="r_infopot" poids="57" tid="152870">chat de gouttière</rel>
+<rel type="r_infopot" poids="57" tid="218148">chaîne de télévision</rel>
+<rel type="r_infopot" poids="57" tid="82552">cinq</rel>
+<rel type="r_infopot" poids="57" tid="80377">clic-clac</rel>
+<rel type="r_infopot" poids="57" tid="137554">clin d'oeil</rel>
+<rel type="r_infopot" poids="57" tid="143132">cochet</rel>
+<rel type="r_infopot" poids="57" tid="75965">cohabitation</rel>
+<rel type="r_infopot" poids="57" tid="61407">coiffure</rel>
+<rel type="r_infopot" poids="57" tid="57230">compétition</rel>
+<rel type="r_infopot" poids="57" tid="105525">concubin</rel>
+<rel type="r_infopot" poids="57" tid="213158">conférence de Copenhague</rel>
+<rel type="r_infopot" poids="57" tid="152713">conne</rel>
+<rel type="r_infopot" poids="57" tid="153062">connement</rel>
+<rel type="r_infopot" poids="57" tid="62586">considérer</rel>
+<rel type="r_infopot" poids="57" tid="28475">corriger</rel>
+<rel type="r_infopot" poids="57" tid="98082">courant</rel>
+<rel type="r_infopot" poids="57" tid="18972">cricri</rel>
+<rel type="r_infopot" poids="57" tid="3703">cui-cui</rel>
+<rel type="r_infopot" poids="57" tid="82777">dimanche</rel>
+<rel type="r_infopot" poids="57" tid="151446">diner</rel>
+<rel type="r_infopot" poids="57" tid="4526">dionysiaque</rel>
+<rel type="r_infopot" poids="57" tid="135689">diplômes</rel>
+<rel type="r_infopot" poids="57" tid="53233">dixième</rel>
+<rel type="r_infopot" poids="57" tid="99584">dynamisation</rel>
+<rel type="r_infopot" poids="57" tid="37754">dèche</rel>
+<rel type="r_infopot" poids="57" tid="917">déguenillé</rel>
+<rel type="r_infopot" poids="57" tid="107364">dégustation</rel>
+<rel type="r_infopot" poids="57" tid="10647">dépense</rel>
+<rel type="r_infopot" poids="57" tid="35714">déposer</rel>
+<rel type="r_infopot" poids="57" tid="115402">désespoir</rel>
+<rel type="r_infopot" poids="57" tid="129474">déshabiller</rel>
+<rel type="r_infopot" poids="57" tid="146872">eau douce</rel>
+<rel type="r_infopot" poids="57" tid="106563">ecto-endotrophe</rel>
+<rel type="r_infopot" poids="57" tid="89270">effleurer</rel>
+<rel type="r_infopot" poids="57" tid="47514">enquêter</rel>
+<rel type="r_infopot" poids="57" tid="154913">examens</rel>
+<rel type="r_infopot" poids="57" tid="19686">fantôme</rel>
+<rel type="r_infopot" poids="57" tid="125121">farfadet</rel>
+<rel type="r_infopot" poids="57" tid="104308">farniente</rel>
+<rel type="r_infopot" poids="57" tid="37993">feuille</rel>
+<rel type="r_infopot" poids="57" tid="177377">fiducie-sûreté</rel>
+<rel type="r_infopot" poids="57" tid="128782">fil</rel>
+<rel type="r_infopot" poids="57" tid="69840">fourmi</rel>
+<rel type="r_infopot" poids="57" tid="98528">fréquence</rel>
+<rel type="r_infopot" poids="57" tid="44547">garde</rel>
+<rel type="r_infopot" poids="57" tid="165851">gelati</rel>
+<rel type="r_infopot" poids="57" tid="33696">germanium</rel>
+<rel type="r_infopot" poids="57" tid="18298">gestalt</rel>
+<rel type="r_infopot" poids="57" tid="153140">gode</rel>
+<rel type="r_infopot" poids="57" tid="142888">gomme</rel>
+<rel type="r_infopot" poids="57" tid="44798">guérir</rel>
+<rel type="r_infopot" poids="57" tid="60679">handball</rel>
+<rel type="r_infopot" poids="57" tid="88341">hollywoodien</rel>
+<rel type="r_infopot" poids="57" tid="120565">humidité</rel>
+<rel type="r_infopot" poids="57" tid="165191">iPhone 3G</rel>
+<rel type="r_infopot" poids="57" tid="216745">jeu de casino</rel>
+<rel type="r_infopot" poids="57" tid="57221">joie</rel>
+<rel type="r_infopot" poids="57" tid="93827">judaïsme</rel>
+<rel type="r_infopot" poids="57" tid="117">juglandales</rel>
+<rel type="r_infopot" poids="57" tid="64650">laryngite</rel>
+<rel type="r_infopot" poids="57" tid="111663">littoral</rel>
+<rel type="r_infopot" poids="57" tid="220414">lois de De Morgan</rel>
+<rel type="r_infopot" poids="57" tid="42383">m</rel>
+<rel type="r_infopot" poids="57" tid="29859">mal-être</rel>
+<rel type="r_infopot" poids="57" tid="72733">massif</rel>
+<rel type="r_infopot" poids="57" tid="46358">moisir</rel>
+<rel type="r_infopot" poids="57" tid="217408" te="morse>140860">morse  (code)</rel>
+<rel type="r_infopot" poids="57" tid="134158">mousse</rel>
+<rel type="r_infopot" poids="57" tid="71309">mouton noir</rel>
+<rel type="r_infopot" poids="57" tid="43134">noire</rel>
+<rel type="r_infopot" poids="57" tid="58267">non-assistance à personne en danger</rel>
+<rel type="r_infopot" poids="57" tid="140862">note</rel>
+<rel type="r_infopot" poids="57" tid="88920">nécromancien</rel>
+<rel type="r_infopot" poids="57" tid="90638">odorimètre</rel>
+<rel type="r_infopot" poids="57" tid="67011">paillasson</rel>
+<rel type="r_infopot" poids="57" tid="5205">paix</rel>
+<rel type="r_infopot" poids="57" tid="120308">palettisation</rel>
+<rel type="r_infopot" poids="57" tid="73846">paperasse</rel>
+<rel type="r_infopot" poids="57" tid="55249">parfum</rel>
+<rel type="r_infopot" poids="57" tid="51568">pelote</rel>
+<rel type="r_infopot" poids="57" tid="107727">pentapole</rel>
+<rel type="r_infopot" poids="57" tid="97066">photocopieuse</rel>
+<rel type="r_infopot" poids="57" tid="43504">physique</rel>
+<rel type="r_infopot" poids="57" tid="162891">pianos</rel>
+<rel type="r_infopot" poids="57" tid="218223" te="pie>138092">pie  (pelage)</rel>
+<rel type="r_infopot" poids="57" tid="153491">piercing</rel>
+<rel type="r_infopot" poids="57" tid="190169">pin de l'Himalaya</rel>
+<rel type="r_infopot" poids="57" tid="33387">plaquette</rel>
+<rel type="r_infopot" poids="57" tid="22206">pochade</rel>
+<rel type="r_infopot" poids="57" tid="218183">politique économique</rel>
+<rel type="r_infopot" poids="57" tid="162143">porter secours</rel>
+<rel type="r_infopot" poids="57" tid="153375">poudre blanche</rel>
+<rel type="r_infopot" poids="57" tid="142157">procès</rel>
+<rel type="r_infopot" poids="57" tid="125603">prolixité</rel>
+<rel type="r_infopot" poids="57" tid="61049">prospérité</rel>
+<rel type="r_infopot" poids="57" tid="95430">prostituer</rel>
+<rel type="r_infopot" poids="57" tid="152177">protocole de Kyoto</rel>
+<rel type="r_infopot" poids="57" tid="84399">puce</rel>
+<rel type="r_infopot" poids="57" tid="69680">ramasser</rel>
+<rel type="r_infopot" poids="57" tid="58796">recentrer</rel>
+<rel type="r_infopot" poids="57" tid="32550">respirer</rel>
+<rel type="r_infopot" poids="57" tid="19393">rossignol</rel>
+<rel type="r_infopot" poids="57" tid="20424">royauté</rel>
+<rel type="r_infopot" poids="57" tid="122909">rudiments</rel>
+<rel type="r_infopot" poids="57" tid="49021">réchauffer</rel>
+<rel type="r_infopot" poids="57" tid="89811">réel</rel>
+<rel type="r_infopot" poids="57" tid="61576">résolution</rel>
+<rel type="r_infopot" poids="57" tid="87769">rêverie</rel>
+<rel type="r_infopot" poids="57" tid="142738">s'esclaffer</rel>
+<rel type="r_infopot" poids="57" tid="3709">samoyède</rel>
+<rel type="r_infopot" poids="57" tid="2680">sang</rel>
+<rel type="r_infopot" poids="57" tid="61">sans importance</rel>
+<rel type="r_infopot" poids="57" tid="49096">sans queue ni tête</rel>
+<rel type="r_infopot" poids="57" tid="124800">secourable</rel>
+<rel type="r_infopot" poids="57" tid="72805">soigner</rel>
+<rel type="r_infopot" poids="57" tid="110999">soupirer</rel>
+<rel type="r_infopot" poids="57" tid="83091">sourire</rel>
+<rel type="r_infopot" poids="57" tid="69530">soviétique</rel>
+<rel type="r_infopot" poids="57" tid="150602">spiritain</rel>
+<rel type="r_infopot" poids="57" tid="134179">suave</rel>
+<rel type="r_infopot" poids="57" tid="39650">sushi</rel>
+<rel type="r_infopot" poids="57" tid="56689">titiller</rel>
+<rel type="r_infopot" poids="57" tid="146753">toto</rel>
+<rel type="r_infopot" poids="57" tid="119770">transir</rel>
+<rel type="r_infopot" poids="57" tid="30950">ultra-royaliste</rel>
+<rel type="r_infopot" poids="57" tid="52089">vaccin</rel>
+<rel type="r_infopot" poids="57" tid="67831">vastement</rel>
+<rel type="r_infopot" poids="57" tid="151277">vermout</rel>
+<rel type="r_infopot" poids="57" tid="128208">vin rouge</rel>
+<rel type="r_infopot" poids="57" tid="65149">virus</rel>
+<rel type="r_infopot" poids="57" tid="58254">visiter</rel>
+<rel type="r_infopot" poids="57" tid="99043">à la queue leu leu</rel>
+<rel type="r_infopot" poids="57" tid="21228">éburnéen</rel>
+<rel type="r_infopot" poids="57" tid="52004">écraser</rel>
+<rel type="r_infopot" poids="57" tid="217451" te="élan>42109">élan  (mouvement)</rel>
+<rel type="r_infopot" poids="57" tid="25915">épaillage</rel>
+<rel type="r_infopot" poids="57" tid="80251">équilibrant</rel>
+<rel type="r_infopot" poids="56" tid="8673">3</rel>
+<rel type="r_infopot" poids="56" tid="165142" te="::>13:101083>29:39170>14">Qu'est-ce qu'un policier pourrait surveiller ?</rel>
+<rel type="r_infopot" poids="56" tid="164705" te="::>13:103082>29:118577>15">Où un chirurgien pourrait implanter ?</rel>
+<rel type="r_infopot" poids="56" tid="165345" te="::>13:116477>29:117400>34">De quelle manière une personne pourrait enfoncer ?</rel>
+<rel type="r_infopot" poids="56" tid="159457" te="::>13:51817>29:28475>14">Qu'est-ce qu'une correcteur pourrait corriger ?</rel>
+<rel type="r_infopot" poids="56" tid="162870" te="::>14:116477>29:48827>15">Où pourrait-on engager une personne ?</rel>
+<rel type="r_infopot" poids="56" tid="163313" te="::>14:127227>29:109586>15">Où pourrait-on tamponner un passeport ?</rel>
+<rel type="r_infopot" poids="56" tid="167509" te="::>14:128482>29:131654>13">Qui pourrait tartiner une baguette ?</rel>
+<rel type="r_infopot" poids="56" tid="163257" te="::>14:137506>29:16167>15">Où pourrait-on enterrer quelqu'un ?</rel>
+<rel type="r_infopot" poids="56" tid="164899" te="::>14:141659>29:88835>15">Où pourrait-on envier une vie ?</rel>
+<rel type="r_infopot" poids="56" tid="161166" te="::>14:61490>29:66604>15">Où pourrait-on loger une femme ?</rel>
+<rel type="r_infopot" poids="56" tid="161464" te="::>14:61490>29:78823>13">Qui pourrait flatter une femme ?</rel>
+<rel type="r_infopot" poids="56" tid="163557" te="::>14:74860>29:132021>13">Qui pourrait raisonner un homme ?</rel>
+<rel type="r_infopot" poids="56" tid="156905" te="::>14:77306>29:105814>15">Où pourrait-on regarder un ciel ?</rel>
+<rel type="r_infopot" poids="56" tid="163020" te="::>14:81320>29:18699>34">De quelle manière pourrait-on remonter un escalier ?</rel>
+<rel type="r_infopot" poids="56" tid="164894" te="::>14:90075>29:44961>34">De quelle manière pourrait-on décorer une chambre ?</rel>
+<rel type="r_infopot" poids="56" tid="162316" te="::>16:58906>29:124394>14">Que pourrait-on cultiver avec un tracteur ?</rel>
+<rel type="r_infopot" poids="56" tid="129139">Andronic II Paléologue</rel>
+<rel type="r_infopot" poids="56" tid="129453">Ballade de la geôle de Reading</rel>
+<rel type="r_infopot" poids="56" tid="9318">Balthus</rel>
+<rel type="r_infopot" poids="56" tid="97405">Boisguillebert</rel>
+<rel type="r_infopot" poids="56" tid="216753">Bon Jovi</rel>
+<rel type="r_infopot" poids="56" tid="144732">Cheddar</rel>
+<rel type="r_infopot" poids="56" tid="18395">Clarice Lispector</rel>
+<rel type="r_infopot" poids="56" tid="69957">Corto Maltese</rel>
+<rel type="r_infopot" poids="56" tid="32308">Dole</rel>
+<rel type="r_infopot" poids="56" tid="103604">Espagne</rel>
+<rel type="r_infopot" poids="56" tid="146717">Gallon</rel>
+<rel type="r_infopot" poids="56" tid="166756">Heroes</rel>
+<rel type="r_infopot" poids="56" tid="87355">La Vestale</rel>
+<rel type="r_infopot" poids="56" tid="190537">Le Grand Jeu</rel>
+<rel type="r_infopot" poids="56" tid="214815">Le Maître chat ou le Chat botté</rel>
+<rel type="r_infopot" poids="56" tid="217605">Le Stoïque Soldat de plomb</rel>
+<rel type="r_infopot" poids="56" tid="215480">Les Fées</rel>
+<rel type="r_infopot" poids="56" tid="217604">Les Souhaits ridicules</rel>
+<rel type="r_infopot" poids="56" tid="217607">Les Trois Petits Cochons</rel>
+<rel type="r_infopot" poids="56" tid="100789">Lépine</rel>
+<rel type="r_infopot" poids="56" tid="44544">Secchia rapita</rel>
+<rel type="r_infopot" poids="56" tid="132102">Shop Management</rel>
+<rel type="r_infopot" poids="56" tid="139892">Terre</rel>
+<rel type="r_infopot" poids="56" tid="44088">Theo</rel>
+<rel type="r_infopot" poids="56" tid="143867">Timothée</rel>
+<rel type="r_infopot" poids="56" tid="36865">Tursac</rel>
+<rel type="r_infopot" poids="56" tid="216271">Vista</rel>
+<rel type="r_infopot" poids="56" tid="114327">acide désoxyribonucléique</rel>
+<rel type="r_infopot" poids="56" tid="36522">actuelle</rel>
+<rel type="r_infopot" poids="56" tid="14624">affection</rel>
+<rel type="r_infopot" poids="56" tid="96397">affinage</rel>
+<rel type="r_infopot" poids="56" tid="22824">aller</rel>
+<rel type="r_infopot" poids="56" tid="103554">amuser</rel>
+<rel type="r_infopot" poids="56" tid="123559">angoisser</rel>
+<rel type="r_infopot" poids="56" tid="5814">animalerie</rel>
+<rel type="r_infopot" poids="56" tid="102317">anniversaire</rel>
+<rel type="r_infopot" poids="56" tid="43894">argental</rel>
+<rel type="r_infopot" poids="56" tid="28778">arrêter</rel>
+<rel type="r_infopot" poids="56" tid="3695">art</rel>
+<rel type="r_infopot" poids="56" tid="126210">atavisme</rel>
+<rel type="r_infopot" poids="56" tid="80823">attrape-couillon</rel>
+<rel type="r_infopot" poids="56" tid="45052">auteur</rel>
+<rel type="r_infopot" poids="56" tid="95706">automobile</rel>
+<rel type="r_infopot" poids="56" tid="120123">beaucoup</rel>
+<rel type="r_infopot" poids="56" tid="152564">belle-hélène</rel>
+<rel type="r_infopot" poids="56" tid="48500">boa</rel>
+<rel type="r_infopot" poids="56" tid="28453">bonheur</rel>
+<rel type="r_infopot" poids="56" tid="108669">boutique</rel>
+<rel type="r_infopot" poids="56" tid="75016">brifton</rel>
+<rel type="r_infopot" poids="56" tid="61616">buzuki</rel>
+<rel type="r_infopot" poids="56" tid="79816">bêtise</rel>
+<rel type="r_infopot" poids="56" tid="141473">casque</rel>
+<rel type="r_infopot" poids="56" tid="180489">centrosaurus</rel>
+<rel type="r_infopot" poids="56" tid="114091">chair de poule</rel>
+<rel type="r_infopot" poids="56" tid="181507">chien de Pavlov</rel>
+<rel type="r_infopot" poids="56" tid="9549">chirurgie</rel>
+<rel type="r_infopot" poids="56" tid="82171">cigale</rel>
+<rel type="r_infopot" poids="56" tid="22264">colère</rel>
+<rel type="r_infopot" poids="56" tid="60866">cours</rel>
+<rel type="r_infopot" poids="56" tid="58716">cruralgie</rel>
+<rel type="r_infopot" poids="56" tid="67252">crématoire</rel>
+<rel type="r_infopot" poids="56" tid="86253">cétane</rel>
+<rel type="r_infopot" poids="56" tid="12655">danger</rel>
+<rel type="r_infopot" poids="56" tid="161413">de police</rel>
+<rel type="r_infopot" poids="56" tid="9536">dehors</rel>
+<rel type="r_infopot" poids="56" tid="94398">demi</rel>
+<rel type="r_infopot" poids="56" tid="135329">diriger</rel>
+<rel type="r_infopot" poids="56" tid="35450">distancier</rel>
+<rel type="r_infopot" poids="56" tid="146145">divorce</rel>
+<rel type="r_infopot" poids="56" tid="107040">doctorat</rel>
+<rel type="r_infopot" poids="56" tid="108977">dominer</rel>
+<rel type="r_infopot" poids="56" tid="122852">douleur</rel>
+<rel type="r_infopot" poids="56" tid="74848">débutant</rel>
+<rel type="r_infopot" poids="56" tid="80494">décalage</rel>
+<rel type="r_infopot" poids="56" tid="139173">défonce</rel>
+<rel type="r_infopot" poids="56" tid="56509">déménager</rel>
+<rel type="r_infopot" poids="56" tid="74151">dépression réactionnelle pure</rel>
+<rel type="r_infopot" poids="56" tid="128084">désintoxication</rel>
+<rel type="r_infopot" poids="56" tid="131732">détruire</rel>
+<rel type="r_infopot" poids="56" tid="21152">en écraser</rel>
+<rel type="r_infopot" poids="56" tid="122669">ennemi</rel>
+<rel type="r_infopot" poids="56" tid="112476">ethnobiologie</rel>
+<rel type="r_infopot" poids="56" tid="56317">exigence</rel>
+<rel type="r_infopot" poids="56" tid="148087">explosive</rel>
+<rel type="r_infopot" poids="56" tid="144783">faille</rel>
+<rel type="r_infopot" poids="56" tid="104146">fantaisie</rel>
+<rel type="r_infopot" poids="56" tid="92089">fantastique</rel>
+<rel type="r_infopot" poids="56" tid="120517">fauchaison</rel>
+<rel type="r_infopot" poids="56" tid="105330">film musical</rel>
+<rel type="r_infopot" poids="56" tid="126472">flagorner</rel>
+<rel type="r_infopot" poids="56" tid="51012">fleur bleue</rel>
+<rel type="r_infopot" poids="56" tid="145860">folie</rel>
+<rel type="r_infopot" poids="56" tid="159064">fraction de seconde</rel>
+<rel type="r_infopot" poids="56" tid="87286">fruit</rel>
+<rel type="r_infopot" poids="56" tid="104777">fûts</rel>
+<rel type="r_infopot" poids="56" tid="130361">garage</rel>
+<rel type="r_infopot" poids="56" tid="29308">garou</rel>
+<rel type="r_infopot" poids="56" tid="96791">godronner</rel>
+<rel type="r_infopot" poids="56" tid="117540">grincheux</rel>
+<rel type="r_infopot" poids="56" tid="109854">historié</rel>
+<rel type="r_infopot" poids="56" tid="151520">hopital</rel>
+<rel type="r_infopot" poids="56" tid="130756">hygrophile</rel>
+<rel type="r_infopot" poids="56" tid="64825">immigrant</rel>
+<rel type="r_infopot" poids="56" tid="94815">immédiatement</rel>
+<rel type="r_infopot" poids="56" tid="120702">invocation</rel>
+<rel type="r_infopot" poids="56" tid="78689">isométrique</rel>
+<rel type="r_infopot" poids="56" tid="107665">jeter à bas</rel>
+<rel type="r_infopot" poids="56" tid="23194">joue</rel>
+<rel type="r_infopot" poids="56" tid="219118" te="large>201729">large  (haute mer)</rel>
+<rel type="r_infopot" poids="56" tid="159126">le sort en est jeté</rel>
+<rel type="r_infopot" poids="56" tid="40895">lever le pied</rel>
+<rel type="r_infopot" poids="56" tid="154126">lol</rel>
+<rel type="r_infopot" poids="56" tid="36433">loterie</rel>
+<rel type="r_infopot" poids="56" tid="15631">lévitation</rel>
+<rel type="r_infopot" poids="56" tid="27402">malaxage</rel>
+<rel type="r_infopot" poids="56" tid="28743">manière</rel>
+<rel type="r_infopot" poids="56" tid="104221">marcassin</rel>
+<rel type="r_infopot" poids="56" tid="146274">marché</rel>
+<rel type="r_infopot" poids="56" tid="61611">masculin</rel>
+<rel type="r_infopot" poids="56" tid="35672">masquer</rel>
+<rel type="r_infopot" poids="56" tid="42132">matabiche</rel>
+<rel type="r_infopot" poids="56" tid="36899">meuble</rel>
+<rel type="r_infopot" poids="56" tid="142906">morne</rel>
+<rel type="r_infopot" poids="56" tid="10111">murmurant</rel>
+<rel type="r_infopot" poids="56" tid="153344">méchante</rel>
+<rel type="r_infopot" poids="56" tid="44117">nullipare</rel>
+<rel type="r_infopot" poids="56" tid="3621">nummulite</rel>
+<rel type="r_infopot" poids="56" tid="149362">océanologique</rel>
+<rel type="r_infopot" poids="56" tid="157740">orange sanguine</rel>
+<rel type="r_infopot" poids="56" tid="128484">paire</rel>
+<rel type="r_infopot" poids="56" tid="55464">paralogisme</rel>
+<rel type="r_infopot" poids="56" tid="102449">permanganate</rel>
+<rel type="r_infopot" poids="56" tid="68324">phallus</rel>
+<rel type="r_infopot" poids="56" tid="67992">phosgène</rel>
+<rel type="r_infopot" poids="56" tid="62835">photocopie</rel>
+<rel type="r_infopot" poids="56" tid="102621">piocher</rel>
+<rel type="r_infopot" poids="56" tid="124858">poignard</rel>
+<rel type="r_infopot" poids="56" tid="113743">port</rel>
+<rel type="r_infopot" poids="56" tid="143613">porte</rel>
+<rel type="r_infopot" poids="56" tid="142367">pot</rel>
+<rel type="r_infopot" poids="56" tid="2641">pot-de-vin</rel>
+<rel type="r_infopot" poids="56" tid="34994">poterie</rel>
+<rel type="r_infopot" poids="56" tid="115700">poutre</rel>
+<rel type="r_infopot" poids="56" tid="87885">princesse</rel>
+<rel type="r_infopot" poids="56" tid="35983">problématique</rel>
+<rel type="r_infopot" poids="56" tid="80982">prérecrutement</rel>
+<rel type="r_infopot" poids="56" tid="48710">prévisionnel</rel>
+<rel type="r_infopot" poids="56" tid="37721">péché</rel>
+<rel type="r_infopot" poids="56" tid="36861">pédaler</rel>
+<rel type="r_infopot" poids="56" tid="165667">pénétration anale</rel>
+<rel type="r_infopot" poids="56" tid="167818">quarantièmes rugissants</rel>
+<rel type="r_infopot" poids="56" tid="21212">quota</rel>
+<rel type="r_infopot" poids="56" tid="58376">rabouiller</rel>
+<rel type="r_infopot" poids="56" tid="8216">radio</rel>
+<rel type="r_infopot" poids="56" tid="59940">ramer</rel>
+<rel type="r_infopot" poids="56" tid="8319">renard</rel>
+<rel type="r_infopot" poids="56" tid="68191">retarder</rel>
+<rel type="r_infopot" poids="56" tid="33247">revêtir</rel>
+<rel type="r_infopot" poids="56" tid="131344">rivage</rel>
+<rel type="r_infopot" poids="56" tid="157995">roulette russe</rel>
+<rel type="r_infopot" poids="56" tid="123414">réplicase</rel>
+<rel type="r_infopot" poids="56" tid="19636">rôti</rel>
+<rel type="r_infopot" poids="56" tid="158442">sarko</rel>
+<rel type="r_infopot" poids="56" tid="34025">savoir</rel>
+<rel type="r_infopot" poids="56" tid="132743">se cuirasser</rel>
+<rel type="r_infopot" poids="56" tid="146092">se prendre d'amitié</rel>
+<rel type="r_infopot" poids="56" tid="87681">se reposer</rel>
+<rel type="r_infopot" poids="56" tid="37010">se taire</rel>
+<rel type="r_infopot" poids="56" tid="119701">sentimental</rel>
+<rel type="r_infopot" poids="56" tid="24247">service</rel>
+<rel type="r_infopot" poids="56" tid="28922">signe</rel>
+<rel type="r_infopot" poids="56" tid="14729">somatotonie</rel>
+<rel type="r_infopot" poids="56" tid="76597">songhaï</rel>
+<rel type="r_infopot" poids="56" tid="12311">sou</rel>
+<rel type="r_infopot" poids="56" tid="120209">soumission</rel>
+<rel type="r_infopot" poids="56" tid="49744">soviétologie</rel>
+<rel type="r_infopot" poids="56" tid="110091">sporocyste</rel>
+<rel type="r_infopot" poids="56" tid="105008">suite</rel>
+<rel type="r_infopot" poids="56" tid="127764">série</rel>
+<rel type="r_infopot" poids="56" tid="109586">tamponner</rel>
+<rel type="r_infopot" poids="56" tid="165046">taser</rel>
+<rel type="r_infopot" poids="56" tid="16001">tissutier</rel>
+<rel type="r_infopot" poids="56" tid="99572">toi</rel>
+<rel type="r_infopot" poids="56" tid="72052">ton</rel>
+<rel type="r_infopot" poids="56" tid="72044">tonneau</rel>
+<rel type="r_infopot" poids="56" tid="153566">tout va bien</rel>
+<rel type="r_infopot" poids="56" tid="115865">trou</rel>
+<rel type="r_infopot" poids="56" tid="141451">trouble</rel>
+<rel type="r_infopot" poids="56" tid="151">uniforme</rel>
+<rel type="r_infopot" poids="56" tid="126758">vacances</rel>
+<rel type="r_infopot" poids="56" tid="44167">vacarme</rel>
+<rel type="r_infopot" poids="56" tid="173731">varangien</rel>
+<rel type="r_infopot" poids="56" tid="107495">via</rel>
+<rel type="r_infopot" poids="56" tid="39313">vocal</rel>
+<rel type="r_infopot" poids="56" tid="28291">voisin</rel>
+<rel type="r_infopot" poids="56" tid="123408">vol</rel>
+<rel type="r_infopot" poids="56" tid="216925">voûte en berceau</rel>
+<rel type="r_infopot" poids="56" tid="171099">à fleur de coin</rel>
+<rel type="r_infopot" poids="56" tid="12502">écrivain</rel>
+<rel type="r_infopot" poids="56" tid="133898">érémitisme</rel>
+<rel type="r_infopot" poids="56" tid="112042">étamage</rel>
+<rel type="r_infopot" poids="56" tid="142177">éternel</rel>
+<rel type="r_infopot" poids="56" tid="55328">étier</rel>
+<rel type="r_infopot" poids="56" tid="146284">étreinte</rel>
+<rel type="r_infopot" poids="56" tid="60564">évangéliquement</rel>
+<rel type="r_infopot" poids="55" tid="157451" te="::>13:61490>29:30822>16">Avec quoi une femme pourrait danser ?</rel>
+<rel type="r_infopot" poids="55" tid="162673" te="::>13:74860>29:17195>14">Qu'est-ce qu'un homme pourrait tâter ?</rel>
+<rel type="r_infopot" poids="55" tid="166470" te="::>13:74860>29:30092>14">Qu'est-ce qu'un homme pourrait combattre ?</rel>
+<rel type="r_infopot" poids="55" tid="162247" te="::>14:116477>29:37193>15">Où pourrait-on localiser une personne ?</rel>
+<rel type="r_infopot" poids="55" tid="163496" te="::>14:36989>29:103664>13">Qui pourrait voter un nul ?</rel>
+<rel type="r_infopot" poids="55" tid="164609" te="::>14:61490>29:119824>16">Avec quoi pourrait-on couvrir une femme ?</rel>
+<rel type="r_infopot" poids="55" tid="162527" te="::>14:61490>29:15487>13">Qui pourrait embastiller une femme ?</rel>
+<rel type="r_infopot" poids="55" tid="159161" te="::>14:68256>29:86792>13">Qui pourrait doubler un vélo ?</rel>
+<rel type="r_infopot" poids="55" tid="156702" te="::>14:74860>29:117557>13">Qui pourrait piquer un homme ?</rel>
+<rel type="r_infopot" poids="55" tid="162795" te="::>16:51755>29:5070>14">Que pourrait-on grossir avec un télescope ?</rel>
+<rel type="r_infopot" poids="55" tid="129168">Abbassides</rel>
+<rel type="r_infopot" poids="55" tid="62116">Arginuses</rel>
+<rel type="r_infopot" poids="55" tid="172814">Athene</rel>
+<rel type="r_infopot" poids="55" tid="5969">Brassens</rel>
+<rel type="r_infopot" poids="55" tid="135039">Eciton</rel>
+<rel type="r_infopot" poids="55" tid="41598">Entretiens avec le Professeur Y</rel>
+<rel type="r_infopot" poids="55" tid="67578">Flying Dutchman</rel>
+<rel type="r_infopot" poids="55" tid="217590">Jack et le Haricot magique</rel>
+<rel type="r_infopot" poids="55" tid="217599">La Princesse au petit pois</rel>
+<rel type="r_infopot" poids="55" tid="56422">Marquet</rel>
+<rel type="r_infopot" poids="55" tid="165391">Monica Lewinsky</rel>
+<rel type="r_infopot" poids="55" tid="60645">Oyama</rel>
+<rel type="r_infopot" poids="55" tid="15425">PS</rel>
+<rel type="r_infopot" poids="55" tid="153082">Physiologie</rel>
+<rel type="r_infopot" poids="55" tid="87743">Pol Pot</rel>
+<rel type="r_infopot" poids="55" tid="216788">Ponyo sur la falaise</rel>
+<rel type="r_infopot" poids="55" tid="41063">Pétain</rel>
+<rel type="r_infopot" poids="55" tid="124102">René Girard</rel>
+<rel type="r_infopot" poids="55" tid="61281">Rome</rel>
+<rel type="r_infopot" poids="55" tid="50897">Saint Georges et le dragon</rel>
+<rel type="r_infopot" poids="55" tid="35339">Salvador de Bahia</rel>
+<rel type="r_infopot" poids="55" tid="139936">Septembre</rel>
+<rel type="r_infopot" poids="55" tid="154678">Spip</rel>
+<rel type="r_infopot" poids="55" tid="152753">Springboks</rel>
+<rel type="r_infopot" poids="55" tid="102363">Tulunides</rel>
+<rel type="r_infopot" poids="55" tid="151731">UML</rel>
+<rel type="r_infopot" poids="55" tid="212480">Yves Mourousi</rel>
+<rel type="r_infopot" poids="55" tid="29737">amitié</rel>
+<rel type="r_infopot" poids="55" tid="173973">ankylomérisme</rel>
+<rel type="r_infopot" poids="55" tid="73871">annonceuse</rel>
+<rel type="r_infopot" poids="55" tid="61420">année</rel>
+<rel type="r_infopot" poids="55" tid="117548">anovulation</rel>
+<rel type="r_infopot" poids="55" tid="168710">antsiva</rel>
+<rel type="r_infopot" poids="55" tid="189893">anémélectroreculpédalicoupeventombrosoparacloucycle</rel>
+<rel type="r_infopot" poids="55" tid="135926">araignée</rel>
+<rel type="r_infopot" poids="55" tid="144916">argent</rel>
+<rel type="r_infopot" poids="55" tid="115877">assis</rel>
+<rel type="r_infopot" poids="55" tid="105481">atrocité</rel>
+<rel type="r_infopot" poids="55" tid="67515">attaché</rel>
+<rel type="r_infopot" poids="55" tid="5335">aztèque</rel>
+<rel type="r_infopot" poids="55" tid="61350">aéroterrestre</rel>
+<rel type="r_infopot" poids="55" tid="108166">beau</rel>
+<rel type="r_infopot" poids="55" tid="92636">bibliothèque</rel>
+<rel type="r_infopot" poids="55" tid="187902">bombe calorimétrique</rel>
+<rel type="r_infopot" poids="55" tid="16110">bouche</rel>
+<rel type="r_infopot" poids="55" tid="92533">bradel</rel>
+<rel type="r_infopot" poids="55" tid="26062">branche</rel>
+<rel type="r_infopot" poids="55" tid="97577">c</rel>
+<rel type="r_infopot" poids="55" tid="163068">café noir</rel>
+<rel type="r_infopot" poids="55" tid="8387">caillou</rel>
+<rel type="r_infopot" poids="55" tid="60477">canzoniere</rel>
+<rel type="r_infopot" poids="55" tid="65906">cardinal</rel>
+<rel type="r_infopot" poids="55" tid="131196">carte</rel>
+<rel type="r_infopot" poids="55" tid="33353">casino</rel>
+<rel type="r_infopot" poids="55" tid="216940">caviar d'aubergine</rel>
+<rel type="r_infopot" poids="55" tid="142537">cercle</rel>
+<rel type="r_infopot" poids="55" tid="45079">cervelle</rel>
+<rel type="r_infopot" poids="55" tid="7724">charger</rel>
+<rel type="r_infopot" poids="55" tid="113261">chartre</rel>
+<rel type="r_infopot" poids="55" tid="34157">chocolat</rel>
+<rel type="r_infopot" poids="55" tid="144689">chrétien</rel>
+<rel type="r_infopot" poids="55" tid="135318">civilisé</rel>
+<rel type="r_infopot" poids="55" tid="76274">colonnaire</rel>
+<rel type="r_infopot" poids="55" tid="17843">contre-bouter</rel>
+<rel type="r_infopot" poids="55" tid="58792">coupant</rel>
+<rel type="r_infopot" poids="55" tid="33082">crier</rel>
+<rel type="r_infopot" poids="55" tid="62139">crémier</rel>
+<rel type="r_infopot" poids="55" tid="30132">cueillir</rel>
+<rel type="r_infopot" poids="55" tid="168494">cybersexe</rel>
+<rel type="r_infopot" poids="55" tid="143956">d'abord</rel>
+<rel type="r_infopot" poids="55" tid="32574">derrière</rel>
+<rel type="r_infopot" poids="55" tid="34325">deux-deux</rel>
+<rel type="r_infopot" poids="55" tid="66071">deviner</rel>
+<rel type="r_infopot" poids="55" tid="70779">diamorphine</rel>
+<rel type="r_infopot" poids="55" tid="66239">distancer</rel>
+<rel type="r_infopot" poids="55" tid="153950">divorce à l'amiable</rel>
+<rel type="r_infopot" poids="55" tid="74183">doux</rel>
+<rel type="r_infopot" poids="55" tid="13368">déloger</rel>
+<rel type="r_infopot" poids="55" tid="104821">déporter</rel>
+<rel type="r_infopot" poids="55" tid="38472">embryologique</rel>
+<rel type="r_infopot" poids="55" tid="110622">enlacer</rel>
+<rel type="r_infopot" poids="55" tid="104671">exemple</rel>
+<rel type="r_infopot" poids="55" tid="56921">exploiter</rel>
+<rel type="r_infopot" poids="55" tid="87332">expression</rel>
+<rel type="r_infopot" poids="55" tid="98300">famille</rel>
+<rel type="r_infopot" poids="55" tid="146295">fatigue</rel>
+<rel type="r_infopot" poids="55" tid="217060" te="filer>217058">filer  (faire un fil)</rel>
+<rel type="r_infopot" poids="55" tid="9190">four</rel>
+<rel type="r_infopot" poids="55" tid="16832">free</rel>
+<rel type="r_infopot" poids="55" tid="159822">gros mots</rel>
+<rel type="r_infopot" poids="55" tid="5051">gêner</rel>
+<rel type="r_infopot" poids="55" tid="590">hecto</rel>
+<rel type="r_infopot" poids="55" tid="103205">hectopièze</rel>
+<rel type="r_infopot" poids="55" tid="74051">hier</rel>
+<rel type="r_infopot" poids="55" tid="119971">hindouisme</rel>
+<rel type="r_infopot" poids="55" tid="27428">hockey</rel>
+<rel type="r_infopot" poids="55" tid="114401">homogénéisateur</rel>
+<rel type="r_infopot" poids="55" tid="163127">hors la loi</rel>
+<rel type="r_infopot" poids="55" tid="74498">hosanna</rel>
+<rel type="r_infopot" poids="55" tid="182716">héritier présomptif</rel>
+<rel type="r_infopot" poids="55" tid="166376">identifiant</rel>
+<rel type="r_infopot" poids="55" tid="131542">identité</rel>
+<rel type="r_infopot" poids="55" tid="121273">impolitique</rel>
+<rel type="r_infopot" poids="55" tid="39577">impression</rel>
+<rel type="r_infopot" poids="55" tid="189981">ingrédient de cuisine</rel>
+<rel type="r_infopot" poids="55" tid="3313">inhabileté</rel>
+<rel type="r_infopot" poids="55" tid="65152">inhibition</rel>
+<rel type="r_infopot" poids="55" tid="99802">insignifiance</rel>
+<rel type="r_infopot" poids="55" tid="41158">inspirer</rel>
+<rel type="r_infopot" poids="55" tid="20902">interville</rel>
+<rel type="r_infopot" poids="55" tid="103658">italien</rel>
+<rel type="r_infopot" poids="55" tid="53310">jus</rel>
+<rel type="r_infopot" poids="55" tid="100221">limoneux</rel>
+<rel type="r_infopot" poids="55" tid="42275">loup-garou</rel>
+<rel type="r_infopot" poids="55" tid="22615">macrophages</rel>
+<rel type="r_infopot" poids="55" tid="166095">maniérer</rel>
+<rel type="r_infopot" poids="55" tid="126228">mautalent</rel>
+<rel type="r_infopot" poids="55" tid="141795">membre</rel>
+<rel type="r_infopot" poids="55" tid="59582">moustique</rel>
+<rel type="r_infopot" poids="55" tid="100008">moyen-courrier</rel>
+<rel type="r_infopot" poids="55" tid="76460">muet</rel>
+<rel type="r_infopot" poids="55" tid="159317">mémoire vive</rel>
+<rel type="r_infopot" poids="55" tid="112092">navigant</rel>
+<rel type="r_infopot" poids="55" tid="105569">numides</rel>
+<rel type="r_infopot" poids="55" tid="32480">occlusif</rel>
+<rel type="r_infopot" poids="55" tid="129417">orage</rel>
+<rel type="r_infopot" poids="55" tid="94978">ordinateur</rel>
+<rel type="r_infopot" poids="55" tid="33311">osciller</rel>
+<rel type="r_infopot" poids="55" tid="217440">parade amoureuse</rel>
+<rel type="r_infopot" poids="55" tid="154152">passage piéton</rel>
+<rel type="r_infopot" poids="55" tid="64861">passe-passe</rel>
+<rel type="r_infopot" poids="55" tid="43466">passé</rel>
+<rel type="r_infopot" poids="55" tid="53059">peaufiner</rel>
+<rel type="r_infopot" poids="55" tid="27513">peler</rel>
+<rel type="r_infopot" poids="55" tid="5416">phoebus</rel>
+<rel type="r_infopot" poids="55" tid="79440">photochimie</rel>
+<rel type="r_infopot" poids="55" tid="1376">photographie</rel>
+<rel type="r_infopot" poids="55" tid="145715">poste</rel>
+<rel type="r_infopot" poids="55" tid="129882">pourquoi</rel>
+<rel type="r_infopot" poids="55" tid="96053">priorité</rel>
+<rel type="r_infopot" poids="55" tid="131040">prix</rel>
+<rel type="r_infopot" poids="55" tid="129843">probabilité</rel>
+<rel type="r_infopot" poids="55" tid="96611">prométhéen</rel>
+<rel type="r_infopot" poids="55" tid="70983">psittacidé</rel>
+<rel type="r_infopot" poids="55" tid="134649">pyrite</rel>
+<rel type="r_infopot" poids="55" tid="68537">quarante-huitard</rel>
+<rel type="r_infopot" poids="55" tid="116345">quatre</rel>
+<rel type="r_infopot" poids="55" tid="39199">quitter</rel>
+<rel type="r_infopot" poids="55" tid="19076">référentiels</rel>
+<rel type="r_infopot" poids="55" tid="10953">réhabilitation</rel>
+<rel type="r_infopot" poids="55" tid="164058">république populaire</rel>
+<rel type="r_infopot" poids="55" tid="106210">sabbatique</rel>
+<rel type="r_infopot" poids="55" tid="79364">sauter</rel>
+<rel type="r_infopot" poids="55" tid="48720">scrutateur</rel>
+<rel type="r_infopot" poids="55" tid="23431">scène</rel>
+<rel type="r_infopot" poids="55" tid="146071">selle</rel>
+<rel type="r_infopot" poids="55" tid="123616">silence</rel>
+<rel type="r_infopot" poids="55" tid="73685">sports</rel>
+<rel type="r_infopot" poids="55" tid="30348">studieux</rel>
+<rel type="r_infopot" poids="55" tid="150735">suissesse</rel>
+<rel type="r_infopot" poids="55" tid="62166">sur le pouce</rel>
+<rel type="r_infopot" poids="55" tid="134578">système géocentrique</rel>
+<rel type="r_infopot" poids="55" tid="106222">talonnement</rel>
+<rel type="r_infopot" poids="55" tid="52591">taman</rel>
+<rel type="r_infopot" poids="55" tid="14864">tapette</rel>
+<rel type="r_infopot" poids="55" tid="1329">tartariner</rel>
+<rel type="r_infopot" poids="55" tid="76641">trahison</rel>
+<rel type="r_infopot" poids="55" tid="49647">transcodage</rel>
+<rel type="r_infopot" poids="55" tid="143858">transfiguration</rel>
+<rel type="r_infopot" poids="55" tid="117537">transport par rail</rel>
+<rel type="r_infopot" poids="55" tid="32923">treize</rel>
+<rel type="r_infopot" poids="55" tid="41983">tromper</rel>
+<rel type="r_infopot" poids="55" tid="87185">troubler</rel>
+<rel type="r_infopot" poids="55" tid="37302">trouvé</rel>
+<rel type="r_infopot" poids="55" tid="129395">tumeurs malignes</rel>
+<rel type="r_infopot" poids="55" tid="140436">université</rel>
+<rel type="r_infopot" poids="55" tid="136270">valablement</rel>
+<rel type="r_infopot" poids="55" tid="68887">élève</rel>
+<rel type="r_infopot" poids="55" tid="111819">éphébie</rel>
+<rel type="r_infopot" poids="54" tid="153044">39-45</rel>
+<rel type="r_infopot" poids="54" tid="158902" te="::>13:101083>29:39895>16">Avec quoi un policier pourrait poursuivre ?</rel>
+<rel type="r_infopot" poids="54" tid="156818" te="::>13:116477>29:69550>15">Où une personne pourrait travailler ?</rel>
+<rel type="r_infopot" poids="54" tid="163183" te="::>13:18067>29:130164>15">Où un invité pourrait manger ?</rel>
+<rel type="r_infopot" poids="54" tid="157247" te="::>13:49608>29:4914>15">Où une copine pourrait plaquer ?</rel>
+<rel type="r_infopot" poids="54" tid="215217" te="::>14:106290>29:47869>15">Où pourrait-on contracter une assurance ?</rel>
+<rel type="r_infopot" poids="54" tid="159809" te="::>14:61490>29:53344>15">Où pourrait-on appeler une femme ?</rel>
+<rel type="r_infopot" poids="54" tid="163550" te="::>16:124716>29:118085>13">Qui pourrait chiffrer avec une calculatrice ?</rel>
+<rel type="r_infopot" poids="54" tid="161909" te="::>16:81934>29:86950>34">De quelle manière pourrait-on dévoiler avec une main ?</rel>
+<rel type="r_infopot" poids="54" tid="157289" te="::>16:86102>29:77409>14">Que pourrait-on placarder avec une punaise ?</rel>
+<rel type="r_infopot" poids="54" tid="142234">Amphisbénidés</rel>
+<rel type="r_infopot" poids="54" tid="152224">Avada Kedavra</rel>
+<rel type="r_infopot" poids="54" tid="90372">Bailleul</rel>
+<rel type="r_infopot" poids="54" tid="6974">Beauté</rel>
+<rel type="r_infopot" poids="54" tid="166676">Buffy contre les vampires</rel>
+<rel type="r_infopot" poids="54" tid="104911">En-i</rel>
+<rel type="r_infopot" poids="54" tid="85192">Fianna Fáil</rel>
+<rel type="r_infopot" poids="54" tid="140343">Geo</rel>
+<rel type="r_infopot" poids="54" tid="75947">Hamilcar</rel>
+<rel type="r_infopot" poids="54" tid="77438">Hocquart</rel>
+<rel type="r_infopot" poids="54" tid="132642">Jiang Zemin</rel>
+<rel type="r_infopot" poids="54" tid="95267">Le Conformiste</rel>
+<rel type="r_infopot" poids="54" tid="217591">Le Joueur de flûte de Hamelin</rel>
+<rel type="r_infopot" poids="54" tid="217609">Le Vilain Petit Canard</rel>
+<rel type="r_infopot" poids="54" tid="153014">MSN</rel>
+<rel type="r_infopot" poids="54" tid="152198">Marylin Manson</rel>
+<rel type="r_infopot" poids="54" tid="104271">N.-D</rel>
+<rel type="r_infopot" poids="54" tid="154302">NRJ</rel>
+<rel type="r_infopot" poids="54" tid="217597">Pierre et le Loup</rel>
+<rel type="r_infopot" poids="54" tid="138069">Plaisance</rel>
+<rel type="r_infopot" poids="54" tid="138766">Puces</rel>
+<rel type="r_infopot" poids="54" tid="113669">Russie</rel>
+<rel type="r_infopot" poids="54" tid="53154">Silhouette</rel>
+<rel type="r_infopot" poids="54" tid="44309">Sosnowiec</rel>
+<rel type="r_infopot" poids="54" tid="162607">Ubuntu</rel>
+<rel type="r_infopot" poids="54" tid="43853">aile</rel>
+<rel type="r_infopot" poids="54" tid="10357">alambic</rel>
+<rel type="r_infopot" poids="54" tid="51508">alexandrin</rel>
+<rel type="r_infopot" poids="54" tid="74362">alphabétique</rel>
+<rel type="r_infopot" poids="54" tid="83704">amendement</rel>
+<rel type="r_infopot" poids="54" tid="37298">amour</rel>
+<rel type="r_infopot" poids="54" tid="72192">amphibolite</rel>
+<rel type="r_infopot" poids="54" tid="1383">amplitude de probabilité</rel>
+<rel type="r_infopot" poids="54" tid="103763">antichtone</rel>
+<rel type="r_infopot" poids="54" tid="118214">assembleuse</rel>
+<rel type="r_infopot" poids="54" tid="104285">astre</rel>
+<rel type="r_infopot" poids="54" tid="15384">atlantique</rel>
+<rel type="r_infopot" poids="54" tid="46485">avant-scène</rel>
+<rel type="r_infopot" poids="54" tid="48868">azoospermie</rel>
+<rel type="r_infopot" poids="54" tid="117091">balayure</rel>
+<rel type="r_infopot" poids="54" tid="66970">ballon</rel>
+<rel type="r_infopot" poids="54" tid="132763">banquier</rel>
+<rel type="r_infopot" poids="54" tid="107150">bateau</rel>
+<rel type="r_infopot" poids="54" tid="1722">bette</rel>
+<rel type="r_infopot" poids="54" tid="63362">bimestriel</rel>
+<rel type="r_infopot" poids="54" tid="86677">bollandiste</rel>
+<rel type="r_infopot" poids="54" tid="47487">bouler</rel>
+<rel type="r_infopot" poids="54" tid="181176">boîte à gants</rel>
+<rel type="r_infopot" poids="54" tid="80781">brumisateur</rel>
+<rel type="r_infopot" poids="54" tid="67789">bécarre</rel>
+<rel type="r_infopot" poids="54" tid="24746">cacophonique</rel>
+<rel type="r_infopot" poids="54" tid="140121">cancer</rel>
+<rel type="r_infopot" poids="54" tid="154237">cancer du poumon</rel>
+<rel type="r_infopot" poids="54" tid="91664">caractère</rel>
+<rel type="r_infopot" poids="54" tid="67873">catholiquement</rel>
+<rel type="r_infopot" poids="54" tid="124749">catécholamine</rel>
+<rel type="r_infopot" poids="54" tid="39031">cerveau</rel>
+<rel type="r_infopot" poids="54" tid="19197">chassé</rel>
+<rel type="r_infopot" poids="54" tid="62046">chauffage</rel>
+<rel type="r_infopot" poids="54" tid="11959">chauffeur</rel>
+<rel type="r_infopot" poids="54" tid="67203">chou</rel>
+<rel type="r_infopot" poids="54" tid="16804">coaxial</rel>
+<rel type="r_infopot" poids="54" tid="24714">complimenter</rel>
+<rel type="r_infopot" poids="54" tid="80995">compter</rel>
+<rel type="r_infopot" poids="54" tid="8595">corde</rel>
+<rel type="r_infopot" poids="54" tid="145622">cordes</rel>
+<rel type="r_infopot" poids="54" tid="84939">coton</rel>
+<rel type="r_infopot" poids="54" tid="147149">courier</rel>
+<rel type="r_infopot" poids="54" tid="17332">croisée</rel>
+<rel type="r_infopot" poids="54" tid="127940">culte</rel>
+<rel type="r_infopot" poids="54" tid="52760">dessiner</rel>
+<rel type="r_infopot" poids="54" tid="144745">diable</rel>
+<rel type="r_infopot" poids="54" tid="33870">disgrâce</rel>
+<rel type="r_infopot" poids="54" tid="191879">divinités</rel>
+<rel type="r_infopot" poids="54" tid="12941">donner</rel>
+<rel type="r_infopot" poids="54" tid="20252">dossard</rel>
+<rel type="r_infopot" poids="54" tid="118237">draconien</rel>
+<rel type="r_infopot" poids="54" tid="25064">droguerie</rel>
+<rel type="r_infopot" poids="54" tid="7159">droit</rel>
+<rel type="r_infopot" poids="54" tid="75998">décision</rel>
+<rel type="r_infopot" poids="54" tid="27468">décoder</rel>
+<rel type="r_infopot" poids="54" tid="8419">définitoire</rel>
+<rel type="r_infopot" poids="54" tid="29359">démocrate</rel>
+<rel type="r_infopot" poids="54" tid="147898">effrénement</rel>
+<rel type="r_infopot" poids="54" tid="5128">encouragement</rel>
+<rel type="r_infopot" poids="54" tid="123885">encéphalisation</rel>
+<rel type="r_infopot" poids="54" tid="124094">enfant</rel>
+<rel type="r_infopot" poids="54" tid="28611">enjoliver</rel>
+<rel type="r_infopot" poids="54" tid="88835">envier</rel>
+<rel type="r_infopot" poids="54" tid="148049">espagnoliser</rel>
+<rel type="r_infopot" poids="54" tid="101938">estomac</rel>
+<rel type="r_infopot" poids="54" tid="23640">eudémonisme</rel>
+<rel type="r_infopot" poids="54" tid="12480">extendeur</rel>
+<rel type="r_infopot" poids="54" tid="91005">fat</rel>
+<rel type="r_infopot" poids="54" tid="85276">feuilleton</rel>
+<rel type="r_infopot" poids="54" tid="121751">figure de discours</rel>
+<rel type="r_infopot" poids="54" tid="135273">floculat</rel>
+<rel type="r_infopot" poids="54" tid="153808">gaie</rel>
+<rel type="r_infopot" poids="54" tid="78799">geôle</rel>
+<rel type="r_infopot" poids="54" tid="141310">gouvernés</rel>
+<rel type="r_infopot" poids="54" tid="148362">graines</rel>
+<rel type="r_infopot" poids="54" tid="11797">grave</rel>
+<rel type="r_infopot" poids="54" tid="108677">griotte</rel>
+<rel type="r_infopot" poids="54" tid="69814">guzla</rel>
+<rel type="r_infopot" poids="54" tid="126092">habilement</rel>
+<rel type="r_infopot" poids="54" tid="37271">horloge</rel>
+<rel type="r_infopot" poids="54" tid="5627">hypnotiser</rel>
+<rel type="r_infopot" poids="54" tid="85758">hérisson</rel>
+<rel type="r_infopot" poids="54" tid="134541">inclusions</rel>
+<rel type="r_infopot" poids="54" tid="19198">incorrigible</rel>
+<rel type="r_infopot" poids="54" tid="148771">joyeuse</rel>
+<rel type="r_infopot" poids="54" tid="31864">kiwi</rel>
+<rel type="r_infopot" poids="54" tid="73061">lampe</rel>
+<rel type="r_infopot" poids="54" tid="20164">lapin</rel>
+<rel type="r_infopot" poids="54" tid="105002">lavande</rel>
+<rel type="r_infopot" poids="54" tid="152801">lions</rel>
+<rel type="r_infopot" poids="54" tid="107932">living-room</rel>
+<rel type="r_infopot" poids="54" tid="92968">lombaire</rel>
+<rel type="r_infopot" poids="54" tid="111426">louangeur</rel>
+<rel type="r_infopot" poids="54" tid="4007">loupe</rel>
+<rel type="r_infopot" poids="54" tid="54848">léguer</rel>
+<rel type="r_infopot" poids="54" tid="4078">mal</rel>
+<rel type="r_infopot" poids="54" tid="46360">mots</rel>
+<rel type="r_infopot" poids="54" tid="65655">mycologique</rel>
+<rel type="r_infopot" poids="54" tid="84552">méchoui</rel>
+<rel type="r_infopot" poids="54" tid="99570">obstination</rel>
+<rel type="r_infopot" poids="54" tid="168282">pain à cacheter</rel>
+<rel type="r_infopot" poids="54" tid="28065">pare-brise</rel>
+<rel type="r_infopot" poids="54" tid="156031">patte de lapin</rel>
+<rel type="r_infopot" poids="54" tid="155383">penis</rel>
+<rel type="r_infopot" poids="54" tid="38164">persifler</rel>
+<rel type="r_infopot" poids="54" tid="38252">persistance</rel>
+<rel type="r_infopot" poids="54" tid="59736">pervers</rel>
+<rel type="r_infopot" poids="54" tid="626">peur</rel>
+<rel type="r_infopot" poids="54" tid="36904">planimétrie</rel>
+<rel type="r_infopot" poids="54" tid="4993">planter</rel>
+<rel type="r_infopot" poids="54" tid="53216">plombier</rel>
+<rel type="r_infopot" poids="54" tid="95884">polychromie</rel>
+<rel type="r_infopot" poids="54" tid="43404">porter</rel>
+<rel type="r_infopot" poids="54" tid="24034">poème</rel>
+<rel type="r_infopot" poids="54" tid="52177">presbytérianisme</rel>
+<rel type="r_infopot" poids="54" tid="8924">psychologie</rel>
+<rel type="r_infopot" poids="54" tid="89444">psychosexuel</rel>
+<rel type="r_infopot" poids="54" tid="70987">rails</rel>
+<rel type="r_infopot" poids="54" tid="81924">rassembler</rel>
+<rel type="r_infopot" poids="54" tid="63159">relier</rel>
+<rel type="r_infopot" poids="54" tid="88491">reproduction</rel>
+<rel type="r_infopot" poids="54" tid="59052">retour</rel>
+<rel type="r_infopot" poids="54" tid="92249">rotation</rel>
+<rel type="r_infopot" poids="54" tid="5957">rubéfiant</rel>
+<rel type="r_infopot" poids="54" tid="69720">réussi</rel>
+<rel type="r_infopot" poids="54" tid="191756">s'il vous plaît</rel>
+<rel type="r_infopot" poids="54" tid="134330">sabrage</rel>
+<rel type="r_infopot" poids="54" tid="91932">se battre</rel>
+<rel type="r_infopot" poids="54" tid="6094">se procurer</rel>
+<rel type="r_infopot" poids="54" tid="83069">se référer</rel>
+<rel type="r_infopot" poids="54" tid="85011">sorcier</rel>
+<rel type="r_infopot" poids="54" tid="104624">soutenir</rel>
+<rel type="r_infopot" poids="54" tid="165071">spaghettis</rel>
+<rel type="r_infopot" poids="54" tid="124576">stibié</rel>
+<rel type="r_infopot" poids="54" tid="135922">surdité</rel>
+<rel type="r_infopot" poids="54" tid="98282">syndicalisme</rel>
+<rel type="r_infopot" poids="54" tid="135501">séparation</rel>
+<rel type="r_infopot" poids="54" tid="89591">table</rel>
+<rel type="r_infopot" poids="54" tid="56745">tapage</rel>
+<rel type="r_infopot" poids="54" tid="136617">tarentule</rel>
+<rel type="r_infopot" poids="54" tid="93907">targe</rel>
+<rel type="r_infopot" poids="54" tid="142736">toile</rel>
+<rel type="r_infopot" poids="54" tid="133328">touristique</rel>
+<rel type="r_infopot" poids="54" tid="5178">tous</rel>
+<rel type="r_infopot" poids="54" tid="79896">tousser</rel>
+<rel type="r_infopot" poids="54" tid="143590">traité</rel>
+<rel type="r_infopot" poids="54" tid="18571">truc</rel>
+<rel type="r_infopot" poids="54" tid="113126">tu</rel>
+<rel type="r_infopot" poids="54" tid="15786">télécharger</rel>
+<rel type="r_infopot" poids="54" tid="160635">vertes</rel>
+<rel type="r_infopot" poids="54" tid="163544">vetement</rel>
+<rel type="r_infopot" poids="54" tid="83635">vigne</rel>
+<rel type="r_infopot" poids="54" tid="139331">voile</rel>
+<rel type="r_infopot" poids="54" tid="4147">vouloir</rel>
+<rel type="r_infopot" poids="54" tid="30726">vu</rel>
+<rel type="r_infopot" poids="54" tid="5574">ébriété</rel>
+<rel type="r_infopot" poids="54" tid="127487">échec</rel>
+<rel type="r_infopot" poids="54" tid="29234">élaguer</rel>
+<rel type="r_infopot" poids="54" tid="93967">épaissir</rel>
+<rel type="r_infopot" poids="54" tid="85698">épandre</rel>
+<rel type="r_infopot" poids="54" tid="66512">épuratoire</rel>
+<rel type="r_infopot" poids="54" tid="72281">étude</rel>
+<rel type="r_infopot" poids="54" tid="13369">être</rel>
+<rel type="r_infopot" poids="54" tid="11171">être en érection</rel>
+<rel type="r_infopot" poids="53" tid="168936" te="::>13:116477>29:80122>14">Qu'est-ce qu'une personne pourrait liquider ?</rel>
+<rel type="r_infopot" poids="53" tid="158206" te="::>13:12107>29:30822>15">Où une danseuse pourrait danser ?</rel>
+<rel type="r_infopot" poids="53" tid="165714" te="::>13:146632>29:75156>14">Qu'est-ce qu'une forêt pourrait brûler ?</rel>
+<rel type="r_infopot" poids="53" tid="159474" te="::>13:74860>29:28475>16">Avec quoi un homme pourrait corriger ?</rel>
+<rel type="r_infopot" poids="53" tid="153114" te="::>13:81713>29:21149>14">Qu'est-ce qu'un ogre pourrait dévorer ?</rel>
+<rel type="r_infopot" poids="53" tid="159243" te="::>14:116477>29:56137>13">Qui pourrait acclamer une personne ?</rel>
+<rel type="r_infopot" poids="53" tid="158916" te="::>14:120949>29:2344>16">Avec quoi pourrait-on mouiller un vêtement ?</rel>
+<rel type="r_infopot" poids="53" tid="159329" te="::>14:17559>29:20537>15">Où pourrait-on attacher un animal ?</rel>
+<rel type="r_infopot" poids="53" tid="158648" te="::>14:26363>29:54271>13">Qui pourrait ouvrir des bras ?</rel>
+<rel type="r_infopot" poids="53" tid="156707" te="::>14:38557>29:130164>15">Où pourrait-on manger un dessert ?</rel>
+<rel type="r_infopot" poids="53" tid="166286" te="::>14:74860>29:129474>13">Qui pourrait déshabiller un homme ?</rel>
+<rel type="r_infopot" poids="53" tid="156742" te="::>14:95245>29:50113>13">Qui pourrait fréquenter une fille ?</rel>
+<rel type="r_infopot" poids="53" tid="158100" te="::>16:55249>29:11409>15">Où pourrait-on parfumer avec un parfum ?</rel>
+<rel type="r_infopot" poids="53" tid="27130">BD</rel>
+<rel type="r_infopot" poids="53" tid="166732">Commissaire Moulin</rel>
+<rel type="r_infopot" poids="53" tid="125179">Constitution belge</rel>
+<rel type="r_infopot" poids="53" tid="172719">Cpl</rel>
+<rel type="r_infopot" poids="53" tid="166759">Dr House</rel>
+<rel type="r_infopot" poids="53" tid="74966">FMI</rel>
+<rel type="r_infopot" poids="53" tid="157248">Freyja</rel>
+<rel type="r_infopot" poids="53" tid="117955">Fuji</rel>
+<rel type="r_infopot" poids="53" tid="50509">Hubli-Dharwar</rel>
+<rel type="r_infopot" poids="53" tid="215314">Joe le taxi</rel>
+<rel type="r_infopot" poids="53" tid="46898">La Barre</rel>
+<rel type="r_infopot" poids="53" tid="45874">La Légende ailée de Wieland le Forgeron</rel>
+<rel type="r_infopot" poids="53" tid="216426">La Petite Sirène</rel>
+<rel type="r_infopot" poids="53" tid="26294">Le Président</rel>
+<rel type="r_infopot" poids="53" tid="30034">Le Visage de mon frère</rel>
+<rel type="r_infopot" poids="53" tid="138324">Marengo</rel>
+<rel type="r_infopot" poids="53" tid="62905">Partner</rel>
+<rel type="r_infopot" poids="53" tid="93113">Petrouchka</rel>
+<rel type="r_locution" poids="53" tid="434484">QUESTION</rel>
+<rel type="r_infopot" poids="53" tid="64931">Viry-Châtillon</rel>
+<rel type="r_infopot" poids="53" tid="59522">agité</rel>
+<rel type="r_infopot" poids="53" tid="79233">alcoolémie</rel>
+<rel type="r_infopot" poids="53" tid="55742">annoter</rel>
+<rel type="r_infopot" poids="53" tid="144402">arche</rel>
+<rel type="r_infopot" poids="53" tid="160087">au milieu</rel>
+<rel type="r_infopot" poids="53" tid="36295">bal musette</rel>
+<rel type="r_infopot" poids="53" tid="95126">barbecue</rel>
+<rel type="r_infopot" poids="53" tid="98324">battue</rel>
+<rel type="r_infopot" poids="53" tid="139352">beauté</rel>
+<rel type="r_infopot" poids="53" tid="114700">bien</rel>
+<rel type="r_infopot" poids="53" tid="15196">blanc</rel>
+<rel type="r_infopot" poids="53" tid="49586">boraté</rel>
+<rel type="r_infopot" poids="53" tid="145457">boucle</rel>
+<rel type="r_infopot" poids="53" tid="136382">boyau</rel>
+<rel type="r_infopot" poids="53" tid="41397">brigands</rel>
+<rel type="r_infopot" poids="53" tid="142856">bronze</rel>
+<rel type="r_infopot" poids="53" tid="147467">bâilla</rel>
+<rel type="r_infopot" poids="53" tid="213362" te="bûche>2149">bûche  (gâteau)</rel>
+<rel type="r_infopot" poids="53" tid="139467">cale</rel>
+<rel type="r_infopot" poids="53" tid="103742">captal</rel>
+<rel type="r_infopot" poids="53" tid="127216">charmer</rel>
+<rel type="r_infopot" poids="53" tid="42598">choucroute</rel>
+<rel type="r_infopot" poids="53" tid="154294">chute d'eau</rel>
+<rel type="r_infopot" poids="53" tid="75142">cidre</rel>
+<rel type="r_infopot" poids="53" tid="27233">circumlunaire</rel>
+<rel type="r_infopot" poids="53" tid="197614">classé X</rel>
+<rel type="r_infopot" poids="53" tid="135810">collectiviste</rel>
+<rel type="r_infopot" poids="53" tid="62067">commune</rel>
+<rel type="r_infopot" poids="53" tid="104519">comptabilisation</rel>
+<rel type="r_infopot" poids="53" tid="218678">confiance en soi</rel>
+<rel type="r_infopot" poids="53" tid="75955">conjuguer</rel>
+<rel type="r_infopot" poids="53" tid="144252">consigne</rel>
+<rel type="r_infopot" poids="53" tid="57470">consommation</rel>
+<rel type="r_infopot" poids="53" tid="74846">corps</rel>
+<rel type="r_infopot" poids="53" tid="17">croisades</rel>
+<rel type="r_infopot" poids="53" tid="107156">crépuscule</rel>
+<rel type="r_infopot" poids="53" tid="144611">d'entrée de jeu</rel>
+<rel type="r_infopot" poids="53" tid="32785">dandinette</rel>
+<rel type="r_infopot" poids="53" tid="65171">divaguer</rel>
+<rel type="r_infopot" poids="53" tid="46006">décider</rel>
+<rel type="r_infopot" poids="53" tid="117276">défense</rel>
+<rel type="r_infopot" poids="53" tid="74054">démontant</rel>
+<rel type="r_infopot" poids="53" tid="111517">désavouer</rel>
+<rel type="r_infopot" poids="53" tid="30636">empereur romain</rel>
+<rel type="r_infopot" poids="53" tid="139743">enveloppe</rel>
+<rel type="r_infopot" poids="53" tid="83344">esquimau</rel>
+<rel type="r_infopot" poids="53" tid="12562">examiner</rel>
+<rel type="r_infopot" poids="53" tid="169483">faute au football</rel>
+<rel type="r_infopot" poids="53" tid="177408">figure de style</rel>
+<rel type="r_infopot" poids="53" tid="15189">filouter</rel>
+<rel type="r_infopot" poids="53" tid="78639">fin de semaine</rel>
+<rel type="r_infopot" poids="53" tid="77938">flair</rel>
+<rel type="r_infopot" poids="53" tid="117533">fleurs</rel>
+<rel type="r_infopot" poids="53" tid="27184">foyer</rel>
+<rel type="r_infopot" poids="53" tid="145474">fripe</rel>
+<rel type="r_infopot" poids="53" tid="139772">galère</rel>
+<rel type="r_infopot" poids="53" tid="127798">geste</rel>
+<rel type="r_infopot" poids="53" tid="167984">gralline</rel>
+<rel type="r_infopot" poids="53" tid="156062">grosse pression</rel>
+<rel type="r_infopot" poids="53" tid="67085">guérison</rel>
+<rel type="r_infopot" poids="53" tid="59413">harceler</rel>
+<rel type="r_infopot" poids="53" tid="158404">hormone de croissance</rel>
+<rel type="r_infopot" poids="53" tid="79934">impasse</rel>
+<rel type="r_infopot" poids="53" tid="7681">impatience</rel>
+<rel type="r_infopot" poids="53" tid="2410">ineffable</rel>
+<rel type="r_infopot" poids="53" tid="14264">infécond</rel>
+<rel type="r_infopot" poids="53" tid="138187">internet</rel>
+<rel type="r_infopot" poids="53" tid="77190">isallobare</rel>
+<rel type="r_infopot" poids="53" tid="145556">jeu d'échecs</rel>
+<rel type="r_infopot" poids="53" tid="88924">jeudi</rel>
+<rel type="r_infopot" poids="53" tid="4513">joyeux</rel>
+<rel type="r_infopot" poids="53" tid="74691">karting</rel>
+<rel type="r_infopot" poids="53" tid="163061">l'alimentation</rel>
+<rel type="r_infopot" poids="53" tid="145708">la Jeune Fille et la Mort</rel>
+<rel type="r_infopot" poids="53" tid="165951">le rapport hiérarchique</rel>
+<rel type="r_infopot" poids="53" tid="65158">lierne</rel>
+<rel type="r_infopot" poids="53" tid="98941">lingère</rel>
+<rel type="r_infopot" poids="53" tid="89372">liter</rel>
+<rel type="r_infopot" poids="53" tid="59016">livedo</rel>
+<rel type="r_infopot" poids="53" tid="21130">mai</rel>
+<rel type="r_infopot" poids="53" tid="45705">marche</rel>
+<rel type="r_infopot" poids="53" tid="39612">marié</rel>
+<rel type="r_infopot" poids="53" tid="142700">mat</rel>
+<rel type="r_infopot" poids="53" tid="4963">maya</rel>
+<rel type="r_infopot" poids="53" tid="38361">miette</rel>
+<rel type="r_infopot" poids="53" tid="62788">miroir</rel>
+<rel type="r_infopot" poids="53" tid="151905">mirroir</rel>
+<rel type="r_infopot" poids="53" tid="109102">modernité</rel>
+<rel type="r_infopot" poids="53" tid="154015">mortelle</rel>
+<rel type="r_infopot" poids="53" tid="103527">nucléaire</rel>
+<rel type="r_infopot" poids="53" tid="39192">nuit</rel>
+<rel type="r_infopot" poids="53" tid="12009">négation</rel>
+<rel type="r_infopot" poids="53" tid="9664">océan</rel>
+<rel type="r_infopot" poids="53" tid="110902">odorat</rel>
+<rel type="r_infopot" poids="53" tid="62383">orthophonie</rel>
+<rel type="r_infopot" poids="53" tid="11409">parfumer</rel>
+<rel type="r_infopot" poids="53" tid="26317">partenaire</rel>
+<rel type="r_infopot" poids="53" tid="165576">pas bien</rel>
+<rel type="r_infopot" poids="53" tid="109785">peau</rel>
+<rel type="r_infopot" poids="53" tid="71710">pectinase</rel>
+<rel type="r_infopot" poids="53" tid="7928">pelouse</rel>
+<rel type="r_infopot" poids="53" tid="7487">pentu</rel>
+<rel type="r_infopot" poids="53" tid="122824">phalange</rel>
+<rel type="r_infopot" poids="53" tid="91374">phospholipide</rel>
+<rel type="r_infopot" poids="53" tid="8139">phytocénose</rel>
+<rel type="r_infopot" poids="53" tid="90516">plateau</rel>
+<rel type="r_infopot" poids="53" tid="44259">plâtrière</rel>
+<rel type="r_infopot" poids="53" tid="159079">port du casque</rel>
+<rel type="r_infopot" poids="53" tid="18834">posséder</rel>
+<rel type="r_infopot" poids="53" tid="110584">priapisme</rel>
+<rel type="r_infopot" poids="53" tid="121639">présence</rel>
+<rel type="r_infopot" poids="53" tid="66808">présent</rel>
+<rel type="r_infopot" poids="53" tid="88932">psy</rel>
+<rel type="r_infopot" poids="53" tid="25345">quidam</rel>
+<rel type="r_infopot" poids="53" tid="105363">rabibocher</rel>
+<rel type="r_infopot" poids="53" tid="71808">raineter</rel>
+<rel type="r_infopot" poids="53" tid="123888">rallye</rel>
+<rel type="r_infopot" poids="53" tid="131514">reflet</rel>
+<rel type="r_infopot" poids="53" tid="107954">remercier</rel>
+<rel type="r_infopot" poids="53" tid="86356">rouge</rel>
+<rel type="r_infopot" poids="53" tid="121678">route</rel>
+<rel type="r_infopot" poids="53" tid="61397">rural</rel>
+<rel type="r_infopot" poids="53" tid="214802" te="régime>36100">régime  (régime politique)</rel>
+<rel type="r_infopot" poids="53" tid="141176">réveil</rel>
+<rel type="r_infopot" poids="53" tid="27636">salir</rel>
+<rel type="r_infopot" poids="53" tid="1179">sans relâche</rel>
+<rel type="r_infopot" poids="53" tid="16180">se claustrer</rel>
+<rel type="r_infopot" poids="53" tid="95543">se faire chier</rel>
+<rel type="r_infopot" poids="53" tid="116134">selles</rel>
+<rel type="r_infopot" poids="53" tid="122549">sentiment</rel>
+<rel type="r_infopot" poids="53" tid="60515">sherry</rel>
+<rel type="r_infopot" poids="53" tid="214549" te="sirène>214546">sirène  (femme-poisson)</rel>
+<rel type="r_infopot" poids="53" tid="104681">solitude</rel>
+<rel type="r_infopot" poids="53" tid="108626">sorcière</rel>
+<rel type="r_infopot" poids="53" tid="73503">soufflé</rel>
+<rel type="r_infopot" poids="53" tid="142832">souris</rel>
+<rel type="r_infopot" poids="53" tid="83855">sujet</rel>
+<rel type="r_infopot" poids="53" tid="151929">tagada</rel>
+<rel type="r_infopot" poids="53" tid="15255">tapenade</rel>
+<rel type="r_infopot" poids="53" tid="156836">tapper</rel>
+<rel type="r_infopot" poids="53" tid="56875">tarif</rel>
+<rel type="r_infopot" poids="53" tid="2080">tintamarre</rel>
+<rel type="r_infopot" poids="53" tid="10967">titulariser</rel>
+<rel type="r_infopot" poids="53" tid="20126">touffu</rel>
+<rel type="r_infopot" poids="53" tid="164376">toxine botulique</rel>
+<rel type="r_infopot" poids="53" tid="80326">tricher</rel>
+<rel type="r_infopot" poids="53" tid="59161">trou-madame</rel>
+<rel type="r_infopot" poids="53" tid="116973">tsigane</rel>
+<rel type="r_infopot" poids="53" tid="71467">télévision</rel>
+<rel type="r_infopot" poids="53" tid="32321">témérité</rel>
+<rel type="r_infopot" poids="53" tid="103008">vagin</rel>
+<rel type="r_infopot" poids="53" tid="33136">vague</rel>
+<rel type="r_infopot" poids="53" tid="98392">vapeur</rel>
+<rel type="r_infopot" poids="53" tid="77822">venir</rel>
+<rel type="r_infopot" poids="53" tid="86557">vertigo</rel>
+<rel type="r_infopot" poids="53" tid="128768">virtuellement</rel>
+<rel type="r_infopot" poids="53" tid="104621">vision</rel>
+<rel type="r_infopot" poids="53" tid="73827">voler</rel>
+<rel type="r_infopot" poids="53" tid="47211">vénérer</rel>
+<rel type="r_infopot" poids="53" tid="61061">Égypte</rel>
+<rel type="r_infopot" poids="53" tid="53267">écologie</rel>
+<rel type="r_infopot" poids="53" tid="43497">écuellée</rel>
+<rel type="r_infopot" poids="53" tid="97335">écurie</rel>
+<rel type="r_infopot" poids="53" tid="11581">édit de la Paulette</rel>
+<rel type="r_infopot" poids="53" tid="64003">égal</rel>
+<rel type="r_infopot" poids="53" tid="71297">élite</rel>
+<rel type="r_infopot" poids="53" tid="59792">énoncé</rel>
+<rel type="r_infopot" poids="53" tid="59879">éplucher</rel>
+<rel type="r_infopot" poids="52" tid="162357" te="::>13:142124>29:26507>15">Où un garçon pourrait pêcher ?</rel>
+<rel type="r_infopot" poids="52" tid="215389" te="::>13:147309>29:44945>15">Où des amants pourraient se rejoindre ?</rel>
+<rel type="r_infopot" poids="52" tid="166300" te="::>13:61490>29:84221>16">Avec quoi une femme pourrait cogner ?</rel>
+<rel type="r_infopot" poids="52" tid="195065" te="::>14:111751>29:107098>13">Qui pourrait sonner un cor ?</rel>
+<rel type="r_infopot" poids="52" tid="165170" te="::>14:5910>29:85554>13">Qui pourrait dégainer une épée ?</rel>
+<rel type="r_infopot" poids="52" tid="166539" te="::>16:1590>29:129264>15">Où pourrait-on creuser avec une pioche ?</rel>
+<rel type="r_infopot" poids="52" tid="158354" te="::>16:84632>29:8788>13">Qui pourrait décharger avec un camion ?</rel>
+<rel type="r_infopot" poids="52" tid="141285">Argan</rel>
+<rel type="r_infopot" poids="52" tid="145919">Barre</rel>
+<rel type="r_infopot" poids="52" tid="139752">Blanc</rel>
+<rel type="r_infopot" poids="52" tid="134073">Boltanski</rel>
+<rel type="r_infopot" poids="52" tid="142233">Bora</rel>
+<rel type="r_infopot" poids="52" tid="217585">Boucle d'or et les Trois Ours</rel>
+<rel type="r_infopot" poids="52" tid="143267">Californie</rel>
+<rel type="r_infopot" poids="52" tid="217725">Club Dorothée</rel>
+<rel type="r_infopot" poids="52" tid="85636">Ekman</rel>
+<rel type="r_infopot" poids="52" tid="91172">Haig</rel>
+<rel type="r_infopot" poids="52" tid="217589">Hansel et Gretel</rel>
+<rel type="r_infopot" poids="52" tid="151999">Jeux De Mots</rel>
+<rel type="r_infopot" poids="52" tid="215479">La Barbe bleue</rel>
+<rel type="r_infopot" poids="52" tid="217582">La Belle et la Bête</rel>
+<rel type="r_infopot" poids="52" tid="91731">La Vie</rel>
+<rel type="r_infopot" poids="52" tid="152396">Langage</rel>
+<rel type="r_infopot" poids="52" tid="124165">Lazzaro Spallanzani</rel>
+<rel type="r_infopot" poids="52" tid="217602">Le Rossignol et l'Empereur de Chine</rel>
+<rel type="r_infopot" poids="52" tid="217608">Le Vaillant Petit Tailleur</rel>
+<rel type="r_infopot" poids="52" tid="164871">Paul Newman</rel>
+<rel type="r_infopot" poids="52" tid="70767">Perosi</rel>
+<rel type="r_infopot" poids="52" tid="97158">Royans</rel>
+<rel type="r_infopot" poids="52" tid="24127">Show Boat</rel>
+<rel type="r_infopot" poids="52" tid="90405">Tirard</rel>
+<rel type="r_infopot" poids="52" tid="111861">William Ramsay</rel>
+<rel type="r_infopot" poids="52" tid="79585">Wolseley</rel>
+<rel type="r_infopot" poids="52" tid="143767">a</rel>
+<rel type="r_infopot" poids="52" tid="47995">abécédaire</rel>
+<rel type="r_infopot" poids="52" tid="29926">acheter</rel>
+<rel type="r_infopot" poids="52" tid="146358">acier</rel>
+<rel type="r_infopot" poids="52" tid="112929">action</rel>
+<rel type="r_infopot" poids="52" tid="105133">agrandir</rel>
+<rel type="r_infopot" poids="52" tid="66996">agréer</rel>
+<rel type="r_infopot" poids="52" tid="91165">aimant</rel>
+<rel type="r_infopot" poids="52" tid="88909">alcool amylique</rel>
+<rel type="r_infopot" poids="52" tid="114637">aliment</rel>
+<rel type="r_infopot" poids="52" tid="17135">amante</rel>
+<rel type="r_infopot" poids="52" tid="26923">amoindrir</rel>
+<rel type="r_infopot" poids="52" tid="96941">antillais</rel>
+<rel type="r_infopot" poids="52" tid="835">août</rel>
+<rel type="r_infopot" poids="52" tid="50042">apollinien</rel>
+<rel type="r_infopot" poids="52" tid="106265">appareil</rel>
+<rel type="r_infopot" poids="52" tid="7085">aptérygotes</rel>
+<rel type="r_infopot" poids="52" tid="10322">arriver</rel>
+<rel type="r_infopot" poids="52" tid="145738">atelier</rel>
+<rel type="r_infopot" poids="52" tid="37498">attaché-case</rel>
+<rel type="r_infopot" poids="52" tid="87925">aviation</rel>
+<rel type="r_infopot" poids="52" tid="155988">aérant</rel>
+<rel type="r_infopot" poids="52" tid="79241">babil</rel>
+<rel type="r_infopot" poids="52" tid="141457">bande</rel>
+<rel type="r_infopot" poids="52" tid="52189">baronnial</rel>
+<rel type="r_infopot" poids="52" tid="108983">battu</rel>
+<rel type="r_infopot" poids="52" tid="105354">bigoterie</rel>
+<rel type="r_infopot" poids="52" tid="67589">billet</rel>
+<rel type="r_infopot" poids="52" tid="81631">black-bass</rel>
+<rel type="r_infopot" poids="52" tid="216376">boeuf Marengo</rel>
+<rel type="r_infopot" poids="52" tid="184904">caca boudin</rel>
+<rel type="r_infopot" poids="52" tid="113398">caler</rel>
+<rel type="r_infopot" poids="52" tid="101947">camarguais</rel>
+<rel type="r_infopot" poids="52" tid="128751">camisards</rel>
+<rel type="r_infopot" poids="52" tid="112357">caniche</rel>
+<rel type="r_infopot" poids="52" tid="153184">carilloner</rel>
+<rel type="r_infopot" poids="52" tid="65902">cesse</rel>
+<rel type="r_infopot" poids="52" tid="145246">cheval</rel>
+<rel type="r_infopot" poids="52" tid="82766">chiche</rel>
+<rel type="r_infopot" poids="52" tid="31700">chouchouter</rel>
+<rel type="r_infopot" poids="52" tid="80697">ci-dessous</rel>
+<rel type="r_infopot" poids="52" tid="17573">circonscription</rel>
+<rel type="r_infopot" poids="52" tid="166032">circulation et traitement de l'information</rel>
+<rel type="r_infopot" poids="52" tid="91514">clergie</rel>
+<rel type="r_infopot" poids="52" tid="121430">cockney</rel>
+<rel type="r_infopot" poids="52" tid="68107">combat</rel>
+<rel type="r_infopot" poids="52" tid="13343">comprimer</rel>
+<rel type="r_infopot" poids="52" tid="98268">consonne</rel>
+<rel type="r_infopot" poids="52" tid="40056">couleur</rel>
+<rel type="r_infopot" poids="52" tid="141091">coupe</rel>
+<rel type="r_infopot" poids="52" tid="4653">courir</rel>
+<rel type="r_infopot" poids="52" tid="159880">course de motos</rel>
+<rel type="r_infopot" poids="52" tid="12573">cousiner</rel>
+<rel type="r_infopot" poids="52" tid="53673">creux</rel>
+<rel type="r_infopot" poids="52" tid="45221">crise</rel>
+<rel type="r_infopot" poids="52" tid="44001">crème</rel>
+<rel type="r_infopot" poids="52" tid="87292">cubitus</rel>
+<rel type="r_infopot" poids="52" tid="54351">de part en part</rel>
+<rel type="r_infopot" poids="52" tid="54097">demander</rel>
+<rel type="r_infopot" poids="52" tid="162549">detruire</rel>
+<rel type="r_infopot" poids="52" tid="44372">djinn</rel>
+<rel type="r_infopot" poids="52" tid="89275">duo</rel>
+<rel type="r_infopot" poids="52" tid="60327">décapeuse</rel>
+<rel type="r_infopot" poids="52" tid="198519">défendre son honneur</rel>
+<rel type="r_infopot" poids="52" tid="34395">définition</rel>
+<rel type="r_infopot" poids="52" tid="83247">détartrage</rel>
+<rel type="r_infopot" poids="52" tid="65642">eskrima</rel>
+<rel type="r_infopot" poids="52" tid="137831">faire l'amour</rel>
+<rel type="r_infopot" poids="52" tid="24346">fermer</rel>
+<rel type="r_infopot" poids="52" tid="145682">ferrer</rel>
+<rel type="r_infopot" poids="52" tid="103422">fissible</rel>
+<rel type="r_infopot" poids="52" tid="49332">flotte</rel>
+<rel type="r_infopot" poids="52" tid="101081">fondue</rel>
+<rel type="r_infopot" poids="52" tid="80259">forfanterie</rel>
+<rel type="r_infopot" poids="52" tid="39696">fourreau</rel>
+<rel type="r_infopot" poids="52" tid="45624">frigo</rel>
+<rel type="r_infopot" poids="52" tid="129554">fructus</rel>
+<rel type="r_infopot" poids="52" tid="145211">frère</rel>
+<rel type="r_infopot" poids="52" tid="131521">fumée</rel>
+<rel type="r_infopot" poids="52" tid="144647">fête</rel>
+<rel type="r_infopot" poids="52" tid="142226">gentil</rel>
+<rel type="r_infopot" poids="52" tid="4374">gonzesse</rel>
+<rel type="r_infopot" poids="52" tid="45291">grand-mère</rel>
+<rel type="r_infopot" poids="52" tid="42301">guêpe</rel>
+<rel type="r_infopot" poids="52" tid="92878">géologie</rel>
+<rel type="r_infopot" poids="52" tid="35015">hasard</rel>
+<rel type="r_infopot" poids="52" tid="138954">huile d'olive</rel>
+<rel type="r_infopot" poids="52" tid="62722">hébraïque</rel>
+<rel type="r_infopot" poids="52" tid="30118">imperturbable</rel>
+<rel type="r_infopot" poids="52" tid="55133">industriel</rel>
+<rel type="r_infopot" poids="52" tid="77834">infidélité</rel>
+<rel type="r_infopot" poids="52" tid="102114">innovation</rel>
+<rel type="r_infopot" poids="52" tid="139575">jardin</rel>
+<rel type="r_infopot" poids="52" tid="10122">jupe</rel>
+<rel type="r_infopot" poids="52" tid="4870">justes</rel>
+<rel type="r_infopot" poids="52" tid="32121">korrigan</rel>
+<rel type="r_infopot" poids="52" tid="166116">l'industrie et l'artisanat</rel>
+<rel type="r_infopot" poids="52" tid="162626">les humains</rel>
+<rel type="r_infopot" poids="52" tid="162388">les émotions</rel>
+<rel type="r_infopot" poids="52" tid="49365">leucémie</rel>
+<rel type="r_infopot" poids="52" tid="145792">lumière</rel>
+<rel type="r_infopot" poids="52" tid="107123">lève-tard</rel>
+<rel type="r_infopot" poids="52" tid="13721">léniniste</rel>
+<rel type="r_infopot" poids="52" tid="68727">maigre</rel>
+<rel type="r_infopot" poids="52" tid="129055">manganique</rel>
+<rel type="r_infopot" poids="52" tid="16956">mardi</rel>
+<rel type="r_infopot" poids="52" tid="155704">meurtres en série</rel>
+<rel type="r_infopot" poids="52" tid="55967">microcalorimètre</rel>
+<rel type="r_infopot" poids="52" tid="6513">microscope</rel>
+<rel type="r_infopot" poids="52" tid="67006">mille</rel>
+<rel type="r_infopot" poids="52" tid="124745">momie</rel>
+<rel type="r_infopot" poids="52" tid="11095">moules</rel>
+<rel type="r_infopot" poids="52" tid="121176">multiple</rel>
+<rel type="r_infopot" poids="52" tid="155260">mur de Berlin</rel>
+<rel type="r_infopot" poids="52" tid="66174">murdjisme</rel>
+<rel type="r_infopot" poids="52" tid="154251">musique gothique</rel>
+<rel type="r_infopot" poids="52" tid="112396">météo</rel>
+<rel type="r_infopot" poids="52" tid="102521">ni</rel>
+<rel type="r_infopot" poids="52" tid="43668">nota bene</rel>
+<rel type="r_infopot" poids="52" tid="120125">nouvelles</rel>
+<rel type="r_infopot" poids="52" tid="170004">nun</rel>
+<rel type="r_infopot" poids="52" tid="49881">néerlandais</rel>
+<rel type="r_infopot" poids="52" tid="19084">oblats</rel>
+<rel type="r_infopot" poids="52" tid="158180">oiseau de mer</rel>
+<rel type="r_infopot" poids="52" tid="155147">opposante</rel>
+<rel type="r_infopot" poids="52" tid="27519">oranges</rel>
+<rel type="r_infopot" poids="52" tid="42056">ordre</rel>
+<rel type="r_infopot" poids="52" tid="2523">ouaille</rel>
+<rel type="r_infopot" poids="52" tid="118680">ovale</rel>
+<rel type="r_infopot" poids="52" tid="71522">oïdium</rel>
+<rel type="r_infopot" poids="52" tid="14658">palme</rel>
+<rel type="r_infopot" poids="52" tid="104551">papy</rel>
+<rel type="r_infopot" poids="52" tid="140583">parent</rel>
+<rel type="r_infopot" poids="52" tid="132037">pensée</rel>
+<rel type="r_infopot" poids="52" tid="31220">petit à petit</rel>
+<rel type="r_infopot" poids="52" tid="57103">pilote automatique</rel>
+<rel type="r_infopot" poids="52" tid="126762">placard</rel>
+<rel type="r_infopot" poids="52" tid="141440">police</rel>
+<rel type="r_infopot" poids="52" tid="99532">pollution</rel>
+<rel type="r_infopot" poids="52" tid="64422">provincialisme</rel>
+<rel type="r_infopot" poids="52" tid="124724">préfecture</rel>
+<rel type="r_infopot" poids="52" tid="126123">prélasser</rel>
+<rel type="r_infopot" poids="52" tid="53959">puériculture</rel>
+<rel type="r_infopot" poids="52" tid="108797">périphérique</rel>
+<rel type="r_infopot" poids="52" tid="1055">quartier</rel>
+<rel type="r_infopot" poids="52" tid="119727">quarto</rel>
+<rel type="r_infopot" poids="52" tid="50646">question</rel>
+<rel type="r_infopot" poids="52" tid="78318">ramoner</rel>
+<rel type="r_infopot" poids="52" tid="110014">reflex</rel>
+<rel type="r_infopot" poids="52" tid="18862">relevé</rel>
+<rel type="r_infopot" poids="52" tid="22346">richard</rel>
+<rel type="r_infopot" poids="52" tid="122690">routière</rel>
+<rel type="r_infopot" poids="52" tid="62165">rugby</rel>
+<rel type="r_infopot" poids="52" tid="89628">récipient</rel>
+<rel type="r_infopot" poids="52" tid="112777">rédaction</rel>
+<rel type="r_infopot" poids="52" tid="98319">réparer</rel>
+<rel type="r_infopot" poids="52" tid="2959">saleté</rel>
+<rel type="r_infopot" poids="52" tid="155683">salle de bains</rel>
+<rel type="r_infopot" poids="52" tid="101824">saucer</rel>
+<rel type="r_infopot" poids="52" tid="80973">science</rel>
+<rel type="r_infopot" poids="52" tid="71330">scénario</rel>
+<rel type="r_infopot" poids="52" tid="29669">se remarier</rel>
+<rel type="r_infopot" poids="52" tid="187024">se vider les couilles</rel>
+<rel type="r_infopot" poids="52" tid="222382">sentiment amoureux</rel>
+<rel type="r_infopot" poids="52" tid="153042">signé</rel>
+<rel type="r_infopot" poids="52" tid="107179">ski</rel>
+<rel type="r_infopot" poids="52" tid="17265">sodomiser</rel>
+<rel type="r_infopot" poids="52" tid="63448">soupir</rel>
+<rel type="r_infopot" poids="52" tid="99014">source</rel>
+<rel type="r_infopot" poids="52" tid="114778">symbole</rel>
+<rel type="r_infopot" poids="52" tid="142267">taille</rel>
+<rel type="r_infopot" poids="52" tid="66969">taillis</rel>
+<rel type="r_infopot" poids="52" tid="51903">tenter</rel>
+<rel type="r_infopot" poids="52" tid="40600">triboélectricité</rel>
+<rel type="r_infopot" poids="52" tid="135398">tricherie</rel>
+<rel type="r_infopot" poids="52" tid="5912">troisième</rel>
+<rel type="r_infopot" poids="52" tid="145427">trousse</rel>
+<rel type="r_infopot" poids="52" tid="42271">un</rel>
+<rel type="r_infopot" poids="52" tid="151211">valaque</rel>
+<rel type="r_infopot" poids="52" tid="151236">vaso-constriction</rel>
+<rel type="r_infopot" poids="52" tid="36192">vendredi</rel>
+<rel type="r_infopot" poids="52" tid="142153">vente</rel>
+<rel type="r_infopot" poids="52" tid="82655">vert de chrome</rel>
+<rel type="r_infopot" poids="52" tid="151282">verte</rel>
+<rel type="r_infopot" poids="52" tid="141659">vie</rel>
+<rel type="r_infopot" poids="52" tid="143529">voyage</rel>
+<rel type="r_infopot" poids="52" tid="4077">wattheure</rel>
+<rel type="r_infopot" poids="52" tid="144859">ça</rel>
+<rel type="r_infopot" poids="52" tid="105185">émission</rel>
+<rel type="r_infopot" poids="52" tid="38295">équidé</rel>
+<rel type="r_infopot" poids="52" tid="41682">été</rel>
+<rel type="r_infopot" poids="51" tid="169465" te="::>13:59918>29:10604>34">De quelle manière une dentiste pourrait édenter ?</rel>
+<rel type="r_infopot" poids="51" tid="160853" te="::>13:61490>29:39895>16">Avec quoi une femme pourrait poursuivre ?</rel>
+<rel type="r_infopot" poids="51" tid="166289" te="::>14:145941>29:74963>13">Qui pourrait replanter une plante ?</rel>
+<rel type="r_infopot" poids="51" tid="160670" te="::>14:74736>29:66983>34">De quelle manière pourrait-on ingurgiter des repas ?</rel>
+<rel type="r_infopot" poids="51" tid="217580">Ali Baba et les Quarante Voleurs</rel>
+<rel type="r_infopot" poids="51" tid="22430">Binh-Dinh</rel>
+<rel type="r_infopot" poids="51" tid="127943">CDI</rel>
+<rel type="r_infopot" poids="51" tid="35240">Chasseurs dans la neige</rel>
+<rel type="r_infopot" poids="51" tid="116546">Chrétien</rel>
+<rel type="r_infopot" poids="51" tid="101728">Coluber viridiflavus</rel>
+<rel type="r_infopot" poids="51" tid="33810">Corte</rel>
+<rel type="r_infopot" poids="51" tid="28157">Cour internationale de justice</rel>
+<rel type="r_infopot" poids="51" tid="217587">Dame Holle</rel>
+<rel type="r_infopot" poids="51" tid="70727">Gemini</rel>
+<rel type="r_infopot" poids="51" tid="138745">Gipsy</rel>
+<rel type="r_infopot" poids="51" tid="74114">Gottlieb</rel>
+<rel type="r_infopot" poids="51" tid="146761">Harry Potter</rel>
+<rel type="r_infopot" poids="51" tid="136260">Joseph Calasanz</rel>
+<rel type="r_infopot" poids="51" tid="13394">Jérusalem</rel>
+<rel type="r_infopot" poids="51" tid="215477">La Belle au bois dormant</rel>
+<rel type="r_infopot" poids="51" tid="110581">Lamiel</rel>
+<rel type="r_infopot" poids="51" tid="137573">Le Messager de l'Europe</rel>
+<rel type="r_infopot" poids="51" tid="173210">Letton</rel>
+<rel type="r_infopot" poids="51" tid="151908">Médecine</rel>
+<rel type="r_infopot" poids="51" tid="217593">Nain Tracassin</rel>
+<rel type="r_infopot" poids="51" tid="2988">Richelieu</rel>
+<rel type="r_infopot" poids="51" tid="165192">Totoro</rel>
+<rel type="r_infopot" poids="51" tid="212470">Viandox</rel>
+<rel type="r_infopot" poids="51" tid="152394">WoW</rel>
+<rel type="r_infopot" poids="51" tid="60162">abondamment</rel>
+<rel type="r_infopot" poids="51" tid="113912">acharisme</rel>
+<rel type="r_infopot" poids="51" tid="85126">agaçant</rel>
+<rel type="r_infopot" poids="51" tid="19302">aggrave</rel>
+<rel type="r_infopot" poids="51" tid="112609">anatomie</rel>
+<rel type="r_infopot" poids="51" tid="79993">anglais</rel>
+<rel type="r_infopot" poids="51" tid="110272">aphasie de Wernicke</rel>
+<rel type="r_infopot" poids="51" tid="48943">aspirateur</rel>
+<rel type="r_infopot" poids="51" tid="110836">aspirer</rel>
+<rel type="r_infopot" poids="51" tid="74222">assassiner</rel>
+<rel type="r_infopot" poids="51" tid="104410">attentiste</rel>
+<rel type="r_infopot" poids="51" tid="97522">auriculaire</rel>
+<rel type="r_infopot" poids="51" tid="143935">avare</rel>
+<rel type="r_infopot" poids="51" tid="116183">avers</rel>
+<rel type="r_infopot" poids="51" tid="15229">aéronautique</rel>
+<rel type="r_infopot" poids="51" tid="103109">b</rel>
+<rel type="r_infopot" poids="51" tid="12804">bacillose</rel>
+<rel type="r_infopot" poids="51" tid="38740">bandana</rel>
+<rel type="r_infopot" poids="51" tid="74666">batteries</rel>
+<rel type="r_infopot" poids="51" tid="166619">batz</rel>
+<rel type="r_infopot" poids="51" tid="27098">bichonné</rel>
+<rel type="r_infopot" poids="51" tid="61147">blessure</rel>
+<rel type="r_infopot" poids="51" tid="4907">bonjour</rel>
+<rel type="r_infopot" poids="51" tid="145285">boulanger</rel>
+<rel type="r_infopot" poids="51" tid="109081">bramée</rel>
+<rel type="r_infopot" poids="51" tid="11380">bronzer</rel>
+<rel type="r_infopot" poids="51" tid="112405">brunch</rel>
+<rel type="r_infopot" poids="51" tid="26056">bus</rel>
+<rel type="r_infopot" poids="51" tid="66324">café</rel>
+<rel type="r_infopot" poids="51" tid="62380">calmement</rel>
+<rel type="r_infopot" poids="51" tid="7769">canard</rel>
+<rel type="r_infopot" poids="51" tid="65883">carrick</rel>
+<rel type="r_infopot" poids="51" tid="41313">carrière</rel>
+<rel type="r_infopot" poids="51" tid="94254">cartable</rel>
+<rel type="r_infopot" poids="51" tid="103172">catastrophisme</rel>
+<rel type="r_infopot" poids="51" tid="215344">charbons ardents</rel>
+<rel type="r_infopot" poids="51" tid="140500">charge</rel>
+<rel type="r_infopot" poids="51" tid="152708">chat domestique</rel>
+<rel type="r_infopot" poids="51" tid="55077">chemin</rel>
+<rel type="r_infopot" poids="51" tid="23433">cher</rel>
+<rel type="r_infopot" poids="51" tid="129303">chercheur</rel>
+<rel type="r_infopot" poids="51" tid="32093">chirographaire</rel>
+<rel type="r_infopot" poids="51" tid="112698">choisir</rel>
+<rel type="r_infopot" poids="51" tid="45003">clairsemer</rel>
+<rel type="r_infopot" poids="51" tid="46235">clef</rel>
+<rel type="r_infopot" poids="51" tid="61888">coelialgie</rel>
+<rel type="r_infopot" poids="51" tid="41391">consciencieusement</rel>
+<rel type="r_infopot" poids="51" tid="10478">contesté</rel>
+<rel type="r_infopot" poids="51" tid="119807">cordée</rel>
+<rel type="r_infopot" poids="51" tid="133078">corrompre</rel>
+<rel type="r_infopot" poids="51" tid="44726">couler</rel>
+<rel type="r_infopot" poids="51" tid="17066">croyant</rel>
+<rel type="r_infopot" poids="51" tid="41851">croûte</rel>
+<rel type="r_infopot" poids="51" tid="83216">diablement</rel>
+<rel type="r_infopot" poids="51" tid="85068">dictionnaire</rel>
+<rel type="r_infopot" poids="51" tid="90731">dictée</rel>
+<rel type="r_infopot" poids="51" tid="117828">difficile</rel>
+<rel type="r_infopot" poids="51" tid="196">discrètement</rel>
+<rel type="r_infopot" poids="51" tid="120760">disparition</rel>
+<rel type="r_infopot" poids="51" tid="64633">disposition</rel>
+<rel type="r_infopot" poids="51" tid="20698">divorcer</rel>
+<rel type="r_infopot" poids="51" tid="141168">domestique</rel>
+<rel type="r_infopot" poids="51" tid="14585">dyslexie</rel>
+<rel type="r_infopot" poids="51" tid="104045">décrire</rel>
+<rel type="r_infopot" poids="51" tid="81206">dédain</rel>
+<rel type="r_infopot" poids="51" tid="103112">désirer</rel>
+<rel type="r_infopot" poids="51" tid="41808">enceinte</rel>
+<rel type="r_infopot" poids="51" tid="61936">ennui</rel>
+<rel type="r_infopot" poids="51" tid="92437">enrayage</rel>
+<rel type="r_infopot" poids="51" tid="118516">estival</rel>
+<rel type="r_infopot" poids="51" tid="153319">etat</rel>
+<rel type="r_infopot" poids="51" tid="100370">exposition</rel>
+<rel type="r_infopot" poids="51" tid="39680">fantasmatiquement</rel>
+<rel type="r_infopot" poids="51" tid="88374">flashmètre</rel>
+<rel type="r_infopot" poids="51" tid="54956">football</rel>
+<rel type="r_infopot" poids="51" tid="114448">fourrage</rel>
+<rel type="r_infopot" poids="51" tid="4275">friture</rel>
+<rel type="r_infopot" poids="51" tid="77480">fulgurance</rel>
+<rel type="r_infopot" poids="51" tid="9670">fâche</rel>
+<rel type="r_infopot" poids="51" tid="93601">gabelle</rel>
+<rel type="r_infopot" poids="51" tid="28590">galette</rel>
+<rel type="r_infopot" poids="51" tid="35035">gare</rel>
+<rel type="r_infopot" poids="51" tid="161608">gendarmes</rel>
+<rel type="r_infopot" poids="51" tid="60157">hl</rel>
+<rel type="r_infopot" poids="51" tid="22056">horse power</rel>
+<rel type="r_infopot" poids="51" tid="139343">illusions d'optique</rel>
+<rel type="r_infopot" poids="51" tid="124112">immatérialité</rel>
+<rel type="r_infopot" poids="51" tid="27620">incontestable</rel>
+<rel type="r_infopot" poids="51" tid="143232">insee</rel>
+<rel type="r_infopot" poids="51" tid="4548">insensiblement</rel>
+<rel type="r_infopot" poids="51" tid="6605">instrument</rel>
+<rel type="r_infopot" poids="51" tid="136542">intervalle</rel>
+<rel type="r_infopot" poids="51" tid="4090">irisation</rel>
+<rel type="r_infopot" poids="51" tid="72560">itinéraire</rel>
+<rel type="r_infopot" poids="51" tid="58634">lanthane</rel>
+<rel type="r_infopot" poids="51" tid="60588">laïc</rel>
+<rel type="r_infopot" poids="51" tid="96312">lecture</rel>
+<rel type="r_infopot" poids="51" tid="15392">lier</rel>
+<rel type="r_infopot" poids="51" tid="32290">lieux de culte</rel>
+<rel type="r_infopot" poids="51" tid="162739">ligne de mire</rel>
+<rel type="r_infopot" poids="51" tid="86756">lion</rel>
+<rel type="r_infopot" poids="51" tid="13872">liturgie</rel>
+<rel type="r_infopot" poids="51" tid="154645">lumineuse</rel>
+<rel type="r_infopot" poids="51" tid="85355">lutin</rel>
+<rel type="r_infopot" poids="51" tid="46322">machination</rel>
+<rel type="r_infopot" poids="51" tid="137543">marathon</rel>
+<rel type="r_infopot" poids="51" tid="16964">marcher</rel>
+<rel type="r_infopot" poids="51" tid="165442">marrons glacés</rel>
+<rel type="r_infopot" poids="51" tid="75884">mars</rel>
+<rel type="r_infopot" poids="51" tid="16452">massicotier</rel>
+<rel type="r_infopot" poids="51" tid="119625">mauvais</rel>
+<rel type="r_infopot" poids="51" tid="43778">mensonge</rel>
+<rel type="r_infopot" poids="51" tid="152112">moulin à eau</rel>
+<rel type="r_infopot" poids="51" tid="115126">mèche</rel>
+<rel type="r_infopot" poids="51" tid="59796">non-croyant</rel>
+<rel type="r_infopot" poids="51" tid="216977" te="nougat>72043">nougat  (confiserie)</rel>
+<rel type="r_infopot" poids="51" tid="122439">nouveau</rel>
+<rel type="r_infopot" poids="51" tid="75341">novembre</rel>
+<rel type="r_infopot" poids="51" tid="141705">ongle</rel>
+<rel type="r_infopot" poids="51" tid="76046">oreilles</rel>
+<rel type="r_infopot" poids="51" tid="92632">ornement</rel>
+<rel type="r_infopot" poids="51" tid="39061">ostentation</rel>
+<rel type="r_infopot" poids="51" tid="175836">paille-en-cul</rel>
+<rel type="r_infopot" poids="51" tid="5955">parc</rel>
+<rel type="r_infopot" poids="51" tid="77758">parsemer</rel>
+<rel type="r_infopot" poids="51" tid="63738">patience</rel>
+<rel type="r_infopot" poids="51" tid="142639">patté</rel>
+<rel type="r_infopot" poids="51" tid="153000">pensées</rel>
+<rel type="r_infopot" poids="51" tid="121803">piquouse</rel>
+<rel type="r_infopot" poids="51" tid="102651">platane</rel>
+<rel type="r_infopot" poids="51" tid="134886">plomberie</rel>
+<rel type="r_infopot" poids="51" tid="62726">plume</rel>
+<rel type="r_infopot" poids="51" tid="12167">poireauter</rel>
+<rel type="r_infopot" poids="51" tid="132757">pomme de terre</rel>
+<rel type="r_infopot" poids="51" tid="70782">pompier</rel>
+<rel type="r_infopot" poids="51" tid="37194">poule</rel>
+<rel type="r_infopot" poids="51" tid="69714">pour</rel>
+<rel type="r_infopot" poids="51" tid="79007">procréatrice</rel>
+<rel type="r_infopot" poids="51" tid="137506">quelqu'un</rel>
+<rel type="r_infopot" poids="51" tid="53651">quotidien</rel>
+<rel type="r_infopot" poids="51" tid="39738">rafraîchir</rel>
+<rel type="r_infopot" poids="51" tid="110732">rapide</rel>
+<rel type="r_infopot" poids="51" tid="35451">reconnaissance</rel>
+<rel type="r_infopot" poids="51" tid="102237">relativité</rel>
+<rel type="r_infopot" poids="51" tid="21555">rempart</rel>
+<rel type="r_infopot" poids="51" tid="144950">revolver</rel>
+<rel type="r_infopot" poids="51" tid="139655">roi</rel>
+<rel type="r_infopot" poids="51" tid="4598">rétractile</rel>
+<rel type="r_infopot" poids="51" tid="111429">réétudier</rel>
+<rel type="r_infopot" poids="51" tid="145224">salpêtrière</rel>
+<rel type="r_infopot" poids="51" tid="161682">sanglots</rel>
+<rel type="r_infopot" poids="51" tid="96096">saut en longueur</rel>
+<rel type="r_infopot" poids="51" tid="90891">se faire</rel>
+<rel type="r_infopot" poids="51" tid="186768">se prendre la tête</rel>
+<rel type="r_infopot" poids="51" tid="61794">se promener</rel>
+<rel type="r_infopot" poids="51" tid="45743">se remettre</rel>
+<rel type="r_infopot" poids="51" tid="83236">sentence</rel>
+<rel type="r_infopot" poids="51" tid="24522">soleil</rel>
+<rel type="r_infopot" poids="51" tid="130041">sortilège</rel>
+<rel type="r_infopot" poids="51" tid="57751">suant</rel>
+<rel type="r_infopot" poids="51" tid="217431">supplice du pal</rel>
+<rel type="r_infopot" poids="51" tid="18749">séfarade</rel>
+<rel type="r_infopot" poids="51" tid="154486">taxe de séjour</rel>
+<rel type="r_infopot" poids="51" tid="103242">tequila</rel>
+<rel type="r_infopot" poids="51" tid="66924">textes sacrés</rel>
+<rel type="r_infopot" poids="51" tid="106011">thermomètre</rel>
+<rel type="r_infopot" poids="51" tid="36064">thèse</rel>
+<rel type="r_infopot" poids="51" tid="135161">tic-tac</rel>
+<rel type="r_infopot" poids="51" tid="216928">tourton</rel>
+<rel type="r_infopot" poids="51" tid="136232">tout</rel>
+<rel type="r_infopot" poids="51" tid="13712">transport</rel>
+<rel type="r_infopot" poids="51" tid="158634">triangles</rel>
+<rel type="r_infopot" poids="51" tid="38749">tripoter</rel>
+<rel type="r_infopot" poids="51" tid="137428">trompe d'Eustache</rel>
+<rel type="r_infopot" poids="51" tid="45177">trotter</rel>
+<rel type="r_infopot" poids="51" tid="162446">têton</rel>
+<rel type="r_infopot" poids="51" tid="142345">ukulélé</rel>
+<rel type="r_infopot" poids="51" tid="61944">univers</rel>
+<rel type="r_infopot" poids="51" tid="97537">usant</rel>
+<rel type="r_infopot" poids="51" tid="132097">velours</rel>
+<rel type="r_infopot" poids="51" tid="86315">vengeance</rel>
+<rel type="r_infopot" poids="51" tid="49195">victorieux</rel>
+<rel type="r_infopot" poids="51" tid="39338">volcanologie</rel>
+<rel type="r_infopot" poids="51" tid="95436">vote</rel>
+<rel type="r_infopot" poids="51" tid="95525">vérité première</rel>
+<rel type="r_infopot" poids="51" tid="75617">zombie</rel>
+<rel type="r_infopot" poids="51" tid="102006">zut</rel>
+<rel type="r_infopot" poids="51" tid="29738">Épiphanie</rel>
+<rel type="r_infopot" poids="51" tid="74772">Être suprême</rel>
+<rel type="r_infopot" poids="51" tid="92184">à bientôt</rel>
+<rel type="r_infopot" poids="51" tid="49974">échographie</rel>
+<rel type="r_infopot" poids="51" tid="155733">émoticone</rel>
+<rel type="r_infopot" poids="51" tid="75146">épiler</rel>
+<rel type="r_infopot" poids="51" tid="2892">être habile à</rel>
+<rel type="r_infopot" poids="44" tid="39764">registre</rel>
+<rel type="r_infopot" poids="42" tid="596517" te="pie>171869">pie  (Adj)</rel>
+<rel type="r_infopot" poids="40" tid="36367">boulet</rel>
+<rel type="r_infopot" poids="34" tid="45545">bûche</rel>
+<rel type="r_infopot" poids="34" tid="157299" te="pub>146885"> un/le pub </rel>
+<rel type="r_infopot" poids="32" tid="132488">pub</rel>
+<rel type="r_infopot" poids="31" tid="648">morse</rel>
+<rel type="r_infopot" poids="30" tid="53320">filer</rel>
+<rel type="r_infopot" poids="30" tid="42148">gland</rel>
+<rel type="r_infopot" poids="30" tid="16612">large</rel>
+<rel type="r_infopot" poids="30" tid="18153">nougat</rel>
+<rel type="r_infopot" poids="30" tid="65606">poutine</rel>
+<rel type="r_infopot" poids="30" tid="127867">régime</rel>
+<rel type="r_infopot" poids="30" tid="85392">sirène</rel>
+<rel type="r_infopot" poids="28" tid="2588535" te="filer>146882">filer  (Verbe)</rel>
+
+</entrant>
+
+</jdm></CODE>
+
+
+    </div>
+    <TH>
+
+
+
+
+</TABLE>
+</div>
+  </body>
+</html>
