@@ -21,10 +21,10 @@ jdmhs = []
 
 for mot in motsFrequents :
 	deb = time.time() 
-	#nLatin = urllib.quote(mot.encode("latin-1"))
+	nLatin = urllib.quote(mot)
 
 	print mot
-	r = requests.get("http://localhost:5000/noeud/"+mot, timeout=240)
+	r = requests.get("http://localhost:5000/noeud/"+nLatin, timeout=240)
 
 	if r.text == "ERROR":
 		print "ERROR"
