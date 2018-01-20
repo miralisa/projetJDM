@@ -22,7 +22,7 @@ footer {
 }
 
 .container{
-	background-color: #fff;
+	/*background-color: #fff;*/
 
 }
 
@@ -43,14 +43,30 @@ th {
 	align-content: center;
 
 }
+/*
+.col-md-8{
+border: 1px #333 solid;
+background-color: #fff;
+padding: 2px;
+}
 
-
+.col-md-4{
+border: 1px #333 solid;
+background-color: #fff;
+padding: 2px;
+}*/
 /* For small screens */
 @media screen and (max-width: 767px) {
 	.sidenav {
 		height: auto;
 		padding: 15px;
 	}
-	.row.content {height:auto;} 
+	.row.content {height:auto;}
 }
 
+/* test */
+
+@media (min-width: 1200px)
+.container {
+    width: 1270px;
+}

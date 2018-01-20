@@ -7,20 +7,23 @@ import time
 #from elasticsearch import Elasticsearch
 
 
-driver = GraphDatabase.driver("bolt://192.168.1.72:7687", 
+driver = GraphDatabase.driver("bolt://192.168.1.72:7687",
 	auth=basic_auth("neo4j", "l&!j3ssn&prt3c3"))
 
 session = driver.session()
-"""
-allRelation = session.run("MATCH (r:Relation) RETURN r.rtid, r.name")
 
-for r in allRelation:
-	print str(r["r.rtid"])+" "+str(r["r.name"])
-"""
+def allRelations():
+	dicoRel = {}
+	relations = session.run("MATCH (r:Relation) RETURN r.name, r.info")
+	for r in relations:
+		dicoRel.update({r["r.name"] : r["r.info"][1:-1]})
+	return dicoRel
+
 
 def relationsForNode(nodeN):
 	nodeName = "\"" + nodeN + "\""
 	idRelations = []
+	foundRelations = []
 	result = session.run("MATCH (b:Noeud)-[c:LINKED]->(a:Noeud) WHERE b.n = {name} RETURN distinct c.t ", {"name": nodeName})
 	for record in result:
 		idRel =  record["c.t"]
@@ -28,19 +31,18 @@ def relationsForNode(nodeN):
 		idRelations.append(idRel)
 
 	for idsR in idRelations:
-		relation = session.run("MATCH (r:Relation) WHERE r.rtid = {id} RETURN r.name", {"id":idsR})
-		for r in relation:
-			print r["r.name"]
-	
-
+		relations = session.run("MATCH (r:Relation) WHERE r.rtid = {id} RETURN r.name", {"id":idsR})
+		for r in relations:
+			foundRelations.append(r["r.name"][1:-1])
+	return foundRelations
 
 
 def nodesByRelations(nodeN, relationN):
 	print nodeN + " " + relationN
-
+	resultatas = []
 	relationName = "\"" +relationN +"\""
 	relation = session.run("MATCH (r:Relation) WHERE r.name = {name} RETURN r.rtid", {"name":relationName})
-
+	rtid = ""
 	for r in relation:
 		rtid = r["r.rtid"]
 
@@ -49,12 +51,19 @@ def nodesByRelations(nodeN, relationN):
 		"' RETURN a.eid, a.n, a.t, a.w ORDER BY toInt(a.w) DESC", {"name": nodeName})
 
 	for record in result:
-		print record["a.eid"]+"|"+record["a.n"]+"|"+record["a.t"]+"|"+record["a.w"]
+		resultatas.append(record["a.n"])# record["a.eid"]+"|"+record["a.n"]+"|"+record["a.t"]+"|"+record["a.w"]
+	return resultatas	
 
-	
-#nodesByRelations("chat", "r_lieu")
-relationsForNode("chat")
+def getDescription(nodeN, ind):
+	description = []
+	relations = relationsForNode(nodeN)
+	size = len(relations)
+	if  size!= 0 and ind < size:
+		description = nodesByRelations(nodeN, relations[ind])
+	return description
 
+print getDescription("chat", 0)
+#print nodesByRelations("chat", "r_has_part")
 """
 result = session.run("MATCH (b:Noeud)-[c:LINKED]->(a:Noeud) WHERE b.n = {name} AND c.t = '102' RETURN a.eid, a.n, a.t, a.w", {"name": "\"poulet\""})
 
@@ -186,8 +195,8 @@ def main():
 				avancement = int(nbN*10000/154626375)/100
 				print "avancement : "+str(avancement)+"%\n"
 			if avancement == 100:
-				print "Fin parsage des triplets : "+str(int(time.time()-debTriplets))+"\n"	
-		
+				print "Fin parsage des triplets : "+str(int(time.time()-debTriplets))+"\n"
+
 	print "nbRel : {}, nbNode : {}, nbTriplet : {}".format(nbRt,nbN,nbR)
 	file.close()
 """

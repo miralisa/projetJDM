@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+<br>
+
+
+<div class="row">
+  <div class="col-md-8" >
+  <div style="position: relative; display: flex;">
+    <div class="input-group" style="width: 80%;">
+    <input type="hidden" name="search_param" value="all" id="search_param">
+    <input type="text" class="form-control success" name="x" placeholder="Recherch d'un terme...">
+    <span class="input-group-btn">
+      <button class="btn btn-success" type="button"><span class="glyphicon glyphicon-search"></span></button>
+    </span>
+
+
+    </div>
+    <button class="btn btn-success" > Ajouter une relation</button>
+  </div>
+ </div>
+  <div class="col-md-4"><h2> Liste de relations</h2></div>
+</div>
+
+
+
+{% endblock %}
