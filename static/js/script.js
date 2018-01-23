@@ -8,7 +8,8 @@ window.onload = function(){
 	var chipAlert = document.getElementById("chip-alert");
 
 	var relations = [];
-
+	var sizeRel =  0;
+		
 	arrowLeft.onclick = function(){
 		getTermsByRelation("left");
 	};
@@ -26,35 +27,53 @@ window.onload = function(){
 		var searchRes = document.getElementById("searchRes");
 		searchRes.innerHTML = "";
 
-		$.getJSON($SCRIPT_ROOT + "search_term", {
-				term: JSON.stringify(term)
+		$.getJSON($SCRIPT_ROOT + "sortant", {
+				noeud: JSON.stringify(term)
 			}, function(data){
-				console.log(data);
-				if(data.result.length != 0){
-				var text = "";
-				data.result.forEach(function(child){
-					text += "<a class='terms' href='#'>" + child + "<a>, ";
-				});
-				
-				searchRes.innerHTML = "<b>"+ term +"</b>	<i>" + data.relations[0] + "</i><br>" + text;
-				relations = data.relations;
-				
-				updateTabRelation(data.relations);
+				relations = Object.keys(data.relations);
+				sizeRel = relations.length;
+
+				updateTabRelation(data);
 				addEventClick("terms");
 				arrowReight.style.display = "flex";
 				arrowLeft.style.display = "flex";
 				
 				spinner.className ="mdl-spinner mdl-js-spinner";
-				}else{
+		
+				//console.log(data);
+				if(sizeRel > 0 ){
+				getNoeudRelationSortante(term, relations[0]);
+				}
+						
+			});
+	};
 
-					spinner.className ="mdl-spinner mdl-js-spinner";
+	function getNoeudRelationSortante(term, relation){
+		//console.log("relation " + relation);
+		$.getJSON($SCRIPT_ROOT + "noeud/relationSortante", {
+					noeud: JSON.stringify(term),
+					relation: JSON.stringify(relation)
+				}, function(data){
+					console.log(data);
+					if(data.result.length != 0){
+					var text = "";
+					data.result.forEach(function(term){
+						text += "<a class='terms' href='#'>" + term[0] + "<a>  " + term[1] + ", ";
+					});
+					searchRes.innerHTML = "<b>"+ term +"</b>	<i>" + relation + "</i><br> "+ text;
+			
+					}else{
+
 					arrowReight.style.display = "none";
 					arrowLeft.style.display = "none";
 					chipAlert.style.display ="flex";
 			
-				}
-			});
-	};
+					}
+					spinner.className ="mdl-spinner mdl-js-spinner";
+					
+
+				});
+	}
 
 	function objLength(obj){
 	  var i=0;
@@ -73,8 +92,8 @@ window.onload = function(){
 			element.parentNode.className = "";
 		});
 		var th = document.getElementById('r'+id);
-		console.log(th);
-		th.parentNode.className = "is-selected";
+		//console.log(th);
+		//th.parentNode.className = "is-selected";
 		
 	}
 
@@ -87,7 +106,9 @@ window.onload = function(){
 						"<tbody id='tbody'></tbody></table>");
 		var tbody = $('#tbody');
 		
-		data.forEach(function(d, i) {
+		var keys = Object.keys(data.relations);
+			
+		keys.forEach(function(d,i) {
 			var tr = $('<tr/>').appendTo(tbody);
 			tr.append("<td class='mdl-data-table__cell--non-numeric relations' id='r" + i + "'>" + d + "</td>");
              
@@ -99,7 +120,8 @@ window.onload = function(){
 
 	var idRel = 0; 
 	function getTermsByRelation(relation){
-		var sizeRel =  objLength(relations);
+		//var sizeRel =  objLength(relations);
+		//console.log("sizeRel " + sizeRel);
 		if(relation == "right" ){//&& idRel < relations.lenght
 			relation = relations[++idRel];
 		} else /*if (relation == "right" && idRel == relations.lenght ){
@@ -127,7 +149,8 @@ window.onload = function(){
 		
 		searchRes.innerHTML ="<b>"+ term +"</b>	<i>" + relation + "</i><br>";
 		spinner.className += " is-active";
-
+		getNoeudRelationSortante(term, relation);
+		/*
 		$.getJSON($SCRIPT_ROOT + "relation_term", {
 					term: JSON.stringify(term), 
 					relation: JSON.stringify(relation)
@@ -148,10 +171,13 @@ window.onload = function(){
 					spinner.className ="mdl-spinner mdl-js-spinner";
 					
 				});
+		*/
 	}
 
 	function addEventClick(elem){
 		var updateElem = [].slice.call(document.getElementsByClassName(elem));
+		var size = updateElem.length;
+		console.log(size)
 		updateElem.forEach(function (element){
 			if(elem == "terms"){
 				element.addEventListener("click", function (){
@@ -163,7 +189,7 @@ window.onload = function(){
 				});
 			}else if(elem == "relations"){
 				element.addEventListener("click", function (){
-					console.log("relations "+ element.innerHTML);
+					//console.log("relations "+ element.innerHTML);
 					var relation = element.innerHTML;
 					getTermsByRelation(relation);
 				});

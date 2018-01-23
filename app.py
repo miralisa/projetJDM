@@ -5,13 +5,14 @@ from flask import Flask, render_template, jsonify, json, request
 from neo4j.v1 import GraphDatabase, basic_auth
 import codecs
 import time
-
+import requests
 app = Flask(__name__)
 
-driver = GraphDatabase.driver("bolt://192.168.1.72:7687",
-	auth = basic_auth("neo4j", "l&!j3ssn&prt3c3"))
+#driver = GraphDatabase.driver("bolt://192.168.1.72:7687",
+#	auth = basic_auth("neo4j", "l&!j3ssn&prt3c3"))
 
-session = driver.session()
+#session = driver.session()
+
 
 def allRelations():
     dicoRel = {}

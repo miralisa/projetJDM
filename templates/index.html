@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="description" content="jeux2mots">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>jeux2mots</title>
 
@@ -31,39 +31,19 @@
     <link rel="stylesheet" href="../static/css/styles.css">
     </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-<!--
-<style>
-  .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
-    padding-right: 0;
-  }
-  </style>
--->
-  <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--waterfall">
+
+   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--scroll">
       <!-- Top row, always visible -->
       <div class="mdl-layout__header-row">
         <!-- Title -->
-        <span class="mdl-layout-title">jeux2mots</span>
-         <!--<div class="mdl-layout-spacer"></div>
-       
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-                    mdl-textfield--floating-label mdl-textfield--align-right">
-          <label class="mdl-button mdl-js-button mdl-button--icon"
-                 for="waterfall-exp">
-            <i class="material-icons">search</i>
-          </label>
-          <div class="mdl-textfield__expandable-holder">
-            <input class="mdl-textfield__input" type="text" name="sample"
-                   id="waterfall-exp">
-          </div>
-        </div>
-      -->
+        <span class="mdl-layout-title">  <img src="../static/img/logo.png" class="logo">
+                  </span>
       </div>
 
     </header>
-
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Title</span>
+   <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Relations</span>
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="">Link</a>
         <a class="mdl-navigation__link" href="">Link</a>
@@ -71,7 +51,8 @@
         <a class="mdl-navigation__link" href="">Link</a>
       </nav>
     </div>
-    <main class="mdl-layout__content">
+  
+  <main class="mdl-layout__content">
       <div class="page-content">
     <div class="mdl-grid">
   <div class="mdl-cell mdl-cell--8-col">
@@ -193,7 +174,8 @@
           </label>
 
         </form>
-
+          <a href="" id="resetSearchRel"><i class="material-icons">exit</i></a>
+         
       </div>
       <div class="mdl-card__supporting-text content-relation">
   
@@ -229,6 +211,8 @@
 
 
 </div>
+
+  </main>
 <footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__left-section">
     <div class="mdl-logo">jeux2mots</div>
@@ -238,7 +222,6 @@
     </ul>
   </div>
 </footer>
-  </main>
   </div>
 
   <script type=text/javascript>

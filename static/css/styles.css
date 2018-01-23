@@ -48,6 +48,10 @@ html, body {
   color:rgb(132, 119, 70);
 }
 
+.logo{
+  width: 30%;
+}
+
 #spinner{
   left: 45%;
 }

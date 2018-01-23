@@ -16,7 +16,7 @@ import HTMLParser
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'lf3bf,3jnr'
+app.config['MYSQL_PASSWORD'] = '12elenberg'
 app.config['MYSQL_DB'] = 'jdm'
 mysql = MySQL(app)
 
@@ -279,20 +279,70 @@ def recupererBDD(eid):
 		'sortant': sortant
 	}
 
+def allRelations():
+	dicoRel = {}
+	conn = mysql.connection 
+	cur = conn.cursor()
+	cur.execute("""SELECT name, nom_etendu, info FROM type_relation """)
+	relations = cur.fetchall()
+	for r in relations:
+		dicoRel.update({r[0]: r[2]})
+	return dicoRel
+
+
+@app.route('/entrant/<string:noeud>')
+def relationEntrantNoeud(noeud):
+	global hash_table
+	relations = allRelations()
+	conn = mysql.connection 
+	cur = conn.cursor()
+	listeRelations =  {}
+	if hash_table.get(noeud) != None:
+		for r in relations.keys():
+			print r
+			nom_table = r.replace("-","_").replace(">", "_") + "entrant"
+			cur.execute("SELECT r.n1 FROM "+nom_table +" r, noeuds n WHERE n.name = '"+ noeud +\
+			"' AND n.eid = r.n1 LIMIT 1" )
+			entrant = cur.fetchall()
+			if len(entrant) > 0:
+				listeRelations.update({r : relations[r]})
+	else:
+		recupererMot(noeud)
+		relationSortantNoeud(noeud)
+
+	return jsonify(listeRelations = listeRelations)
+
+@app.route('/sortant') #<string:noeud>
+def relationSortantNoeud():
+	noeud = request.args.get('noeud')[1:-1]
+	global hash_table
+	relations = allRelations()
+	conn = mysql.connection 
+	cur = conn.cursor()
+	listeRelations =  {}
+	if hash_table.get(noeud) != None:
+		for r in relations.keys():
+			nom_table = r.replace("-","_").replace(">", "_") + "_sortant"
+			cur.execute("SELECT r.n1 FROM "+nom_table +" r, noeuds n WHERE n.name = '"+ noeud +\
+			"' AND n.eid = r.n1 LIMIT 1" )
+			sortant = cur.fetchall()
+			if len(sortant) > 0:
+				listeRelations.update({r : relations[r]})
+	else:
+		recupererMot(noeud)
+		data = relationSortantNoeud()
+		return data
+	return jsonify(relations = listeRelations)
+
+
 
 @app.route('/')
 def index():
-	#debut = time.time()
-	#data = ajouterBDD("chat")
-	#enleverEntree(150)
-	"""
-	data = recupererBDD(150)
-	fin = time.time()
-	print "Temp d'execution : "+str(fin-debut)+"s"
-	return json.dumps(data, indent=4, ensure_ascii=False)
-	"""
-	#enleverEntree()
-	return 'coucou'
+	relations = allRelations()
+	#print relations
+	initialiser()
+	return render_template('index.html', relations = relations)
+
 
 @app.route('/timeout')
 def to():
@@ -302,15 +352,28 @@ def to():
 """
 @app.route('/listenoeudsfrequents')
 def liste_noeuds_plus_frequents():
-    return "chat, chien ..."
+	return "chat, chien ..."
 
 #TODO
 @app.route('/listerelations'):
 def liste_relations():
 	return "r_associated, r_can_eat ..."
 """
+def viderCache():
+	global places_libres
+	global TAILLE_CACHE
+	global hash_table
+	global entrees_cache
+	global mru
+	mru = None
+	places_libres = TAILLE_CACHE
+	hash_table = {}
+	entrees_cache = [None for i in range(0,TAILLE_CACHE)]
+
+
 @app.route('/initialiser')
 def initialiser():
+	viderCache()
 	global places_libres
 	debut = time.time()
 	conn = mysql.connection 
@@ -338,13 +401,40 @@ def recuperer(noeud):
 		return json.dumps(data, indent=4, ensure_ascii=False)
 	else:
 		return data
+
+@app.route('/noeud/relationSortante')
+def noeudRelationsSortantes():
+	noeud = request.args.get('noeud')[1:-1]
+	relation = request.args.get('relation')[1:-1]
+	nom_table = relation.replace("-","_").replace(">", "_") + "_sortant"
+	conn = mysql.connection 
+	cur = conn.cursor()
+	cur.execute("SELECT r.name , r.w FROM " + nom_table + " r, noeuds n WHERE n.name = '"+\
+		noeud +"' AND r.n1 = n.eid ORDER BY r.w DESC")
+	resultat = cur.fetchall()
+				
+	return jsonify(result = resultat)
+
+@app.route('/noeud/relationEntrante')
+def noeudRelationsEntrantes():
+	noeud = request.args.get('noeud')[1:-1]
+	relation = request.args.get('relation')[1:-1]
+	nom_table = relation.replace("-","_").replace(">", "_") + "_entrant"
+	conn = mysql.connection 
+	cur = conn.cursor()
+	cur.execute("SELECT r.name , r.w FROM " + nom_table + " r, noeuds n WHERE n.name = '"+\
+		noeud +"' AND r.n2 = n.eid ORDER BY r.w DESC")
+	resultat = cur.fetchall()
+				
+	return jsonify(result = resultat)
+
 """
-#TODO
-@app.route('/noeud/relation', methods=['GET'])
-def relations()
+#/noeud/relationSortant?noeud=chat&relation=r_isa
+@app.route('/noeud/relationSortante/<string:noeud>/<string:relation>', methods=['GET'])
+def noeudRelationsSortantes()
 	noeud = request.args.get('noeud')
 	relation = request.args.get('relation')
 	return "[]"
 """
 if __name__ == '__main__':
-    app.run(debug=True, port=5000, host="0.0.0.0")
+	app.run(debug=True, port=5000, host="0.0.0.0")
