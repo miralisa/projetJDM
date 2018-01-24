@@ -1,11 +1,16 @@
 window.onload = function(){
 
 	var searchTerm = document.getElementById("searchTerm");
+
 	var spinner = document.getElementById("spinner");
 	
 	var arrowLeft = document.getElementById("arrowLeft");
 	var arrowReight = document.getElementById("arrowRight");
 	var chipAlert = document.getElementById("chip-alert");
+
+	var definitionDiv = document.getElementById("definitionDiv");
+	var definitionTab = document.getElementById("definition-tab");
+	var rafSemTab = document.getElementById("rafSem-tab");
 
 	var relations = [];
 	var sizeRel =  0;
@@ -19,30 +24,66 @@ window.onload = function(){
 	};
 	
 	searchTerm.onclick = function(){
-		//console.log(term);
 		var term = document.getElementById("search").value;//.toLowerCase();
+		console.log("searchTerm " + term);
+	
 		spinner.className += " is-active";
 		chipAlert.style.display ="none";
 
 		var searchRes = document.getElementById("searchRes");
 		searchRes.innerHTML = "";
 
+		arrowReight.style.display = "none";
+		arrowLeft.style.display = "none";
+				
+		definitionDiv.style = 'display:none';
+		definitionTab.innerHTML = "";
+		rafSemTab.innerHTML = "";
+
+
+		$.getJSON($SCRIPT_ROOT + "noeud/info", {
+				noeud: JSON.stringify(term)
+				},
+				function(data){
+					console.log(data);
+					if(data.error){
+						spinner.className ="mdl-spinner mdl-js-spinner";
+						chipAlert.style.display = "";
+					} else if( data.definition.length > 0 || data.raffSemantique.length > 0 ){
+						definitionDiv.style = 'display:';
+						definitionTab.innerHTML = "<p class=''>"+data.definition + "</p>";
+						var raffTexte = "<ul class='mdl-list'>"
+							
+						data.raffSemantique.forEach(function(raffSem, i){
+							raffTexte += "<li class='mdl-list__item' title= 'Poids:"+ raffSem.weight +"'>" + raffSem.name + "</li>  ";
+						});
+						rafSemTab.innerHTML = raffTexte + "</ul>";
+
+				}
+			});
+
 		$.getJSON($SCRIPT_ROOT + "sortant", {
 				noeud: JSON.stringify(term)
 			}, function(data){
-				relations = Object.keys(data.relations);
-				sizeRel = relations.length;
+				console.log(data);
+				if(data.error){
+						spinner.className ="mdl-spinner mdl-js-spinner";
+						chipAlert.style.display = "";
+				}
+				else{
+					relations = Object.keys(data.relations);
+					sizeRel = relations.length;
 
-				updateTabRelation(data);
-				addEventClick("terms");
-				arrowReight.style.display = "flex";
-				arrowLeft.style.display = "flex";
-				
-				spinner.className ="mdl-spinner mdl-js-spinner";
-		
-				//console.log(data);
-				if(sizeRel > 0 ){
-				getNoeudRelationSortante(term, relations[0]);
+					updateTabRelation(data);
+					arrowReight.style.display = "flex";
+					arrowLeft.style.display = "flex";
+					
+					spinner.className ="mdl-spinner mdl-js-spinner";
+			
+					//console.log(data);
+					if(sizeRel > 0 ){
+					getNoeudRelationSortante(term, relations[0]);
+					}
 				}
 						
 			});
@@ -54,14 +95,15 @@ window.onload = function(){
 					noeud: JSON.stringify(term),
 					relation: JSON.stringify(relation)
 				}, function(data){
-					console.log(data);
+					//console.log(data);
 					if(data.result.length != 0){
 					var text = "";
-					data.result.forEach(function(term){
-						text += "<a class='terms' href='#'>" + term[0] + "<a>  " + term[1] + ", ";
+					data.result.forEach(function(term, i){
+						text += "<a class='terms' href='#' title= 'Poids:"+ term[1] +"'>" + term[0] + "</a>  ";
 					});
-					searchRes.innerHTML = "<b>"+ term +"</b>	<i>" + relation + "</i><br> "+ text;
-			
+					searchRes.innerHTML = "<b class='noeud'>"+ term.toUpperCase() +"</b>	<i class='name-relation'>" + relation + "</i><br><br> "+ text;
+					addEventClick("terms");
+				
 					}else{
 
 					arrowReight.style.display = "none";
@@ -92,8 +134,9 @@ window.onload = function(){
 			element.parentNode.className = "";
 		});
 		var th = document.getElementById('r'+id);
-		//console.log(th);
-		//th.parentNode.className = "is-selected";
+		//console.log(id + " " + th);
+		if(th != null)
+		th.parentNode.className = "is-selected";
 		
 	}
 
@@ -102,17 +145,27 @@ window.onload = function(){
 		div.empty();
 
 		div.html("<table class='mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp' >"+
-						"<thead><tr><th class='mdl-data-table__cell--non-numeric'>Relation</th></tr></thead>"+
+						//"<thead><tr><th class='mdl-data-table__cell--non-numeric'>Relation</th></tr></thead>"+
 						"<tbody id='tbody'></tbody></table>");
 		var tbody = $('#tbody');
 		
 		var keys = Object.keys(data.relations);
 			
+		var relMobile = $('#relations-mobile');
+		relMobile.empty();
+		console.log(relMobile);
+		$('#relations-mobile').addClass("mdl-navigation");
+
 		keys.forEach(function(d,i) {
+			var relInfo = data.relations[d].replace("\"","\'");
+			relMobile.append("<a class='mdl-navigation__link relations'  id='rm" + i + "' title='"+relInfo + "' href='#'>"+d+"</a>");
 			var tr = $('<tr/>').appendTo(tbody);
-			tr.append("<td class='mdl-data-table__cell--non-numeric relations' id='r" + i + "'>" + d + "</td>");
-             
+
+			tr.append("<td class='mdl-data-table__cell--non-numeric relations' title=\""+relInfo+ "\" id='r" + i + "'>" + d + "</td>" );
+			div.append("<div class='mdl-tooltip' data-mdl-for='r"	+ i + "'>" + data.relations[d] +"</div>" );
 		});
+
+
 		selectedRel(0);
 		addEventClick("relations");
 	
@@ -143,6 +196,8 @@ window.onload = function(){
 		}
 		
 		idRel = relations.indexOf(relation);
+		//console.log( idRel + " relation " + relation.replace(" ","") + " " +   typeof(Array.prototype.slice.call(relations)));
+		
 		selectedRel(idRel);
 	
 		var term = document.getElementById("search").value;
@@ -181,7 +236,7 @@ window.onload = function(){
 		updateElem.forEach(function (element){
 			if(elem == "terms"){
 				element.addEventListener("click", function (){
-					//console.log("terms "+ element.innerHTML);
+					console.log("terms "+ element.innerHTML);
 					var term = element.innerHTML;
 					document.getElementById("search").value = term;
 					searchTerm.click();
@@ -189,7 +244,7 @@ window.onload = function(){
 				});
 			}else if(elem == "relations"){
 				element.addEventListener("click", function (){
-					//console.log("relations "+ element.innerHTML);
+					console.log("relations "+ element.innerHTML);
 					var relation = element.innerHTML;
 					getTermsByRelation(relation);
 				});

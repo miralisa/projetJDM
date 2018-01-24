@@ -1,79 +1,90 @@
 <!doctype html>
 
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="jeux2mots">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>jeux2mots</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="jeux2mots">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>jeux2mots</title>
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="../static/img/android-desktop.png">
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="../static/img/android-desktop.png">
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="../static/img/ios-desktop.png">
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+  <link rel="apple-touch-icon-precomposed" href="../static/img/ios-desktop.png">
 
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="../static/img/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="../static/img/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#3372DF">
 
-    <link rel="shortcut icon" href="../static/img/favicon.png">
+  <link rel="shortcut icon" href="../static/img/favicon.png">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!--<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.lime-indigo.min.css" />-->
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.lime-amber.min.css" />
-    <link rel="stylesheet" href="../static/css/styles.css">
-    </head>
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.lime-indigo.min.css" />-->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.lime-amber.min.css" />
+  <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
 
-   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header mdl-layout__header--scroll">
-      <!-- Top row, always visible -->
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">  <img src="../static/img/logo.png" class="logo">
-                  </span>
-      </div>
-
-    </header>
-   <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Relations</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-      </nav>
+ <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <!-- Top row, always visible -->
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">
+        <a href="/">
+          <img src="../static/img/logo.png" class="logo">
+        </a>  
+      </span>
     </div>
+
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Relations</span>
+    <nav class="mdl-navigation" >
+      <div id="relations-mobile">
+       {% for key, value in relations.iteritems() %}
+        <a class="mdl-navigation__link" title="{{value}}" href="#">{{key}}</a>
+        {% endfor %}
+        </div>     
+      <!--
+      <a class="mdl-navigation__link" href=""></a>
+    -->
+    </nav>
+  </div>
   
   <main class="mdl-layout__content">
-      <div class="page-content">
-    <div class="mdl-grid">
-  <div class="mdl-cell mdl-cell--8-col">
+    <div class="page-content">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--8-col">
 
-    <div class="mdl-card mdl-shadow--4dp card-content">
-      <div class="mdl-card__media mdl-color--accent">
- <div class="mdl-layout-spacer"></div>
-     
-       <!--<h5 class="mdl-card__title-text">  Rechercher un terme </h5>-->
-        <form action="#">
-        
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="search">
-            <label class="mdl-textfield__label" for="search">Rechercher un terme...</label>
-          </div>
-          <label class="mdl-button mdl-js-button mdl-button--icon" id="searchTerm">
-            <i class="material-icons">search</i>
-            <span class="visuallyhidden">Search</span>
-          </label>
+          <div class="mdl-card mdl-shadow--4dp card-content">
+            <div class="mdl-card__media mdl-color--accent">
+             <div class="mdl-layout-spacer"></div>
 
-        </form>
+             <!--<h5 class="mdl-card__title-text">  Rechercher un terme </h5>-->
+             <form action="#">
+              
+              <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input" type="text" id="search">
+                <label class="mdl-textfield__label" for="search">Rechercher un terme...</label>
+              </div>
+              <label class="mdl-button mdl-js-button mdl-button--icon" title="Rechercher" id="searchTerm">
+                <i class="material-icons">search</i>
+                <span class="visuallyhidden">Search</span>
+              </label>
+
+              <button type="reset" title="Effacer" class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">clear</i>
+              </button>
+             
+            </form>
        <!--
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                     mdl-textfield--floating-label mdl-textfield--align-right">
@@ -87,8 +98,8 @@
           </div>
         </div>
       -->
-      </div>
-        <div class="mdl-card__supporting-text content-terme">
+    </div>
+    <div class="mdl-card__supporting-text content-terme">
           <!--
         <form action="#">
           <div class="mdl-textfield mdl-js-textfield">
@@ -101,36 +112,53 @@
           </label>
 
         </form>
-        -->
-        <div class="mdl-spinner mdl-js-spinner" id="spinner"></div>
-        <span class="mdl-chip" id="chip-alert" style="display: none;">
-            <button type="button" class="mdl-chip__action ic-chip"><i class="material-icons">announcement</i> </button>
-            <span class="mdl-chip__text">Désolé, aucun terme correspondant à votre recherche n'a été trouvé. </span>
-        </span> 
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--1-col">
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored arrows" id="arrowLeft" style="display: none;">
-              <i class="material-icons">keyboard_arrow_left</i>
-            </button>
+      -->
+          <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--1-col">
+          <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored arrows" id="arrowLeft" style="display: none;">
+            <i class="material-icons">keyboard_arrow_left</i>
+          </button>
 
-          </div>
-          <div class="mdl-cell mdl-cell--10-col">
-            <div id="searchRes"></div>
-            
-          </div>
-          <div class="mdl-cell mdl-cell--1-col">
-            <div class="mdl-layout-spacer"></div>
-       
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored arrows" id="arrowRight" style="display: none;">
-              <i class="material-icons">keyboard_arrow_right</i>
-            </button>
-            
-          </div>
         </div>
+        <div class="mdl-cell mdl-cell--10-col mdl-cell--2-col-phone">
+           <span class="mdl-chip" id="chip-alert" style="display: none;">
+            <button type="button" class="mdl-chip__action ic-chip"><i class="material-icons">announcement</i> </button>
+            <span class="mdl-chip__text">Désolé, aucun terme correspondant à votre recherche n'a été trouvé.<br> Essayez de modifier votre recherche ou retournez à <a href='/'>la page d'accueil</a> . </span>
+          </span> 
+           <div class="mdl-spinner mdl-js-spinner" id="spinner"></div>
+        
+          <div id="searchRes"></div>
+          <br>
+          <br>
+         
+          <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" id="definitionDiv" style="display: none;">
+            <div class="mdl-tabs__tab-bar">
+              <a href="#definition-tab" class="mdl-tabs__tab is-active">Définition(s)</a>
+              <a href="#rafSem-tab" class="mdl-tabs__tab">Raffinement sémantique</a>
+            </div>
 
-           
-          
-     
+            <div class="mdl-tabs__panel is-active" id="definition-tab" >
+             
+            </div>
+            <div class="mdl-tabs__panel" id="rafSem-tab">
+
+            </div>
+          </div>
+
+        </div>
+        <div class="mdl-cell mdl-cell--1-col">
+          <div class="mdl-layout-spacer"></div>
+
+          <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored arrows" id="arrowRight" style="display: none;">
+            <i class="material-icons">keyboard_arrow_right</i>
+          </button>
+
+        </div>
+      </div>
+
+
+
+
       <!--</div>
       <div class="mdl-card__supporting-text"> 
         <ul class="mdl-list">
@@ -138,67 +166,56 @@
           <li>terme 2</li>
           <li>terme 3</li>
         </ul>
-        -->
+      -->
 
-        <br>
-        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect" style="display: none;">
-        <div class="mdl-tabs__tab-bar">
-            <a href="#definition-tab" class="mdl-tabs__tab is-active">Définition(s)</a>
-            <a href="#rafSem-tab" class="mdl-tabs__tab">Raffinement sémantique</a>
-        </div>
 
-        <div class="mdl-tabs__panel is-active" id="definition-tab" >
-          <ul class="mdl-list">
-          </ul>
-        </div>
-        <div class="mdl-tabs__panel" id="rafSem-tab">
 
-        </div>
-      </div>
-
-      </div>
     </div>
   </div>
-  <div class="mdl-cell mdl-cell--4-col ">
-    <div class="mdl-card mdl-shadow--4dp card-relations mdl-card--expand">
-      <div class="mdl-card__media mdl-color--accent">
-        <!-- <h5 class="mdl-card__title-text"> Rechercher une relations </h5> -->
-        <form action="#">
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="searchrRel">
-            <label class="mdl-textfield__label" for="searchRel">Rechercher une relation...</label>
-          </div>
-          <label class="mdl-button mdl-js-button mdl-button--icon ">
-            <i class="material-icons">search</i>
-            <span class="visuallyhidden">Search</span>
-          </label>
+</div>
+<div class="mdl-cell mdl-cell--4-col mdl-cell--hide-phone">
+  <div class="mdl-card mdl-shadow--4dp card-relations mdl-card--expand">
+    <div class="mdl-card__media mdl-color--accent">
+      <h5 class="mdl-card__title-text"> Relations </h5>
+        <div class="mdl-layout-spacer"></div>
 
-        </form>
-          <a href="" id="resetSearchRel"><i class="material-icons">exit</i></a>
-         
-      </div>
-      <div class="mdl-card__supporting-text content-relation">
-  
-        <div id="tabRelations">
+      <!-- <h5 class="mdl-card__title-text"> Rechercher une relations </h5>
+      <form action="#">
+
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="searchrRel">
+          <label class="mdl-textfield__label" for="searchRel">Rechercher une relation...</label>
+        </div>
+        <label class="mdl-button mdl-js-button mdl-button--icon ">
+          <i class="material-icons">search</i>
+          <span class="visuallyhidden">Search</span>
+        </label>
+      </form>
+-->
+
+    </div>
+    <div class="mdl-card__supporting-text content-relation">
+
+      <div id="tabRelations">
         <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" >
-          <thead>
+          <!--<thead>
             <tr>
-              <th class="mdl-data-table__cell--non-numeric">Relation</th>
+              <th class="mdl-data-table__cell--non-numeric">Relations</th>
             </tr>
-          </thead>
+          </thead> -->
           <tbody>
             {% for key, value in relations.iteritems() %}
             <tr>
-              <td class="mdl-data-table__cell--non-numeric" id="{{key[1:-1]}}">{{key}}
-                <div class="mdl-tooltip" data-mdl-for="{{key[1:-1]}}">
-              {{value[:70]}}<br>{{value[70:140]}}<br>{{value[140:]}} </div>
-              </td>
-            </tr>
-            {% endfor %}
-          </tbody>
+              <td class="mdl-data-table__cell--non-numeric" title="{{value}}">{{key}}
+                <!--<div class="mdl-tooltip" data-mdl-for="{{key[1:-1]}}">
+                  {{value[:70]}}<br>{{value[70:140]}}<br>{{value[140:]}} </div>-->
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
           </table>
         </div>
-        </div>
+      </div>
       <div class="mdl-card__supporting-text">
 
 
@@ -212,7 +229,7 @@
 
 </div>
 
-  </main>
+</main>
 <footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__left-section">
     <div class="mdl-logo">jeux2mots</div>
@@ -222,15 +239,15 @@
     </ul>
   </div>
 </footer>
-  </div>
+</div>
 
-  <script type=text/javascript>
-    var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
-  </script>
+<script type=text/javascript>
+  var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+</script>
 
-  <script src="../static/lib/js/jquery-1.12.4.js"></script>
-  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <script src="../static/js/script.js"></script>
- 
-  </body>
+<script src="../static/lib/js/jquery-1.12.4.js"></script>
+<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="../static/js/script.js"></script>
+
+</body>
 </html>

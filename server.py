@@ -55,7 +55,7 @@ def recupererMot(mot):
 				places_libres -= 1
 				ajouterMotCacheIndice(mot, data['noeud']['eid'], indice)
 		except Exception:
-			raise
+			return "ERROR"
 	else:
 		try :
 			data = ajouterBDD(mot)
@@ -63,7 +63,7 @@ def recupererMot(mot):
 				indice = enleverEntreeCache()
 				ajouterMotCacheIndice(mot, data['noeud']['eid'], indice)
 		except Exception :
-			raise
+			return "ERROR"
 	fin = time.time()
 	print "@-- Temps total : "+str(fin-debut)+"s --@"
 	return data
@@ -283,11 +283,41 @@ def allRelations():
 	dicoRel = {}
 	conn = mysql.connection 
 	cur = conn.cursor()
-	cur.execute("""SELECT name, nom_etendu, info FROM type_relation """)
+	cur.execute("""SELECT name, info FROM type_relation """)
 	relations = cur.fetchall()
 	for r in relations:
-		dicoRel.update({r[0]: r[2]})
+		dicoRel.update({r[0]: r[1]})
 	return dicoRel
+
+
+@app.route('/noeud/info')
+def getNoeudInfo():
+	noeud = request.args.get('noeud')[1:-1]
+	conn = mysql.connection 
+	cur = conn.cursor()
+	if hash_table.get(noeud) != None:
+		cur.execute("SELECT definition FROM noeuds WHERE name='" + noeud +"'")
+		definition = cur.fetchall()
+		cur.execute("SELECT r.name, r.w FROM r_raff_sem_sortant r, noeuds n WHERE n.name='" + noeud + "' AND \
+			r.n1=n.eid ORDER BY r.w DESC")
+		raffSemantique = cur.fetchall()
+		raffSemantiqueDico = []
+		for r in raffSemantique:
+			d = {'name':r[0], 'weight': r[1]}
+			raffSemantiqueDico.append(d)
+	else:
+		data = recupererMot(noeud)
+		
+		if data != "JDM-HS" and data != "NOT-EXISTS" and data!="TIME-OUT" and data !="ERROR":
+			data = getNoeudInfo()
+			return data
+		else:
+			return jsonify(error = data)
+	return jsonify(definition = definition[0][0], raffSemantique = raffSemantiqueDico )
+
+
+
+
 
 
 @app.route('/entrant/<string:noeud>')
@@ -329,9 +359,13 @@ def relationSortantNoeud():
 			if len(sortant) > 0:
 				listeRelations.update({r : relations[r]})
 	else:
-		recupererMot(noeud)
-		data = relationSortantNoeud()
-		return data
+		data = recupererMot(noeud)
+		print data
+		if data != "JDM-HS" and data != "NOT-EXISTS" and data!="TIME-OUT" and data !="ERROR":
+			data = relationSortantNoeud()
+			return data
+		else:
+			return jsonify(error = data)
 	return jsonify(relations = listeRelations)
 
 
