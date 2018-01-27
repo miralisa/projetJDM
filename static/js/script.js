@@ -1,6 +1,8 @@
 window.onload = function(){
-
+	addEventClick("terms");
+				
 	var searchTerm = document.getElementById("searchTerm");
+	var searchLabel = document.getElementById("searchLabel");
 
 	var spinner = document.getElementById("spinner");
 	
@@ -25,8 +27,9 @@ window.onload = function(){
 	
 	searchTerm.onclick = function(){
 		var term = document.getElementById("search").value;//.toLowerCase();
-		console.log("searchTerm " + term);
+		//console.log("searchTerm " + term);
 	
+		spinner.style.display ="";
 		spinner.className += " is-active";
 		chipAlert.style.display ="none";
 
@@ -45,10 +48,11 @@ window.onload = function(){
 				noeud: JSON.stringify(term)
 				},
 				function(data){
-					console.log(data);
+					//console.log(data);
 					if(data.error){
 						spinner.className ="mdl-spinner mdl-js-spinner";
 						chipAlert.style.display = "";
+
 					} else if( data.definition.length > 0 || data.raffSemantique.length > 0 ){
 						definitionDiv.style = 'display:';
 						definitionTab.innerHTML = "<p class=''>"+data.definition + "</p>";
@@ -65,7 +69,7 @@ window.onload = function(){
 		$.getJSON($SCRIPT_ROOT + "sortant", {
 				noeud: JSON.stringify(term)
 			}, function(data){
-				console.log(data);
+				//console.log(data);
 				if(data.error){
 						spinner.className ="mdl-spinner mdl-js-spinner";
 						chipAlert.style.display = "";
@@ -79,8 +83,8 @@ window.onload = function(){
 					arrowLeft.style.display = "flex";
 					
 					spinner.className ="mdl-spinner mdl-js-spinner";
-			
-					//console.log(data);
+					spinner.style.display ="none";
+					////console.log(data);
 					if(sizeRel > 0 ){
 					getNoeudRelationSortante(term, relations[0]);
 					}
@@ -90,12 +94,12 @@ window.onload = function(){
 	};
 
 	function getNoeudRelationSortante(term, relation){
-		//console.log("relation " + relation);
+		////console.log("relation " + relation);
 		$.getJSON($SCRIPT_ROOT + "noeud/relationSortante", {
 					noeud: JSON.stringify(term),
 					relation: JSON.stringify(relation)
 				}, function(data){
-					//console.log(data);
+					////console.log(data);
 					if(data.result.length != 0){
 					var text = "";
 					data.result.forEach(function(term, i){
@@ -112,7 +116,7 @@ window.onload = function(){
 			
 					}
 					spinner.className ="mdl-spinner mdl-js-spinner";
-					
+					spinner.style.display ="none";
 
 				});
 	}
@@ -134,7 +138,7 @@ window.onload = function(){
 			element.parentNode.className = "";
 		});
 		var th = document.getElementById('r'+id);
-		//console.log(id + " " + th);
+		////console.log(id + " " + th);
 		if(th != null)
 		th.parentNode.className = "is-selected";
 		
@@ -153,7 +157,7 @@ window.onload = function(){
 			
 		var relMobile = $('#relations-mobile');
 		relMobile.empty();
-		console.log(relMobile);
+		//console.log(relMobile);
 		$('#relations-mobile').addClass("mdl-navigation");
 
 		keys.forEach(function(d,i) {
@@ -174,7 +178,7 @@ window.onload = function(){
 	var idRel = 0; 
 	function getTermsByRelation(relation){
 		//var sizeRel =  objLength(relations);
-		//console.log("sizeRel " + sizeRel);
+		////console.log("sizeRel " + sizeRel);
 		if(relation == "right" ){//&& idRel < relations.lenght
 			relation = relations[++idRel];
 		} else /*if (relation == "right" && idRel == relations.lenght ){
@@ -188,7 +192,7 @@ window.onload = function(){
 		}else if (relation == "left" && idRel == 0){
 			idRel = sizeRel-1;
 			relation = relations[idRel];
-			console.log("idRel " + relation);
+			//console.log("idRel " + relation);
 		}
 		if(idRel == sizeRel){
 			idRel = 0;
@@ -196,7 +200,7 @@ window.onload = function(){
 		}
 		
 		idRel = relations.indexOf(relation);
-		//console.log( idRel + " relation " + relation.replace(" ","") + " " +   typeof(Array.prototype.slice.call(relations)));
+		////console.log( idRel + " relation " + relation.replace(" ","") + " " +   typeof(Array.prototype.slice.call(relations)));
 		
 		selectedRel(idRel);
 	
@@ -204,13 +208,14 @@ window.onload = function(){
 		
 		searchRes.innerHTML ="<b>"+ term +"</b>	<i>" + relation + "</i><br>";
 		spinner.className += " is-active";
+		spinner.style.display ="";
 		getNoeudRelationSortante(term, relation);
 		/*
 		$.getJSON($SCRIPT_ROOT + "relation_term", {
 					term: JSON.stringify(term), 
 					relation: JSON.stringify(relation)
 				}, function(data){
-					console.log(data.result);
+					//console.log(data.result);
 					if(data.result.length != 0){
 						var text = "";
 						data.result.forEach(function(child){
@@ -232,11 +237,11 @@ window.onload = function(){
 	function addEventClick(elem){
 		var updateElem = [].slice.call(document.getElementsByClassName(elem));
 		var size = updateElem.length;
-		console.log(size)
+		//console.log(size)
 		updateElem.forEach(function (element){
 			if(elem == "terms"){
 				element.addEventListener("click", function (){
-					console.log("terms "+ element.innerHTML);
+					//console.log("terms "+ element.innerHTML);
 					var term = element.innerHTML;
 					document.getElementById("search").value = term;
 					searchTerm.click();
@@ -244,8 +249,9 @@ window.onload = function(){
 				});
 			}else if(elem == "relations"){
 				element.addEventListener("click", function (){
-					console.log("relations "+ element.innerHTML);
+					//console.log("relations "+ element.innerHTML);
 					var relation = element.innerHTML;
+					searchLabel.innerHTML = "";
 					getTermsByRelation(relation);
 				});
 			}

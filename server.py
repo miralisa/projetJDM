@@ -293,6 +293,7 @@ def allRelations():
 @app.route('/noeud/info')
 def getNoeudInfo():
 	noeud = request.args.get('noeud')[1:-1]
+	print noeud
 	conn = mysql.connection 
 	cur = conn.cursor()
 	if hash_table.get(noeud) != None:
@@ -315,7 +316,17 @@ def getNoeudInfo():
 			return jsonify(error = data)
 	return jsonify(definition = definition[0][0], raffSemantique = raffSemantiqueDico )
 
-
+def getCache():
+	conn = mysql.connection 
+	cur = conn.cursor()
+	noeudsDico = {}
+	if len(hash_table) != 0:
+		cur.execute("SELECT name, weight FROM noeuds")
+		noeuds = cur.fetchall()
+		for n in noeuds:
+			#d = {'name':n[0], 'weight': n[1]}
+			noeudsDico.update({ n[0]: n[1]})	
+	return noeudsDico
 
 
 
@@ -375,7 +386,8 @@ def index():
 	relations = allRelations()
 	#print relations
 	initialiser()
-	return render_template('index.html', relations = relations)
+	termesFrequents = getCache()
+	return render_template('index.html', relations = relations, termesFrequents = termesFrequents )
 
 
 @app.route('/timeout')

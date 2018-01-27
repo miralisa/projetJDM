@@ -3,6 +3,16 @@ html, body {
   margin: 0;
   padding: 0;
 }
+.mdl-layout__content {
+  flex: 1 0 auto;
+  display: -webkit-flex;
+  display: flex;
+    -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.mdl-mini-footer{
+  padding: 5px 16px;
+}
 .card-content{
   width: auto;
   height: 80vh;
@@ -36,9 +46,7 @@ html, body {
 .mdl-card__title-text{
   padding: 21px;
 }
-.mdl-mini-footer {
-  padding: 2px 16px;
-}
+
 .mdl-card__media{
   padding-left: 25px;
 }
@@ -70,7 +78,9 @@ p{
   padding: 2px 12px;
   border-radius: 0px;
 }
-
+.mdl-textfield {
+  width: 60%;
+}
 .logo{
   width: 30%;
 }
@@ -126,10 +136,17 @@ ul {
 }
 
 .arrows{
-  //top: 45%;
+  //margin-top: 15%;
   position: absolute;
 }
 
 .ic-chip{
   margin: 5px;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 550px) {
+
+}
+@media only screen and (max-width: 350px) {
+
 }
