@@ -2,6 +2,7 @@ window.onload = function(){
 	addEventClick("terms");
 
 	var searchTerm = document.getElementById("searchTerm");
+	var searchInput = document.getElementById("search");
 	var searchLabel = document.getElementById("searchLabel");
 
 	var spinner = document.getElementById("spinner");
@@ -25,10 +26,29 @@ window.onload = function(){
 	arrowReight.onclick = function(){
 		getTermsByRelation("right");
 	};
-	
+
+	searchInput.onkeyup = function(){
+		//console.log(searchInput.value);
+		var dataList = document.getElementById('datalist');
+		$("#datalist").empty();
+
+		$.getJSON($SCRIPT_ROOT + "auto_completion", {
+				mot: JSON.stringify(searchInput.value)
+			},
+			function(data){
+
+				data.result.forEach(function(item){					
+					var option = document.createElement('option');
+				    option.value = item;
+				    dataList.appendChild(option);
+				});
+			});
+
+	};
+
 	searchTerm.onclick = function(){
-		var term = document.getElementById("search").value;//.toLowerCase();
-		console.log("switchButton " + switchButton.checked);
+		var term = searchInput.value;//.toLowerCase();
+		//console.log("switchButton " + switchButton.checked);
 
 		spinner.style.display ="";
 		spinner.className += " is-active";
