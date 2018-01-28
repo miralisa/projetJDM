@@ -26,8 +26,9 @@ window.onload = function(){
 		getTermsByRelation("right");
 	};
 
-	searchInput.onkeyup = function(){
-		//console.log(searchInput.value);
+	//searchInput.onkeyup = function(){
+	$("#search").on('input', function(){
+	//console.log(searchInput.value);
 		var dataList = document.getElementById('datalist');
 		$("#datalist").empty();
 
@@ -43,7 +44,7 @@ window.onload = function(){
 				});
 			});
 
-	};
+	});
 
 	searchTerm.onclick = function(){
 		var term = searchInput.value;//.toLowerCase();
