@@ -14,8 +14,7 @@ window.onload = function(){
 
 	var definitionDiv = document.getElementById("definitionDiv");
 	var definitionTab = document.getElementById("definition-tab");
-	var rafSemTab = document.getElementById("rafSem-tab");
-
+	
 	var relations = [];
 	var sizeRel =  0;
 
@@ -62,7 +61,6 @@ window.onload = function(){
 
 		definitionDiv.style = 'display:none';
 		definitionTab.innerHTML = "";
-		rafSemTab.innerHTML = "";
 
 
 		if(switchButton.checked){
@@ -107,16 +105,10 @@ window.onload = function(){
 						spinner.className ="mdl-spinner mdl-js-spinner";
 						chipAlert.style.display = "";
 
-					} else if( data.definition.length > 0 || data.raffSemantique.length > 0 ){
+					} else if( data.definition.length > 0){
 						definitionDiv.style = 'display:';
 						definitionTab.innerHTML = "<p class=''>"+data.definition + "</p>";
-						var raffTexte = "<ul class='mdl-list'>"
-
-						data.raffSemantique.forEach(function(raffSem, i){
-							raffTexte += "<li class='mdl-list__item' title= 'Poids:"+ raffSem.weight +"'>" + raffSem.name + "</li>  ";
-						});
-						rafSemTab.innerHTML = raffTexte + "</ul>";
-
+						
 					}
 				});
 
@@ -298,6 +290,7 @@ function getNoeudRelationSortante(term, relation){
 			if(elem == "terms"){
 				element.addEventListener("click", function (){
 					//console.log("terms "+ element.innerHTML);
+					searchLabel.innerHTML = "";
 					var term = element.innerHTML;
 					document.getElementById("search").value = term;
 					searchTerm.click();
@@ -307,7 +300,7 @@ function getNoeudRelationSortante(term, relation){
 				element.addEventListener("click", function (){
 					//console.log("relations "+ element.innerHTML);
 					var relation = element.innerHTML;
-					searchLabel.innerHTML = "";
+					
 					getTermsByRelation(relation);
 				});
 			}
