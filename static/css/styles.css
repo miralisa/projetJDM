@@ -79,7 +79,10 @@ p{
   border-radius: 0px;
 }
 .mdl-textfield {
-  width: 60%;
+  width: 40%;
+}
+.mdl-switch {
+  width:0;
 }
 .logo{
   width: 30%;
@@ -140,6 +143,7 @@ ul {
   position: absolute;
 }
 
+td { cursor: pointer; }
 .ic-chip{
   margin: 5px;
 }

@@ -1,7 +1,8 @@
 window.onload = function(){
 	addEventClick("terms");
-				
+
 	var searchTerm = document.getElementById("searchTerm");
+	var searchInput = document.getElementById("search");
 	var searchLabel = document.getElementById("searchLabel");
 
 	var spinner = document.getElementById("spinner");
@@ -9,6 +10,7 @@ window.onload = function(){
 	var arrowLeft = document.getElementById("arrowLeft");
 	var arrowReight = document.getElementById("arrowRight");
 	var chipAlert = document.getElementById("chip-alert");
+	var switchButton = document.getElementById("switch");
 
 	var definitionDiv = document.getElementById("definitionDiv");
 	var definitionTab = document.getElementById("definition-tab");
@@ -16,7 +18,7 @@ window.onload = function(){
 
 	var relations = [];
 	var sizeRel =  0;
-		
+
 	arrowLeft.onclick = function(){
 		getTermsByRelation("left");
 	};
@@ -24,11 +26,30 @@ window.onload = function(){
 	arrowReight.onclick = function(){
 		getTermsByRelation("right");
 	};
-	
+
+	searchInput.onkeyup = function(){
+		//console.log(searchInput.value);
+		var dataList = document.getElementById('datalist');
+		$("#datalist").empty();
+
+		$.getJSON($SCRIPT_ROOT + "auto_completion", {
+				mot: JSON.stringify(searchInput.value)
+			},
+			function(data){
+
+				data.result.forEach(function(item){					
+					var option = document.createElement('option');
+				    option.value = item;
+				    dataList.appendChild(option);
+				});
+			});
+
+	};
+
 	searchTerm.onclick = function(){
-		var term = document.getElementById("search").value;//.toLowerCase();
-		//console.log("searchTerm " + term);
-	
+		var term = searchInput.value;//.toLowerCase();
+		//console.log("switchButton " + switchButton.checked);
+
 		spinner.style.display ="";
 		spinner.className += " is-active";
 		chipAlert.style.display ="none";
@@ -38,16 +59,49 @@ window.onload = function(){
 
 		arrowReight.style.display = "none";
 		arrowLeft.style.display = "none";
-				
+
 		definitionDiv.style = 'display:none';
 		definitionTab.innerHTML = "";
 		rafSemTab.innerHTML = "";
 
 
+		if(switchButton.checked){
+
+			$.getJSON($SCRIPT_ROOT + "expression", {
+				expression: JSON.stringify(term)
+			},
+			function(data){
+				if(data.error){
+					spinner.className ="mdl-spinner mdl-js-spinner";
+					chipAlert.style.display = "";
+
+				}else if(data.result.length != 0){
+					spinner.className ="mdl-spinner mdl-js-spinner";
+					spinner.style.display ="none";
+				
+					var text = "";
+					data.result.forEach(function(term, i){
+						text += "<a class='terms' href='#' title= 'Poids:"+ term[1] +"'>" + term[0] + "</a>  ";
+					});
+					searchRes.innerHTML = "<b class='noeud'>"+ term.toUpperCase() +"</b><br><br> "+ text;
+					addEventClick("terms");
+
+				}else{
+
+					arrowReight.style.display = "none";
+					arrowLeft.style.display = "none";
+					chipAlert.style.display ="flex";
+
+				}
+			});
+
+		//});
+	} else {
+
 		$.getJSON($SCRIPT_ROOT + "noeud/info", {
-				noeud: JSON.stringify(term)
-				},
-				function(data){
+			noeud: JSON.stringify(term)
+		},
+		function(data){
 					//console.log(data);
 					if(data.error){
 						spinner.className ="mdl-spinner mdl-js-spinner";
@@ -57,22 +111,22 @@ window.onload = function(){
 						definitionDiv.style = 'display:';
 						definitionTab.innerHTML = "<p class=''>"+data.definition + "</p>";
 						var raffTexte = "<ul class='mdl-list'>"
-							
+
 						data.raffSemantique.forEach(function(raffSem, i){
 							raffTexte += "<li class='mdl-list__item' title= 'Poids:"+ raffSem.weight +"'>" + raffSem.name + "</li>  ";
 						});
 						rafSemTab.innerHTML = raffTexte + "</ul>";
 
-				}
-			});
+					}
+				});
 
 		$.getJSON($SCRIPT_ROOT + "sortant", {
-				noeud: JSON.stringify(term)
-			}, function(data){
+			noeud: JSON.stringify(term)
+		}, function(data){
 				//console.log(data);
 				if(data.error){
-						spinner.className ="mdl-spinner mdl-js-spinner";
-						chipAlert.style.display = "";
+					spinner.className ="mdl-spinner mdl-js-spinner";
+					chipAlert.style.display = "";
 				}
 				else{
 					relations = Object.keys(data.relations);
@@ -86,34 +140,36 @@ window.onload = function(){
 					spinner.style.display ="none";
 					////console.log(data);
 					if(sizeRel > 0 ){
-					getNoeudRelationSortante(term, relations[0]);
+						getNoeudRelationSortante(term, relations[0]);
 					}
 				}
-						
+
 			});
+
+		}
 	};
 
-	function getNoeudRelationSortante(term, relation){
+function getNoeudRelationSortante(term, relation){
 		////console.log("relation " + relation);
 		$.getJSON($SCRIPT_ROOT + "noeud/relationSortante", {
-					noeud: JSON.stringify(term),
-					relation: JSON.stringify(relation)
-				}, function(data){
+			noeud: JSON.stringify(term),
+			relation: JSON.stringify(relation)
+		}, function(data){
 					////console.log(data);
 					if(data.result.length != 0){
-					var text = "";
-					data.result.forEach(function(term, i){
-						text += "<a class='terms' href='#' title= 'Poids:"+ term[1] +"'>" + term[0] + "</a>  ";
-					});
-					searchRes.innerHTML = "<b class='noeud'>"+ term.toUpperCase() +"</b>	<i class='name-relation'>" + relation + "</i><br><br> "+ text;
-					addEventClick("terms");
-				
+						var text = "";
+						data.result.forEach(function(term, i){
+							text += "<a class='terms' href='#' title= 'Poids:"+ term[1] +"'>" + term[0] + "</a>  ";
+						});
+						searchRes.innerHTML = "<b class='noeud'>"+ term.toUpperCase() +"</b>	<i class='name-relation'>" + relation + "</i><br><br> "+ text;
+						addEventClick("terms");
+
 					}else{
 
-					arrowReight.style.display = "none";
-					arrowLeft.style.display = "none";
-					chipAlert.style.display ="flex";
-			
+						arrowReight.style.display = "none";
+						arrowLeft.style.display = "none";
+						chipAlert.style.display ="flex";
+
 					}
 					spinner.className ="mdl-spinner mdl-js-spinner";
 					spinner.style.display ="none";
@@ -122,13 +178,13 @@ window.onload = function(){
 	}
 
 	function objLength(obj){
-	  var i=0;
-	  for (var x in obj){
-	    if(obj.hasOwnProperty(x)){
-	      i++;
-	    }
-	  } 
-	  return i;
+		var i=0;
+		for (var x in obj){
+			if(obj.hasOwnProperty(x)){
+				i++;
+			}
+		} 
+		return i;
 	}
 
 	function selectedRel(id){
@@ -140,7 +196,7 @@ window.onload = function(){
 		var th = document.getElementById('r'+id);
 		////console.log(id + " " + th);
 		if(th != null)
-		th.parentNode.className = "is-selected";
+			th.parentNode.className = "is-selected";
 		
 	}
 
@@ -154,7 +210,7 @@ window.onload = function(){
 		var tbody = $('#tbody');
 		
 		var keys = Object.keys(data.relations);
-			
+
 		var relMobile = $('#relations-mobile');
 		relMobile.empty();
 		//console.log(relMobile);
@@ -172,7 +228,7 @@ window.onload = function(){
 
 		selectedRel(0);
 		addEventClick("relations");
-	
+
 	}
 
 	var idRel = 0; 
@@ -186,7 +242,7 @@ window.onload = function(){
 			relation = relations[idRel];
 	
 		}*/
-		 if (relation == "left" && idRel != 0){
+		if (relation == "left" && idRel != 0){
 			relation = relations[--idRel];
 
 		}else if (relation == "left" && idRel == 0){
@@ -203,7 +259,7 @@ window.onload = function(){
 		////console.log( idRel + " relation " + relation.replace(" ","") + " " +   typeof(Array.prototype.slice.call(relations)));
 		
 		selectedRel(idRel);
-	
+
 		var term = document.getElementById("search").value;
 		
 		searchRes.innerHTML ="<b>"+ term +"</b>	<i>" + relation + "</i><br>";
@@ -231,12 +287,12 @@ window.onload = function(){
 					spinner.className ="mdl-spinner mdl-js-spinner";
 					
 				});
-		*/
-	}
+				*/
+			}
 
-	function addEventClick(elem){
-		var updateElem = [].slice.call(document.getElementsByClassName(elem));
-		var size = updateElem.length;
+			function addEventClick(elem){
+				var updateElem = [].slice.call(document.getElementsByClassName(elem));
+				var size = updateElem.length;
 		//console.log(size)
 		updateElem.forEach(function (element){
 			if(elem == "terms"){

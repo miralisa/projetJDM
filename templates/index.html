@@ -72,7 +72,8 @@
            <form action="#">
 
             <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="search">
+              <input class="mdl-textfield__input" type="text" id="search" autocomplete="on" list="datalist">
+              <datalist id="datalist"></datalist>
               <label class="mdl-textfield__label" id="searchLabel" for="search">Rechercher un terme...</label>
             </div>
             <label class="mdl-button mdl-js-button mdl-button--icon" title="Rechercher" id="searchTerm">
@@ -83,7 +84,11 @@
             <button type="reset" title="Effacer" class="mdl-button mdl-js-button mdl-button--icon">
               <i class="material-icons">clear</i>
             </button>
-
+            <!-- title="Activer/Désactiver la recherche par expressions. Tapez $x pour un terme inconnu, ensuite indiquez une relation. Par exemple $x r_syn étoile." -->
+           <label title="Activer/Désactiver la recherche par expressions. Tapez $x pour un terme inconnu, ensuite indiquez une relation. Par exemple $x r_syn étoile." class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch">
+             <input  type="checkbox" id="switch" class="mdl-switch__input">
+             <span class="mdl-switch__label" ></span>
+           </label>
           </form>
        <!--
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
@@ -128,8 +133,8 @@
         <div class="mdl-spinner mdl-js-spinner" style="display: none;" id="spinner"></div>
         
         <div id="searchRes">
-          <b class='noeud'>Bienvenu dans le navigateur lexical de JeuxDeMots!</b>
-          <br><br><i class='name-relation'>Trouvez les termes les plus frequents ci-dessous:</i>
+          <b class='noeud'>Bienvenue dans le navigateur lexical de JeuxDeMots!</b>
+          <br><br><i class='name-relation'>Trouvez les termes les plus fréquents ci-dessous:</i>
           <br><br>
          {% for key, value in termesFrequents.iteritems() %}
          <a class='terms' href='#' title= 'Poids:{{value}}'>{{key}}</a>
@@ -183,7 +188,11 @@
 <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-phone mdl-cell--hide-tablet">
   <div class="mdl-card mdl-shadow--4dp card-relations mdl-card--expand">
     <div class="mdl-card__media mdl-color--accent">
-      <h5 class="mdl-card__title-text"> Relations </h5>
+      <h5 class="mdl-card__title-text"> Relations 
+        <button title="Pour avoir plus d'information sur une relation il suffit de la survoler. Après avoir trouvé un terme vous allez pouvoir afficher des informations correspondantes à ce terme et toutes ses relations." class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">help_outline</i>
+      </button></h5>
+
       <div class="mdl-layout-spacer"></div>
 
       <!-- <h5 class="mdl-card__title-text"> Rechercher une relations </h5>
@@ -240,7 +249,7 @@
 <footer class="mdl-mini-footer">
  <div class="mdl-mini-footer__left-section">
    <b>jeux2mots</b>
-   projet d'<b>E-application</b> 2017
+   projet d'<b>E-application</b> 2017/18
    créé par <i>Anastasiia Prysiazhniuk</i>
    et <i>Jérémy Bressand</i> 
 
