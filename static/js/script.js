@@ -56,11 +56,14 @@ window.onload = function(){
 					chipAlert.style.display = "";
 
 				}else if(data.result.length != 0){
+					spinner.className ="mdl-spinner mdl-js-spinner";
+					spinner.style.display ="none";
+				
 					var text = "";
 					data.result.forEach(function(term, i){
 						text += "<a class='terms' href='#' title= 'Poids:"+ term[1] +"'>" + term[0] + "</a>  ";
 					});
-					searchRes.innerHTML = "<b class='noeud'>"+ term.toUpperCase() +"</b>	<i class='name-relation'>" +  + "</i><br><br> "+ text;
+					searchRes.innerHTML = "<b class='noeud'>"+ term.toUpperCase() +"</b><br><br> "+ text;
 					addEventClick("terms");
 
 				}else{
