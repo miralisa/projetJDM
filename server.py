@@ -13,7 +13,7 @@ from random import randint
 import HTMLParser
 #import base64
 
-PORT = 80
+PORT = 5000
 
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
@@ -437,7 +437,7 @@ def recuperer(noeud):
 
 @app.route('/expression')
 def expression():
-	expression = request.args.get('expression')#[1:-1]
+	expression = request.args.get('expression')[1:-1]
 	tab = expression.split(" ")
 	if tab[0] == "$x":
 		relation = urllib.quote(tab[1])
@@ -518,6 +518,16 @@ def noeudRelationsEntrantes():
 	noeud = request.args.get('noeud')[1:-1]
 	relation = request.args.get('relation')[1:-1]
 	return noeudRelationsEntrantesFunc(noeud,relation)
+
+@app.route('/auto_completion')
+def auto_completion():
+	mot = request.args.get('mot')[1:-1]
+	conn = mysql.connection
+	cur = conn.cursor()
+	mot = "\%".join(mot.split("%"))
+	cur.execute("SELECT * FROM name_noeud WHERE name LIKE \""+mot+"%\" LIMIT 10")
+	return jsonify(result = cur.fetchall())
+
 
 if __name__ == '__main__':
 	app.run(debug=True, port=PORT, host="0.0.0.0")
