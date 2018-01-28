@@ -13,10 +13,12 @@ from random import randint
 import HTMLParser
 #import base64
 
+PORT = 80
+
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '12elenberg'
+app.config['MYSQL_PASSWORD'] = 'lf3bf,3jnr'
 app.config['MYSQL_DB'] = 'jdm'
 mysql = MySQL(app)
 
@@ -389,22 +391,6 @@ def index():
 	termesFrequents = getCache()
 	return render_template('index.html', relations = relations, termesFrequents = termesFrequents )
 
-
-@app.route('/timeout')
-def to():
-	time.sleep(10)
-	return "TIME-OUT"
-
-"""
-@app.route('/listenoeudsfrequents')
-def liste_noeuds_plus_frequents():
-	return "chat, chien ..."
-
-#TODO
-@app.route('/listerelations'):
-def liste_relations():
-	return "r_associated, r_can_eat ..."
-"""
 def viderCache():
 	global places_libres
 	global TAILLE_CACHE
@@ -435,7 +421,7 @@ def initialiser():
 		ajouterMotCacheIndice(name, eid, indice)
 	return 'Initialisation complete'	
 
-
+"""
 @app.route('/noeud/<string:noeud>')
 def recuperer(noeud):
 	try:
@@ -447,40 +433,91 @@ def recuperer(noeud):
 		return json.dumps(data, indent=4, ensure_ascii=False)
 	else:
 		return data
+"""
+
+@app.route('/expression')
+def expression():
+	expression = request.args.get('expression')#[1:-1]
+	tab = expression.split(" ")
+	if tab[0] == "$x":
+		relation = urllib.quote(tab[1])
+		n2 = urllib.quote(" ".join(tab[2:]))
+		try :
+			return noeudRelationsEntrantesFunc(n2,relation)
+		except Exception as e:
+			print e
+			return jsonify(error = str(e))
+	elif tab[-1] == "$x":
+		relation = urllib.quote(tab[-2])
+		n1 = urllib.quote(" ".join(tab[:-2]))
+		try :
+			return noeudRelationsSortantesFunc(n1,relation)
+		except Exception as e:
+			print e
+			return jsonify(error = str(e))
+	else :
+		print expression
+		print "erreur dans /expression"
+		return jsonify(error = "ERREUR")
+
+def noeudRelationsSortantesFunc(noeud,relation):
+	if hash_table.get(noeud) != None:
+		nom_table = relation.replace("-","_").replace(">", "_") + "_sortant"
+		conn = mysql.connection 
+		cur = conn.cursor()
+		cur.execute("SELECT r.name , r.w FROM " + nom_table + " r, noeuds n WHERE n.name = '"+\
+			noeud +"' AND r.n1 = n.eid ORDER BY r.w DESC")
+		resultat = cur.fetchall()
+		return jsonify(result = resultat)
+	else:
+		data = recupererMot(noeud)
+		
+		if data != "JDM-HS" and data != "NOT-EXISTS" and data!="TIME-OUT" and data !="ERROR":
+			try :
+				return noeudRelationsSortantesFunc(noeud,relation)
+			except Exception as e:
+				print e
+				return jsonify(error = str(e))
+		else:
+			print "erreur dans relations sortantes"
+			return jsonify(error = data)
 
 @app.route('/noeud/relationSortante')
 def noeudRelationsSortantes():
 	noeud = request.args.get('noeud')[1:-1]
 	relation = request.args.get('relation')[1:-1]
-	nom_table = relation.replace("-","_").replace(">", "_") + "_sortant"
-	conn = mysql.connection 
-	cur = conn.cursor()
-	cur.execute("SELECT r.name , r.w FROM " + nom_table + " r, noeuds n WHERE n.name = '"+\
-		noeud +"' AND r.n1 = n.eid ORDER BY r.w DESC")
-	resultat = cur.fetchall()
-				
-	return jsonify(result = resultat)
+	return noeudRelationsSortantesFunc(noeud,relation) 
+
+
+def noeudRelationsEntrantesFunc(noeud,relation):
+	if hash_table.get(noeud) != None:
+		nom_table = relation.replace("-","_").replace(">", "_") + "_entrant"
+		conn = mysql.connection 
+		cur = conn.cursor()
+		cur.execute("SELECT r.name , r.w FROM " + nom_table + " r, noeuds n WHERE n.name = '"+\
+			noeud +"' AND r.n2 = n.eid ORDER BY r.w DESC")
+		resultat = cur.fetchall()
+					
+		return jsonify(result = resultat)
+	else:
+		data = recupererMot(noeud)
+		
+		if data != "JDM-HS" and data != "NOT-EXISTS" and data!="TIME-OUT" and data !="ERROR":
+			try :
+				return noeudRelationsEntrantesFunc(noeud,relation)
+			except Exception as e:
+				print e
+				print "erreur dans relations entrantes"
+				return jsonify(error = str(e))
+		else:
+			return jsonify(error = data)
+
 
 @app.route('/noeud/relationEntrante')
 def noeudRelationsEntrantes():
 	noeud = request.args.get('noeud')[1:-1]
 	relation = request.args.get('relation')[1:-1]
-	nom_table = relation.replace("-","_").replace(">", "_") + "_entrant"
-	conn = mysql.connection 
-	cur = conn.cursor()
-	cur.execute("SELECT r.name , r.w FROM " + nom_table + " r, noeuds n WHERE n.name = '"+\
-		noeud +"' AND r.n2 = n.eid ORDER BY r.w DESC")
-	resultat = cur.fetchall()
-				
-	return jsonify(result = resultat)
+	return noeudRelationsEntrantesFunc(noeud,relation)
 
-"""
-#/noeud/relationSortant?noeud=chat&relation=r_isa
-@app.route('/noeud/relationSortante/<string:noeud>/<string:relation>', methods=['GET'])
-def noeudRelationsSortantes()
-	noeud = request.args.get('noeud')
-	relation = request.args.get('relation')
-	return "[]"
-"""
 if __name__ == '__main__':
-	app.run(debug=True, port=80, host="0.0.0.0")
+	app.run(debug=True, port=PORT, host="0.0.0.0")
