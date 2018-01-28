@@ -28,22 +28,26 @@ window.onload = function(){
 
 	//searchInput.onkeyup = function(){
 	$("#search").on('input', function(){
-	//console.log(searchInput.value);
+	// console.log(searchInput.value);
 		var dataList = document.getElementById('datalist');
 		$("#datalist").empty();
-
+		var options;
 		$.getJSON($SCRIPT_ROOT + "auto_completion", {
 				mot: JSON.stringify(searchInput.value)
 			},
 			function(data){
-
-				data.result.forEach(function(item){					
+	 			console.log(data.result);
+	 			data.result.forEach(function(item){					
 					var option = document.createElement('option');
-				    option.value = item;
+				    option.value = item[0].replace("\\", "");
 				    dataList.appendChild(option);
 				});
-			});
-
+		$("#search").focus();
+		
+		});
+		//$("#search").click();
+		$("#search").focus();
+		
 	});
 
 	searchTerm.onclick = function(){
@@ -73,6 +77,7 @@ window.onload = function(){
 				if(data.error){
 					spinner.className ="mdl-spinner mdl-js-spinner";
 					chipAlert.style.display = "";
+					console.log(data.error);
 
 				}else if(data.result.length != 0){
 					spinner.className ="mdl-spinner mdl-js-spinner";
@@ -89,7 +94,7 @@ window.onload = function(){
 
 					arrowReight.style.display = "none";
 					arrowLeft.style.display = "none";
-					chipAlert.style.display ="flex";
+					chipAlert.style.display ="none";
 
 				}
 			});
@@ -102,11 +107,16 @@ window.onload = function(){
 		},
 		function(data){
 					//console.log(data);
+					/*
 					if(data.error){
 						spinner.className ="mdl-spinner mdl-js-spinner";
 						chipAlert.style.display = "";
+						console.log(data.error);
 
-					} else if( data.definition.length > 0){
+
+					} else 
+					*/
+					if( data.definition.length > 0){
 						definitionDiv.style = 'display:';
 						definitionTab.innerHTML = "<p class=''>"+data.definition + "</p>";
 						
@@ -120,6 +130,8 @@ window.onload = function(){
 				if(data.error){
 					spinner.className ="mdl-spinner mdl-js-spinner";
 					chipAlert.style.display = "";
+					console.log(data.error);
+
 				}
 				else{
 					relations = Object.keys(data.relations);
@@ -161,7 +173,7 @@ function getNoeudRelationSortante(term, relation){
 
 						arrowReight.style.display = "none";
 						arrowLeft.style.display = "none";
-						chipAlert.style.display ="flex";
+						chipAlert.style.display ="none";
 
 					}
 					spinner.className ="mdl-spinner mdl-js-spinner";
