@@ -17,6 +17,11 @@ create table type_relation (
 	info varchar(315)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+create table name_noeud (
+	name varchar(1000),
+	INDEX ind_name (name(10))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 INSERT INTO type_relation VALUES
 ("r_associated","idée associée","Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?"),
 ("r_raff_sem","raffinement sémantique","Raffinement sémantique vers un usage particulier du terme source"),
