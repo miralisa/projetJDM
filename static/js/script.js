@@ -103,15 +103,12 @@ window.onload = function(){
 		},
 		function(data){
 					//console.log(data);
-					/*
 					if(data.error){
-						spinner.className ="mdl-spinner mdl-js-spinner";
-						chipAlert.style.display = "";
+						//spinner.className ="mdl-spinner mdl-js-spinner";
+						//chipAlert.style.display = "";
 						console.log(data.error);
 
-
 					} else 
-					*/
 					if( data.definition.length > 0){
 						definitionDiv.style = 'display:';
 						definitionTab.innerHTML = "<p class=''>"+data.definition + "</p>";
@@ -127,21 +124,21 @@ window.onload = function(){
 					spinner.className ="mdl-spinner mdl-js-spinner";
 					chipAlert.style.display = "";
 					console.log(data.error);
-
+					updateTabRelation([]);
 				}
 				else{
 					relations = Object.keys(data.relations);
 					sizeRel = relations.length;
 
-					updateTabRelation(data);
 					arrowReight.style.display = "flex";
 					arrowLeft.style.display = "flex";
 					
 					spinner.className ="mdl-spinner mdl-js-spinner";
 					spinner.style.display ="none";
-					////console.log(data);
 					if(sizeRel > 0 ){
 						getNoeudRelationSortante(term, relations[0]);
+						updateTabRelation(data);
+					
 					}
 				}
 
@@ -210,25 +207,27 @@ function getNoeudRelationSortante(term, relation){
 						"<tbody id='tbody'></tbody></table>");
 		var tbody = $('#tbody');
 		
-		var keys = Object.keys(data.relations);
-
+		
 		var relMobile = $('#relations-mobile');
 		relMobile.empty();
 		//console.log(relMobile);
 		$('#relations-mobile').addClass("mdl-navigation");
 
-		keys.forEach(function(d,i) {
-			var relInfo = data.relations[d].replace("\"","\'");
-			relMobile.append("<a class='mdl-navigation__link relations'  id='rm" + i + "' title='"+relInfo + "' href='#'>"+d+"</a>");
-			var tr = $('<tr/>').appendTo(tbody);
+		if(data.relations){
+			var keys = Object.keys(data.relations);
+			keys.forEach(function(d,i) {
+				var relInfo = data.relations[d].replace("\"","\'");
+				relMobile.append("<a class='mdl-navigation__link relations'  id='rm" + i + "' title='"+relInfo + "' href='#'>"+d+"</a>");
+				var tr = $('<tr/>').appendTo(tbody);
 
-			tr.append("<td class='mdl-data-table__cell--non-numeric relations' title=\""+relInfo+ "\" id='r" + i + "'>" + d + "</td>" );
-			div.append("<div class='mdl-tooltip' data-mdl-for='r"	+ i + "'>" + data.relations[d] +"</div>" );
-		});
+				tr.append("<td class='mdl-data-table__cell--non-numeric relations' title=\""+relInfo+ "\" id='r" + i + "'>" + d + "</td>" );
+				div.append("<div class='mdl-tooltip' data-mdl-for='r"	+ i + "'>" + data.relations[d] +"</div>" );
+			});
 
 
-		selectedRel(0);
-		addEventClick("relations");
+			selectedRel(0);
+			addEventClick("relations");
+	}
 
 	}
 
@@ -301,6 +300,10 @@ function getNoeudRelationSortante(term, relation){
 					//console.log("terms "+ element.innerHTML);
 					searchLabel.innerHTML = "";
 					var term = element.innerHTML;
+					updateTabRelation([]);
+				
+					switchButton.checked = false;
+					$(".mdl-switch").removeClass("is-checked");
 					document.getElementById("search").value = term;
 					searchTerm.click();
 
