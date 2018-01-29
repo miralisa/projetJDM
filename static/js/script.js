@@ -73,12 +73,8 @@ window.onload = function(){
 				expression: JSON.stringify(term)
 			},
 			function(data){
-				if(data.error){
-					spinner.className ="mdl-spinner mdl-js-spinner";
-					chipAlert.style.display = "";
-					console.log(data.error);
-
-				}else if(data.result.length != 0){
+				console.log(data);
+				if(data.result.length != 0){
 					spinner.className ="mdl-spinner mdl-js-spinner";
 					spinner.style.display ="none";
 				
@@ -93,8 +89,9 @@ window.onload = function(){
 
 					arrowReight.style.display = "none";
 					arrowLeft.style.display = "none";
-					chipAlert.style.display ="none";
-
+					spinner.className ="mdl-spinner mdl-js-spinner";
+					chipAlert.style.display = "";
+				
 				}
 			});
 
