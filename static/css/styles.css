@@ -78,6 +78,7 @@ p{
   line-height: 21px;
   padding: 2px 12px;
   border-radius: 0px;
+  white-space: normal;
 }
 .mdl-textfield {
   width: 40%;
@@ -153,20 +154,23 @@ td { cursor: pointer; }
 
 .noeud {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     }
 
  .name-relation {
      font-weight: 200;
-     font-size: 14px;
+     font-size: 18px;
      margin-left: 0px;
  }  
 .terms {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.4;
     word-spacing: 3px;
 } 
+#spinner {
+    left: 25%;
+}
 }
 @media only screen and (max-width: 350px) {
 
