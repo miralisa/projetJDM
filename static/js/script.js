@@ -36,7 +36,6 @@ window.onload = function(){
 				mot: JSON.stringify(searchInput.value)
 			},
 			function(data){
-	 			console.log(data.result);
 	 			data.result.forEach(function(item){					
 					var option = document.createElement('option');
 				    option.value = item[0].replace("\\", "");
