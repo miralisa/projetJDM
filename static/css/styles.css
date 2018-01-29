@@ -10,9 +10,10 @@ html, body {
     -webkit-flex-direction: column;
           flex-direction: column;
 }
+/*
 .mdl-mini-footer{
   padding: 5px 16px;
-}
+}*/
 .card-content{
   width: auto;
   height: 80vh;
@@ -149,35 +150,26 @@ td { cursor: pointer; }
 }
 
 @media only screen and (min-width: 350px) and (max-width: 550px) {
-.mdl-mini-footer{
-  padding: 15px 16px;
-}
+
 .noeud {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
     }
 
  .name-relation {
      font-weight: 200;
-     font-size: 10px;
+     font-size: 14px;
      margin-left: 0px;
  }  
- .mdl-button--fab.mdl-button--mini-fab {
-    height: 30px;
-    min-width: 30px;
-    width: 30px;
-}
 .terms {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 1.4;
     word-spacing: 3px;
 } 
 }
 @media only screen and (max-width: 350px) {
-.mdl-mini-footer{
-  padding: 15px 16px;
-}
+
 .noeud {
     font-weight: 500;
     font-size: 14px;
