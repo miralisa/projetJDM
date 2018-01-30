@@ -18,7 +18,7 @@ PORT = 5000
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'lf3bf,3jnr'
+app.config['MYSQL_PASSWORD'] = '12elenberg'
 app.config['MYSQL_DB'] = 'jdm'
 mysql = MySQL(app)
 
@@ -301,13 +301,6 @@ def getNoeudInfo():
 	if hash_table.get(noeud) != None:
 		cur.execute("SELECT definition FROM noeuds WHERE name='" + noeud +"'")
 		definition = cur.fetchall()
-		cur.execute("SELECT r.name, r.w FROM r_raff_sem_sortant r, noeuds n WHERE n.name='" + noeud + "' AND \
-			r.n1=n.eid ORDER BY r.w DESC")
-		raffSemantique = cur.fetchall()
-		raffSemantiqueDico = []
-		for r in raffSemantique:
-			d = {'name':r[0], 'weight': r[1]}
-			raffSemantiqueDico.append(d)
 	else:
 		data = recupererMot(noeud)
 		
@@ -316,7 +309,7 @@ def getNoeudInfo():
 			return data
 		else:
 			return jsonify(error = data)
-	return jsonify(definition = definition[0][0], raffSemantique = raffSemantiqueDico )
+	return jsonify(definition = definition[0][0])
 
 def getCache():
 	conn = mysql.connection 
@@ -455,7 +448,13 @@ def expression():
 		except Exception as e:
 			print e
 			return jsonify(error = str(e))
-	else :
+	elif "%" in tab:
+		conn = mysql.connection
+		cur = conn.cursor()
+		mot = expression.trip("%")
+		cur.execute("SELECT * FROM name_noeud WHERE name LIKE \""+mot+"%\" LIMIT 10")
+		return jsonify(result = cur.fetchall())
+	else:	
 		print expression
 		print "erreur dans /expression"
 		return jsonify(error = "ERREUR")
